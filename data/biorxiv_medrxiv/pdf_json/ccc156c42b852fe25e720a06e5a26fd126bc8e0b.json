@@ -1,0 +1,720 @@
+{
+    "paper_id": "ccc156c42b852fe25e720a06e5a26fd126bc8e0b",
+    "metadata": {
+        "title": "Safety and Efficacy of Avaren-Fc Lectibody Targeting HCV High-Mannose Glycans in a Human Liver Chimeric Mouse Model 2 3",
+        "authors": [
+            {
+                "first": "Matthew",
+                "middle": [],
+                "last": "Dent",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Louisville School of Medicine",
+                    "location": {
+                        "addrLine": "7 Louisville",
+                        "region": "KY",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Krystal",
+                "middle": [],
+                "last": "Hamorsky",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Louisville",
+                    "location": {
+                        "settlement": "Louisville",
+                        "region": "KY",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Thibaut",
+                "middle": [],
+                "last": "Vausselin",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "UMR 8204",
+                    "institution": "Institut Pasteur de Lille",
+                    "location": {
+                        "postCode": "U1019",
+                        "settlement": "Lille",
+                        "country": "France 15"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Jean",
+                "middle": [],
+                "last": "Dubuisson",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "UMR 8204",
+                    "institution": "Institut Pasteur de Lille",
+                    "location": {
+                        "postCode": "U1019",
+                        "settlement": "Lille",
+                        "country": "France 15"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Yoshinari",
+                "middle": [],
+                "last": "Miyata",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "PhoenixBio USA Corporation",
+                    "location": {
+                        "settlement": "New York",
+                        "region": "NY",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Yoshio",
+                "middle": [],
+                "last": "Morikawa",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "PhoenixBio USA Corporation",
+                    "location": {
+                        "settlement": "New York",
+                        "region": "NY",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Nobuyuki",
+                "middle": [],
+                "last": "Matoba",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Louisville School of Medicine",
+                    "location": {
+                        "addrLine": "7 Louisville",
+                        "region": "KY",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "James",
+                "middle": [],
+                "last": "Graham",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Infection with hepatitis C virus (HCV) remains to be a major cause of morbidity and mortality 22 worldwide despite the recent advent of highly effective direct-acting antivirals. The envelope 23 glycoproteins of HCV are heavily glycosylated with a high proportion of high-mannose glycans 24 (HMGs), which serve as a shield against neutralizing antibodies and assist in the interaction with 25 cell-entry receptors. However, currently there is no approved therapeutic targeting this 26 potentially druggable biomarker. Here, we investigated the therapeutic potential of the lectibody 27 Avaren-Fc (AvFc), a HMG-binding lectin-Fc fusion protein. In vitro assays showed AvFc's 28 capacity to neutralize cell culture-derived HCV in a genotype independent manner with IC 50 29 values in the low nanomolar range. A histidine buffer-based AvFc formulation was developed 30 for in vivo studies using the PXB human liver chimeric mouse model. Systemic administration 31 of AvFc was well tolerated; after 11 consecutive doses every other day at 25 mg/kg, there were 32 no significant changes in body or liver weights, nor any impact noted in blood human albumin 33 levels or serum alanine aminotransferase activity. Gross necropsy and liver pathology further 34 confirmed the lack of discernible toxicity. This treatment regimen successfully prevented 35 genotype 1a HCV infection in all animals, while an AvFc mutant lacking HMG binding activity 36 failed to block the infection. These results suggest that targeting envelope HMGs is a promising 37 therapeutic approach against HCV infection. In particular, AvFc may provide a safe and 38 efficacious means to prevent recurrent infection upon liver transplantation in HCV-related end-39",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "INTRODUCTION 41 Hepatitis C virus (HCV) is an enveloped monopartite positive sense ssRNA virus in the injection in C57bl/6 mice (The Jackson Laboratory, BarHarbor, ME, USA; 8-week-old males 134 and females; n=4 per time point) and sampling blood at 0.5, 1, 2, 4, 8, 12, 24 and 48 h post 135 injection. The concentration of AvFc was then measured using an HIV gp120-coated ELISA. 136 Briefly, a recombinant gp120 (HIV CM235, NIH AIDS Reagent Program) was coated overnight 137 at 0.3 \u03bcg/mL followed by blocking with 5% dry milk-PBST. Serum samples at varying dilutions 138 were incubated for 2 h followed by detection by a goat anti-human Fc-HRP secondary antibody 139 (ThermoFisher Scientific). The plasma concentration of AvFc was calculated by interpolating 140 from a standard curve. PK parameters were calculated using the PKSolver Microsoft Excel Add-141 on (35). AvFc lec-(25 mg/kg, n=5) for 11 doses, or AvFc (25 mg/kg, n=5 each) for 8 or 11 doses. 150 Treatments were co-administered i.p. with virus inoculation (5 x 10 5 copies/kg) on day 0 with a 151 genotype 1a strain (PBC002) and every other day thereafter. The general conditions and body 152 weights of the animals were monitored every other day, while serum HCV RNA and blood h-Alb 153 were measured every 7 days by RT-PCR and latex agglutination immunonephelometry (LZ Test 154 \"Eiken\" U-ALB, Eiken Chemical Co., Ltd.) respectively. Serum alanine aminotransferase 1 155 was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [
+                {
+                    "start": 13,
+                    "end": 15,
+                    "text": "41",
+                    "ref_id": null
+                },
+                {
+                    "start": 190,
+                    "end": 193,
+                    "text": "134",
+                    "ref_id": null
+                },
+                {
+                    "start": 254,
+                    "end": 290,
+                    "text": "1, 2, 4, 8, 12, 24 and 48 h post 135",
+                    "ref_id": null
+                },
+                {
+                    "start": 379,
+                    "end": 382,
+                    "text": "136",
+                    "ref_id": null
+                },
+                {
+                    "start": 567,
+                    "end": 570,
+                    "text": "138",
+                    "ref_id": null
+                },
+                {
+                    "start": 955,
+                    "end": 958,
+                    "text": "150",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "The copyright holder for this preprint (which this version posted April 24, 2020 . . https://doi.org/10.1101 /2020 (ALT) levels were determined either using a Fujifilm DRI-CHEM NX500sV clinical chemistry 156 instrument or by ELISA (Institute of Immunology Co., Ltd., Tokyo, Japan). At the study 157 termination on day 35, animals were euthanized and subject to gross necropsy and general 158 health. Blood was also drawn via cardiac puncture and used for ALT, HCV RNA and h-Alb 159 analyses. Multiple comparisons between groups at each time point were conducted and corrected using the 175 Tukey method with the threshold of significance set at p = 0.05. Liver:body weight ratios were 176 compared using one-way ANOVA.",
+            "cite_spans": [
+                {
+                    "start": 66,
+                    "end": 80,
+                    "text": "April 24, 2020",
+                    "ref_id": null
+                },
+                {
+                    "start": 81,
+                    "end": 108,
+                    "text": ". . https://doi.org/10.1101",
+                    "ref_id": null
+                },
+                {
+                    "start": 109,
+                    "end": 114,
+                    "text": "/2020",
+                    "ref_id": null
+                },
+                {
+                    "start": 388,
+                    "end": 391,
+                    "text": "158",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "177 178 was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "The copyright holder for this preprint (which this version posted April 24, 2020 . . https://doi.org/10.1101 /2020 AvFc exhibits broad anti-HCV activity in vitro 180 Building on our previous observation that AvFc has affinity to a recombinant HCV E2 181 envelope protein (24), we first examined whether AvFc inhibits HCV infection in vitro using 182 multiple genotypes of cell culture-produced virus (HCVcc) or pseudotyped virus (HCVpp).",
+            "cite_spans": [
+                {
+                    "start": 66,
+                    "end": 80,
+                    "text": "April 24, 2020",
+                    "ref_id": null
+                },
+                {
+                    "start": 81,
+                    "end": 108,
+                    "text": ". . https://doi.org/10.1101",
+                    "ref_id": null
+                },
+                {
+                    "start": 109,
+                    "end": 114,
+                    "text": "/2020",
+                    "ref_id": null
+                },
+                {
+                    "start": 162,
+                    "end": 165,
+                    "text": "180",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "AvFc significantly blocked the infection of the human liver cell line Huh-7 by HCVcc from 184 genotypes 1a, 2a, 4a, 5a, and 6a, with 50% inhibitory concentration (IC 50 ) values in the low 185 nanomolar range (Table 1 and Figure 1A ). Compared to Avaren monomer, AvFc overall 186 showed approximately 2-log higher activity, while no inhibitory effect was observed for a plant-187 produced anti-HIV broadly neutralizing antibody VRC01 that shares the same human IgG1 Fc 188 region with AvFc (36). Additionally, Avaren and AvFc, but not VRC01, effectively neutralized 189 HCVpp harboring a murine leukemia virus backbone, suggesting that the lectin and the lectibody 190 act as an entry inhibitor ( Figure 1B) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 222,
+                    "end": 231,
+                    "text": "Figure 1A",
+                    "ref_id": "FIGREF14"
+                },
+                {
+                    "start": 697,
+                    "end": 707,
+                    "text": "Figure 1B)",
+                    "ref_id": "FIGREF14"
+                }
+            ],
+            "section": "183"
+        },
+        {
+            "text": "Previously, we found that AvFc has limited solubility in phosphate-buffered saline (PBS) 194 at concentrations above 1 mg/mL (unpublished observation). In order to facilitate in vivo studies 195 we screened for an optimal liquid formulation for systemic administration that can impart 196 improved stability and solubility to AvFc at higher concentrations. Initial buffer screening 197 revealed that AvFc is prone to degradation at and below pH 6.5, suggesting that AvFc is not 198 stable in acidic pH conditions ( Figure S1 ). Further pre-formulation studies led us to identify an 199 optimal buffer composed of 30 mM histidine, pH 7.0, 100 mM sucrose and 100 mM NaCl.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 515,
+                    "end": 524,
+                    "text": "Figure S1",
+                    "ref_id": "FIGREF14"
+                }
+            ],
+            "section": "193"
+        },
+        {
+            "text": "Although AvFc showed comparable T m in the histidine buffer and PBS in differential scanning 201 was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "200"
+        },
+        {
+            "text": "The copyright holder for this preprint (which this version posted April 24, 2020. Figure 1 ). Consequently, these results suggested that administration of the drug every other day 216 (Q2D) might be sufficient to keep the virus under control in a murine HCV challenge model. 217 We then assessed the safety of Q2D administration of AvFc in PXB-mice\u00ae. To 218 effectively discern potential toxicity associated with AvFc's HMG-binding activity, we included 219 an AvFc variant lacking HMG-binding activity as a control (AvFc lec-; Figure S2 ). PXB mice 220 received either the vehicle (the histidine buffer described above) Q2D for 11 total doses, AvFc at 221 25 mg/kg Q2D for a total of 8 or 11 doses, or AvFc lecat 25 mg/kg Q2D for 11 total doses. As 222 shown in Figure 4A -C, no significant differences in either body weights, blood h-Alb levels or weight were seen ( Figure 4D ). These results indicate that AvFc, formulated in the histidine 225 buffer, is well tolerated in the immunocompromised mice engrafted with human hepatocytes.",
+            "cite_spans": [
+                {
+                    "start": 275,
+                    "end": 278,
+                    "text": "217",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 82,
+                    "end": 90,
+                    "text": "Figure 1",
+                    "ref_id": "FIGREF14"
+                },
+                {
+                    "start": 528,
+                    "end": 537,
+                    "text": "Figure S2",
+                    "ref_id": "FIGREF16"
+                },
+                {
+                    "start": 763,
+                    "end": 772,
+                    "text": "Figure 4A",
+                    "ref_id": "FIGREF20"
+                },
+                {
+                    "start": 869,
+                    "end": 878,
+                    "text": "Figure 4D",
+                    "ref_id": "FIGREF20"
+                }
+            ],
+            "section": "200"
+        },
+        {
+            "text": "Histopathology was performed to evaluate any potential toxicity to the human liver grafts 227 due to AvFc administration (Table 2 and Figure 5 ). In the human hepatocyte area, slight to 228 moderate (score 2 to 3 in Table 2 Figure 5F ). 235 Collectively, it was concluded that there was no treatment-related adverse effect in the liver 236 tissue. The full pathology report may be found in the Supplementary Information. 239 Lastly, we assessed AvFc's protective efficacy against HCV infection in vivo using the 240 treatment regimen described above. PXB mice were inoculated i.p. with a genotype 1a virus 241 along with initial treatment with 25 mg/kg of AvFc or AvFc lecon day 0. As shown in Figure   242 6A, AvFc lec--treated mice showed high serum HCV RNA levels from day 7 post challenge 243 through the end of the study on day 35. In sharp contrast, animals treated with both 8 and 11 244 doses of AvFc did not show any detectable level of HCV RNA in sera, indicating that the 245 lectibody prevented the infection of human liver grafts by the virus. Similar to the results in 246 Figure 3 , overall no major toxicity signal was noted in body weights, h-Alb or h-Alt levels 247 was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [
+                {
+                    "start": 237,
+                    "end": 240,
+                    "text": "235",
+                    "ref_id": null
+                },
+                {
+                    "start": 421,
+                    "end": 424,
+                    "text": "239",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 134,
+                    "end": 142,
+                    "text": "Figure 5",
+                    "ref_id": "FIGREF21"
+                },
+                {
+                    "start": 216,
+                    "end": 223,
+                    "text": "Table 2",
+                    "ref_id": "TABREF3"
+                },
+                {
+                    "start": 224,
+                    "end": 233,
+                    "text": "Figure 5F",
+                    "ref_id": "FIGREF21"
+                },
+                {
+                    "start": 694,
+                    "end": 706,
+                    "text": "Figure   242",
+                    "ref_id": "FIGREF16"
+                },
+                {
+                    "start": 1087,
+                    "end": 1095,
+                    "text": "Figure 3",
+                    "ref_id": "FIGREF19"
+                }
+            ],
+            "section": "226"
+        },
+        {
+            "text": "The copyright holder for this preprint (which this version posted April 24, 2020. . https://doi.org/10.1101/2020.04.22.056754 doi: bioRxiv preprint between the test groups although there was a temporal drop in body weight and h-Alb in one of 248 the AvFc-treated group at an early timepoint, indicating that the liver grafts remained functional 249 over the course of the study (Figure 6B-D) . ",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 378,
+                    "end": 391,
+                    "text": "(Figure 6B-D)",
+                    "ref_id": "FIGREF22"
+                }
+            ],
+            "section": "AvFc protects against HCV infection in vivo"
+        },
+        {
+            "text": "The mechanism of HCV neutralization by AvFc is likely through binding to HMGs on 258 the E1/E2 envelope protein dimer, which blocks their interaction with host cell receptors and 259 viral entry. Unlike HIV envelope glycoproteins, whose glycan content can vary widely between 260 strains, the number and position of glycosylation sites on E1/E2 are highly conserved, indicating 261 their critical role in HCV's infectious processes (37). The notion that AvFc functions as an entry 262 inhibitor is supported by the facts that the lectibody has affinity to the E2 protein (24) was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "257"
+        },
+        {
+            "text": "The copyright holder for this preprint (which this version posted April 24, 2020. . https://doi.org/10.1101/2020.04.22.056754 doi: bioRxiv preprint functions greatly contributed to the antiviral potency of AvFc against HIV, as determined by a 271 primary cell-based inhibition assay and an antibody-dependent cell-mediated viral inhibition 272 assay (24). Accordingly, the remarkable efficacy seen in the present in vivo HCV challenge study 273 may be partially Fc-mediated. Further investigations are necessary to address this possibility.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "257"
+        },
+        {
+            "text": "The present study also demonstrated that AvFc therapy is well tolerated in mice and 275 human hepatocytes, as Q2D i.p. administration of 25 mg/kg of AvFc up to 11 doses did not show 276 any obvious toxicity in PXB mice by gross necropsy or histopathology of engrafted human 277 hepatocytes, nor did it result in significant changes in body weight, h-Alb, or ALT levels ( Figure   278 3, 4). We hypothesize that the lack of any significant toxicity is attributable to AvFc's unique indication for liver transplantation in the US, a large number of procedures will continue to be 293 was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 371,
+                    "end": 383,
+                    "text": "Figure   278",
+                    "ref_id": "FIGREF16"
+                }
+            ],
+            "section": "274"
+        },
+        {
+            "text": "The copyright holder for this preprint (which this version posted April 24, 2020. . https://doi.org/10.1101/2020.04.22.056754 doi: bioRxiv preprint performed for the foreseeable future in patients with HCV-related decompensated cirrhosis (42).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "274"
+        },
+        {
+            "text": "A major outstanding issue is the lack of effective treatment protecting the allograft liver from 295 recurrent infection by the virus that remained circulating in the periphery at the time of was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "294"
+        },
+        {
+            "text": "The copyright holder for this preprint (which this version posted April 24, 2020. . https://doi.org/10.1101/2020.04.22.056754 doi: bioRxiv preprint decrease in viral fitness by decreasing E1/E2 incorporation into HCV particles or increased 317 susceptibility to humoral immunity due to breach in the glycan shield (37, 51). Our results 318 provide a foundation to test the above hypotheses and feasibility of the HMG-targeting anti-HCV 319 strategy.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "294"
+        },
+        {
+            "text": "In conclusion, the present study provided an important proof of concept for the 321 therapeutic potential of AvFc against HCV infection via targeting envelope HMGs. In particular, 322 the lectibody may provide a safe and efficacious means to prevent recurrent infection upon liver 323 transplantation in HCV-related end-stage liver disease patients. was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "320"
+        },
+        {
+            "text": "The copyright holder for this preprint (which this version posted April 24, 2020. was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "320"
+        },
+        {
+            "text": "The copyright holder for this preprint (which this version posted April 24, 2020. . https://doi.org/10.1101/2020.04.22.056754 doi: bioRxiv preprint histidine buffer and PBS. AvFc, prepared at 1 mg/mL in the histidine buffer (\"Histidine\"; see 542 above) or PBS were incubated overnight at 55\u00b0C, and 10 \u00b5g of the protein from each formulation 543 was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "320"
+        },
+        {
+            "text": "The copyright holder for this preprint (which this version posted April 24, 2020. . https://doi.org/10. 1101 /2020 was analyzed by SDS-PAGE under non-reducing conditions. A representative Coomassie-544 stained gel image is shown. The band at around 75 kDa corresponds to AvFc. Note that, after 545 overnight incubation, PBS shows less band intensity for AvFc and more large-size aggregate was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [
+                {
+                    "start": 104,
+                    "end": 108,
+                    "text": "1101",
+                    "ref_id": null
+                },
+                {
+                    "start": 109,
+                    "end": 114,
+                    "text": "/2020",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "320"
+        },
+        {
+            "text": "The copyright holder for this preprint (which this version posted April 24, 2020 . . https://doi.org/10.1101 /2020 was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [
+                {
+                    "start": 66,
+                    "end": 80,
+                    "text": "April 24, 2020",
+                    "ref_id": null
+                },
+                {
+                    "start": 81,
+                    "end": 108,
+                    "text": ". . https://doi.org/10.1101",
+                    "ref_id": null
+                },
+                {
+                    "start": 109,
+                    "end": 114,
+                    "text": "/2020",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "320"
+        },
+        {
+            "text": "The copyright holder for this preprint (which this version posted April 24, 2020 . . https://doi.org/10.1101 /2020 was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [
+                {
+                    "start": 66,
+                    "end": 80,
+                    "text": "April 24, 2020",
+                    "ref_id": null
+                },
+                {
+                    "start": 81,
+                    "end": 108,
+                    "text": ". . https://doi.org/10.1101",
+                    "ref_id": null
+                },
+                {
+                    "start": 109,
+                    "end": 114,
+                    "text": "/2020",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "320"
+        },
+        {
+            "text": "The copyright holder for this preprint (which this version posted April 24, 2020. . https://doi.org/10.1101/2020.04.22.056754 doi: bioRxiv preprint any of the safety endpoints were noted between the groups (A-C: two-way analysis of variance 571 (ANOVA); D: one-way ANOVA). 572 573 was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "320"
+        },
+        {
+            "text": "The copyright holder for this preprint (which this version posted April 24, 2020. . https://doi.org/10.1101/2020.04.22.056754 doi: bioRxiv preprint Table 2 ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 148,
+                    "end": 155,
+                    "text": "Table 2",
+                    "ref_id": "TABREF3"
+                }
+            ],
+            "section": "320"
+        },
+        {
+            "text": "Histiocytic brown pigmentation in the Glisson's sheath is noted only in this mouse. 585 586 was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "584"
+        },
+        {
+            "text": "The copyright holder for this preprint (which this version posted April 24, 2020. . https://doi.org/10.1101/2020.04.22.056754 doi: bioRxiv preprint Fatty change,  macrovesicular  2  3  3  3  3  3  3  3  3  3  3  3  3  3  3 Infiltrate, inflammatory cell, around vacuolated hepatocyte was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 148,
+                    "end": 222,
+                    "text": "Fatty change,  macrovesicular  2  3  3  3  3  3  3  3  3  3  3  3  3  3  3",
+                    "ref_id": "TABREF3"
+                }
+            ],
+            "section": "584"
+        },
+        {
+            "text": "The copyright holder for this preprint (which this version posted April 24, 2020. . https://doi.org/10.1101/2020.04.22.056754 doi: bioRxiv preprint",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "584"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Structural biology of",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Penin",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Dubuisson",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Rey",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Moradpour",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Pawlotsky",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "and HCV challenge study in PXB-mice 144 The mouse model of toxicological analysis and HCV infection and toxicological analysis 145 was performed in PXB-mice\u00ae (cDNA-uPA wild/+ /SCID, cDNA-uPA wild/+ : B6;129SvEv-Plau, 146 SCID: C.B-17/Icr-scid/scid Jcl). These mice contain transplanted human hepatocytes with a 147 replacement index of greater than 70% as determined by blood human albumin (h-Alb) 148 measurements prior to virus inoculation (25). Mice were separated into 3 treatment groups: 149",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "eosin-stained liver sections from 3-4 mice per group were generated by 163 Nara Pathology Research Institute Co., Ltd. (Nara, Japan) and evaluated by pathologists at 164 SkyPatho, LLC. All slides were examined by a blinded, board-certified veterinary pathologist 165 under a light microscope (BX43, Olympus Corporation, Tokyo, Japan). The tissues were 166 assigned a severity score for a number of characteristics based on the 5-point scoring system of 167 the CDISC SEND Controlled Terminology where 0: unremarkable, 1: minimal, 2: mild, 3: 168 moderate, 4: marked; 5: severe; and P: present.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "significance was analyzed by the GraphPad Prism 6 software (La Jolla, CA, 172 USA). Mouse body weights, Alb, ALT and HCV RNA levels were compared using a repeated 173 measures two-way analysis of variance (ANOVA) with the Geisser-Greenhouse correction.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "Figure 2A), SDS-PAGE analysis revealed that 202 the lectibody holds superior stability in the histidine buffer upon accelerated stability testing via 203 overnight incubation at 55\u00b0C (Figure 2B). When concentrated to ~10 mg/mL, AvFc remained 204 stable in solution in the histidine buffer over 72 h at 4\u00b0C and room temperature, while showing a 205 significant concentration decrease concomitant with increasing turbidity in PBS (Figure 2C), 206 further demonstrating the histidine buffer's superiority for AvFc formulation.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF5": {
+            "text": "toxicological analysis of AvFc in mice209    To determine an optimal dosing regimen for an HCV challenge experiment, a210 pharmacokinetic analysis of AvFc was conducted in C57bl/6 mice. After a single i.p. injection of 211 AvFc at a dose of 25 mg/kg, peak drug concentration was observed between 2 and 4 h, with a 212 half-life of 24.5 h in male and 18.5 in female animals (Figure 3). After 48 h, in both male and 213 female animals the plasma concentration of AvFc remained above a target trough concentration 214 of 130 nM (10 \u03bcg/mL), at which AvFc showed >90% neutralization effects against HCV (see 215",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF6": {
+            "text": ") macrovesicular fatty change, a characteristic change of human 229 hepatocytes in the PXB-mouse, was observed in all mice including the vehicle-treated group 230 (Figure 5A-C). Minimal inflammatory cell infiltration around vacuolated hepatocytes (Score 1) 231 was seen in one mouse each from the 11 dose AvFc and AvFc lecgroups (Figure 5D, E); 232 however, this was unlikely treatment-related as a similar change is occasionally seen in PXB-233 Mice (PhoenixBio, unpublished observation). No AvFc treatment-specific change was observed, 234 except for an incidental pigmentation in the Glisson's sheath in one mouse (",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF7": {
+            "text": "study we demonstrated that the HMG-binding lectibody AvFc exhibits broad253 genotype-independent anti-HCV activity. Additionally, systemic administration of AvFc 254 effectively protected chimeric human-mouse liver mice from infection with a genotype 1a virus 255 without apparent toxicity, providing the first in vivo proof-of-concept for the lectibody's antiviral 256 potential.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF8": {
+            "text": "and that 263 other mannose-binding lectins, such as Griffithsin or Cyanovirin-N, inhibit entry in this manner 264 (38, 39). AvFc inhibited multiple genotypes of HCV with an average IC 50 over 100-fold lower 265 than that of the monomer Avaren lectin (Table 1), indicating that the multivalent recognition of 266 HMGs on the surface of the virus, brought about by the dimerization of Avaren via Fc fusion, led 267 to greater entry inhibition. Unlike other antiviral lectins, however, the inclusion of the human 268 IgG1 Fc region implicates the possibility of Fc-mediated effector functions, such as antibody-269 dependent cell-mediated cytotoxicity, against infected cells. In fact, Fc-mediated effector",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF10": {
+            "text": "279HMG-binding mechanism, whereby it requires multivalent interaction with several HMGs in 280 proximity to exhibit high affinity binding to a glycoprotein target. In line with this hypothesis,281 Hoque et al. demonstrated that the three binding pockets of the parent lectin actinohivin can bind 282 up to three independent HMGs, providing high affinity binding when the HMGs are in relatively 283 close proximity (40). This implies that AvFc may not effectively interact with healthy normal 284 cells and tissues that do not usually exhibit clusters of HMGs on their surfaces. In contrast, 285 glycoproteins of many enveloped viruses display a high proportion of these immature forms of 286 N-glycans (20-22). While HCV E2 has fewer N-glycosylation sites (around 11) than the HIV 287 glycoprotein gp120 (which has between 20 and 30 depending on the strain), E2 is likely present 288 on the surface of HCV at a higher density and thus provides higher local concentrations of 289 HMGs (41). Further studies are necessary to reveal a threshold HMG concentration which 290 enables efficient interaction between AvFc and the surfaces of cells or viruses. 291 While alcoholic liver disease has now surpassed HCV infection as the number one292",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF11": {
+            "text": "296 transplant. As a consequence, reinfection of donor livers universally occurs, as early as in the 297 first 90 minutes upon reperfusion (17), and can result in accelerated fibrosis and increased risk of 298 graft failure, cirrhosis, and hepatocellular carcinoma (43). In fact, allograft failure due to 299 reinfection is the leading cause of secondary transplants and death in HCV-infected patients who 300 have received liver transplant (44), Patients cured of HCV with DAAs after liver transplantation 301 still have a higher than normal risk of hepatocellular carcinoma (45), and the high cost of the 302 drugs represents a significant barrier to their widespread use. Furthermore, emergent drug 303 resistance even in DAA combination therapies, though rare, represents a particular challenge for 304 further treatment (46). Thus, while the effectiveness of DAAs is not in question, there are still 305 unmet needs that may be addressed through the use of entry inhibitors. As of yet, no entry 306 inhibitor has been approved for the treatment or prevention of HCV. Two major drug candidates, 307 Civacir\u00ae and MBL-HCV1, have shown some promise in clinical trials (NCT01804829, 308 NCT01532908) (47, 48). Though larger studies are needed, it appears that entry inhibitors in 309 combination with DAAs may represent a new treatment paradigm for HCV patients receiving 310 liver transplant. Despite that both MBL-HCV1 and Civacir\u00ae are capable of neutralizing a broad 311 range of HCV genotypes, viral resistance can still develop through mutations in the envelope 312 proteins E1/E2, in particular through shifting glycan positions (49, 50). In this regard, AvFc in its 313 own right could be less susceptible to amino acid mutations because it targets the glycan shield 314 of the virus rather than a specific epitope. Deletions of glycans, even if occurring following 315 prolonged exposure to a carbohydrate-binding agent like AvFc, may result in significant",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF14": {
+            "text": "H-G, Mizokami M. 2005. Production of infectious hepatitis C virus in 437 tissue culture from a cloned viral genome. Nature medicine 11:791. In vitro HCV inhibition assays. (A) Avaren and Avaren-Fc (AvFc) inhibit cell 522 culture derived HCV. JFH1 virus was preincubated with Avaren, AvFc or the control antibody 523 VRC01 for 30 min at 37\u00b0C before incubation with Huh-7 cells. At 48 h post-infection, infected 524 cells were quantified by indirect immunofluorescence with an HCV-specific antibody. Results 525 are expressed as percentage of infection compared to a control infection in the absence of 526 compound. Error bars indicate standard errors of the mean (SEM) values from at least three 527 independent experiments. (B) Avaren and AvFc inhibit HCV entry. Retroviral pseudotypes 528 bearing HCV envelope glycoproteins of JFH1 virus (HCVpp) were preincubated with Avaren, 529 AvFc or the control antibody VRC01 for 30 min at 37\u00b0C before incubation with Huh-7 cells. At 530 48 h post-infection, cells were lysed to quantify the luciferase activity. Results are expressed as 531 percentage of infection compared to the control infection in the absence of compound. Error bars 532 indicate SEM values from at least three independent experiments.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF16": {
+            "text": "Liquid formulation development for AvFc. (A) Differential Scanning Fluorimetry 535 (DSF) for melting temperature (T m ) measurement. AvFc was prepared in 30 mM histidine buffer, 536 100 mM NaCl, 100 mM sucrose (\"Histidine\"; black line) or phosphate buffered saline (PBS; 537 grey line) at a concentration of 1 mg/mL and analyzed in triplicate in the presence (solid line) or 538 absence (dashed line) of the fluorescent dye SYPRO\u00ae Orange. T m values were 62.49 \u00b1 0.13\u00b0C in 539 the Histidine buffer and 62.68 \u00b1 0.25\u00b0C in PBS, as determined by the vertex of the first 540 derivative of relative fluorescence unit values. (B) Accelerated stability testing of AvFc in the 541",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF17": {
+            "text": "546 bands than the histidine buffer. (C) Time course of concentration change and turbidity of AvFc 547 solution in the histidine buffer and PBS. AvFc was formulated at 10 mg/mL in respective buffers 548 and incubated at 4\u00b0C or room temperature (RT). After 16 and 72 h, the concentration was 549 measured using a theoretical extinction coefficient at 280 nm of 1.6493 (mg/mL) -1 cm -1 , whereas 550 turbidity was assessed by absorbance at 600 nm. Representative data are shown for samples 551 analyzed in triplicate.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF19": {
+            "text": "Pharmacokinetics of AvFc in Mice. AvFc pharmacokinetics were evaluated in 554 C57bl/6 mice following a single i.p. injection of 25 mg/kg with blood sampled at various time 555 points. Data are expressed as mean \u00b1 SEM from 4 mice per group. The average half-life was 556 24.5 h and 18.5h in male and female mice, respectively, as determined by the PKSolver 557 Microsoft Excel Add-on. The peak concentration occurred between 2 and 4 h post 558 administration. The target trough concentration of 130 nM (corresponding to 10 \u03bcg/mL) is 559 indicated by a dashed line.560 561",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF20": {
+            "text": "Toxicological analysis of systemically administered AvFc in the PXB\u00ae human 563 liver chimeric mouse model. PXB mice were administered i.p. with AvFc or AvFc lecat 25 564 mg/kg (n=4 each), or the histidine buffer vehicle control (n=3) every 2 days (Q2D) and 565 monitored for body weights, blood human albumin (h-Alb) levels and serum alanine 566 aminotransferase (ALT) levels over 42 days. (A) Percent change of body weights from the initial 567 day of dosing (Day 0). (B) Blood h-Alb levels. (C) Serum ALT levels. (D) Ratio of the liver 568 weight to the body weight of individual mice at necropsy. Each data point represents mean \u00b1 569 SEM (A-C) and individual data with mean \u00b1 SEM (D) in each group. No significant changes in",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF21": {
+            "text": "Histopathological examination of PXB mouse liver tissues. Representative 575 hematoxylin/eosin-stained liver tissue section images corresponding to histopathological findings 576 in Table 2 are shown. Liver tissues are from the toxicological study in Figure 4. (A) A 4x image 577 from an animal in the vehicle control group (mouse ID: 103 in Table 2) showing low 578 magnification of vacuolated hepatocytes. (B) A 10x image from a portion of panel A, containing 579 many human hepatocytes with a large, well-defined rounded vacuole. (C) Higher magnification 580 (40x) of panel B. (D) A 10x image from an animal in the AvFc lecgroup (ID: 202 in Table 2), 581 showing small foci of inflammatory cell inflammation in the human hepatocyte area. (E) Higher 582 magnification (40x) of panel D. Inflammatory cells appear to surround vacuolated hepatocytes. 583 (F) A 20x image from an animal in the AvFc group (8 total doses; ID: 401 in",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF22": {
+            "text": "The protective effect of AvFc against HCV challenge in PXB mice. PXB mice were 588 challenged i.p. with a HCV genotype 1a virus on Day 0 simultaneously with an initial treatment 589 i.p. with either 25 mg/kg of AvFc or AvFc lec-. Treatment was continued Q2D for a total of 8 or 590 11 doses for AvFc and 11 doses for AvFc lec-(n=5 each). The general conditions and body 591 weights of the animals were monitored every other day, while serum HCV RNA and blood h-Alb 592 were measured every 7 days. (A) Serum HCV RNA levels. AvFc treatment (both 8 and 11 doses) 593 showed no detectable HCV RNA at any time point. **, ***p < 0.01, 0.001 (AvFc lecvs. both 594 AvFc 8 and 11 doses); two-way ANOVA with Tukey's multiple comparison test. (B-D) Time 595 course of body weight change from day 0 (B), blood h-Alb levels (D) and serum h-Alt 596 concentrations (D). Each data point represents mean \u00b1 SEM in each group. *p < 0.05 (AvFc lec-",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "We thank Adeline Danneels, Lucie F\u00e9n\u00e9ant, Czeslaw Wychowski, Lauren Moore and number 8802822). Spellman MW, Riddle L, Harris RJ, Thomas JN, Gregory TJ. 1990.Assignment of intrachain disulfide bonds and characterization of potential glycosylation",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "IC 50 values for AvFc and Avaren against HCVcc",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF3": {
+            "text": "Histopathology of chimeric mouse liver tissue",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "AvFc (25 mg/kg), 11 doses AvFc lec-(25 mg/kg), 11 doses",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "AvFc (25 mg/kg), 8 doses"
+        }
+    ]
+}

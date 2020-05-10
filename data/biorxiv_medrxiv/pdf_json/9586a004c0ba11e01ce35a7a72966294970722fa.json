@@ -1,0 +1,2595 @@
+{
+    "paper_id": "9586a004c0ba11e01ce35a7a72966294970722fa",
+    "metadata": {
+        "title": "",
+        "authors": [
+            {
+                "first": "Jianfeng",
+                "middle": [],
+                "last": "Li",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Beijing Academy of Science and Technology. Central Road",
+                    "location": {
+                        "addrLine": "North 4th Ring Road"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "1#",
+                "middle": [],
+                "last": "",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Linyuan",
+                "middle": [],
+                "last": "Zhang",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "National Institute of Occupational Health and Poison Control",
+                    "location": {
+                        "addrLine": "29 Nanwei Road",
+                        "postCode": "100050",
+                        "settlement": "Xicheng District, Beijing",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Zhihua",
+                "middle": [],
+                "last": "Ren",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "National Meteorological Information Center",
+                    "location": {
+                        "addrLine": "46 Zhongguancun South Avenue",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Caihong",
+                "middle": [],
+                "last": "Xing",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "National Institute of Occupational Health and Poison Control",
+                    "location": {
+                        "addrLine": "29 Nanwei Road",
+                        "postCode": "100050",
+                        "settlement": "Xicheng District, Beijing",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Peihuan",
+                "middle": [],
+                "last": "Qiao",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "National Institute of Occupational Health and Poison Control",
+                    "location": {
+                        "addrLine": "29 Nanwei Road",
+                        "postCode": "100050",
+                        "settlement": "Xicheng District, Beijing",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Bing",
+                "middle": [],
+                "last": "Chang",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "National Institute of Occupational Health and Poison Control",
+                    "location": {
+                        "addrLine": "29 Nanwei Road",
+                        "postCode": "100050",
+                        "settlement": "Xicheng District, Beijing",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Objective: many potential factors contribute to the outbreak of COVID-19.It aims to explore the effects of various meteorological factors on the incidence of COVID-19. Methods: Taking Hubei province of China as an example, where COVID-19 was first reported and there were the most cases, we collected 53 days of confirmed cases (total 67773 cases) and ten meteorological parameters up to March 10. Correlation analysis and linear regression were used to judge the relationship of meteorological factors and increment of COVID-19 confirmed cases. Results:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Under 95% CI, the increment of confirmed cases in Hubei were correlated with four meteorological parameters of average pressure, average temperature, minimum temperature and average water vapor pressure (equivalent to absolute humidity).The average pressure was positively correlated with the increment (r=+0.358).The negative correlations included average . CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. (which was not certified by peer review) : medRxiv preprint 2 / 2 5 temperature (r=-0.306), minimum temperature (r=-0.347), and average water vapor pressure (r=-0.326). The linear regression results show if minimum temperature increases by 1 , the incremental confirmed cases in Hubei decreases by 72.470 units on average. Conclusion:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Statistically, the incidence of COVID-19 was correlated with average pressure, average temperature, minimum temperature and average water vapor pressure. It is positively correlated with the average pressure and negatively correlated with the other three parameters. Compared with relative humidity, 2019-nCov is more sensitive to water vapor pressure. The reason why the epidemic situation in Hubei expanded rapidly is significantly related to the climate characteristics of low temperature and dryness of Hubei in winter.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "i n a / 2 5 even death (Huang et al.,2020) . Men over 80 years old and patients with complications are associated with an increased risk of death, and the characteristics of the dead patients are very consistent with MuLBSTA (Chen et al.,2020) . The WHO's research and development blueprint and the global organization for infectious disease prevention and control research cooperation (GLOPID-R) have determined to give priority to the study of virus pathogenesis and clinical characteristics, prevention and control of infection and plans for candidate therapies (GloPID-R,2020) .",
+            "cite_spans": [
+                {
+                    "start": 23,
+                    "end": 42,
+                    "text": "(Huang et al.,2020)",
+                    "ref_id": null
+                },
+                {
+                    "start": 225,
+                    "end": 243,
+                    "text": "(Chen et al.,2020)",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 565,
+                    "end": 580,
+                    "text": "(GloPID-R,2020)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Respiratory virus infection can occur in the following ways:(a) direct/indirect contact, (b) droplet spray in short-distance transmission, or (c) long-distance transmission by aerosol ,i.e. air transmission (Brankston et al.,2007) . Research shows that COVID-19 is transmitted through direct contact or droplets (Chan et al.,2020; Li et al., 2020; Wang et al.2020 ) while air transmission is not excluded (van Doremalen et al., 2020) . Environmental factors affect host susceptibility by regulating respiratory tract defense mechanism, and affect the viability and transmission of respiratory tract viruses in the environment through aerodynamic mechanism.",
+            "cite_spans": [
+                {
+                    "start": 89,
+                    "end": 92,
+                    "text": "(b)",
+                    "ref_id": null
+                },
+                {
+                    "start": 207,
+                    "end": 230,
+                    "text": "(Brankston et al.,2007)",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 312,
+                    "end": 330,
+                    "text": "(Chan et al.,2020;",
+                    "ref_id": null
+                },
+                {
+                    "start": 331,
+                    "end": 347,
+                    "text": "Li et al., 2020;",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 348,
+                    "end": 363,
+                    "text": "Wang et al.2020",
+                    "ref_id": null
+                },
+                {
+                    "start": 405,
+                    "end": 433,
+                    "text": "(van Doremalen et al., 2020)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Human behavior will affect the contact rate between infected individuals and susceptible individuals. Both epidemiology and laboratory studies show that meteorological indicators are important factors for the transmission and survival of respiratory tract infection viruses (enveloped and non-enveloped viruses) (Chan et al. 2011; Ma et al.,2020; Shaman & Kohn, 2009; Xie & Zhu.,2020; Yao et al.,2020; Yuan et al.,2006; Yusuf et al.,2007) . In particular, it is unclear that the meteorological factors how to influence on the activity of 2019-nCoV, and then change the spread of the virus through a specific process, and to affect the morbidity. However, we believe that the relationship between meteorological factors and the characteristics of COVID-19, as well as the mechanism of meteorological factors on the transmission route of 2019-nCoV, are of practical significance to prevent and control the epidemic disease, especially the nosocomial infection and community transmission, and to predict the extinction of the virus.",
+            "cite_spans": [
+                {
+                    "start": 312,
+                    "end": 330,
+                    "text": "(Chan et al. 2011;",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 331,
+                    "end": 346,
+                    "text": "Ma et al.,2020;",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 347,
+                    "end": 367,
+                    "text": "Shaman & Kohn, 2009;",
+                    "ref_id": "BIBREF35"
+                },
+                {
+                    "start": 368,
+                    "end": 384,
+                    "text": "Xie & Zhu.,2020;",
+                    "ref_id": "BIBREF46"
+                },
+                {
+                    "start": 385,
+                    "end": 401,
+                    "text": "Yao et al.,2020;",
+                    "ref_id": "BIBREF49"
+                },
+                {
+                    "start": 402,
+                    "end": 419,
+                    "text": "Yuan et al.,2006;",
+                    "ref_id": "BIBREF50"
+                },
+                {
+                    "start": 420,
+                    "end": 438,
+                    "text": "Yusuf et al.,2007)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Due to the different characteristics of virus transmission in different latitudes, Hubei province is used instead of China or Wuhan city with appropriate spatial resolution (that is, at the provincial level rather than at the national level, nor at the municipal level), and analysis of observation data is of much concern for understanding the global durability of viruses and formulating appropriate prevention and control measures. This study designed the correlation . CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted April 3, 2020. . https: //doi.org/10.1101/2020.04.01.20050526 doi: medRxiv preprint / 2 5 analysis between the daily confirmed cases increment of COVID-19 in Hubei province and 10 meteorological parameters and the regression analysis of four relevant parameters, combined with the meteorological characteristics of Hubei province, in order to find out the associative clues of meteorological factors on the occurrence, development and extinction of COVID-19 epidemic.",
+            "cite_spans": [
+                {
+                    "start": 83,
+                    "end": 120,
+                    "text": "//doi.org/10.1101/2020.04.01.20050526",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "Ethics statement COVID-19 surveillance data used in this study was collected from the official website of Health Commission of Hubei Province. Hubei Meteorological Observatory data were obtained from the Meteorological Data Center of China Meteorological Administration. Therefore, ethical approval was not required.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Methods"
+        },
+        {
+            "text": "(1) Meteorological Observatory data Meteorological parameters are from data collected from representative meteorological stations in Hubei province provided by the meteorological data center of China meteorological administration. The available data period is from January 1, 2020 to March 10, 2020 (100 daily meteorological data). Meteorological observatory data include: average air pressure (hPa), average temperature (\u2103), maximum temperature (\u2103), minimum temperature (\u2103), average water vapor pressure(WVP) (hPa) (equivalent to absolute humidity(AH)), average relative humidity(RH, %), average wind speed (m/s), precipitation (mm), total solar radiation (0.01 0.01 MJ / m 2 ), maximum solar irradiance (W/m 2 ). Afterwards, it uses Ave_Pre, Ave_Temp, Max_Temp, Min_Temp, Ave_WVP, Ave_RH, Ave_WS, Prep, Tot_SR and Max_SI to refer to them respectively.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Date collection"
+        },
+        {
+            "text": "(2) Number of confirmed cases Case data include Hubei's cumulative confirmed cases, Hubei's cumulative death, and Hubei's incremental cases,namely HB_CumN, HB_CumD, and HB_DeltaN respectively, were collected from the official website of Wuhan Health Committee. This study uses January 17, 2020 as the starting time to retrieve data, as of March 10, 2020, for the reason that COVID-19 had been clearly diagnosed and the great improvement of detection ability and speed. In addition, . CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. (which was not certified by peer review)",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Date collection"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted April 3, 2020 April 3, . . https://doi.org/10.1101 April 3, /2020 doi: medRxiv preprint / 2 5 1) on February 12, 2020, the number of newly incremental cases in Hubei province surged explosively to 14840 (including 13332 clinically diagnosed cases), in which 13436 cases were in Wuhan. 2) The incremental confirmed cases in January 19, 2020 were 0. Here, the above two days are outliers and are eliminated in correlation analysis and regression analysis.",
+            "cite_spans": [
+                {
+                    "start": 59,
+                    "end": 72,
+                    "text": "April 3, 2020",
+                    "ref_id": null
+                },
+                {
+                    "start": 73,
+                    "end": 109,
+                    "text": "April 3, . . https://doi.org/10.1101",
+                    "ref_id": null
+                },
+                {
+                    "start": 110,
+                    "end": 124,
+                    "text": "April 3, /2020",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Date collection"
+        },
+        {
+            "text": "(1) Correlation analysis Spearman rank correlation coefficient was used in the correlation analysis for binary variables. The calculation formula is as follows:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Selection of statistical methods"
+        },
+        {
+            "text": "In this research, it sets confidence level P = 0.05, CI = 95%. SPSS 15.0 ( No.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Selection of statistical methods"
+        },
+        {
+            "text": "c23f0922c168a5262283)was used to statistical analysis.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Selection of statistical methods"
+        },
+        {
+            "text": "(2) Linear regression",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Selection of statistical methods"
+        },
+        {
+            "text": "On the basis of correlation analysis, we estimate the parameters in the regression using the Ordinary Least Square (OLS) method. Incremental cases and four meteorological parameters are further selected for unary linear regression.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Selection of statistical methods"
+        },
+        {
+            "text": "The prediction model of linear regression is:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Selection of statistical methods"
+        },
+        {
+            "text": "In the formula, t X represents the period t independent variable; t Y represents the dependent variable of period t; a and b represent the parameters of a linear regression equation. Obtained by the following formula:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Selection of statistical methods"
+        },
+        {
+            "text": "For the regression analysis of quantitative data, four prerequisites must be met: the linear . CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Selection of statistical methods"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted April 3, 2020. . https://doi.org/10.1101/2020.04.01.20050526 doi: medRxiv preprint / 2 5 relationship between incremental cases (dependent variables) and certain meteorological parameters, and each parameter is independent of each other, the residual of incremental cases satisfies the normality, and the residual of incremental cases satisfies the homogeneity of variance. If linear regression results cannot be obtained, generalized linear regression is considered. Table 1 summarizes the basic statistical results of incremental cases and meteorological parameters. As of March 10, 2020, there are 67773 confirmed cases in Hubei province. The minimum number of incremental cases was 13 and the maximum was 4823, which occurred on February 13, 2020. From January 1, 2020 to March 10, the average air pressure range is 1006.0-1031.2 hPa, the average is 1021.7hPa, (SD.5.1 hPa), and the fluctuation range is small.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 527,
+                    "end": 534,
+                    "text": "Table 1",
+                    "ref_id": "TABREF3"
+                }
+            ],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "The average wind speed ranges from 0 to 5.0 m/s and the fluctuation range is small too. The maximum rainfall is 38.9mm, which occurs in January 9, 2020 and has no obvious regularity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Basic statistics of incremental cases and meteorological parameters"
+        },
+        {
+            "text": "The average temperature, the maximum temperature and the minimum temperature are 6.9\u00b0C, 11.6\u00b0C and 3.4\u00b0C respectively, the standard deviation of the maximum temperature is 5.0\u00b0C > that of the minimum temperature 4.3\u00b0C > that of the average temperature 4.0\u00b0C. The average WVP and the average RH are both related to the water loading in the air, and the mean \u00b1 standard deviations are 8.3 \u00b1 2.4 (hPa) and 83.0 \u00b1 8.2 (%), respectively. Ultraviolet intensity is not the routine monitoring items in the meteorological station. Therefore, the daily total solar radiation and the maximum solar irradiance are selected as two auxiliary parameters, and their mean values are 757.7\u00b1 587.3 (0.01 MJ/m 2 ) and 456.6\u00b1274.2 (W/m 2 ), the standard deviations are (0.01 MJ/m 2 ) and 274.2 (W/m 2 ), respectively. Obviously, the volatility of the values is very strong. Figure 1 shows the frequency statistics of incremental cases and meteorological parameters, among which the normality of average air pressure, average temperature, minimum temperature, average RH and average wind speed is better. The total solar radiation and the maximum solar irradiance present a saddle-shaped bimodal structure.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 853,
+                    "end": 861,
+                    "text": "Figure 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "Basic statistics of incremental cases and meteorological parameters"
+        },
+        {
+            "text": "Figure 2 (a) shows the tendency of incremental cases changing with time. Obviously, it is a single-peak structure. Figure 2 (b-d) shows the tendency of average temperature, average WVP . CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 115,
+                    "end": 123,
+                    "text": "Figure 2",
+                    "ref_id": null
+                }
+            ],
+            "section": "Basic statistics of incremental cases and meteorological parameters"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted April 3, 2020. . https://doi.org/10.1101/2020.04.01.20050526 doi: medRxiv preprint / 2 5 and the maximum solar irradiance with time. Figure 2 (b) as for average temperature-time pair, it can be seen that there is a fluctuating process after about January 10, 2020. Figure 2 (c) as for average WVP-time pair, after January 10, 2020, also has a fluctuating process, but the trend is relatively gentle. Figure 2 (d), there are two parallel tracks for the maximum solar irradiance-time pair, the general trend is rising but gentle.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 192,
+                    "end": 200,
+                    "text": "Figure 2",
+                    "ref_id": null
+                },
+                {
+                    "start": 324,
+                    "end": 332,
+                    "text": "Figure 2",
+                    "ref_id": null
+                },
+                {
+                    "start": 459,
+                    "end": 467,
+                    "text": "Figure 2",
+                    "ref_id": null
+                }
+            ],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "Incremental cases in Hubei province is correlated with four meteorological parameters including average air pressure, average temperature, minimum temperature and average WVP (P<0.05). Among them, there is a positive correlation with the average air pressure with the correlation coefficient r = + 0.358. Negative correlation include average temperature, minimum temperature, average WVP with its coefficient r =-0.306,-0.347, -0.326, respectively (Table 2, Figure 3 ). From this, it can be judged that the increment of cases will be inhibited by the increase of temperature and water loading in the air. At the same time, the increase of average air pressure may increase the reproduction rate of the virus.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 458,
+                    "end": 466,
+                    "text": "Figure 3",
+                    "ref_id": null
+                }
+            ],
+            "section": "Correlation Analysis between incremental cases and meteorological parameters"
+        },
+        {
+            "text": "Through parameter selection in the way of entering in sequence, finally only the minimum temperature and incremental cases can establish a statistically significant linear regression model In other words, the result shows that the minimum temperature changes by 1 degree, and 72 incremental cases will change in the opposite direction. Let HB_DeltaN = 0, and get \u0394 min_temp = 18.6\u00b0C, therefore, minimum temperature rises 18.6\u00b0C on the basis of the mean value of 3.4\u00b0C, that is, if the average minimum temperature reaches 22\u00b0C, case increment statistically shrink to zero (Table 3 ). In addition, the residual analysis of the regression model shows that the residual conform to the normal distribution. The distribution of points in scatter plot, in which the X axis is ZRESID(regression starndardized residual), the Y axis is ZPRED(regression standardized predicted value), is uniform, indicating that the variances are homogeneous (Figure 4 ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 571,
+                    "end": 579,
+                    "text": "(Table 3",
+                    "ref_id": "TABREF7"
+                },
+                {
+                    "start": 932,
+                    "end": 941,
+                    "text": "(Figure 4",
+                    "ref_id": null
+                }
+            ],
+            "section": "Regression analysis of incremental cases and meteorological parameters"
+        },
+        {
+            "text": "Global attentions focus the potential impacts on the COVID-19 evolution process and fate . CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussions"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted April 3, 2020. . https://doi.org/10.1101/2020.04.01.20050526 doi: medRxiv preprint / 2 5 exerted by seasonal variation in meteorological parameters. The outbreak of COVID-19 in Hubei province from the end of 2019 to the beginning of 2020 has obvious correlation to meteorological factors. By using the Spearman rank correlation coefficient, it discussed the correlation between daily incremental cases and meteorological factors in Hubei province. The results showed that the average temperature, the minimum temperature, WVP and air pressure were significantly correlated with the daily incremental cases. Incremental cases is positively correlated with atmospheric pressure and negatively correlated with average temperature, minimum temperature and WVP. Further, a linear regression model disclosed the linear relationship between the cases and the minimum temperature.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "It found that the average temperature and the minimum temperature were negatively correlated with the COVID-19 incremental cases in Hubei province. The unary linear regression results showed that the minimum temperature increased by 1\u00b0C and the incremental cases decreased by 72 cases. This is consistent with studies of other respiratory viral infectious diseases. Studies have reported that SARS-CoV is sensitive to temperature and relatively stable at low temperatures. Higher relative humidity (RH)(>95%) and high temperature (e.g. 38\u00b0C) has synergistic effect on the inactivation of SARS-CoV activity, while lower temperature and lower humidity can prolong the survival time of virus on contaminated surface (Chan et al.,2011) . The number of daily SARS cases is negatively correlated with the highest and/or lowest temperature (Bi et al.,2007) , and the rate of SARS recurrence is also negatively correlated with the daily average temperature (Cai et al.,2007) . During the epidemic period, in the days with lower temperature, the risk of increasing the daily incidence of SARS is 18.18 times higher than that in the days with higher temperature (Lin et al.,2006) . Regression analysis showed that there was a significant correlation between the average temperature (r =-0.45, P<0.001) recorded 13 to 17 days before SARS was confirmed and the number of clinically diagnosed cases (Yuan et al.,2006) .",
+            "cite_spans": [
+                {
+                    "start": 713,
+                    "end": 731,
+                    "text": "(Chan et al.,2011)",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 833,
+                    "end": 849,
+                    "text": "(Bi et al.,2007)",
+                    "ref_id": null
+                },
+                {
+                    "start": 949,
+                    "end": 966,
+                    "text": "(Cai et al.,2007)",
+                    "ref_id": null
+                },
+                {
+                    "start": 1152,
+                    "end": 1169,
+                    "text": "(Lin et al.,2006)",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 1386,
+                    "end": 1404,
+                    "text": "(Yuan et al.,2006)",
+                    "ref_id": "BIBREF50"
+                }
+            ],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "In addition to SARS, meteorological factors affect seasonal influenza prevalence. Studies have found that low temperature may prolong the survival time of influenza virus (Cheng et al., 2016) and may lead to more influenza transmission (Yu et al., 2013) . For every 1\u00b0C drop, the risk of influenza infection in Finland increases by 11% (Jaakkola et al.,2014) . In addition, studies revealed that a 1\u00b0C drop in temperature in Hong Kong leads to an 8.55% rise in influenza cases . CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [
+                {
+                    "start": 171,
+                    "end": 191,
+                    "text": "(Cheng et al., 2016)",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 236,
+                    "end": 253,
+                    "text": "(Yu et al., 2013)",
+                    "ref_id": "BIBREF52"
+                },
+                {
+                    "start": 336,
+                    "end": 358,
+                    "text": "(Jaakkola et al.,2014)",
+                    "ref_id": "BIBREF21"
+                }
+            ],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted April 3, 2020. . https://doi.org/10.1101/2020.04.01.20050526 doi: medRxiv preprint / 2 5 and a 32.14% rise in UK (Wang et al., 2017) .",
+            "cite_spans": [
+                {
+                    "start": 172,
+                    "end": 191,
+                    "text": "(Wang et al., 2017)",
+                    "ref_id": "BIBREF42"
+                }
+            ],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "Recently studies demonstrated that relationship between temperature and COVID-19 mortality. Every increase of 1\u00b0C in the diurnal temperature range caused COVID-19 mortality 2.92% increase (Ma et al.,2020) . Another study reported that the relationship between the average temperature and COVID-19 confirmed cases was approximately linear in the range of <3\u00b0C, while it tended to be flat above 3\u00b0C. When the average temperature is lower than 3\u00b0C, the number of confirmed cases per day increases by 4.861% (95% CI:3.209% ~6.513%) (Xie & Zhu, 2020) . This result is contrary to our result. This study used daily confirmed cases and meteorological data (37 days in total) from multiple onset areas (122 cities) from January 23 to February 29, 2020. The difference is that two-month interval of observation included 53 days effective data, and we only use the data of Hubei province (including Wuhan, Xiaogan, Huanggang, and other a total of 17 cities or regions), covering a total of 67773 confirmed cases.",
+            "cite_spans": [
+                {
+                    "start": 188,
+                    "end": 204,
+                    "text": "(Ma et al.,2020)",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 528,
+                    "end": 545,
+                    "text": "(Xie & Zhu, 2020)",
+                    "ref_id": "BIBREF46"
+                }
+            ],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "The explanation of the different results still needs to be discussed in depth. There is also a recent report on the relationship between COVID-19 and meteorological factors in 224 cities in China, among which the cumulative incidence rate and temperature have not found a significant correlation (Yao et al.,2020) . We believe that meteorological factors including temperature may be more relevant to the daily increasing case number rather than the cumulative number. In addition, the difference between the total number and the onset period in each city may also be a related factor affecting the results.",
+            "cite_spans": [
+                {
+                    "start": 296,
+                    "end": 313,
+                    "text": "(Yao et al.,2020)",
+                    "ref_id": "BIBREF49"
+                }
+            ],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "We found that the daily increasing case number of COVID-19 cases was associated with WVP rather than RH. The correlation between the daily increasing case number and RH is not statistically significant. Our study conducted curve fitting between average WVP and delta number (daily case increment) using S-curve. The S-curve model HB_DeltaN = EXP(4.235+15.919/ Ave_WVP) was obtained (95%CI, F = 6.927> F n-m-1 = 4.043,P<0.05). It could be seen from the regression equation that when the explanatory variable (average WVP) increased, the exponential part of the equation decreased, thus the response variable (case increment) decreased, this further illustrated that there is a negative correlation between the average WVP and the case increment, and goodness of fit R 2 = 0.124(P<0.05), which indicated that WVP can explain the change of 12.4% cases. Our results proved that compared with RH, WVP is more sensitive to COVID-19 occurring in epidemic areas of Hubei province. At the . CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted April 3, 2020. . respectively, for RH, it was 12% and 36% (Shaman & Kohn ,2009 ). In the research on mortality model related to influenza, it was found that the change of WVP was the root cause of seasonal changes in influenza, while RH was not (Shaman et al.,2010) . Since then, the theoretical hypothesis of respiratory virus-induced diseases with WVP as the main regulatory factor has been established. After that, causal analysis of global influenza incidence data shows that temperature change and low AH are more likely to lead to changes in influenza activity than actual low temperature. According to their research, the conclusion is that WVP is a stronger driving factor than RH (Deyle et al.,2016 ).",
+            "cite_spans": [
+                {
+                    "start": 117,
+                    "end": 137,
+                    "text": "(Shaman & Kohn ,2009",
+                    "ref_id": "BIBREF35"
+                },
+                {
+                    "start": 304,
+                    "end": 324,
+                    "text": "(Shaman et al.,2010)",
+                    "ref_id": "BIBREF36"
+                },
+                {
+                    "start": 748,
+                    "end": 766,
+                    "text": "(Deyle et al.,2016",
+                    "ref_id": "BIBREF17"
+                }
+            ],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "China's epidemiological studies proved that influenza virus is negatively correlated with temperature and WVP (Sun et al., 2018) . In sub-frigid climate (Norway), WVP below 4 hPa on average may trigger influenza (Kolberg et al., 2019) . Studies in tropical/subtropical regions of China have found that, WVP was negatively correlated with the incidence ofH1N1pdm09 (Influenza A) and Yamagata (Influenza B) (Pan et al., 2019) . The study of Kormuth et al. (2018) showed that the infectivity to influenza virus in droplets and aerosols had no difference under different RH, that was to say, it had nothing to do with RH (Kormuth et al.,2018) . This undoubtedly brought new challenges to RH and respiratory virus survival and transmission. The relevant mechanism of WVP may be due to the degeneration of virus lipoprotein. Higher level of WVP will lead to surface inactivation of lipid-containing virus (Yang et al.,2012) , it is related to the phase transition of phospholipid bilayer membrane, which causes the peptide to cross-link at the air-water interface. However, there is still a lack of comprehensive understanding of the mechanism of WVP affecting virus survival (Peci et al.,2019) .",
+            "cite_spans": [
+                {
+                    "start": 110,
+                    "end": 128,
+                    "text": "(Sun et al., 2018)",
+                    "ref_id": "BIBREF38"
+                },
+                {
+                    "start": 212,
+                    "end": 234,
+                    "text": "(Kolberg et al., 2019)",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 405,
+                    "end": 423,
+                    "text": "(Pan et al., 2019)",
+                    "ref_id": null
+                },
+                {
+                    "start": 439,
+                    "end": 460,
+                    "text": "Kormuth et al. (2018)",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 617,
+                    "end": 638,
+                    "text": "(Kormuth et al.,2018)",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 899,
+                    "end": 917,
+                    "text": "(Yang et al.,2012)",
+                    "ref_id": "BIBREF47"
+                },
+                {
+                    "start": 1170,
+                    "end": 1188,
+                    "text": "(Peci et al.,2019)",
+                    "ref_id": "BIBREF32"
+                }
+            ],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": ". CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted April 3, 2020. . In previous studies of SARS, the number of SARS cases in Beijing was significantly negatively correlated with RH (r= -0.784,P<0.05). Regression analysis showed that there was a significant correlation between the RH recorded 13 to 17 days before SARS was confirmed and the number of clinically diagnosed cases (Yuan et al.,2006) . Others found that RH did not appear to play a role in the transmission of SARS-CoV (Cai et al.,2007) . (Herv\u00e1s et al., 2012) . In the United States, a study analyzing the relationship between meteorological factors and RSV activity in 9 cities under different climate types showed that in Delhi region, air pressure was the main relevant factor of RSV total amount, which was associated with 22% RSV activity (Yusuf et al.,2007) . In Beijing (Yuan et al.,2006) and Therefore, a balance must be maintained between virus concentration and its dispersion to achieve effective infectivity (Roy & Milton,2004) , but the detailed mechanism needs further . CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [
+                {
+                    "start": 386,
+                    "end": 404,
+                    "text": "(Yuan et al.,2006)",
+                    "ref_id": "BIBREF50"
+                },
+                {
+                    "start": 490,
+                    "end": 507,
+                    "text": "(Cai et al.,2007)",
+                    "ref_id": null
+                },
+                {
+                    "start": 510,
+                    "end": 531,
+                    "text": "(Herv\u00e1s et al., 2012)",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 816,
+                    "end": 835,
+                    "text": "(Yusuf et al.,2007)",
+                    "ref_id": null
+                },
+                {
+                    "start": 849,
+                    "end": 867,
+                    "text": "(Yuan et al.,2006)",
+                    "ref_id": "BIBREF50"
+                },
+                {
+                    "start": 992,
+                    "end": 1011,
+                    "text": "(Roy & Milton,2004)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted April 3, 2020. . https://doi.org/10.1101/2020.04.01.20050526 doi: medRxiv preprint / 2 5 study. However, for COVID-19, no research results have been found to explore the relationship between atmospheric pressure and confirmed cases.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "We found for the first time the correlation between the minimum temperature, WVP and new cases of COVID-19. According to the analysis of its relevant mechanism, non-enveloped viruses (HRV and HEV) that cause respiratory tract infection may spread through close contact or droplet, rather than mainly through aerosol, therefore, the transmission and survival of the virus are relatively less dependent on meteorological factors (Sundell et al.,2016) . However, enveloped virus (influenza, RSV, SARS-CoV, 2019-nCoV) has greater dependence on meteorological factors. At the same time, previous studies have shown that envelope protein (E) of coronavirus causing severe acute respiratory syndrome is directly related to virus virulence (Schoeman & Fielding.2019) . We believe that envelope proteins that may be closely related to 2019-nCov pathogenicity are sensitive to minimum temperature and WVP, and they are more vulnerable to climatic factors, especially temperature (including average temperature and minimum temperature) and WVP. This inference is of theoretical significance for understanding meteorological factors and viral respiratory infectious diseases. Of course, more evidence is needed to support it in the future.",
+            "cite_spans": [
+                {
+                    "start": 427,
+                    "end": 448,
+                    "text": "(Sundell et al.,2016)",
+                    "ref_id": null
+                },
+                {
+                    "start": 732,
+                    "end": 758,
+                    "text": "(Schoeman & Fielding.2019)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "During the COVID-19 epidemic, human-to-human transmission was still in a phase dominated by community and hospital infections. At this time, meteorological factors, especially low temperature and low WVP had related effects on the in vitro viability, the quantity per unit area and transmission distance of 2019-nCov. We believe that meteorological factors influence on virus viability and the contribution capacity of changing the transmission is 9%(minimum temperature) and 12.4%(WVP), respectively. These do not belong to manual measure to control transmission such as virus elimination, washing hands, wearing masks, and keeping social distance. Meteorological factors play a role in the spread of the virus from patients (including asymptomatic infected people) to unprotected people (including susceptible and non-susceptible people). It will involve biochemistry, photochemistry and aerodynamics.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "Considering the statistical period of 3 months, the actual effective data is only 53. In the case of limited data, there are 4 parameters with obvious correlation, which is completely reasonable to believe that, first, with the increase of effective observations, the correlation between parameters will gradually appear; secondly, case increment is very sensitive to . CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted April 3, 2020. . https://doi.org/10.1101/2020.04.01.20050526 doi: medRxiv preprint / 2 5 meteorological parameters, and analytical method using meteorological parameters is effective and trustable; thirdly, in addition to the minimum temperature, the other three parameters failed to establish a linear regression model. Since different meteorological factors have different mechanisms for virus survival and transmission, each index has its own characteristics, so it is necessary to establish different regression equation fitting analysis of their characteristics, and to further study the multi-parameter coupling mechanism.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "This study has some limitations. First, we did not distinguish the gender, age, health status and other information of the patients in the case, nor did we consider the host factors that play a role in the spread of the disease, such as immunity, this may result in bias of the derived results.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "In addition, we cannot rule out the possible influence of some mixed factors such as human movement and air pollution. Second, previous studies have shown that viruses that cause respiratory infectious diseases are sensitive to climate. Climate factors may affect the survival and transmission of viruses in the environment, host susceptibility and exposure possibilities. We found that meteorological factors played an important role during the COVID-19 in Hubei province, but we are also very clear that, as scholars have known, meteorological parameters can only explain no more than 30% of influenza activity changes (Monamele et al.,2017) , and there are still many problems to be confirmed about 2019-nCoV. Third, the impact of social distancing measures on the epidemic situation should be considered in the study. This measure is an important part of the public health response to COVID-19. The corresponding measures taken in Hubei province and Wuhan City have seen actual results.",
+            "cite_spans": [
+                {
+                    "start": 621,
+                    "end": 643,
+                    "text": "(Monamele et al.,2017)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "First of all, in January of each year, the overall temperature and humidity in Hubei province are at the lowest level throughout the year, and it is in this month that COVID-19 erupted on a large scale. The time range is from January 1, 2020 to March 10, with 67773 confirmed cases cumulatively. Meteorological factors (parameters) provide evidence related to the incidence of COVID-19. Correlation analysis showed that average atmospheric pressure, average temperature, minimum temperature and average WVP were significantly correlated with daily increase in COVID-19 cases. Obviously, different climate factor indicators may affect the occurrence of COVID-19 epidemic. Although this conclusion comes from the evolution of confirmed cases in COVID-19 in Hubei province of China, they still show that, various results . CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusions"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted April 3, 2020. . . CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted April 3, 2020 April 3, . . https://doi.org/10.1101 April 3, /2020 doi: medRxiv preprint 1 8 / 2 5 . CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [
+                {
+                    "start": 59,
+                    "end": 72,
+                    "text": "April 3, 2020",
+                    "ref_id": null
+                },
+                {
+                    "start": 73,
+                    "end": 109,
+                    "text": "April 3, . . https://doi.org/10.1101",
+                    "ref_id": null
+                },
+                {
+                    "start": 110,
+                    "end": 124,
+                    "text": "April 3, /2020",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted April 3, 2020. . .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "CC-BY-NC-ND 4.0 International license"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted April 3, 2020. .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "CC-BY-NC-ND 4.0 International license"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted April 3, 2020. is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. (which was not certified by peer review)",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted April 3, 2020. . https://doi.org/10.1101/2020.04.01.20050526 doi: medRxiv preprint / 2 5",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Figure Captions"
+        },
+        {
+            "text": "(1) Meteorological Observatory data",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Supporting information-data description"
+        },
+        {
+            "text": "The available data period provided from the Meteorological Data Center of China Meteorological Administration is from December 1, 2019 to March 10, 2020 (100 daily meteorological data). The actual data selected starts on January 1, 2020 and ends on March 10, 2020. Meteorological observatory data include: average air pressure (hPa), average temperature (\u2103), maximum temperature (\u2103), minimum temperature (\u2103), average water vapor pressure (hPa) (equivalent to absolute humidity), average relative humidity (%), average wind speed (m/s), precipitation (mm), total solar radiation (0.01 megajoules/square meter), maximum solar irradiance (Watt/square meter ). Afterwards, it uses Ave_Pre, Ave_Temp, Max_Temp, Min_Temp, Ave_WVP, Ave_RH, Ave_WS, Prep, Tot_SR and Max_SI to refer to them respectively.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Supporting information-data description"
+        },
+        {
+            "text": "(2) Number of confirmed cases This study uses January 17, 2020 as the starting point of time to retrieve data. Case data include Hubei's cumulative confirmed cases, Hubei's cumulative death, and Hubei's incremental cases, namely HB_CumN, HB_CumD, and HB_DeltaN respectively. February 12, 2020 and January 19, 2020 are outliers.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Supporting information-data description"
+        },
+        {
+            "text": ". CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. (which was not certified by peer review)",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Supporting information-data description"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted April 3, 2020. .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Supporting information-data description"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Transmission of influenza A in human beings",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Brankston",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Gitterman",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Hirji",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Lemieux",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Gardam",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "The Lancet. Infectious diseases",
+            "volume": "7",
+            "issn": "",
+            "pages": "257--265",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S1473-3099(07)70029-4"
+                ]
+            }
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Influence of meteorological factors and air pollution on the outbreak of severe acute respiratory syndrome",
+            "authors": [],
+            "year": null,
+            "venue": "Public health",
+            "volume": "121",
+            "issn": "4",
+            "pages": "258--265",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.puhe.2006.09.023"
+                ]
+            }
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "The Effects of Temperature and Relative Humidity on the Viability of the SARS Coronavirus",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Chan",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Peiris",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Lam",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Poon",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Yuen",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Seto",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Advances in virology",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1155/2011/734690"
+                ]
+            }
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "A familial cluster of pneumonia associated with the 2019 novel coronavirus indicating person-to-person transmission: a study of a family cluster",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Yuen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet",
+            "volume": "",
+            "issn": "10223",
+            "pages": "514--523",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Epidemiological and clinical characteristics of 99 cases of 2019 novel coronavirus pneumonia in Wuhan, China: a descriptive study",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Dong",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Qu",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Gong",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Han",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Qiu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wei",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Xia",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Yu",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet",
+            "volume": "",
+            "issn": "10223",
+            "pages": "507--513",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Assessing coughing-induced influenza droplet transmission and implications for infection risk control",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Cheng",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "You",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Hsieh",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Chio",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Liao",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Epidemiology and infection",
+            "volume": "144",
+            "issn": "2",
+            "pages": "333--345",
+            "other_ids": {
+                "DOI": [
+                    "10.1017/S0950268815001739"
+                ]
+            }
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Exposure, sources and route of infection",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Collins",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Kennedy",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Laboratory-acquired Infection: History, Incidence, Causes and Preventions",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Detection of 2019 novel coronavirus (2019-nCoV) by real-time RT-PCR. Euro surveillance : bulletin Europeen sur les maladies transmissibles",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Romette",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Ellis",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Zambon",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Peiris",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Drosten",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "European communicable disease bulletin",
+            "volume": "25",
+            "issn": "3",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Global environmental drivers of influenza",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Deyle",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Maher",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Hernandez",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Basu",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Sugihara",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Proceedings of the National Academy of Sciences of the United States of America",
+            "volume": "113",
+            "issn": "",
+            "pages": "13081--13086",
+            "other_ids": {
+                "DOI": [
+                    "10.1073/pnas.1607747113"
+                ]
+            }
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "COVID 19 Public Health Emergency of International Concern (PHEIC) Global research and innovation forum: towards a research roadmap",
+            "authors": [
+                {
+                    "first": "-R",
+                    "middle": [],
+                    "last": "Glopid",
+                    "suffix": ""
+                },
+                {
+                    "first": "World",
+                    "middle": [],
+                    "last": "Health Organization",
+                    "suffix": ""
+                },
+                {
+                    "first": "R&amp;d",
+                    "middle": [],
+                    "last": "Blueprint",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Meteorologic conditions and respiratory syncytial virus activity",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Herv\u00e1s",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Reina",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Herv\u00e1s",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Pediatr Infect Dis J",
+            "volume": "31",
+            "issn": "10",
+            "pages": "176--181",
+            "other_ids": {
+                "DOI": [
+                    "10.1097/INF.0b013e31825cef14"
+                ]
+            }
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Decline in temperature and humidity increases the occurrence of influenza in cold climate. Environmental health : a global access science source",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Jaakkola",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Ik\u00e4heimo",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Kias-Study",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Group",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "",
+            "volume": "13",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1186/1476-069X-13-22"
+                ]
+            }
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Climate and influenza in Oslo: A case for vapour pressure",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Kolberg",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Tranung",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Sundell",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Waagsb\u00f8",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "J Clin Virol",
+            "volume": "117",
+            "issn": "",
+            "pages": "54--55",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.jcv.2019.06.002"
+                ]
+            }
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Influenza Virus Infectivity Is Retained in Aerosols and Droplets Independent of Relative Humidity",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Kormuth",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Lin",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Prussin",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Vejerano",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Tiwari",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Cox",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Myerburg",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Lakdawala",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Marr",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "The Journal of infectious diseases",
+            "volume": "218",
+            "issn": "5",
+            "pages": "739--747",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Early Transmission Dynamics in Wuhan, China, of Novel Coronavirus-Infected Pneumonia",
+            "authors": [
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Guan",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "N Engl J Med",
+            "volume": "382",
+            "issn": "13",
+            "pages": "1199--1207",
+            "other_ids": {
+                "DOI": [
+                    "10.1056/NEJMoa2001316"
+                ]
+            }
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "Environmental factors on the SARS epidemic: air temperature, passage of time and multiplicative effect of hospital infection",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Lin",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Yee-Tak",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Fong",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Karlberg",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Epidemiology and infection",
+            "volume": "134",
+            "issn": "2",
+            "pages": "223--230",
+            "other_ids": {
+                "DOI": [
+                    "10.1017/S0950268805005054"
+                ]
+            }
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "Effects of temperature variation and humidity on the death of COVID-19 in Wuhan",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Ma",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "He",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Fu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Yan",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Niu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Luo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "China. Science of the Total Environment",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.scitotenv.2020.138226"
+                ]
+            }
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "Associations between meteorological parameters and influenza activity in a subtropical country: case of five sentinel sites in Yaounde\u00c2-Cameroon",
+            "authors": [],
+            "year": null,
+            "venue": "PLOS ONE",
+            "volume": "12",
+            "issn": "10",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1371/journal.pone.0186914"
+                ]
+            }
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "Association of meteorological factors with seasonal activity of influenza A subtypes and B lineages in subtropical western China",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "He",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Zhou",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Epidemiology and infection",
+            "volume": "147",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1017/S0950268818003485"
+                ]
+            }
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "Effects of Absolute Humidity, Relative Humidity, Temperature, and Wind Speed on Influenza Activity in",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Peci",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Winter",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Gnaneshan",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Mubareka",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Gubbay",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "",
+            "volume": "85",
+            "issn": "",
+            "pages": "2426--2444",
+            "other_ids": {
+                "DOI": [
+                    "10.1128/AEM.02426-18"
+                ]
+            }
+        },
+        "BIBREF33": {
+            "ref_id": "b33",
+            "title": "Airborne transmission of communicable infection--the elusive pathway",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Roy",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Milton",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "The New England journal of medicine",
+            "volume": "350",
+            "issn": "17",
+            "pages": "1710--1712",
+            "other_ids": {
+                "DOI": [
+                    "10.1056/NEJMp048051"
+                ]
+            }
+        },
+        "BIBREF34": {
+            "ref_id": "b34",
+            "title": "Coronavirus envelope protein: current knowledge",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Schoeman",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Fielding",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Virology journal",
+            "volume": "16",
+            "issn": "1",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1186/s12985-019-1182-0"
+                ]
+            }
+        },
+        "BIBREF35": {
+            "ref_id": "b35",
+            "title": "Absolute humidity modulates influenza survival, transmission, and seasonality",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Shaman",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kohn",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Proceedings of the National Academy of Sciences of the United States of America",
+            "volume": "106",
+            "issn": "",
+            "pages": "3243--3248",
+            "other_ids": {
+                "DOI": [
+                    "10.1073/pnas.0806852106"
+                ]
+            }
+        },
+        "BIBREF36": {
+            "ref_id": "b36",
+            "title": "Absolute humidity and the seasonal 7",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Shaman",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Pitzer",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Viboud",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Grenfell",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Lipsitch",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF38": {
+            "ref_id": "b38",
+            "title": "Correlation between meteorological parameters and influenza activity in Xicheng District of Beijing. Occupation and Health",
+            "authors": [
+                {
+                    "first": "Sun",
+                    "middle": [
+                        "&amp;"
+                    ],
+                    "last": "Sun",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Xiao ; Sun",
+                    "suffix": ""
+                },
+                {
+                    "first": "X-Y",
+                    "middle": [],
+                    "last": "Sun",
+                    "suffix": ""
+                },
+                {
+                    "first": "Xiao",
+                    "middle": [
+                        "Z"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "",
+            "volume": "34",
+            "issn": "",
+            "pages": "2811--2814",
+            "other_ids": {}
+        },
+        "BIBREF40": {
+            "ref_id": "b40",
+            "title": "Aerosol and Surface Stability of SARS-CoV-2 as Compared with SARS-CoV-1",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Harcourt",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Thornburg",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Gerber",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "O"
+                    ],
+                    "last": "Lloyd-Smith",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "De Wit",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Munster",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "The New England journal of medicine",
+            "volume": "382",
+            "issn": "16",
+            "pages": "1564--1567",
+            "other_ids": {
+                "DOI": [
+                    "10.1056/NEJMc2004973"
+                ]
+            }
+        },
+        "BIBREF41": {
+            "ref_id": "b41",
+            "title": "Clinical Characteristics of 138 Hospitalized Patients With 2019 Novel Coronavirus-Infected",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Xiang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Cheng",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Xiong",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Peng",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF42": {
+            "ref_id": "b42",
+            "title": "Different responses of influenza epidemic to weather factors among Shanghai, Hong Kong, and British Columbia",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "He",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Chiu",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Chan",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Chan",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Wong",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Guo",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "International journal of biometeorology",
+            "volume": "",
+            "issn": "6",
+            "pages": "1043--1053",
+            "other_ids": {}
+        },
+        "BIBREF44": {
+            "ref_id": "b44",
+            "title": "who-director-general-s-opening-remarks-at-the-media-briefing-on-covid",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF45": {
+            "ref_id": "b45",
+            "title": "Wuhan Municipal Health and Health Commission's briefing on the current pneumonia epidemic situation in our city",
+            "authors": [],
+            "year": 2019,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF46": {
+            "ref_id": "b46",
+            "title": "Association between ambient temperature and COVID-19 infection in 122 cities from China",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Xie",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Science of The Total Environment",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.scitotenv.2020.138201"
+                ]
+            }
+        },
+        "BIBREF47": {
+            "ref_id": "b47",
+            "title": "Relationship between humidity and influenza A viability in droplets and implications for influenza's seasonality",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Elankumaran",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Marr",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "PloS one",
+            "volume": "7",
+            "issn": "10",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF49": {
+            "ref_id": "b49",
+            "title": "No Association of COVID-19 transmission with temperature or UV radiation in Chinese cities. The European respiratory journal",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Yao",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Pan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Meng",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Kan",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1183/13993003.00517-2020"
+                ]
+            }
+        },
+        "BIBREF50": {
+            "ref_id": "b50",
+            "title": "A climatologic investigation of the SARS-CoV outbreak in Beijing",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Yuan",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Yun",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Lan",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Sullivan",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Jia",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Bittles",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "China. American journal of infection control",
+            "volume": "34",
+            "issn": "4",
+            "pages": "234--236",
+            "other_ids": {}
+        },
+        "BIBREF52": {
+            "ref_id": "b52",
+            "title": "Characterization of regional influenza seasonality patterns in China and implications for vaccination strategies: spatio-temporal modeling of surveillance data",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Yu",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Alonso",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Feng",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Tan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Shu",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Viboud",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "PLoS medicine",
+            "volume": "10",
+            "issn": "11",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1371/journal.pmed.1001552"
+                ]
+            }
+        },
+        "BIBREF55": {
+            "ref_id": "b55",
+            "title": "The relationship of meteorological conditions to the epidemic activity of respiratory syncytial virus",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Welliver",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "Epidemiology and infection",
+            "volume": "135",
+            "issn": "7",
+            "pages": "1077--1090",
+            "other_ids": {
+                "DOI": [
+                    "10.1017/S095026880600776"
+                ]
+            }
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "95%CI, F=4.835>F n-m-1 =4.043,P<0.05), and the equation is as follows: HB_DeltaN = 1348.425-72.470 \u00d7 Min_Temp Thus, if Min_Temp increases by 1\u00b0C, HB_DeltaN will decrease by 72.470 units on average.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "HongKong (Bi et al.,2007), atmospheric pressure was positively correlated with the spread of SARS during the SARS epidemic. Atmospheric pressure is the air weight over unit area, i.e. air density. When the human body expels respiratory viruses, the increase of atmospheric pressure may lead to the decrease of the diffusion range of liquid drops and the increase of the number of viruses per unit area. As the infectivity of viruses depends on the number of viruses per unit area, if the concentration per unit area of the virus is insufficient due to the increase of atmospheric pressure in the transmission of RSV, infection will not occur. Similarly, high diffusion may produce low concentrations of infectious particles(Collins & Kennedy,1999).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "within the current knowledge range of COVID-19 epidemics. The significance of this work is that increasing the decline of cases may be affected by changes in meteorological factors that limit the ability of virus transmission. The differences in meteorological factors should be taken into account when predicting the epidemic scale during the global transmission of 2019-nCoV and formulating prevention and control strategies. Secondly, we analyzed the possible relationship between meteorological factors and COVID-19 attacks from epidemiological statistics, as well as the influence of meteorological parameters on the transmission and survival of viruses causing respiratory diseases, and analyzed its possible mechanism. We demonstrated the epidemiological correlation between WVP and COVID-19. At the same time, we speculate that compared with non-enveloped virus, enveloped virus\" 2019-nCoV\" is more sensitive to climatic factors, especially temperature (including average temperature and minimum temperature).Third, meteorological factors may be one of the influencing factors causing the 2019-nCoV epidemic. The study used a linear regression model to explain the relationship between incremental cases and the lowest temperature. The results show that for Hubei province (epidemic area), for every 1\u00b0C increase in the lowest temperature, 72 incremental cases are reduced, and when the lowest temperature reaches 22\u00b0C, the increased cases are significantly reduced. Therefore, it is speculated that in other epidemic areas in the world, if the minimum temperature rises above a certain threshold, the number of new cases may drop dramatically.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF5": {
+            "text": "includes 11 sub-figures. (a)demonstrates the frequency statistics of incremental cases in Hubei province; (b)-(k) demonstrates the frequency statistics of average pressure, average temperature, maximum temperature, minimum temperature, average water vapour pressure, average relative humidity, average wind speed, precipitation, total solar radiation, maximum solar irradianceFigure 2 includes 4 sub-figures. (a) to (d) shows the tendency of incremental cases, average temperature, average water pressure and the maximum solar irradiance changing with time Figure 3 includes 4 sub-figures. (a) to (d) shows curve fitting results of HB_DeltaN with average pressure, average temperature, minimum temperature and average water vapour pressure Figure 4a shows the normality of the residual of incremental cases satisfies. Figure 4b the homogeneity of variance for the residual of incremental cases",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF1": {
+            "text": "No relevant reports of WVP were found in previous studies of SARS. The latest research in COVID-19 found that in Wuhan, We found a positive correlation between incremental cases of COVID-19 and atmospheric pressure. The average atmospheric pressure in Hubei province is 1021.7(1006.0~1031.2)hPa, and correlation coefficient r=+0.358 (P<0.05). Previous studies believed that atmospheric pressure was positively correlated with influenza virus (Soebiyanto et al., 2010). Atmospheric pressure",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF3": {
+            "text": "Basic statistical analysis of HuBei delta number and weather parameters",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF5": {
+            "text": "Cross-Relationship between Hubei delta number with weather parametersCC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.(which was not certified by peer review) **. Correlation is significant at the 0.01 level (2-tailed). *. Correlation is significant at the 0.05 level (2-tailed).",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF6": {
+            "text": ". https://doi.org/10.1101/2020.04.01.20050526",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF7": {
+            "text": "Linear Regression Model Summary and Parameter Estimates",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "The authors have no conflicts of interest.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "No one to thank in particular"
+        },
+        {
+            "text": "Supplementary information contains an Excel file with datasheet containing the meteorological observatory data and number of confirmed cases from January 1, 2020 to March 10, 2020 in Hubei province of China.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Supporting information"
+        }
+    ]
+}

@@ -1,0 +1,277 @@
+{
+    "paper_id": "bcddbcd6bd12a502cdec1a720f5faf5340764902",
+    "metadata": {
+        "title": "High prevalence of putative invasive pulmonary aspergillosis in critically ill COVID-19 patients 2 3",
+        "authors": [
+            {
+                "first": "Alexandre",
+                "middle": [],
+                "last": "Alanio",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Laboratoire de Parasitologie-Mycologie",
+                    "institution": "Groupe Hospitalier Saint-Louis-Lariboisi\u00e8re-7 Fernand-Widal",
+                    "location": {
+                        "settlement": "Paris",
+                        "country": "France"
+                    }
+                },
+                "email": "alexandre.alanio@aphp.fr."
+            },
+            {
+                "first": "Sarah",
+                "middle": [],
+                "last": "Delli\u00e8re",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Laboratoire de Parasitologie-Mycologie",
+                    "institution": "Groupe Hospitalier Saint-Louis-Lariboisi\u00e8re-7 Fernand-Widal",
+                    "location": {
+                        "settlement": "Paris",
+                        "country": "France"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Sofiane",
+                "middle": [],
+                "last": "Fodil",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Universit\u00e9 de Paris",
+                    "location": {
+                        "settlement": "Paris",
+                        "country": "France"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "St\u00e9phane",
+                "middle": [],
+                "last": "Bretagne",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Laboratoire de Parasitologie-Mycologie",
+                    "institution": "Groupe Hospitalier Saint-Louis-Lariboisi\u00e8re-7 Fernand-Widal",
+                    "location": {
+                        "settlement": "Paris",
+                        "country": "France"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Bruno",
+                "middle": [],
+                "last": "",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "",
+                "middle": [],
+                "last": "M\u00e9garbane",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Universit\u00e9 de Paris",
+                    "location": {
+                        "settlement": "Paris",
+                        "country": "France"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Dr",
+                "middle": [],
+                "last": "Alexandre",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Groupe Hospitalier Saint-Louis-14 Lariboisi\u00e8re-Fernand-Widal",
+                    "location": {
+                        "settlement": "Paris",
+                        "country": "France"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Alanio",
+                "middle": [],
+                "last": "Saint",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [],
+    "body_text": [
+        {
+            "text": "We are currently facing a frightening increase in COVID-19 patients admitted to the ICU. 22 Aiming at screening for fungal secondary pneumonia, we collected the data of our first 27 23 ICU patients, who underwent bronchoalveolar lavage or bronchial aspirates. We classified 24 the patients based on the recently published study on invasive aspergillosis in influenza 25 patients (Schauwvlinghe et al., 2018.) and found 33% of our COVID-19 patients with putative 26 invasive pulmonary aspergillosis. Observing such a high prevalence in COVID-infected 27 patients was somehow unexpected since the 30% prevalence of invasive aspergillosis in 28 influenza patients has been attributed to the action of oseltamivir on anti-Aspergillus 29",
+            "cite_spans": [
+                {
+                    "start": 89,
+                    "end": 91,
+                    "text": "22",
+                    "ref_id": null
+                },
+                {
+                    "start": 639,
+                    "end": 641,
+                    "text": "28",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "immunity. Almost all critically ill COVID-19 patients develop ARDS and are likely to receive 30 high-dose steroids or immunomodulatory therapies to prevent worsening as suggested by 31 reports from China. In the COVID-19 patients with putative invasive aspergillosis, antifungal 32",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "prophylactic therapy may be questioned to avoid increased lung inflammation that may 33 compromise the outcome. This issue remains to be addressed in future clinical trials. We are 34 strongly convinced that testing deep lung specimens for Aspergillus in severe COVID-19 35 patients should be recommended. 36 . CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. (which was not certified by peer review)",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted April 24, 2020. Paralleling what has been reported in influenza patients, we designed this prospective 49 observational bi-center study to investigate the risk of IPA in critically ill COVID-19 patients, 50 especially since these patients were likely to receive immunomodulatory therapies. The 51 patients were classified using the influenza-associated IPA criteria in the ICU 4 completed 52 with beta-D-glucan measurement and quantitative real-time PCR (qPCR) in BAL. Putative IPA 53 was considered if one of the following conditions was met, i.e. 1-presence of Aspergillus 54 fumigatus in culture; 2-BAL galactomannan index >0.8 AND beta-D-glucan >80 pg/mL; 3-55",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Aspergillus fumigatus qPCR with quantification cycle <35 in pulmonary specimens; 7 and/or 56 4-serum beta-D-glucan >80pg/mL AND serum galactomannan index >0.5. Of note, direct 57 examination of respiratory specimens was not performed to avoid operator contamination. 58",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Twenty-seven successive mechanically ventilated COVID-19 patients with pneumonia 59 admitted between March 16 th and 28 th to our two ICUs were included (Table 1) Aspergillus to the patient presentation in each illnesses may be different. Here, none of our 88 nine putative IPA patients except one received anti-Aspergillus treatment. In the treated 89 patient, antifungal treatment was adapted to cover both candida and Aspergillus infections. 90",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 153,
+                    "end": 162,
+                    "text": "(Table 1)",
+                    "ref_id": null
+                }
+            ],
+            "section": ""
+        },
+        {
+            "text": "In the IPA group, the three fatalities were not related to aspergillosis but to bacterial septic 91 shock complicated by multiorgan failure. 92",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Finally, although oseltamivir-induced inhibition of the host neuraminidase activity has been 93 suggested as a possible molecular mechanism leading to anti-aspergillus protective 94 immunity decrease in influenza patients, the exact reasons for increased vulnerability of the 95 COVID-19 patient to Aspergillus remain to be determined as well as the Aspergillus 96 contribution to COVID-19-reated lung inflammation. 97 98",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "The authors declare no conflict of interest 100 . CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conflict of interest 99"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted April 24, 2020. CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted April 24, 2020. CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted April 24, 2020. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": ". CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. (which was not certified by peer review)",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "136"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted April 24, 2020. . https://doi.org/10.1101/2020.04.21.20064915 doi: medRxiv preprint",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "136"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Characteristics of and Important Lessons From the Coronavirus",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Mcgoogan",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "and 7 bronchial aspirations) were obtained on day 3 [1-6] post-61 intubation. Putative IPA was diagnosed in 9/27 patients (33%) including six patients 62 validating \u22652 mycological criteria and three patients with only Aspergillus fumigatus 63 identification in the respiratory specimen culture. History of hypertension was significantly 64 more frequently reported in the patients with putative IPA than patients without 65 aspergillosis (p=0.04). No other significant differences were observed in terms of age, 66 invasive aspergillosis EORTC-MSG risk factors, time between onset of symptoms and 67 intubation and times between onset of symptoms or intubation and Aspergillus respiratory 68 administration. No other immunosuppressant drug was administered in the ICU. 70 Specific anti-Aspergillus therapy was initiated in only one of the nine patients with putative 71 IPA. In this patient initially receiving caspofungin to treat concomitant invasive blood 72 Candida glabrata infection, antifungal treatment was switched to voriconazole. No 73 significant increase in fatality rate was observed in the patients with putative IPA (3/9 versus 74 3/18, p=0.4), although so far, 2/9 and 8/18 patients are still intubated in each group, 75 respectively. 76 Here we found putative IPA in almost one third of our successive critically ill COVID-19 77 patients, at a similar rate to what has been observed in influenza patients. 3,4 Interestingly, 78 when respiratory specimens were positive for Aspergillus, serum galactomannan was 79 negative. One case had positive serum beta-D-glucan and galactomannan without 80 Aspergillus detection in the BAL. Our findings strongly suggest that mechanically ventilated 81 COVID-19 patients should be systematically screened for Aspergillus infection markers. 82 Three of our cases had Aspergillus fumigatus culture with no positive qPCR detection or 83 galactomannan antigen in the BAL. Interestingly, not considering positive culture alone as a 84 diagnostic criterion, by contrast to what is currently accepted, 4,6 would have resulted in 85underestimating the frequency of putative IPA (22% rather than 33% in our study). 86Despite similar IPA rates in critically ill COVID-19 and influenza patients, the contribution of 87",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "F-X, Bouadma L, Nguyen D, et al. Clinical and virological data of the first cases of 112 COVID-19 in Europe: a case series. Lancet Infect Dis 2020. DOI:10.J, Baar I, Meersseman P, et al. Invasive pulmonary aspergillosis is a frequent 115 complication of critically ill H1N1 patients: a retrospective study. Intens Care Med 2012; AFAD, Rijnders BJA, Philips N, et al. Invasive aspergillosis in patients 118 admitted to the intensive care unit with severe influenza: a retrospective cohort study. 119 Lancet Respir Medicine 2018; 6: 782-92. 120 5-Donnelly JP, Chen SC, Kauffman CA, et al. Revision and Update of the Consensus 121 Definitions of Invasive Fungal Disease From the European Organization for Research and 122 Treatment of Cancer and the Mycoses Study Group Education and Research Consortium. Clin 123 Infect Dis Official Publ Infect Dis Soc Am 2019. DOI:10.1093/cid/ciz1008. 124 6-Blot SI, Taccone FS, Abeele A-MV den, et al. A Clinical Algorithm to Diagnose Invasive 125 Pulmonary Aspergillosis in Critically Ill Patients. Am J Resp Crit Care 2012; 186: 56-64. 126 7-Alanio A, Menotti J, Gits-Muselli M, et al. Circulating Aspergillus fumigatus DNA Is 127 Quantitatively Correlated to Galactomannan in Serum. Front Microbiol 2017; 8: 2040. 128 129 .",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "About 5% of coronavirus disease 2019 (COVID-19) patients require intensive care unit (ICU) 37 management.1 In the ICU, these patients are at high risk of developing secondary infections 38 including invasive pulmonary aspergillosis (IPA). 2 First reported with H1N1 influenza, IPA 39 represents a frequent (20-30%) and early-onset complication (median, 3 days post-ICU 40 admission) in critically ill influenza patients leading to enhanced illness severity and mortality 41",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "This study was part of the French COVID-19 cohort registry conducted by the REACTing 102 consortium and directed by INSERM and ISARIC. Our institutional ethics committee 103 approved the study (N\u00b0, IDRCB, 2020-A00256-33; CPP, 11-20 20.02.04.68737). When 104 possible, signed informed consent was obtained from the patients or the next of kin. 105 106",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": ". https://doi.org/10.1101/2020.04.21.20064915 doi: medRxiv preprint Table 1. Characteristics of 27 critically ill COVID-19 patients according to the clinical 130 classification of aspergillosis. Comparisons were performed using Chi-2 or Mann-Whitney 131 tests, as appropriate. 132 Time from tracheal intubation to Time from symptoms start to Aspergillus \u2020based on EORTC MSG criteria for invasive aspergillosis, including steroids (n=3) and haematological 133 malignancies (n=2); \u2020 \u2020Steroid regimen, dexamethasone intravenous dose of 20 mg once daily from day 1 to 134 day 5, followed by 10 mg once daily from day 6 to day 10; BAL, bronchoalveolar lavage; ICU, intensive care unit; 135 CT scan, computerized tomography scanner.",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}

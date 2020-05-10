@@ -1,0 +1,1699 @@
+{
+    "paper_id": "8ac9013b9de3731d2846a5ca8396832f198f6d61",
+    "metadata": {
+        "title": "A preliminary study on the reproductive toxicity of GS-5734 on male mice",
+        "authors": [
+            {
+                "first": "Jing",
+                "middle": [],
+                "last": "Fan",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Shenzhen Maternity and Child Healthcare Hospital",
+                    "location": {
+                        "postCode": "518028",
+                        "settlement": "Shenzhen",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Jiao",
+                "middle": [],
+                "last": "Luo",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Shenzhen University Health Science Center",
+                    "location": {
+                        "postCode": "518035",
+                        "settlement": "Shenzhen",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Depeng",
+                "middle": [],
+                "last": "Zhao",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Shenzhen Maternity and Child Healthcare Hospital",
+                    "location": {
+                        "postCode": "518028",
+                        "settlement": "Shenzhen",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Tianqin",
+                "middle": [],
+                "last": "Deng",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Shenzhen Maternity and Child Healthcare Hospital",
+                    "location": {
+                        "postCode": "518028",
+                        "settlement": "Shenzhen",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Yuanbo",
+                "middle": [],
+                "last": "Weng",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Shenzhen Maternity and Child Healthcare Hospital",
+                    "location": {
+                        "postCode": "518028",
+                        "settlement": "Shenzhen",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Yangyang",
+                "middle": [],
+                "last": "Sun",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Shenzhen University Health Science Center",
+                    "location": {
+                        "postCode": "518035",
+                        "settlement": "Shenzhen",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Xuemei",
+                "middle": [],
+                "last": "Li",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Shenzhen Maternity and Child Healthcare Hospital",
+                    "location": {
+                        "postCode": "518028",
+                        "settlement": "Shenzhen",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Background: GS-5734 as a novel and promising medicine for COVID-2019, its biological impact on the mammalian reproductive system has not been systematically studied. The aim of this study was to evaluate the effects of GS-5734 on sperm parameters and spermatogenesis in mice.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "In this study, GS-5734 was synthesized according to the report. 28 adult male mice were randomly segregated into four groups (n=7 for each group). The group 1 was set as the control group, the group 1, 2, 3 and 4 were administered with GS-5734 at a daily dose of 0, 10, 50, 150 \u03bc g/mouse respectively, by intraperitoneal injection for 10 days. On the 7th day after the last injection, the testes and cauda epididymides were collected for HE staining and sperm concentration, motility, morphology analysis.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "The results indicated that after treated with GS-5734, the total sperm count and motile sperm rate showed downward trends, the abnormal sperm rate showed an increasing trend. As compared with the control group, GS-5734 at a daily dose of 150 \u03bc g/mouse caused a significant decrease in sperm concentration and motility, and a significant increased of abnormal sperm rate; the 50 \u03bc g/mouse drug treatment lead to a significant decrease in sperm motility and an increase in abnormal sperm rate. The HE staining of testicular and epididymal tissues showed that the spermatogenesis of mice was significantly deteriorated with the increasing dosage of GS-5734, especially in the 150 \u03bc g/mouse group.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Our findings suggest that a high dosage of GS-5734 may induce testicular toxicity and result in deterioration of sperm parameters in mice. More investigation on the reproductive toxicity of GS-5734 is required.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "The global epidemic of Corona Virus Disease 2019 (COVID-19) has impacted the lifestyles of billion people in different regions. In this outbreak case, Remdesivir (development code GS-5734) as a novel nucleoside analogues antiviral drug is used for the treatment of COVID-19 patients.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "However, the nucleoside analogue drug has the potential toxicity in gametogenesis, embryo development, and gonad function (1, 2) . Among the nucleoside analogue drugs, there are more studies on purines (3) . It has been proved purinergic signaling is involved in hormone secretion, penile erection, sperm motility and capacitation, and mucous production. As a similar competitor to adenosine triphosphate (ATP), GS-5734 can competitively combine and inhibit RNA dependent RNA polymerase (RdRP) of many RNA viruses, including Fibrovirus (Ebola), Coronavirus (COVID-19), Flaviviridae (Hepatitis C virus), thereby inhibiting virus replication (4) (5) (6) . In 2020, Remdesivir as a novel and promising medicine for COVID-2019 has gained Orphan Drug designation from FDA. However, the potential biological toxicity of nucleoside analogue drugs is far from being well evaluated. Such antiviral drugs including acyclovir (7) and ribavirin (8) have been shown to have teratogenic effects. In addition, continuous high-dose administration will cause a decrease in semen quality in rats. The development of testicular Sertoli cells, prostate, and seminal vesicles will slow down. The abundance of testosterone in serum will also decrease (7). The human reproductive system is highly sensitive to chemicals and due to the totipotency of the germ cells, this effect may be magnified with gamete fertilization and embryo development, resulting in a huge impact on the progeny. Therefore, in consideration of the reproductive safety of patients and their offspring, the cytotoxicity and genotoxicity of GS-5734 on the mammalian reproductive system should be systematically studied.",
+            "cite_spans": [
+                {
+                    "start": 122,
+                    "end": 125,
+                    "text": "(1,",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 126,
+                    "end": 128,
+                    "text": "2)",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 202,
+                    "end": 205,
+                    "text": "(3)",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 640,
+                    "end": 643,
+                    "text": "(4)",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 644,
+                    "end": 647,
+                    "text": "(5)",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 648,
+                    "end": 651,
+                    "text": "(6)",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 915,
+                    "end": 918,
+                    "text": "(7)",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 933,
+                    "end": 936,
+                    "text": "(8)",
+                    "ref_id": "BIBREF7"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "In this study, 28 male C57 mice (22.1 \u00b1 2.5 g) were kept under specific conditions on a 12 h light/dark cycle and 25\u02daC room temperature. Enough food and water were supplied to the mice. It was approved and in accordance with the guidance of the institutional Ethics Committee.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Animals"
+        },
+        {
+            "text": "The GS-5734 was synthesized according to the previous report (4) . The products were characterized by hydrogen nuclear magnetic resonance ( 1 H NMR, Bruker Magnet System, Karlsruhe, Germany, 300 MHz/54 mm) and mass spectrum (MS, Waters LC-MS System, Milford, MA, USA) to confirm the structure and purity. Three dose levels 10, 50, 150 \u03bc g/mouse of the drug were used for intraperitoneal injection (dissolved in sterile saline) once a day (9) . The drug was dissolved in saline solution before injection.",
+            "cite_spans": [
+                {
+                    "start": 61,
+                    "end": 64,
+                    "text": "(4)",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 438,
+                    "end": 441,
+                    "text": "(9)",
+                    "ref_id": "BIBREF8"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Drugs"
+        },
+        {
+            "text": "All the mice were randomly segregated into 4 groups of seven each. Group 1 was set as the control group which was treated by sterile saline injection without the drug. Group 2, 3 and 4 were administered 10, 50, 150 \u03bc g/mouse/day drug respectively. All the groups were treated by intraperitoneal injection for 10 consecutive days. 7 days after the last treatment, all mice were sacrificed by CO 2 inhalation. 37\u02daC 5% CO 2 incubation for 5 min to allow sperm to swim out.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Drug treatment"
+        },
+        {
+            "text": "The collected sperms were counted in hemocytometry (Neubauer chamber) and the related details referenced the WHO manual (2010) (10) . The sperm heads were counted as million/mL of concentration.",
+            "cite_spans": [
+                {
+                    "start": 127,
+                    "end": 131,
+                    "text": "(10)",
+                    "ref_id": "BIBREF9"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Sperm concentration"
+        },
+        {
+            "text": "About 10 \u03bc L of the sperm suspension was prepared for morphological analysis smear to evaluate abnormal shape rate. The Diff-Quik (Solarbio Science & Technology Co., Ltd., Beijing, China) staining was used to determine the sperm morphology. After 15 min fixing in fixative, the smears were stained in solution A and B for 1 h separately. The dried smears were observed under 400\u00d7 magnification to exam over 200 sperms per mouse. Morphological anomalies were divided as amorphous head, hookless, banana and double-headed, coiled with microcephaly, bent at cephalocaudal junction, bent with projecting filaments, microcephaly with the tail defect and defective head with duplication of the tail (11) .",
+            "cite_spans": [
+                {
+                    "start": 693,
+                    "end": 697,
+                    "text": "(11)",
+                    "ref_id": "BIBREF10"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Sperm morphology"
+        },
+        {
+            "text": "The sperms were classified as motile or immotile under 400\u00d7 magnification of microscope (IX37, Olympus, Tokyo, Japan). At least, over 10 random fields or 200 sperms were examined to determine the motility rate. Motility was presented as the percentage of motile sperm to the total number of sperms.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Sperm motility"
+        },
+        {
+            "text": "The right testes and epididymides were collected surgically and removed the fat. The tissues were fixed in Bouin's Fluid (Solarbio Science & Technology Co., Ltd., Beijing, China) and observed histologically. The fixed testicular and epididymal tissues were paraffin-embedded, sliced (thickness 4 \u03bc m), hematoxylin-eosin (HE) stained, observed with a microscope and photographed to find the changes in the spermatogenic epithelial structure of the testes and sperms stored in the epididymides.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Spermatogenesis analysis"
+        },
+        {
+            "text": "The experimental data were processed by SPSS statistical software. The results are all expressed in mean \u00b1 SEM. The paired test and independent test were used for comparison between groups. P <0.05 was considered statistically significant.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Statistical analysis"
+        },
+        {
+            "text": "The products were characterized by 1 (Fig. 1) . The purity of products was over 98.5%. The synthesized GS-5734 was used in the subsequent experiments.",
+            "cite_spans": [
+                {
+                    "start": 35,
+                    "end": 36,
+                    "text": "1",
+                    "ref_id": "BIBREF0"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 37,
+                    "end": 45,
+                    "text": "(Fig. 1)",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "The characteristic of synthetic drugs"
+        },
+        {
+            "text": "was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "The characteristic of synthetic drugs"
+        },
+        {
+            "text": "The copyright holder for this preprint (which this version posted April 23, 2020. . ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "The characteristic of synthetic drugs"
+        },
+        {
+            "text": "The concentration, morphology, and motility of the sperms from cauda epididymis were evaluated for reproductive toxicity assay. The results indicated that, after treated with drugs, the total sperm count and motile sperm rate showed downward trends, while the abnormal sperm rate showed an increasing trend (Fig. 2) . The 150 \u03bc g drug caused a significant decrease in sperm A B was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 307,
+                    "end": 315,
+                    "text": "(Fig. 2)",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "Sperm parameters"
+        },
+        {
+            "text": "The copyright holder for this preprint (which this version posted April 23, 2020. . https://doi.org/10.1101/2020.04.21.050104 doi: bioRxiv preprint concentration ( Fig. 2A, p<0 .01) and motility (Fig. 2B, p<0 .01) in Group 4 as compared to the control group (Group 1). The abnormal sperm rate of Group 4 significantly higher than Group 1 (Fig. 2B, p<0 .05). The 50 \u03bc g drug treatment lead to a significant decrease in sperm motility (Fig.   2B , p<0.05) and an increase in abnormal sperm rate (Fig. 2B, p<0 .05) compared to Group 1. Further observation and analysis of the morphological abnormalities caused by high-dose drugs was performed. Compared to the control group (Group 1, Fig. 3A ), most abnormal sperm in the high-dose group (Group 4) showed abnormal head conditions (Fig. 3BCD) , including headless, small head, and abnormal head shape; in addition, in the 50 and 150 \u03bc g drug-treated groups (Group 3 and 4), the proportion of other types of abnormal sperm increased significantly, including the body (Fig. 3E ), the tail (Fig. 3F ) and the overall abnormalities (Fig. 3GH ). In summary, these sperm parameters present a negative effect in a drug dose-dependent manner. ",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 164,
+                    "end": 176,
+                    "text": "Fig. 2A, p<0",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 195,
+                    "end": 208,
+                    "text": "(Fig. 2B, p<0",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 338,
+                    "end": 351,
+                    "text": "(Fig. 2B, p<0",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 433,
+                    "end": 443,
+                    "text": "(Fig.   2B",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 493,
+                    "end": 506,
+                    "text": "(Fig. 2B, p<0",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 672,
+                    "end": 689,
+                    "text": "(Group 1, Fig. 3A",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 778,
+                    "end": 789,
+                    "text": "(Fig. 3BCD)",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 1013,
+                    "end": 1021,
+                    "text": "(Fig. 3E",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 1034,
+                    "end": 1042,
+                    "text": "(Fig. 3F",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 1075,
+                    "end": 1084,
+                    "text": "(Fig. 3GH",
+                    "ref_id": "FIGREF2"
+                }
+            ],
+            "section": "Sperm parameters"
+        },
+        {
+            "text": "was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "A B"
+        },
+        {
+            "text": "The copyright holder for this preprint (which this version posted April 23, 2020. . https://doi.org/10.1101/2020.04.21.050104 doi: bioRxiv preprint drug-treated group; (G) and (H) overall abnormal sperms in the drug-treated groups.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "A B"
+        },
+        {
+            "text": "In order to study the testicular spermatogenesis after treated with GS-5734, the mice testicular tissues of each group were collected for HE stainning and micromorphological observations, then the Johnsen score evaluation was used to determine the effects of GS-5734 on testicular spermatogenesis (12) . The results showed that, compared with the control group (normal spermatogenesis, the score of 10); the HE staining results of Group 2 showed that 10 \u03bc g drugs had no significant effect on the testicular functions (Fig. 4A) ; the spermatogenesis of the 50 \u03bc g group (Group 3) changed slightly, and there were many late stage sperm cells and sperms in the seminiferous tubules, and the arrangement was disordered; there were exfoliated spermatogenic cells in the lumen (Fig. 4B) , the scores were between 8 to 9. The highest dose group with 150 \u03bc g drugs (Group 4) was significantly affected under microscopic observation, the late stage sperm cells and sperms were greatly reduced or even disappeared, the early sperm cells were less or disappeared (Fig. 4C) , and even fibrosis of testicular tissues and cell structure disappeared (Fig.   4D ), The scores were between 5 to 8. Further observation of the sperm distribution in the epididymal tissue slices revealed that there were high concentrations of sperms in the epididymal ducts of Group 2 (Fig. 5A) ; the epididymal sperm concentrations of Group 3 were slightly reduced, but the overall concentrations were still high (Fig. 5B) ; The sperm concentrations of Group 4 were significantly reduced and seen occasionally (Fig. 5C ), or even invisible (Fig. 5D) . These results were basically consistent with the results of the sperm parameters observed above.",
+            "cite_spans": [
+                {
+                    "start": 297,
+                    "end": 301,
+                    "text": "(12)",
+                    "ref_id": "BIBREF11"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 518,
+                    "end": 527,
+                    "text": "(Fig. 4A)",
+                    "ref_id": "FIGREF3"
+                },
+                {
+                    "start": 772,
+                    "end": 781,
+                    "text": "(Fig. 4B)",
+                    "ref_id": "FIGREF3"
+                },
+                {
+                    "start": 1053,
+                    "end": 1062,
+                    "text": "(Fig. 4C)",
+                    "ref_id": "FIGREF3"
+                },
+                {
+                    "start": 1136,
+                    "end": 1146,
+                    "text": "(Fig.   4D",
+                    "ref_id": "FIGREF3"
+                },
+                {
+                    "start": 1350,
+                    "end": 1359,
+                    "text": "(Fig. 5A)",
+                    "ref_id": "FIGREF4"
+                },
+                {
+                    "start": 1479,
+                    "end": 1488,
+                    "text": "(Fig. 5B)",
+                    "ref_id": "FIGREF4"
+                },
+                {
+                    "start": 1576,
+                    "end": 1584,
+                    "text": "(Fig. 5C",
+                    "ref_id": "FIGREF4"
+                },
+                {
+                    "start": 1606,
+                    "end": 1615,
+                    "text": "(Fig. 5D)",
+                    "ref_id": "FIGREF4"
+                }
+            ],
+            "section": "Spermatogenesis analysis"
+        },
+        {
+            "text": "was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "A B C D"
+        },
+        {
+            "text": "The copyright holder for this preprint (which this version posted April 23, 2020. . https://doi.org/10.1101/2020.04.21.050104 doi: bioRxiv preprint ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "A B C D"
+        },
+        {
+            "text": "The development process of Remdesivir took several years. Its structure design of the ribose skeleton takes into account the efficient combination with the RdRP, as well as better chemical stability (4, 5, 6, 13, 14) . At present, there is still no systematic study on the reproductive toxicity of GS-5734. It has been reported to have a relatively strong selectivity for the RdRP binding, which only binds to the virus and does not bind to the animal host cells (4). In addition, metabolic studies in primates showed that the drug remains more in the testicular tissues at the early stage of medication. But over time, the drug metabolism in the testicular tissues was also relatively fast (4).",
+            "cite_spans": [
+                {
+                    "start": 199,
+                    "end": 202,
+                    "text": "(4,",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 203,
+                    "end": 205,
+                    "text": "5,",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 206,
+                    "end": 208,
+                    "text": "6,",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 209,
+                    "end": 212,
+                    "text": "13,",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 213,
+                    "end": 216,
+                    "text": "14)",
+                    "ref_id": "BIBREF14"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "In April 2020, a clinical study of GS-5734 in 53 patients with COVID-19 revealed that 36 of them had clinical improvement after 10 days of medication. But the side effects were also highlighted which included 32 patients (60%) were elevated liver enzymes, diarrhea, rash, renal dysfunction, and hypertension; a total of 12 (23%) patients experienced severe side effects, including multiple organ dysfunction syndromes, septic shock, acute kidney injury, and hypertension (9) . The study of the effect of GS-5734 on the male mice reproductive function provides a reference for the possible reproductive toxicity to humans. Currently, GS-5734 is recommended for intravenous administration in humans according to clinical guidelines. Due to the limitation of water solubility (about 0.33 mg/mL), the mice were administered by intraperitoneal injection for large volume injections in this study. The general dosage of GS-5734 administered in humans is 100 mg/person/day (9), converted to bodyweight dose is about 1-2 mg/kg/day. In this study, we used a dose of 10, 50, 150 \u03bc g/mouse/day for mice, which are converted to about 0.4, 2, 6 mg/kg/day for bodyweight dose. The intermediate dose (50 \u03bc g/mouse/day) is close to the human dose and was continuously administered for 10 days, then measured after 7 days of stopping the medicine. The sperm concentrations in the epididymides did not change significantly, and the spermatogenesis of the testes slightly decreased, the motility of epididymal sperms decreased significantly, and the proportion of abnormal sperms increased significantly. These results showed A B",
+            "cite_spans": [
+                {
+                    "start": 471,
+                    "end": 474,
+                    "text": "(9)",
+                    "ref_id": "BIBREF8"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "C D"
+        },
+        {
+            "text": "The copyright holder for this preprint (which this version posted April 23, 2020. . https://doi.org/10.1101/2020.04.21.050104 doi: bioRxiv preprint that after regular dose medication, patients may need a longer time to restore spermatogenesis to ensure reproductive safety and obtain healthy offspring. In the lower concentration drug group (10 \u03bc g/mouse/day), these parameters have no significant difference compared with the control group (0 \u03bc g/mouse/day). Further study of the highest dose group (150 \u03bc g/mouse/day) found that all parameters of this group were significantly affected. The sperm concentration and motility in the epididymal ducts of this group were significantly reduced, and the proportion of abnormal sperms were significantly increased. The testicular and epididymal tissue slices showed that the spermatogenesis of mice was significantly affected, the testicular tissues appeared fibrosis and loss of function, and the sperm in the epididymides were also significantly reduced or even disappeared. These results indicated that continuous high-dose (150 \u03bc g/mouse/day) use of GS-5734 for 10 days could adversely affect the spermatogenic and sperm parameters of the testes of male mice, and the effects would not recover within 1 week of stopping the medicine. In summary, controlling the dosage and the interval between drug withdrawal and fertilization are the key considerations for reducing the reproductive toxicity and offspring malformation risk. As one of the drug candidates against the epidemic, GS-5734 mainly exerts antiviral therapeutic effects against the COVID-19 virus. It has been reported that the COVID-19 virus has damaging effects on the male reproductive system and kidneys, such as orchitis and causing sterility (15, 16). The balance between the treatment of reproductive damage caused by viruses and the reproductive toxicity caused by the drug may be an interesting research content. However, COVID-19-infected critically ill patients are mostly elderly patients, their reproductive system function may be weakened by age and is no longer a maintenance focus. It may be necessary to pay more attention to the assessment of reproductive toxicity during the medication of young and child-bearing people.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "C D"
+        },
+        {
+            "text": "Our findings suggest that a high dosage of GS-5734 may induce testicular toxicity and result in deterioration of sperm parameters in male mice. Currently, the international epidemic situation is getting worse. If GS-5734 is widely used internationally as a first-line treatment drug, the research on its reproductive toxicology is needed more in-depth. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusion"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Pre-clinical safety evaluation of novel nucleoside analogue-based dual-function microbicides (WHI-05 and WHI-07)",
+            "authors": [
+                {
+                    "first": "O",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "D&apos;cruz",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Uckun",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Journal of Antimicrobial Chemotherapy",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "-hydroxyethoxymethyl)-9h-guanine] reversibly impairs testicular functions in mouse",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Narayana",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "The Journal of Toxicological Sciences",
+            "volume": "33",
+            "issn": "9",
+            "pages": "61--70",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Purinergic signalling in the reproductive system in health and disease",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Burnstock",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Purinergic Signaling",
+            "volume": "10",
+            "issn": "1",
+            "pages": "157--187",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Therapeutic efficacy of the small molecule GS-5734 against Ebola virus in rhesus monkeys",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Warren",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Jordan",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Lo",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Ray",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Mackman",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Soloveva",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Siegel",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Perron",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Bannister",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Hui",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Larson",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Strickley",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Wells",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Stuthman",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Van Tongeren",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Garza",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Donnelly",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Shurtleff",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Retterer",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Gharaibeh",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Zamani",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Kenny",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Eaton",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Grimes",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Welch",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Gomba",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Wilhelmsen",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Nichols",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Nuss",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Nagle",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Kugelman",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Palacios",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Doerffler",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Neville",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Carra",
+                    "suffix": ""
+                },
+                {
+                    "first": "Clarke",
+                    "middle": [],
+                    "last": "Mo",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Lew",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Ross",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Chun",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Wolfe",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Babusis",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Park",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Stray",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Trancheva",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Feng",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Barauskas",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Wong",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Braun",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Flint",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Mcmullan",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Fearns",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Swaminathan",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Mayers",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Spiropoulou",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "Nichol",
+                    "middle": [],
+                    "last": "St",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Cihlar",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Bavari",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Nature",
+            "volume": "531",
+            "issn": "7594",
+            "pages": "381--385",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Broad-spectrum antiviral GS-5734 inhibits both epidemic and zoonotic coronaviruses",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Sheahan",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Sims",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Graham",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Menachery",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Gralinski",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Case",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Leist",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Pyrc",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Feng",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Trantcheva",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Bannister",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Park",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Babusis",
+                    "suffix": ""
+                },
+                {
+                    "first": "Clarke",
+                    "middle": [],
+                    "last": "Mo",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Mackman",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Spahn",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Palmiotti",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Siegel",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Ray",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Cihlar",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Jordan",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Denison",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Baric",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Science translational medicine",
+            "volume": "9",
+            "issn": "396",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Practical synthesis of 1\u2032-substituted Tubercidin C-nucleoside analogs",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Metobo",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Saunders",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Butler",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Aktoudianakis",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Cho",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "U"
+                    ],
+                    "last": "Kim",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Tetrahedron Letters",
+            "volume": "53",
+            "issn": "5",
+            "pages": "484--486",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Effect of purine nucleoside analogue-acyclovir on the sperm parameters and testosterone production in rats",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Movahed",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Sadrkhanlou",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Ahmadi",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Nejati",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Zamani",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "International journal of fertility & sterility",
+            "volume": "7",
+            "issn": "1",
+            "pages": "49--56",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "The antiviral drug ribavirin reversibly affects the reproductive parameters in the male Wistar rat",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Narayana",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Souza",
+                    "suffix": ""
+                },
+                {
+                    "first": "U",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Narayan",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Kumar",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Folia Morphologica",
+            "volume": "64",
+            "issn": "2",
+            "pages": "65--71",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Compassionate Use of Remdesivir for Patients with Severe Covid-19",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Grein",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Ohmagari",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Shin",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Diaz",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Asperges",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Castagna",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Feldt",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Green",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Green",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "X"
+                    ],
+                    "last": "Lescure",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "New England Journal of Medicine",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1056/NEJMoa2007016"
+                ]
+            }
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "WHO laboratory manual for the examination and processing of human semen",
+            "authors": [],
+            "year": 2010,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Ribavirin-induced sperm shape abnormalities in Wistar rat",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Narayana",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "&apos;souza",
+                    "suffix": ""
+                },
+                {
+                    "first": "U",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Seetharamarao",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "Mutat Res",
+            "volume": "513",
+            "issn": "1-2",
+            "pages": "193--196",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Testicular biopsy score count-a method for registration of spermatogenesis in human testes: normal values and results in 335 hypogonadal males",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Johnsen",
+                    "suffix": ""
+                }
+            ],
+            "year": 1970,
+            "venue": "Hormone Research in Paediatrics",
+            "volume": "1",
+            "issn": "1",
+            "pages": "2--25",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Synthesis and antiviral activity of a series of 1\u2032",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Cho",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Saunders",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Butler",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Vela",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Feng",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Ray",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "U"
+                    ],
+                    "last": "Kim",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "The mechanism",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Murakami",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Saunders",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Butler",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Aktoudianakis",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Cho",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "U"
+                    ],
+                    "last": "Kim",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Characterization of GS-5734. (A) The synthesized GS-5734 (the digital photo) was characterized by 1 H NMR, and each peak of GS-5734 was found in; (B) the MS results showed two distinct peaks, the 603.23 was the GS-5734 in accordance with the molecular structure (the left molecular formula), the 625.21 was the GS-5734 plus one unit of sodium.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "The sperm parameters. (A) The collected sperms from epididymides were counted in hemocytometry as million/mL and the statistical analysis of counting results (compared to the control group with 0 \u03bc g drug); (B) The morphology and motility of the sperms were evaluated for reproductive toxicity assay. Data are expressed as the mean \u00b1 SEM. *P< 0.05, **P < 0.01 (paired t-test).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "Observation and analysis of the morphological abnormalities through microscope. (A) The normal sperm in Group 1; (B) abnormal headless sperm in the drug-treated group; (C) abnormal small head in the drug-treated group; (D) abnormal head shape in the drug-treated group; (E) sperm body abnormality in the drug-treated group; (F) two sperms with abnormal tails in the",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "The HE staining results of the testicular tissues in drug-treated groups. (A) the Group 2 (10 \u03bc g/mouse/day); (B) the Group 3 (50 \u03bc g/mouse/day); (C) and (D) the Group 4 (150 \u03bc g/mouse/day). Scale bars are 50 \u03bc m.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "The HE staining results of the epididymal ducts in drug-treated groups. (A) the Group 2",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF5": {
+            "text": "This work was supported by the Postdoctoral Science Foundation of China (No. 2018M643312 to JF, No. 2019M663100 to JL), National Natural Science Foundation of China (No. 81801465 to DPZ), Natural Science Foundation of Guangdong Province, China (No. 2018A030310644 to JF), the Sanming Project of Shenzhen Health and Family Planning Commission, China (No. SZSM201512012 to XML).",
+            "latex": null,
+            "type": "figure"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "We declare no conflict of interest.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conflict of interest:"
+        }
+    ]
+}

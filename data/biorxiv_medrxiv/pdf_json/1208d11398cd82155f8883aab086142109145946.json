@@ -1,0 +1,1883 @@
+{
+    "paper_id": "1208d11398cd82155f8883aab086142109145946",
+    "metadata": {
+        "title": "Title: Structural Basis of CD4 Downregulation by HIV-1 Nef",
+        "authors": [
+            {
+                "first": "Yonghwa",
+                "middle": [],
+                "last": "Kwon",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Massachusetts Dartmouth",
+                    "location": {
+                        "settlement": "Dartmouth",
+                        "region": "MA",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Robyn",
+                "middle": [],
+                "last": "Kaake",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of California",
+                    "location": {
+                        "addrLine": "San Francisco",
+                        "settlement": "San Francisco",
+                        "region": "CA",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Ignacia",
+                "middle": [],
+                "last": "Echeverria",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of California",
+                    "location": {
+                        "addrLine": "San Francisco, 15 5 The VA San Diego Healthcare System, San Diego",
+                        "settlement": "San Francisco",
+                        "region": "CA, California",
+                        "country": "USA., USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Marissa",
+                "middle": [],
+                "last": "Suarez",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Charlotte",
+                "middle": [],
+                "last": "Stoneham",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of California San Diego",
+                    "location": {
+                        "addrLine": "La Jolla",
+                        "region": "CA",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Peter",
+                "middle": [
+                    "W"
+                ],
+                "last": "Ramirez",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of California San Diego",
+                    "location": {
+                        "addrLine": "La Jolla",
+                        "region": "CA",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Jacob",
+                "middle": [],
+                "last": "Kress",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Massachusetts Dartmouth",
+                    "location": {
+                        "settlement": "Dartmouth",
+                        "region": "MA",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Rajendra",
+                "middle": [],
+                "last": "Singh",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of California San Diego",
+                    "location": {
+                        "addrLine": "La Jolla",
+                        "region": "CA",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Andrej",
+                "middle": [],
+                "last": "Sali",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of California",
+                    "location": {
+                        "addrLine": "San Francisco, 15 5 The VA San Diego Healthcare System, San Diego",
+                        "settlement": "San Francisco",
+                        "region": "CA, California",
+                        "country": "USA., USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Nevan",
+                "middle": [],
+                "last": "Krogan",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of California",
+                    "location": {
+                        "addrLine": "San Francisco",
+                        "settlement": "San Francisco",
+                        "region": "CA",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "John",
+                "middle": [],
+                "last": "Guatelli",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of California San Diego",
+                    "location": {
+                        "addrLine": "La Jolla",
+                        "region": "CA",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Xiaofei",
+                "middle": [],
+                "last": "Jia",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Massachusetts Dartmouth",
+                    "location": {
+                        "settlement": "Dartmouth",
+                        "region": "MA",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "The HIV-1 protein Nef suppresses multiple immune surveillance mechanisms to promote viral pathogenesis 1 . Individuals infected with HIV-1 encoding defective nef genes do not develop AIDS for decades 2,3 . A key target of Nef is the cellular receptor CD4. Although essential for viral entry into host cells, CD4 is problematic for the virus later in its replication cycle: CD4 disrupts processing of the viral glycoprotein, Env, inhibiting 25 infectivity 4 ; it interferes with the release of new virions 5,6 ; and it causes vulnerability to superinfection, causing premature cell death and limiting viral productivity 7 . Furthermore, binding of CD4 to Env exposes otherwise-concealed Env epitopes, rendering infected cells more susceptible to antibody-dependent cellular cytotoxicity and virus particles more susceptible to neutralizing antibodies 8-10 . HIV-1 has evolved strategies to mitigate these 30 problems. Newly synthesized CD4 is targeted in the endoplasmic reticulum by the viral Vpu protein for proteasomal degradation 11 . Surface-expressed CD4, in contrast, is targeted by Nef for endocytosis and lysosomal degradation 12-15 . Nef's effect on CD4 involves hijacking of clathrin adaptor complex 2 (AP2)-dependent endocytosis 16,17 . Although how Nef associates with a part of the tetrameric AP2 is understood 18 , a complete understanding 35 of the interaction, especially how CD4 is sequestered by Nef into a complex with AP2, has remained elusive. Here, we present a high-resolution crystal structure that describes the underlying mechanism. An intricate combination of conformational changes occurs in both Nef and AP2 to enable CD4 binding and downregulation. Strikingly, a pocket on Nef",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "previously identified as crucial for recruiting class I MHC is also responsible for recruiting CD4, revealing a potential approach to inhibit two of Nef's activities and sensitize the virus to immune clearance.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "To pursue the structure, we assembled the protein complex in vitro. We fused the cytoplasmic domain of CD4 (CD4CD) to the C-terminus of Nef via a 36 amino acid-long, flexible linker (Fig. 5 1a). Instead of using the full length CD4 tail (394-433), we included only residues 394 to 419, containing all the CD4 determinants reportedly required for Nef-mediated downregulation 13,19,20 . Since Nef residues within the N-terminal amphipathic helix are dispensable for CD4 downregulation 21 , we truncated 25 amino acids from the Nef N-terminus. We engineered the tetrameric AP2 complex by removing the mobile C-terminal domain of the \u03bc2 subunit (136-423), 10 enabling AP2 to adopt an open conformation in which its cargo binding sites are accessible. Binding between the Nef-CD4CD fusion protein and the modified AP2 construct (AP2 \u0394\u03bc2-CTD ) was confirmed in a GST pulldown assay (Fig. 1b) .",
+            "cite_spans": [
+                {
+                    "start": 182,
+                    "end": 189,
+                    "text": "(Fig. 5",
+                    "ref_id": null
+                },
+                {
+                    "start": 652,
+                    "end": 654,
+                    "text": "10",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 876,
+                    "end": 885,
+                    "text": "(Fig. 1b)",
+                    "ref_id": null
+                }
+            ],
+            "section": ""
+        },
+        {
+            "text": "We then solved the crystal structure of the Nef-CD4CD fusion and AP2 \u0394\u03bc2-CTD complex to a resolution of 3.0\u00c5 (Fig. 1c , Extended Data Table 1 ). All polypeptides are largely resolved except 15 for the flexible linker between Nef and CD4CD, which is disordered as expected, and part of the N-terminal region of \u03b22. As revealed by the structure, Nef functions as a \"connector\" between AP2 and CD4CD; CD4CD binds Nef but none of the subunits of AP2. As previously reported, Nef's C-terminal loop interacts with AP2 in part via mimicry of the acidic dileucine motifs in cellular proteins that are recognized by the \u03b1-\u03c32 subunits (Figure 1d ) 18 . The extensive interface 20 here, involving several charge-charge and hydrophobic interactions, is the foundation of the Nef-AP2 association.",
+            "cite_spans": [
+                {
+                    "start": 190,
+                    "end": 192,
+                    "text": "15",
+                    "ref_id": null
+                },
+                {
+                    "start": 638,
+                    "end": 640,
+                    "text": "18",
+                    "ref_id": null
+                },
+                {
+                    "start": 667,
+                    "end": 669,
+                    "text": "20",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 109,
+                    "end": 117,
+                    "text": "(Fig. 1c",
+                    "ref_id": null
+                },
+                {
+                    "start": 134,
+                    "end": 141,
+                    "text": "Table 1",
+                    "ref_id": null
+                },
+                {
+                    "start": 625,
+                    "end": 635,
+                    "text": "(Figure 1d",
+                    "ref_id": null
+                }
+            ],
+            "section": ""
+        },
+        {
+            "text": "CD4 is recruited to a pocket on Nef that is opposite the C-terminal loop. The association is mainly hydrophobic and involves three CD4 residues: Ile410, Leu413, and Leu414 (Fig. 2a) . The dileucine motif of CD4 -Leu413/414 -is within a short helix. Leu414 and Ile410 dip into a 25 hydrophobic pocket of Nef formed by Phe121, Trp124, Met79, Thr138, and Pro78 (Fig. 2b) . Leu413 of CD4 sits just outside of that pocket and is accommodated by Nef residues Phe121, Leu37, Asn52, and Cys55 (Fig. 2b) . Nef residue Asp123 contributes to CD4 binding by hydrogen-bonding with the backbone nitrogen of CD4 Leu413 and supports the helix-turn of CD4 (Fig. 2b) . These structural findings explain previously observed roles of CD4 residues -the 30 dileucine motif and Ile410 13,20,22 -as well as Nef residues F121, D123, and Trp124 23,24 . To further confirm the structural model, we tested the mutations F121D, D123R, M79D, and T138D for their effects on CD4 surface-downregulation. The Nef mutants F121D and D123R were expressed similarly to the wild type but were unable to downregulate CD4 (Fig. 2ef) . The M79D and T138D Nef mutants were relatively poorly expressed, but dose-response experiments 35 suggested that this was insufficient to explain their functional defects ( Fig. 2ef and Extended Data Fig. 1 ).",
+            "cite_spans": [
+                {
+                    "start": 1189,
+                    "end": 1191,
+                    "text": "35",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 172,
+                    "end": 181,
+                    "text": "(Fig. 2a)",
+                    "ref_id": null
+                },
+                {
+                    "start": 358,
+                    "end": 367,
+                    "text": "(Fig. 2b)",
+                    "ref_id": null
+                },
+                {
+                    "start": 485,
+                    "end": 494,
+                    "text": "(Fig. 2b)",
+                    "ref_id": null
+                },
+                {
+                    "start": 639,
+                    "end": 648,
+                    "text": "(Fig. 2b)",
+                    "ref_id": null
+                },
+                {
+                    "start": 1081,
+                    "end": 1091,
+                    "text": "(Fig. 2ef)",
+                    "ref_id": null
+                },
+                {
+                    "start": 1267,
+                    "end": 1275,
+                    "text": "Fig. 2ef",
+                    "ref_id": null
+                },
+                {
+                    "start": 1294,
+                    "end": 1300,
+                    "text": "Fig. 1",
+                    "ref_id": null
+                }
+            ],
+            "section": ""
+        },
+        {
+            "text": "CD4 recruitment is secured by the Nef N-terminal loop, which is highly ordered in the structure ( Fig. 2c and Extended Data Fig. 2 ). The part of the loop immediately connected to the rigid core of Nef, residues Phe68 to Pro75, wraps around the core. N-terminally, the loop then takes a sharp 40 \"U-turn\", placing a short helix at the interface between the Nef core and the \u03b1 subunit of AP2. Two residues within this helix, Trp57 and Leu58, fit into a hydrophobic pocket formed mainly by Nef residues: Leu112, Pro122, Phe121, and Tyr115 (Fig. 2d) . Lys298 of \u03b1, with its head group stabilized by Nef Asp111 through charge-charge interactions, also contacts Nef Trp57 via its hydrocarbon chain (Fig. 2d ). The Nef acidic cluster (Glu62-65), located in the \"U-turn\" region, does not contribute to CD4-binding, consistent with previous functional observations 16, 25, 26 . The Nef N-terminal loop extends to contact the CD4 tail (Fig. 2c ). This part of Nef, residues Cys55 to Val33, forms a wall-like structure to support CD4-binding. Here, contacts are made by several Nef residues with the short helical turn of CD4 and flanking residues. Overall, this conformation of the Nef N-terminal loop explains the crucial roles of 5 Trp57, Leu58, Leu112, Tyr115, and Pro122 in CD4-downregulation 16,17,21,23,27 (Fig. 2ef) as well as the cooperativity in the three-way binding between CD4CD, Nef and the \u03b1/\u03c32 hemicomplex of AP2 28 . Nef residues 41-46 are disordered with most of their electron density missing (Fig. 2c , dotted line). The density used for modeling Nef 34-40 is significant, but isolated and less welldefined, yielding a degree of uncertainty in the structural assignment for this region (Extended 10 Data Fig. 2) . We challenged the assignment by mutating Leu37 to Asp, as the model predicts that Leu37 directly contacts CD4 Leu413 (Fig. 2b) . This mutation abolished CD4 downregulation (Extended Data Fig. 1) , supporting the structural assignment and the role of Leu37 in CD4 downregulation.",
+            "cite_spans": [
+                {
+                    "start": 293,
+                    "end": 295,
+                    "text": "40",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 857,
+                    "end": 860,
+                    "text": "16,",
+                    "ref_id": null
+                },
+                {
+                    "start": 861,
+                    "end": 864,
+                    "text": "25,",
+                    "ref_id": null
+                },
+                {
+                    "start": 865,
+                    "end": 867,
+                    "text": "26",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 98,
+                    "end": 105,
+                    "text": "Fig. 2c",
+                    "ref_id": null
+                },
+                {
+                    "start": 124,
+                    "end": 130,
+                    "text": "Fig. 2",
+                    "ref_id": null
+                },
+                {
+                    "start": 537,
+                    "end": 546,
+                    "text": "(Fig. 2d)",
+                    "ref_id": null
+                },
+                {
+                    "start": 693,
+                    "end": 701,
+                    "text": "(Fig. 2d",
+                    "ref_id": null
+                },
+                {
+                    "start": 926,
+                    "end": 934,
+                    "text": "(Fig. 2c",
+                    "ref_id": null
+                },
+                {
+                    "start": 1303,
+                    "end": 1313,
+                    "text": "(Fig. 2ef)",
+                    "ref_id": null
+                },
+                {
+                    "start": 1502,
+                    "end": 1510,
+                    "text": "(Fig. 2c",
+                    "ref_id": null
+                },
+                {
+                    "start": 1714,
+                    "end": 1721,
+                    "text": "Fig. 2)",
+                    "ref_id": null
+                },
+                {
+                    "start": 1841,
+                    "end": 1850,
+                    "text": "(Fig. 2b)",
+                    "ref_id": null
+                },
+                {
+                    "start": 1911,
+                    "end": 1918,
+                    "text": "Fig. 1)",
+                    "ref_id": null
+                }
+            ],
+            "section": ""
+        },
+        {
+            "text": "Nef binding causes a large conformational change and severe destabilization in the \u03b22-\u03bc2 half of 15 AP2. Overlaying the \u03b1 and \u03c32 subunits of the \"open\" AP2 structure 29 on the current structure reveals that the \u03b22 and \u03bc2 N-terminal domains (\u03bc2-NTD) of AP2 in the current structure \"move\" out as one rigid body, causing a greater \"opening\" of the tetramer (Fig. 3a) . In addition, a large portion of the \u03b22 N-terminus, residues 1-88 encompassing the first four helices, is displaced from the rest of \u03b22. If \u03b22 had maintained its original fold, then its N-terminus would clash with the 20 Nef core (Extended Data Fig. 3) ; the observed displacement is likely necessary to accommodate Nef-binding. While most of this displaced portion of \u03b22 becomes disordered, the first helix preserves its helical structure and binds to the Nef core through hydrophobic interactions (Fig.  3bc ).",
+            "cite_spans": [
+                {
+                    "start": 584,
+                    "end": 586,
+                    "text": "20",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 355,
+                    "end": 364,
+                    "text": "(Fig. 3a)",
+                    "ref_id": null
+                },
+                {
+                    "start": 611,
+                    "end": 618,
+                    "text": "Fig. 3)",
+                    "ref_id": null
+                },
+                {
+                    "start": 865,
+                    "end": 875,
+                    "text": "(Fig.  3bc",
+                    "ref_id": null
+                }
+            ],
+            "section": ""
+        },
+        {
+            "text": "The Nef-induced destabilization and structural changes of the \u03b22-\u03bc2 half of AP2 were further 25 characterized by chemical cross-linking mass spectrometry (XL-MS) and integrative structure modeling (Extended Data Fig. 4) . Here, disuccinimidyl sulfoxide (DSSO), a MS-cleavable, bifunctional amine-reactive small molecule, was used to cross-link proximal Lys residues or Ntermini of the Nef-CD4CD fusion and AP2 \u0394\u03bc2-CTD complex. Cross-linked proteins separated by SDS-PAGE were trypsin digested and resulting peptides analyzed by specialized LC-MS 3 30 experiments for identification of cross-linked residues (Extended Data Fig. 4a ). Application of this pipeline to the complex identified intra-and inter-linked peptides corresponding to 90 unique cross-linked residues (Extended Data Table 2 , Extended Data Fig. 4b ). Lys residues from the displaced \u03b22 \u039d-terminal domain (1-88) are involved in a total of 24 cross-links (Extended Data Table 2 , bold entries). Importantly, most of these cross-links are made by Lys residues 35 flanking the first helix (i.e. Lys5, 11, 12, 26, and 27), consistent with this helix binding specifically in the complex. In contrast, Lys residues from the other dislocated \u03b22 \u039d-terminal helices (i.e. Lys29, 31, 35, 36, 45, 66, 67, 78) are rarely observed, consistent with a lack of fixed residence within the complex. The XL-MS data, which captures structural information from a conformationally heterogeneous population of protein complexes as they exist in solution, the 40 crystal structure, and other structural information (methods) were used for integrative modeling 30 to produce a model ensemble which describes the complex in full (Extended Data Fig. 4c ). Segments that are disordered in the crystal structure are modeled and represented as helices or flexible strings of beads (Extended Data Fig. 4c ). The model ensemble agrees satisfactorily with the observed cross-links (89% of cross-links are satisfied, Extended Data Fig. 4d ). Furthermore, 45 it indicates large variability in the positions and orientations of the helices in the partially . CC-BY-NC-ND 4.0 International license was not certified by peer review) is the author/funder. It is made available under a The copyright holder for this preprint (which this version posted April 23, 2020. . https://doi.org/10.1101/2020.04.21.054007 doi: bioRxiv preprint unfolded \u03b22 segment (Extended Data Fig. 4e-g) , consistent with the structural heterogeneity of this region indicated by the crystallographic data.",
+            "cite_spans": [
+                {
+                    "start": 1503,
+                    "end": 1505,
+                    "text": "40",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 1988,
+                    "end": 1990,
+                    "text": "45",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 212,
+                    "end": 219,
+                    "text": "Fig. 4)",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 622,
+                    "end": 629,
+                    "text": "Fig. 4a",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 784,
+                    "end": 791,
+                    "text": "Table 2",
+                    "ref_id": null
+                },
+                {
+                    "start": 808,
+                    "end": 815,
+                    "text": "Fig. 4b",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 936,
+                    "end": 943,
+                    "text": "Table 2",
+                    "ref_id": null
+                },
+                {
+                    "start": 1685,
+                    "end": 1692,
+                    "text": "Fig. 4c",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 1833,
+                    "end": 1840,
+                    "text": "Fig. 4c",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 1964,
+                    "end": 1971,
+                    "text": "Fig. 4d",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 2396,
+                    "end": 2406,
+                    "text": "Fig. 4e-g)",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": ""
+        },
+        {
+            "text": "Binding of the first helix of \u03b22 to the Nef core in the current structure closely resembles how the N-terminal amphipathic helix of Nef (deleted from the construct used herein) binds the same location when Nef hijacks AP1 for MHC-I downregulation (Fig. 3d) 31 . That interaction, 5 mediated by Nef Trp13 and Met20, is critical for MHC-I downregulation but is dispensable for CD4 downregulation 21,31,32 . Our current structure indicates that intramolecular association of this Nef helix with the Nef core would force the Nef N-terminal loop to deviate from the conformation associated with CD4-binding (Extended Data Fig. 5 ). We suspect that this is an intricate plot of the virus: Nef binding forces the N-terminal helices of \u03b22 to destabilize and 10 unfold. By providing a binding-site for the first \u03b22 helix on its core, Nef provides partial compensation for this destabilization. Moreover, the N-terminal \u03b22 helix is now used to compete the Nef amphipathic helix off the core, freeing the N-terminal loop of Nef to adopt the conformation shown in Figure 2c for CD4 downregulation. A potential caveat to this hypothesis is that mutations of Nef residues F90, L97, L100, I109, W113, and I114, which line the binding 15 site on the Nef-core for the \u03b22 helix, have minimal effects on the downregulation of CD4 (Fig. 2 , Extended Data Fig. 1 and 6 ). However, since these mutations likely affect the binding of the \u03b22 helix and the Nef N-terminal amphipathic helix similarly, they might have minimal influence on the competition between these two helices for the Nef core in vivo, consistent with their lack of effects on CD4 downregulation. In contrast, and consistent with the model above, mutations of 20 this site affect the downregulation of class I MHC (Extended Data Fig. 7) ; alanine substitution of L100 together with I109 is particularly informative: this mutation yields a well-expressed Nef that cannot downregulate class I MHC yet downregulates CD4.",
+            "cite_spans": [
+                {
+                    "start": 257,
+                    "end": 259,
+                    "text": "31",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 247,
+                    "end": 256,
+                    "text": "(Fig. 3d)",
+                    "ref_id": null
+                },
+                {
+                    "start": 617,
+                    "end": 623,
+                    "text": "Fig. 5",
+                    "ref_id": null
+                },
+                {
+                    "start": 1052,
+                    "end": 1061,
+                    "text": "Figure 2c",
+                    "ref_id": null
+                },
+                {
+                    "start": 1311,
+                    "end": 1318,
+                    "text": "(Fig. 2",
+                    "ref_id": null
+                },
+                {
+                    "start": 1335,
+                    "end": 1347,
+                    "text": "Fig. 1 and 6",
+                    "ref_id": null
+                },
+                {
+                    "start": 1774,
+                    "end": 1781,
+                    "text": "Fig. 7)",
+                    "ref_id": null
+                }
+            ],
+            "section": ""
+        },
+        {
+            "text": "Comparing the current structure with our earlier structure of Nef in complex with the \u03bc1-CTD and the MHC-I cytoplasmic domain reveals versatility and specificity in how the structurally 25 homologous AP1 and AP2 are selectively co-opted to downregulate MHC-I and CD4 (Fig. 4a) . For MHC-I downregulation, Nef interacts solely with the \u03bc1 subunit and exploits the conserved Tyr-based motif-binding site on AP1 31 . For CD4 downregulation, Nef exploits the acidic dileucine-binding site on the a and \u03c32 subunits of AP2 and contacts all subunits except \u03bc2. Our models show that by allowing the N-terminal Nef helix and the N-terminal \u03b22 helix to bind the 30 same pocket on the core, Nef creates a \"molecular switch\" that links its use of different AP complexes with the modulation of different targets: binding to AP2 frees the N-terminus of Nef from the core to recruit CD4, whereas binding to AP1 leaves the core free to bind the N-terminus of Nef and thereby facilitates the recruitment of MHC-I.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 267,
+                    "end": 276,
+                    "text": "(Fig. 4a)",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": ""
+        },
+        {
+            "text": "Despite these distinct modes of binding, the cytoplasmic domains of MHC-I and CD4 share 35 much of the same binding \"pocket\" on Nef (Fig. 4b) . Small molecules that bind this conserved site (Extended Data Fig. 8 ) might block both MHC-I and CD4 surface downregulation, potentially revitalizing immune mechanisms to combat and even clear HIV-1. . CC-BY-NC-ND 4.0 International license was not certified by peer review) is the author/funder. It is made available under a The copyright holder for this preprint (which this version posted April 23, 2020. . https://doi.org/10.1101/2020.04.21.054007 doi: bioRxiv preprint Fig. 1 . In vitro assembly and crystal structure of the Nef, CD4 cytoplasmic domain, and clathrin AP2 complex. a, Cartoon illustrating the design of the Nef-CD4CD fusion protein. b, In vitro GST pulldown assay confirming the binding between the MBP-Nef-CD4CD fusion protein and the AP2 \u0394\u03bc2-CTD complex. c, Crystal structure of the complete protein complex in two views: 5 along the membrane plane (left) and downward from the membrane (right). d, Nef associates with AP2 mainly through its C-terminal loop (148-180). The rest of Nef is not shown for an unblocked view.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 132,
+                    "end": 141,
+                    "text": "(Fig. 4b)",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 205,
+                    "end": 211,
+                    "text": "Fig. 8",
+                    "ref_id": null
+                },
+                {
+                    "start": 617,
+                    "end": 623,
+                    "text": "Fig. 1",
+                    "ref_id": null
+                }
+            ],
+            "section": ""
+        },
+        {
+            "text": ". CC-BY-NC-ND 4.0 International license was not certified by peer review) is the author/funder. It is made available under a The copyright holder for this preprint (which this version posted April 23, 2020. . https://doi.org/10.1101/2020.04.21.054007 doi: bioRxiv preprint Fig. 2 . Recruitment of CD4 cytoplasmic domain and the role of Nef N-terminal loop. a, a short stretch of the CD4CD binds to a pocket on Nef. Electron density of the CD4CD (blue mesh, 2Fo-Fc map at 1.0\u03c3 with B factor sharpening of -50\u00c5 2 ) is shown. b, Hydrophobic interactions mediated by CD4 I410, L413, and L414. c, Nef N-terminal loop (dark blue) adopts a unique 5 conformation in the complex. Part of the loop forms a wall of the CD4-binding pocket. Dotted line represents Nef 41-46 that are disordered in the structure. d, Nef residues W57 and L58 mediate the docking of the short helix into the hydrophobic pocket formed at the Nef-\u03b1 interface. e, CD4 downregulation by Nef mutants was measured using surface-staining and flow cytometry; GFP is a transfection marker. f, Expression of Nef mutants in the transfected cells 10 used in the CD4 downregulation assay measured by western blot; the cellular control is \u03b2-actin.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 273,
+                    "end": 279,
+                    "text": "Fig. 2",
+                    "ref_id": null
+                }
+            ],
+            "section": "10"
+        },
+        {
+            "text": ". CC-BY-NC-ND 4.0 International license was not certified by peer review) is the author/funder. It is made available under a The copyright holder for this preprint (which this version posted April 23, 2020. . https://doi.org/10.1101/2020.04.21.054007 doi: bioRxiv preprint Fig. 3 . Nef binding induces conformational change in the \u03b22 subunit of AP2. a, Current structure is overlaid, on the \u03b1-\u03c32 half, with the open AP2 (PDB ID: 2XA7). \u03b22 (green) and \u03bc2 (pink) subunits in the current structure move outward in comparison to \u03b22 (light blue) and \u03bc2 (blue) subunits of the unbound AP2. b, The first helix of \u03b22 binds to the Nef core, while the next 5 three helices become disordered. c, Density for the first helix of \u03b22 (pink mesh, 2Fo-Fc map at 1.0\u03c3 with B factor sharpening of -50\u00c5 2 ) is shown. Residues important for association with Nef core are labeled. d, Overlay of Nef in the current structure and that when in complex with MHC-I cytoplasmic domain and \u03bc1-CTD of AP1 (PDB ID: 4EMZ) shows that the Nef N-terminal helix (gray) and the first helix of \u03b22 (green, current structure) occupy the same site on the Nef 10 core. Trp13 and Met20 residues in the Nef N-terminal helix and important for the intramolecular helix-core association are shown. 16\u00b0C overnight. Cells were lysed using sonication. Expressed protein was first purified using the MBP affinity column. For GST pull-down experiments, the MBP-tagged protein was further purified by a HiTrap Q anion exchange column, followed by a final Superdex 200 size exclusion column. For crystallization, the MBP fusion tag was cleaved off by the SARS-CoV M pro protease 33,34 after the affinity purification. The tagless protein was similarly purified using 20 HiTrap Q anioin exchange column and the Superdex 200 size exclusion column.",
+            "cite_spans": [
+                {
+                    "start": 1713,
+                    "end": 1715,
+                    "text": "20",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 273,
+                    "end": 279,
+                    "text": "Fig. 3",
+                    "ref_id": null
+                }
+            ],
+            "section": "10"
+        },
+        {
+            "text": "For AP2 \u0394\u03bc2-CTD , genes for each of the four subunits were cloned into two duet vectors: a pETDuet vector with human \u03b22(1-591) and human \u03bc2(1-135) at each of the multiple cloning sites, respectively; a pCDFDuet vector with rat \u03b1(1-621) carrying a C-terminal GST tag and human \u03c32(1-142). The heterotetrameric AP2 \u0394\u03bc2-CTD core was expressed overnight at 22\u00b0C in the 25 NiCo21(DE3) cells in Terrific broth after induction with IPTG. For binding assays, the GSTtagged the AP2 \u0394\u03bc2-CTD complex was purified by a sequence of Ni-NTA gravity column, GST affinity column, and Superdex 200 size exclusion column. For crystallization, the GST tag was cleaved off by the Tev protease after the GST affinity purification, followed by a final purification using the Superdex 200 size exclusion column.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "10"
+        },
+        {
+            "text": "In vitro GST pulldown assay. Purified proteins AP2 \u0394\u03bc2-CTD -GST (0.2 mg) and MBP-Nef-CD4CD (0.4 mg) were mixed in a final volume of 100 ul and incubated at 4\u00b0C for 30 minutes. The protein solution was then loaded onto a small gravity flow column containing 0.2 ml GST resin. Flow through was collected and the resin was extensively washed with 5 x 0.9 ml GST binding 35 buffer (50 mM Tris, pH 8, 100 mM NaCl, 0.1 mM TCEP). The bound proteins were then eluted with 5 x 0.1 ml GST elution buffer containing 10 mM reduced glutathione. The eluted proteins were analyzed by SDS-PAGE.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "30"
+        },
+        {
+            "text": "Crystallization and crystallographic data collection. Crystallization was carried out using the 40 microbatch under-oil method. The purified AP2 \u0394\u03bc2-CTD core and the Nef-CD4CD fusion chimera were mixed at 1:5 molar ratio to a final concentration of 2.5 mg/ml (25 mM Tris, pH 8.0, 100 mM NaCl, 0.1 mM TCEP, 0.1 mM PMSF). Equal volumes of the protein solution and the precipitant solution (100 mM HEPES, pH 6.9, 200 mM KCl, 15% PEG4000, 6% 1,6-hexanediol) were mixed. The drop was sealed using a mixture of paraffin and silicon oil at a 2:1 ratio. 45 Crystals appeared within 24 h at room temperature and grew to full size in about a week.",
+            "cite_spans": [
+                {
+                    "start": 96,
+                    "end": 98,
+                    "text": "40",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 546,
+                    "end": 548,
+                    "text": "45",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "30"
+        },
+        {
+            "text": ". CC-BY-NC-ND 4.0 International license was not certified by peer review) is the author/funder. It is made available under a The copyright holder for this preprint (which this version posted April 23, 2020. . https://doi.org/10.1101/2020.04.21.054007 doi: bioRxiv preprint Crystals were cryo-protected using the precipitant solution containing 20% glycerol and then frozen in liquid nitrogen. Datasets were collected at NE-CAT (24-ID) at the Advanced Photon Source, Argonne National Laboratory, and FMX/AMX (17-ID) at the National Synchrotron Light Source II, Brookhaven National Laboratory. Diffraction data was processed using HKL2000 35 . The crystals were in the P41 space group and diffracted to a highest resolution 5 of 3.0 \u00c5. The statistics are summarized in Table S1 .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 767,
+                    "end": 775,
+                    "text": "Table S1",
+                    "ref_id": null
+                }
+            ],
+            "section": "30"
+        },
+        {
+            "text": "Structure determination and refinement. The structural solution was obtained by molecular replacement using PHASER 36 in PHENIX 37 . Only one molecule exists in the asymmetric unit. The PDB of the open AP2 core (2XA7) was divided into two search models: the \u03b1 and \u03c32 10 hemicomplex and the \u03b22 and \u03bc2-NTD hemicomplex. Together with the Nef structure (4EMZ), the three models were used sequentially to successfully obtain the solution. Iterative rounds of model building in COOT 38 and refinement in Phenix 39 were carried out. The final model has an Rwork/Rfree of 0.241/0.277. A Ramachandran plot showed that 96.4% of the residues are in the favored region, together with 3.5% in the allowed region and 0.1% as outliers. The refinement 15 statistics are summarized in Extended Data Table 1 .",
+            "cite_spans": [
+                {
+                    "start": 128,
+                    "end": 130,
+                    "text": "37",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 477,
+                    "end": 479,
+                    "text": "38",
+                    "ref_id": "BIBREF3"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 782,
+                    "end": 789,
+                    "text": "Table 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "30"
+        },
+        {
+            "text": "Kappes via the NIH AIDS Reagent Program) were transfected using Lipofectamine2000 (Thermo Fisher Scientific) with pCG-GFP (a gift from Dr. Jacek Skowronski) and pCI-NL, a 20 pCI-neo-based plasmid (Promega) expressing NefNL4-3 or the indicated Nef-mutants. Unless otherwise indicated, 1.6 \u00b5g of total plasmid DNA was used in each transfection, 0.4 \u00b5g of pCG-GFP and 1.2 \u00b5g of pCI-NL or derivative-mutants. In some experiments, the amount of pCI-NL plasmid encoding wild type Nef was reduced in a dose-response format to allow comparison with relatively poorly expressed Nef-mutants; in those cases, the total amount of plasmid DNA 25 was equalized with the empty vector pCI-neo. One day later, half the cells were stained for surface CD4 (anti-human CD4, Biolegend, conjugated directly to APC), fixed in formaldehyde, then analyzed by two-color flow cytometry using an Accuri 6 cytometer. \"Live cell\" gates were set using untransfected cells; gates for GFP were set using cells transfected only with pCI-neo; and gates for CD4 were set using cells stained with an APC-conjugated antibody isotype control. 30 The other half of the cells were lysed in Laemmli buffer, and the proteins were resolved on 10% denaturing SDS-PAGE gels before transfer to polyvinylidene difluoride membranes. Nef was detected using a polyclonal antiserum raised to NL4-3 Nef in sheep (a gift from Dr. Celsa Spina, University of California San Diego). \u03b2-actin was detected using a murine monoclonal antibody (Sigma-Aldrich). Species-specific secondary antibodies conjugated to HRP were visualized 35 using Western Clarity detection reagent (Bio-Rad). Chemiluminescence was recorded using a ChemiDoc Imager System (Bio-Rad).",
+            "cite_spans": [
+                {
+                    "start": 171,
+                    "end": 173,
+                    "text": "20",
+                    "ref_id": null
+                },
+                {
+                    "start": 1104,
+                    "end": 1106,
+                    "text": "30",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "CD4 downregulation assays. HeLa cells expressing CD4 (TZM-bl, obtained from Dr. John"
+        },
+        {
+            "text": "Class I MHC downregulation assays. HEK293 cells, which naturally express HLA-A2, were transfected using Lipofectamine2000 with pCG-GFP (0.4 \u00b5g) and pCI-NL, the indicated Nef- 40 mutants, or the empty vector pCIneo (1.2 \u00b5g). One day later, half the cells were stained for surface HLA-A2 (Biolegend, anti-HLA-A2 conjugated directly to APC), fixed in formaldehyde, then analyzed by two-color flow cytometry using an Accuri 6 cytometer. \"Live cell\" gates were set using untransfected cells; gates for GFP were set using cells transfected only with pCI-neo; and gates for HLAA2 were set using cells stained with an APC-conjugated antibody isotype 45 control. The other half of the cells were processed for western blot as above.",
+            "cite_spans": [
+                {
+                    "start": 175,
+                    "end": 177,
+                    "text": "40",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 642,
+                    "end": 644,
+                    "text": "45",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "CD4 downregulation assays. HeLa cells expressing CD4 (TZM-bl, obtained from Dr. John"
+        },
+        {
+            "text": ". CC-BY-NC-ND 4.0 International license was not certified by peer review) is the author/funder. It is made available under a The copyright holder for this preprint (which this version posted April 23, 2020. . https://doi.org/10.1101/2020.04.21.054007 doi: bioRxiv preprint",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "CD4 downregulation assays. HeLa cells expressing CD4 (TZM-bl, obtained from Dr. John"
+        },
+        {
+            "text": "Nef-CD4CD-AP2 \u0394\u03bc2-CTD complex (2.8mg/mL and 0.7mg/mL at 1:5 Nef-CD4CD molar excess) were cross-linked using increasing molar ratios of DSSO (Thermo Fisher Scientific), for 5, 10, or 30 minutes at 4 or 37\u1d52C. Cross-linked proteins were separated on 4-20% TGX gradient SDS-5 PAGE gels (Bio-Rad), stained with MS-safe AcquaStain (Bulldog Bio), and cross-linked product bands excised and submitted for in gel reduction, alkylation, and trypsin digestion. Extracted peptides were separated online by Thermo Easy nLC 1000 by reverse-phase HPLC (75 \u03bcm \u00d7 30 cm fused silica packed with 1.9-\u03bcm Reprosil-Pur C18 AQ resin (Dr. Maisch-GmbH) column), running a linear gradient of 5-30% B in 50min, 35-95% B in 5 min, and 95% B for 4 min at a 10 flow rate of 300 nL/min (buffer A: 100% H2O/0.1% FA; buffer B: 100% CAN/0.1% FA). For each sample, XL-MS 3 data was acquired on Thermo Orbitrap Elite using two similar data dependent acquisition experiments 40 where a single acquisition cycle consisted of: 1) one full MS 1 scan (350-1500 m/z, 120,0000 resolution, AGC target of 1\u00d710 6 ); 2) top two data-dependent MS 2 scans (15,000 resolution, AGC target of 5\u00d710 4 , normalized collision energy = 22%); and 3) 15 top three (or four) MS 3 scans (ion count target 10 4 , normalized collision energy = 35%). Precursor ions (charge state >4+) were dynamically excluded for 20 seconds (tolerance of 10 ppm). Charge state and dynamic exclusion were applied to MS 2 but turned off for MS 3 acquisition.",
+            "cite_spans": [
+                {
+                    "start": 938,
+                    "end": 940,
+                    "text": "40",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 1193,
+                    "end": 1195,
+                    "text": "15",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "DSSO-based cross-linking mass spectrometry analysis (XL-MS). Individual preparations of"
+        },
+        {
+            "text": "Raw data was extracted to MGF format using MSConvert 41 , with MS 3 data used for protein 20 and peptide searches. Searches were performed by batch-tag feature of a locally installed version of Protein Prospector (v. 5. 19. 1, University of California San Francisco), with DSSO remnant mass modifications set as variable modifications (e.g. Alkene, Sulfenic-acid, and Thiol) 40 . Peptide reports were generated using the Search Compare feature of Protein Prospector, and dead-end, intra-linked, and inter-linked peptides identified by in house software program XL-25 Discoverer (part of new XLTools suite) 42 . Summarization and confidence assignment of interlinked peptides was performed by in house scripts that reduce ambiguous assignments and distribute redundant counts.",
+            "cite_spans": [
+                {
+                    "start": 90,
+                    "end": 92,
+                    "text": "20",
+                    "ref_id": null
+                },
+                {
+                    "start": 375,
+                    "end": 377,
+                    "text": "40",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 606,
+                    "end": 608,
+                    "text": "42",
+                    "ref_id": "BIBREF7"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DSSO-based cross-linking mass spectrometry analysis (XL-MS). Individual preparations of"
+        },
+        {
+            "text": "Integrative structure modeling of the Nef-CD4CD-AP2 \u0394\u03bc2-CTD complex. We applied an 30 integrative structural modeling approach 30,43-45 to characterize the structure of the Nef-CD4CD-AP2 \u0394\u03bc2-CTD complex in solution, based on the crystal structure and the 90 DSSO cross-links. Integrative structure determination proceeded through the standard four stages 43, 44, [46] [47] [48] [49] : 1) gathering data, 2) representing subunits and translating data into spatial restraints, 3) configurational sampling to produce an ensemble of structures that satisfies the restraints, and 4) 35 analyzing and validating the ensemble structures and data. The integrative structure modeling protocol (ie, stages 2, 3, and 4) was scripted using the (1) Gathering data: Modeling was based on the crystal structure, a comparative model of the \u03b22 subunit 24-89 region built based on the AP2 structure 29 using MODELLER 50,51 and the 90 DSSO cross-links.",
+            "cite_spans": [
+                {
+                    "start": 355,
+                    "end": 358,
+                    "text": "43,",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 359,
+                    "end": 362,
+                    "text": "44,",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 363,
+                    "end": 367,
+                    "text": "[46]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 368,
+                    "end": 372,
+                    "text": "[47]",
+                    "ref_id": null
+                },
+                {
+                    "start": 373,
+                    "end": 377,
+                    "text": "[48]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 378,
+                    "end": 382,
+                    "text": "[49]",
+                    "ref_id": null
+                },
+                {
+                    "start": 578,
+                    "end": 580,
+                    "text": "35",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "DSSO-based cross-linking mass spectrometry analysis (XL-MS). Individual preparations of"
+        },
+        {
+            "text": "(2) Representing subunits and translating data into spatial restraints: To maximize computational 45 efficiency while avoiding using too coarse a representation, we represented the Nef-CD4CD-. CC-BY-NC-ND 4.0 International license was not certified by peer review) is the author/funder. It is made available under a The copyright holder for this preprint (which this version posted April 23, 2020. . https://doi.org/10.1101/2020.04.21.054007 doi: bioRxiv preprint AP2 \u0394\u03bc2-CTD complex using a coarse-grained one residue per bead representation. The regions absent from the crystallographic structure and the comparative model were represented by a flexible string of beads corresponding to one residue each. To explore the positions and orientations of the Nef-CD4CD-AP2 \u0394\u03bc2-CTD components, we defined the following rigid bodies: \u03b1-\u03c32, \u03b22(89-591)-\u03bc2, Nef-CD4CD-\u03b22(15-23), and the 4 helices in the partially unfolded \u03b22 segment 5 (29-43, 49-61, 64-78, and 81-86) . With this representation in hand, we next translated the input information into spatial restraints as follows.",
+            "cite_spans": [
+                {
+                    "start": 98,
+                    "end": 100,
+                    "text": "45",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 928,
+                    "end": 960,
+                    "text": "(29-43, 49-61, 64-78, and 81-86)",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "DSSO-based cross-linking mass spectrometry analysis (XL-MS). Individual preparations of"
+        },
+        {
+            "text": "First, the 90 DSSO cross-links were used to construct a Bayesian term that restrained the distances spanned by the cross-linked residues 52, 53 . The cross-link restraints were applied to the one residue-per-bead representation for the X-ray structure, comparative models, and flexible 10 strings of beads. Second, to use the crystal structure of the hexamer as a template, we imposed \"structural equivalence\" distance restraints between pairs of residues closer than 8.0 \u00c5 across an interface between two rigid bodies, designed to restrain the model to resemble the template as much as possible. Third, excluded volume restraints were applied to all pairs of beads 46, 54 . Fourth, we also applied the sequence connectivity restraint, using a harmonic upper bound on the 15 distance between two consecutive beads in a subunit, with a threshold distance equal to four times the sum of the radii of the two connected beads 46, 54 .",
+            "cite_spans": [
+                {
+                    "start": 137,
+                    "end": 140,
+                    "text": "52,",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 141,
+                    "end": 143,
+                    "text": "53",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 666,
+                    "end": 669,
+                    "text": "46,",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 670,
+                    "end": 672,
+                    "text": "54",
+                    "ref_id": null
+                },
+                {
+                    "start": 922,
+                    "end": 925,
+                    "text": "46,",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 926,
+                    "end": 928,
+                    "text": "54",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "DSSO-based cross-linking mass spectrometry analysis (XL-MS). Individual preparations of"
+        },
+        {
+            "text": "(3) Configurational sampling to produce an ensemble of structures that satisfies the restraints: The initial positions and orientations of rigid bodies and positions of the beads in the flexible strings of beads were randomized. The structural models were generated using Replica Exchange Gibbs 20 sampling, based on the Metropolis Monte Carlo (MC) algorithm 53, 55 . Each MC step consisted of a series of random transformations (ie, rotations and translations) of the positions of the beads and rigid bodies. The sampling produced 4,000,000 models from 80 independent runs. (4) Analyzing and validating the ensemble structures and data: Model validation follows four major steps 30,56 : 25 (i) Selection of the models for validation: The ensemble of models for further analysis was objectively defined as follows. For each trajectory, the MC step at which all data likelihoods and priors are equilibrated (run equilibration step) was computed and all prior frames were discarded 57 . Sampling of the Nef-CD4CD-AP2 \u0394\u03bc2-CTD complex yielded 2,007,800 representative structures that sufficiently satisfied the input restraints. 30 (ii) Estimation of sampling precision: The precision at which sampling sampled the selected structures (sampling precision) was estimated 56 . The sampling precision must be comparable or higher than the precision of the structure ensemble consistent with the input data (model precision). As a proxy for testing the thoroughness of sampling, we performed four sampling convergence tests as described 56 . We performed three sampling convergence tests: 1) verify that the scores of 35 refined structures do not continue to improve as more structures are computed. 2) Confirm that the selected structures in independent sets of sampling runs (Sample A and Sample B) satisfy the data equally well. The non-parametric Kolmogorov-Smirnov two-sample test (two sided) indicates that the difference between the two score distributions is insignificant (p-value (0.08)>0.05). In addition, the magnitude of the difference is small, as demonstrated by the Kolmogorov-Smirnov 40 two-sample test statistic (D=0.02). 3) Cluster the structural models and determine the sampling precision at which the structural features can be interpreted. Three criteria were used for determining the sampling precision, evaluated as a function of the RMSD clustering threshold. First, the p-value is computed using the \u03c72-test (one-sided) for homogeneity of proportions. Second, an effect size for the \u03c72-test is quantified by the Cramer's V value. Third, the population 45 of structures in sufficiently large clusters (containing at least ten structures from each sample).",
+            "cite_spans": [
+                {
+                    "start": 295,
+                    "end": 297,
+                    "text": "20",
+                    "ref_id": null
+                },
+                {
+                    "start": 359,
+                    "end": 362,
+                    "text": "53,",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 363,
+                    "end": 365,
+                    "text": "55",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 980,
+                    "end": 982,
+                    "text": "57",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 1125,
+                    "end": 1127,
+                    "text": "30",
+                    "ref_id": null
+                },
+                {
+                    "start": 1266,
+                    "end": 1268,
+                    "text": "56",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 1529,
+                    "end": 1531,
+                    "text": "56",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 2093,
+                    "end": 2095,
+                    "text": "40",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 2571,
+                    "end": 2573,
+                    "text": "45",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "DSSO-based cross-linking mass spectrometry analysis (XL-MS). Individual preparations of"
+        },
+        {
+            "text": ". CC-BY-NC-ND 4.0 International license was not certified by peer review) is the author/funder. It is made available under a The copyright holder for this preprint (which this version posted April 23, 2020. . https://doi.org/10.1101/2020.04.21.054007 doi: bioRxiv preprint",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DSSO-based cross-linking mass spectrometry analysis (XL-MS). Individual preparations of"
+        },
+        {
+            "text": "Clustering is done at the RMSD threshold at which three conditions are satisfied (\u03c72-test p-value (1.0) > 0.05, Cramer's V (0.0) < 0.10, and the population of clustered structures (0.96) > 0.80). The output of this protocol is a single distinct cluster containing the majority (96%) of the individual models. The sampling precision is defined as the average bead RMSD between the models within the cluster and its corresponding centroid in the finest clustering for which each 5 sample contributes models proportionally to its size (considering both significance and magnitude of the difference) and for which a sufficient proportion of all models occur in sufficiently large clusters. The sampling precision for our integrative model is 13.5\u00c5. (iii) Estimation of model precision: The most explicit description of model uncertainty is provided by the set of all models that are sufficiently consistent with the input information (i.e. the 10 ensemble). For example, if the models in the ensemble are clustered into a single cluster as in the case of the Nef-CD4CD-AP2 \u0394\u03bc2-CTD ensemble, the model precision is defined as the RMSD between models in the cluster. The precision for the Nef-CD4CD-AP2 \u0394\u03bc2-CTD model is 8.3 \u00c5.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DSSO-based cross-linking mass spectrometry analysis (XL-MS). Individual preparations of"
+        },
+        {
+            "text": "(iv) Quantification of the degree to which a model satisfies the information used to compute it: An accurate structure needs to satisfy the input information used to compute it. A DSSO cross-link 15 restraint is satisfied by a cluster of models if the corresponding C\u03b1-C\u03b1 distance in any of the models is less than 30 \u00c5 58 . The ensemble satisfies 89% of the XLs used to compute it, including all of the Nef XLs (Extended Data Fig. 4) . The unsatisfied crosslinks mostly span residues between CD4CD and the NTD's of the \u03b1 and \u03b22 subunits (Extended Data Table 2 ). These violations can be rationalized as non-specific interactions between CD4CD and the AP2 complex when CD4CD is not 20 bound to Nef in solution, false-positive crosslinks, sample heterogeneity, insufficient conformational sampling, and coarse-grained representation of the modeled components. The remaining restraints, including structural equivalence, excluded volume, and sequence connectivity restraints, are also satisfied within their uncertainties.",
+            "cite_spans": [
+                {
+                    "start": 682,
+                    "end": 684,
+                    "text": "20",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 427,
+                    "end": 434,
+                    "text": "Fig. 4)",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 553,
+                    "end": 560,
+                    "text": "Table 2",
+                    "ref_id": null
+                }
+            ],
+            "section": "DSSO-based cross-linking mass spectrometry analysis (XL-MS). Individual preparations of"
+        },
+        {
+            "text": "To compare the X-ray structure to the ensemble obtained using integrative modeling, we 25 computed the distribution of the C\u03b1 root-mean-square deviation (RMSD) between the X-ray structure and each of the models in the ensemble. The mean C\u03b1 RMSD is 7.1 \u00c5 (4.3-12.2 95% CI).",
+            "cite_spans": [
+                {
+                    "start": 87,
+                    "end": 89,
+                    "text": "25",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "DSSO-based cross-linking mass spectrometry analysis (XL-MS). Individual preparations of"
+        },
+        {
+            "text": "To indicate the most flexible parts of the structure, we assessed the uncertainty of the position and orientation of each rigid body representing the hexamer in the model ensemble. To 30 this end, all models were superimposed on each rigid body in turn, followed by computing the average RMSD for each of the other rigid bodies (Extended Data Fig. 4e) . The model ensemble indicates large variability in the positions and orientations of the 4 helices in the partially unfolded \u03b22 segment (Extended Data Fig. 4eg) , consistent with the structural heterogeneity of this region indicated by the relative lack of electron density from crystallography.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 343,
+                    "end": 351,
+                    "text": "Fig. 4e)",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 504,
+                    "end": 513,
+                    "text": "Fig. 4eg)",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "DSSO-based cross-linking mass spectrometry analysis (XL-MS). Individual preparations of"
+        },
+        {
+            "text": "The coordinates and structural factors for the crystal structure have been deposited at the Protein Data Bank (PDB) with the accession code 6URI. Fig. 1. CD4 downregulation by the relatively poorly expressed Nef-mutants including a dose-response series for the expression of the wild type. HeLa cells that stably express CD4 were transfected to express GFP (a transfection marker) and Nef or the indicated Nef-mutants. Top: two color flow cytometry. Bottom: immunoblot for Nef and Actin. Numbers 5 indicate the amount of Nef-expression plasmid in micrograms. Wild type (WT) Nef was expressed in a series of decreasing plasmid amounts to allow comparisons to the relatively poorly expressed Nef-mutants. The L37D and M79D substitutions are predicted by the structure to impair interaction with CD4, whereas the L76D substitution is not. The functional defects of the mutants L37D and M79D do not seem solely attributable to impaired expression, supporting 10 the modeling of these residues as interacting with the cytoplasmic domain of CD4. L97A and R105/6D are mutants of the N-terminal-\u03b2-helix binding-site.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 146,
+                    "end": 157,
+                    "text": "Fig. 1. CD4",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "Data availability"
+        },
+        {
+            "text": ". CC-BY-NC-ND 4.0 International license was not certified by peer review) is the author/funder. It is made available under a The copyright holder for this preprint (which this version posted April 23, 2020. . https://doi.org/10.1101/2020.04.21.054007 doi: bioRxiv preprint Extended Data Fig. 2 . Electron density map for the N-terminal loop of Nef. 2Fo-Fc map (1\u03c3 level with B factor sharpened by -50\u00c5 2 ) for Nef residues 34-40 and 47-75 is shown as black mesh. Nef residues 41-46 could not be built due to the lack of density. Density for Nef 34-40 is less defined, although sidechain density for Leu37 is clear.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 287,
+                    "end": 293,
+                    "text": "Fig. 2",
+                    "ref_id": null
+                }
+            ],
+            "section": "15"
+        },
+        {
+            "text": ". CC-BY-NC-ND 4.0 International license was not certified by peer review) is the author/funder. It is made available under a The copyright holder for this preprint (which this version posted April 23, 2020. . https://doi.org/10.1101/2020.04.21.054007 doi: bioRxiv preprint Extended Data Fig. 3. \u03b22 subunit, if intact, would clash with the bound Nef. Overlay of the intact \u03b22 subunit (dark red, 2XA7) with \u03b22 in the current structure (green) indicates that clashing would take place between Nef and N-terminus of the intact \u03b22, specifically residues Asn10, 5 Lys11, Lys12, and Gly13 (spheres).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 287,
+                    "end": 297,
+                    "text": "Fig. 3. \u03b22",
+                    "ref_id": null
+                }
+            ],
+            "section": "5"
+        },
+        {
+            "text": ". CC-BY-NC-ND 4.0 International license was not certified by peer review) is the author/funder. It is made available under a The copyright holder for this preprint (which this version posted April 23, 2020. . https://doi.org/10.1101/2020.04.21.054007 doi: bioRxiv preprint Extended Data Fig. 4 . Crosslinking mass spectrometry and integrative structure modeling of the Nef-CD4CD-AP2 \u0394\u03bc2-CTD complex. a, Overview of the DSSO XL-MS 3 analysis method. b, CX-Circos linkage map of all Nef-CD4CD-AP2 \u0394\u03bc2-CTD interlinks. c, Integrative structure of the Nef-CD4CD-AP2 \u0394\u03bc2-CTD complex. The localization probability density of the ensemble of 5 structures is shown with representative (centroid) structure from the ensemble embedded within it. Regions present in the crystal structure are shown as ribbons and segments not present in the crystal structure are shown as beads. d, Histogram showing the distribution of the cross-linked C\u03b1-C\u03b1 distances in the integrative structure. The structural ensemble satisfies 89% of the XLs used to compute it. e, RMSD between rigid-bodies in the model ensemble. The vertical axis 10 corresponds to the rigid body used as reference for superimposition and the horizontal axis are the rigid bodies for which the average RMSD was computed. f, Detail of crosslinks mapped to Nef. Satisfied and violated crosslinks shown in green and pink, respectively. g, Positioning of the unfolded \u03b22 segment.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 287,
+                    "end": 293,
+                    "text": "Fig. 4",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "5"
+        },
+        {
+            "text": ". CC-BY-NC-ND 4.0 International license was not certified by peer review) is the author/funder. It is made available under a The copyright holder for this preprint (which this version posted April 23, 2020. . https://doi.org/10.1101/2020.04.21.054007 doi: bioRxiv preprint Extended Data Fig. 5 . Binding of Nef N-terminal helix to the Nef core is incompatible with CD4 downregulation. N-terminal helix of Nef (8-23) is modeled into the current structure. Red dotted line represents the would-be distance between residues 23 and 34, which cannot be 5 covered by ten residues (Nef 24-33).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 287,
+                    "end": 293,
+                    "text": "Fig. 5",
+                    "ref_id": null
+                }
+            ],
+            "section": "5"
+        },
+        {
+            "text": ". CC-BY-NC-ND 4.0 International license was not certified by peer review) is the author/funder. It is made available under a The copyright holder for this preprint (which this version posted April 23, 2020. . https://doi.org/10.1101/2020.04.21.054007 doi: bioRxiv preprint Extended Data Fig. 6 . Mutations lining the helix-binding site on Nef minimally affect CD4 downregulation. HeLa cells that stably express CD4 were transfected to express GFP (a transfection marker) and Nef or the indicated Nef-mutants. Top: two color flow cytometry. Bottom: immunoblot for Nef and Actin. All the Nef-mutants of the N-terminal \u03b2-helix binding 5 site (L100A-I109A, F90A, Q104R-W113A, and I114A) were well-expressed and were minimally if at all impaired for CD4-downregulation.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 287,
+                    "end": 293,
+                    "text": "Fig. 6",
+                    "ref_id": null
+                }
+            ],
+            "section": "5"
+        },
+        {
+            "text": ". CC-BY-NC-ND 4.0 International license was not certified by peer review) is the author/funder. It is made available under a The copyright holder for this preprint (which this version posted April 23, 2020. . https://doi.org/10.1101/2020.04.21.054007 doi: bioRxiv preprint Extended Data Fig. 7 . Mutations lining the helix-binding site on Nef affect class I MHC downregulation. HEK293 cells, which are naturally HLA-A2 positive, were transfected to express GFP (a transfection marker) and Nef or the indicated Nef-mutants. Top: two color flow cytometry. Bottom: immunoblot for Nef and Actin. The Nef-mutants of the N-terminal \u03b2-helix 5 binding site with the exception of F90A were unable to downregulate class I MHC. Most of the mutants were poorly expressed, but L100A-I109A and L100A-I109A-W113A were well expressed yet functionally defective. M20A is a well-described mutant that is unable to downregulate class I MHC.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 287,
+                    "end": 293,
+                    "text": "Fig. 7",
+                    "ref_id": null
+                }
+            ],
+            "section": "10"
+        },
+        {
+            "text": ". CC-BY-NC-ND 4.0 International license was not certified by peer review) is the author/funder. It is made available under a The copyright holder for this preprint (which this version posted April 23, 2020. . https://doi.org/10.1101/2020.04.21.054007 doi: bioRxiv preprint Extended Data Fig. 8 . Nef residues important for CD4 downregulation are highly conserved. Nef sequences from HIV sequence compendium 2017 were analyzed though multiple sequence alignment (HIV sequence database, www.hiv.lanl.gov). Alignment was done 5 in HXB2 convention (bottom) and residues important for CD4 downregulation are additionally labeled using the NL4.3 convention (top, cyan texts). The logo representation, with the height of each letter proportional to the observed frequency of the corresponding amino acid residue, was generated by WebLogo 59 .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 287,
+                    "end": 293,
+                    "text": "Fig. 8",
+                    "ref_id": null
+                }
+            ],
+            "section": "10"
+        },
+        {
+            "text": ". CC-BY-NC-ND 4.0 International license was not certified by peer review) is the author/funder. It is made available under a The copyright holder for this preprint (which this version posted April 23, 2020. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "10"
+        },
+        {
+            "text": ". CC-BY-NC-ND 4.0 International license was not certified by peer review) is the author/funder. It is made available under a The copyright holder for this preprint (which this version posted April 23, 2020. . https://doi.org/10.1101/2020.04.21.054007 doi: bioRxiv preprint Extended Data Table 2 . Intra-and inter-subunit DSSO inter-linked residues of Nef-CD4CD-AP2 \u0394\u03bc2-CTD . CC-BY-NC-ND 4.0 International license was not certified by peer review) is the author/funder. It is made available under a The copyright holder for this preprint (which this version posted April 23, 2020. . https://doi.org/10.1101/2020.04.21.054007 doi: bioRxiv preprint *XL Res A and B refer to the Lysine residue cross-linked in the corresponding protein; for understandability, XL Res A and B numbers in this table have been converted from the MS sequence residue numbers (based on true sequence database) to crystal structure sequence numbers used in the manuscript. 5 . CC-BY-NC-ND 4.0 International license was not certified by peer review) is the author/funder. It is made available under a The copyright holder for this preprint (which this version posted April 23, 2020. . https://doi.org/10.1101/2020.04.21.054007 doi: bioRxiv preprint",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 287,
+                    "end": 294,
+                    "text": "Table 2",
+                    "ref_id": null
+                }
+            ],
+            "section": "5"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Processing of X-ray diffraction data collected in oscillation mode",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Otwinowski",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Minor",
+                    "suffix": ""
+                }
+            ],
+            "year": 1997,
+            "venue": "Methods Enzymol",
+            "volume": "276",
+            "issn": "",
+            "pages": "307--326",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Phaser crystallographic software",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Mccoy",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "J Appl Crystallogr",
+            "volume": "40",
+            "issn": "",
+            "pages": "658--674",
+            "other_ids": {
+                "DOI": [
+                    "10.1107/S0021889807021206"
+                ]
+            }
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "PHENIX: a comprehensive Python-based system for macromolecular 5 structure solution",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Adams",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Acta Crystallographica Section D-Biological Crystallography",
+            "volume": "66",
+            "issn": "",
+            "pages": "213--221",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Coot: model-building tools for molecular graphics",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Emsley",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Cowtan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Acta Crystallographica Section D-Biological Crystallography",
+            "volume": "60",
+            "issn": "",
+            "pages": "2126--2132",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Towards automated crystallographic structure refinement with 10 phenix.refine",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Afonine",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Acta Crystallogr D Biol Crystallogr",
+            "volume": "68",
+            "issn": "",
+            "pages": "352--367",
+            "other_ids": {
+                "DOI": [
+                    "10.1107/S0907444912001308"
+                ]
+            }
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "A new in vivo cross-linking mass spectrometry platform to define protein-protein interactions in living cells",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Kaake",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Mol Cell Proteomics",
+            "volume": "13",
+            "issn": "",
+            "pages": "3533--3543",
+            "other_ids": {
+                "DOI": [
+                    "10.1074/mcp.M114.042630"
+                ]
+            }
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "ProteoWizard: open source software for rapid proteomics tools development",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Kessner",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Chambers",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Burke",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Agus",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Mallick",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Bioinformatics",
+            "volume": "24",
+            "issn": "",
+            "pages": "2534--2536",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/bioinformatics/btn323"
+                ]
+            }
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Developing an Acidic Residue Reactive and Sulfoxide-Containing MS-Cleavable Homobifunctional Cross-Linker for Probing Protein-Protein Interactions",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Gutierrez",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Integrative structure and functional anatomy of a nuclear pore complex",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Kim",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Nature",
+            "volume": "555",
+            "issn": "",
+            "pages": "475--482",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/nature26003"
+                ]
+            }
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Putting the pieces together: integrative modeling platform software for structure determination of macromolecular assemblies",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Russel",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "PLoS Biol",
+            "volume": "10",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1371/journal.pbio.1001244"
+                ]
+            }
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Determining the architectures of macromolecular assemblies",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Alber",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "Nature",
+            "volume": "450",
+            "issn": "",
+            "pages": "683--694",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/nature06404"
+                ]
+            }
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Molecular architecture of the 26S proteasome holocomplex determined by an integrative approach",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Lasker",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Proc Natl Acad Sci U S A",
+            "volume": "109",
+            "issn": "",
+            "pages": "1380--1387",
+            "other_ids": {
+                "DOI": [
+                    "10.1073/pnas.1120559109"
+                ]
+            }
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Outcome of the First wwPDB Hybrid/Integrative Methods Task Force Workshop",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Sali",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Structure",
+            "volume": "23",
+            "issn": "",
+            "pages": "1156--1167",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.str.2015.05.013"
+                ]
+            }
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Uncertainty in integrative structural modeling",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Schneidman-Duhovny",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Pellarin",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Sali",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Curr Opin Struct Biol",
+            "volume": "28",
+            "issn": "",
+            "pages": "96--104",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.sbi.2014.08.001"
+                ]
+            }
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Comparative protein modelling by satisfaction of spatial restraints",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Sali",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Blundell",
+                    "suffix": ""
+                }
+            ],
+            "year": 1993,
+            "venue": "J Mol Biol",
+            "volume": "234",
+            "issn": "",
+            "pages": "779--815",
+            "other_ids": {
+                "DOI": [
+                    "10.1006/jmbi.1993.1626"
+                ]
+            }
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Comparative Protein Structure Modeling Using MODELLER",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Webb",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Sali",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Curr",
+            "volume": "40",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Molecular Architecture of the 40SeIF1eIF3 Translation Initiation Complex",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Erzberger",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Cell",
+            "volume": "159",
+            "issn": "",
+            "pages": "1227--1228",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.cell.2014.11.001"
+                ]
+            }
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Structural characterization by cross-linking reveals the detailed architecture of a coatomer-related heptameric module from the nuclear pore complex",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Shi",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Mol Cell",
+            "volume": "54",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Statistical potential for assessment and prediction of protein structures",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Shen",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Sali",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Protein Sci",
+            "volume": "15",
+            "issn": "",
+            "pages": "2507--2524",
+            "other_ids": {
+                "DOI": [
+                    "10.1110/ps.062416606"
+                ]
+            }
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Replica Monte Carlo simulation of spin glasses",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Swendsen",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": 1986,
+            "venue": "Phys Rev Lett",
+            "volume": "57",
+            "issn": "",
+            "pages": "2607--2609",
+            "other_ids": {
+                "DOI": [
+                    "10.1103/PhysRevLett.57.2607"
+                ]
+            }
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Assessing Exhaustiveness 5 of Stochastic Sampling for Integrative Modeling of Macromolecular Structures",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Viswanath",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Chemmama",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Cimermancic",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Sali",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Biophys J",
+            "volume": "113",
+            "issn": "",
+            "pages": "2344--2353",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.bpj.2017.10.005"
+                ]
+            }
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "A Simple Method for Automated Equilibration Detection in Molecular Simulations",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Chodera",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "J Chem Theory Comput",
+            "volume": "12",
+            "issn": "",
+            "pages": "1799--1805",
+            "other_ids": {
+                "DOI": [
+                    "10.1021/acs.jctc.5b00784"
+                ]
+            }
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Distance restraints from crosslinking mass spectrometry: mining a molecular dynamics simulation database to evaluate lysine-lysine distances",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Merkley",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Protein Sci",
+            "volume": "23",
+            "issn": "",
+            "pages": "747--759",
+            "other_ids": {
+                "DOI": [
+                    "10.1002/pro.2458"
+                ]
+            }
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "WebLogo: a sequence logo generator",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Crooks",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Hon",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Chandonia",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Brenner",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Genome Res",
+            "volume": "14",
+            "issn": "",
+            "pages": "1188--1190",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/gr.849004"
+                ]
+            }
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "21 Mangasarian, A., Piguet, V., Wang, J. K., Chen, Y. L. & Trono, D. Nef-induced CD4 and major histocompatibility complex class I (MHC-I) down-regulation are governed by 10 distinct determinants: N-terminal alpha helix and proline repeat of Nef selectively regulate MHC-I trafficking. Journal of Virology 73, 1964-1973 (1999). 22 Hua, J. & Cullen, B. R. Human immunodeficiency virus types 1 and 2 and simian immunodeficiency virus Nef use distinct but overlapping target sites for downregulation of cell surface CD4. J Virol 71, 6742-6748 (1997). 15 23 Liu, L. X. et al. Mutation of a conserved residue (D123) required for oligomerization of human immunodeficiency virus type 1 Nef protein abolishes interaction with human thioesterase and results in impairment of Nef biological functions. Journal of Virology 74, 5310-5319 (2000). 24 Hua, J., Blair, W., Truant, R. & Cullen, B. R. Identification of regions in HIV-1 Nef 20 required for efficient downregulation of cell surface CD4. Virology 231, 231-238, doi:10.1006/viro.1997.8517 (1997). 25 Baugh, L. L., Garcia, J. V. & Foster, J. L. Functional characterization of the human immunodeficiency virus type 1 Nef acidic domain. Journal of Virology 82, , C., Krause, L., Chen, Y. L. & Trono, D. Mutational analysis of HIV-",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "The downregulation of MHC-I and CD4 by Nef are distinctive both mechanistically and structurally, yet their cytoplasmic domains share a common binding site on Nef. a, Structural comparison of Nef/AP1/MHC-ICD (PDB ID:4EMZ; other AP1 subunits modeled in based on overlay of the \u03bc1-CTD) and Nef/AP2/CD4CD (current structure) shows that Nef uses 5 different ways to hijack AP1 (left) and AP2 (right) for downregulating MHC-I and CD4, respectively. b, Two structures, Nef/\u03bc1/MHC-ICD (PDB ID: 4EMZ) and Nef/AP2/CD4CD (current structure), are overlaid on Nef (cyan). Binding of CD4CD (magenta) and binding of MHC-ICD (yellow) involve the same pocket on Nef.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "Gene of rat \u03b1 adaptin is a kind gift from Dr. Juan Bonifacino (NIH). Genes of \u03b22, \u03bc2, and \u03c32 adaptins were amplified from a cDNA library of human HEK293T cells. For crosslinking mass spectrometry analysis, anhydrous dimethyl sulfoxide (DMSO), disuccinimidyl 5 sulfoxide (DSSO), MS-grade trypsin, HPLC-grade water, formic acid, and acetonitrile were all purchased from Thermo Fisher Scientific. 4-20% TGX SDS-PAGE gels were purchased from Bio-Rad. MS-safe AcquaStain was purchased from Bulldog Bio.Cloning, expression, and purification of proteins. The Nef-CD4CD fusion was constructed by 10 fusing CD4 (394-419) to the C-terminus of HIV-1 Nef (26-206, NL4.3) via a flexible linker of 36 amino acids (GVDGSDEASELACPTPKEDGLAQQQTQLNLRGSGSG). The encoding gene was cloned into a pMAT9 expression vector. The fusion protein was over-expressed in E. coli NiCo21(DE3) cells, carrying a N-terminal maltose binding protein (MBP) tag. Cells were induced with 0.1 mM isopropyl b-d-thiogalactopyranoside (IPTG) at OD600 of 0.8 and grown at 15",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "References: 33 Xue, X. Y. et al. Production of authentic SARS-CoV M-pro with enhanced activity: Application as a novel tag-cleavage endopeptidase for protein overproduction. Journal of Molecular Biology 366, 965-975 (2007). 34 Xue, X. Y. et al. Structures of two coronavirus main proteases: Implications for substrate Extended Data",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "Pham, T. N., Lukhele, S., Hajjar, F., Routy, J. P. & Cohen, E. A. HIV Nef and Vpu protect HIV-infected CD4+ T cells from antibody-mediated cell lysis through downmodulation of CD4 and BST2. Retrovirology 11, 15, doi:10.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "1 Nef: identification of two mutants that are temperature-sensitive for CD4 downregulation. Virology 217, 293-300, doi:10.1006/viro.1996.0116 (1996). 27 Poe, J. A. & Smithgall, T. E. HIV-1 Nef dimerization is required for Nef-mediated receptor downregulation and viral replication. J Mol Biol 394, 329-342, 30 doi:10.1016/j.jmb.2009.09.047 (2009). 28 Chaudhuri, R., Mattera, R., Lindwasser, O. W., Robinson, M. S. & Bonifacino, J. S. A Basic Patch on alpha-Adaptin Is Required for Binding of Human Immunodeficiency Virus Type 1 Nef and Cooperative Assembly of a CD4-Nef-AP-2 Complex. Jackson, L. P. et al. A Large-Scale Conformational Change Couples Membrane Recruitment to Cargo Binding in the AP2 Clathrin Adaptor Complex. Cell 141, 1220-U1213 (2010). 30 Rout, M. P. & Sali, A. Principles for Integrative Structural Biology Studies. Cell 177, 1384-1403, doi:10.1016/j.cell.2019.05.016 (2019). Jia, X. et al. Structural basis of evasion of cellular adaptive immunity by HIV-1 Nef. Nat Struct Mol Biol 19, 701-706, doi:10.1038/nsmb.2328 [pii] (2012). 32 Williams, M., Roeth, J. F., Kasper, M. R., Filzen, T. M. & Collins, K. L. Human immunodeficiency virus type 1 Nef domains required for disruption of major histocompatibility complex class I trafficking are also necessary for coprecipitation of Nef with HLA-A2. Journal of Virology 79, 632-636 (2005).",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF3": {
+            "text": ". https://doi.org/10.1101/2020.04.21.054007 doi: bioRxiv preprint Extended Data Table 1. Crystallographic data collection and refinement statistics Values in parenthesis are for the highest-resolution shell.",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "We thank Yong Xiong for helpful discussions and valuable inputs. We thank the beamline staff at the Advanced Photon Source beamline 24-ID and the National Synchrotron 20 Light Source beamline 17-ID. We thank Juan Bonifacino for providing the gene of rat \u03b1 adaptin. This work was supported by the University of Massachusetts Dartmouth startup fund (X.J.), US National Institutes of Health (NIH) grants AI102778 and AI129706 (J.G.). A.S. was supported by NIH grants U19AI135990, R01GM083960, P41GM109824, and S10OD021596. N.K. was supported by NIH grants P50GM082250 and U19AI135990. R.K. was supported by NIH",
+            "cite_spans": [
+                {
+                    "start": 167,
+                    "end": 169,
+                    "text": "20",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Acknowledgments"
+        }
+    ]
+}

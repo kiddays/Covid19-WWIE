@@ -1,0 +1,781 @@
+{
+    "paper_id": "8b47e55291dc103e490e1c39d0ad159e51b4bea2",
+    "metadata": {
+        "title": "Title: Test performance evaluation of SARS-CoV-2 serological assays Author Names and Affiliations: ** *Co-first author **Co-corresponding author",
+        "authors": [
+            {
+                "first": "",
+                "middle": [
+                    "D"
+                ],
+                "last": "Ph",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "J",
+                "middle": [],
+                "last": "Nevan",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "",
+                "middle": [],
+                "last": "Krogan",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Serological tests are crucial tools for assessments of SARS-CoV-2 exposure, infection and potential immunity. Their appropriate use and interpretation require accurate assay performance data.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "We conducted an evaluation of 10 lateral flow assays (LFAs) and two ELISAs to detect anti-SARS-CoV-2 antibodies. The specimen set comprised 130 plasma or serum samples from 80 symptomatic SARS-CoV-2 RT-PCR-positive individuals; 108 pre-COVID-19 negative controls; and 52 recent samples from individuals who underwent respiratory viral testing but were not diagnosed with Coronavirus Disease 2019 (COVID-19). Samples were blinded and LFA results were interpreted by two independent readers, using a standardized intensity scoring system.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Among specimens from SARS-CoV-2 RT-PCR-positive individuals, the percent seropositive increased with time interval, peaking at 81.8-100.0% in samples taken >20 days after symptom onset.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Test specificity ranged from 84.3-100.0% in pre-COVID-19 specimens. Specificity was higher when weak LFA bands were considered negative, but this decreased sensitivity. IgM detection was more variable than IgG, and detection was highest when IgM and IgG results were combined. Agreement between ELISAs and LFAs ranged from 75.8-94.8%. No consistent cross-reactivity was observed.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Our evaluation showed heterogeneous assay performance. Reader training is key to reliable LFA performance, and can be tailored for survey goals. Informed use of serology will require evaluations covering the full spectrum of SARS-CoV-2 infections, from asymptomatic and mild infection to severe disease, and later convalescence. Well-designed studies to elucidate the mechanisms and serological correlates of protective immunity will be crucial to guide rational clinical and public health policies.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "As of April 23, 2020, more than 190,000 deaths have been attributed to Coronavirus Disease 2019 (COVID-19). 1 Millions of infections by SARS-CoV-2, the virus responsible for COVID-19, have been reported, though its full extent has yet to be determined due to limited testing. 2 Government interventions to slow viral spread have disrupted daily life and economic activity for billions of people. Strategies to ease restraints on human mobility and interaction, without provoking major resurgence of transmission and mortality, will depend on accurate estimates of population levels of infection and immunity. 3 Current testing for the virus largely depends on labor-intensive molecular techniques. 4 Individuals with positive molecular tests represent only a small fraction of all infections, given limited deployment and the brief time window when PCR testing is sensitive. [5] [6] [7] The proportion of undetected cases in the original epidemic focus was estimated to be as high as 86%, 8 and asymptomatic infections are suspected to play a substantial role in transmission. [9] [10] [11] [12] [13] [14] Widely available, reliable antibody detection assays would enable more accurate estimates of SARS-CoV-2 prevalence and incidence. On February 4, 2020, the Secretary of the United States Department of Health and Human Services issued emergency use authorization (EUA) for diagnosis of SARS-CoV-2, 15 allowing nucleic acid detection and immunoassay tests to be offered based on manufacturer-reported data without formal FDA clearance. 16 In response, dozens of companies have begun to market laboratory-based immunoassays and point-of-care tests. Rigorous, comparative performance data are crucial to inform clinical care and public health response.",
+            "cite_spans": [
+                {
+                    "start": 108,
+                    "end": 109,
+                    "text": "1",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 276,
+                    "end": 277,
+                    "text": "2",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 609,
+                    "end": 610,
+                    "text": "3",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 698,
+                    "end": 699,
+                    "text": "4",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 875,
+                    "end": 878,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 879,
+                    "end": 882,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 883,
+                    "end": 886,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 989,
+                    "end": 990,
+                    "text": "8",
+                    "ref_id": null
+                },
+                {
+                    "start": 1077,
+                    "end": 1080,
+                    "text": "[9]",
+                    "ref_id": null
+                },
+                {
+                    "start": 1081,
+                    "end": 1085,
+                    "text": "[10]",
+                    "ref_id": null
+                },
+                {
+                    "start": 1086,
+                    "end": 1090,
+                    "text": "[11]",
+                    "ref_id": null
+                },
+                {
+                    "start": 1091,
+                    "end": 1095,
+                    "text": "[12]",
+                    "ref_id": null
+                },
+                {
+                    "start": 1096,
+                    "end": 1100,
+                    "text": "[13]",
+                    "ref_id": null
+                },
+                {
+                    "start": 1101,
+                    "end": 1105,
+                    "text": "[14]",
+                    "ref_id": null
+                },
+                {
+                    "start": 1539,
+                    "end": 1541,
+                    "text": "16",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": ". CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted April 29, 2020. . https://doi.org/10.1101/2020.04.25.20074856 doi: medRxiv preprint",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "We conducted a head-to-head comparison of available serology tests -immunochromatographic lateral flow assays (LFAs) and enzyme-linked immunosorbent assays (ELISAs) -including an evaluation of performance by time from symptom onset and disease severity. Our goal is to provide well-controlled performance data to highlight potentially useful serological assays, and to help guide their development and deployment.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "Ethical approvals: This study was approved by institutional review boards at the University of individual, but no more than one sample per time interval (1-5, 6-10, 11-15, 16-20 , and >20 days after symptom onset). If an individual had more than one specimen for a given time interval, only the later specimen was included. For specificity, we included 108 pre-COVID-19 specimens from American Red Cross blood donors. 17 We assessed cross-reactivity using 52 specimens from 2020: 50 with test results for other respiratory viruses (Biofire FilmArray;",
+            "cite_spans": [
+                {
+                    "start": 153,
+                    "end": 177,
+                    "text": "(1-5, 6-10, 11-15, 16-20",
+                    "ref_id": null
+                },
+                {
+                    "start": 418,
+                    "end": 420,
+                    "text": "17",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "METHODS"
+        },
+        {
+            "text": "BioFire Diagnostics, Salt Lake City, UT), and 32 from individuals with negative results by SARS-CoV-2 RT-PCR. We based minimum sample size calculations on expected binomial exact 95% confidence limits. A total of 290 samples were included in the final analysis, including 130 from 80 SARS-CoV-2 RT-PCR-positive individuals. Some specimens were . CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. (which was not certified by peer review)",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "METHODS"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted April 29, 2020. . exhausted during the analysis and were not included in all tests. Data obtained from samples that did not conform to our study design were excluded.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "METHODS"
+        },
+        {
+            "text": "Clinical data were extracted from electronic health records and entered in a HIPAA-secure REDCap database hosted by UCSF. Data included demographic information, major comorbidities, patient-reported symptom onset date, symptoms and indicators of severity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "METHODS"
+        },
+        {
+            "text": "Independent data from testing efforts at MGH, with slight deviations in methods, are included as Supplementary Data. Briefly, 57 heat-inactivated serum/plasma samples from 44 SARS-CoV-2 RT-PCR-positive individuals were included. For specificity, the MGH study included 60 heatinactivated, pre-COVID-19 samples from 30 asymptomatic adults and 30 individuals admitted with febrile and/or respiratory illness with a confirmed pathogen.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "METHODS"
+        },
+        {
+            "text": "Sample Preparation: Samples from UCSF and ZSFG were assigned a random well position in one of four 96-well plates. Samples were thawed at 37\u00b0C, and up to 200uL was transferred to the assigned well without heat inactivation. Samples were then sub-aliquoted (12.5uL) to replica plates for testing. Replica plates were stored at -20\u00b0C until needed, then thawed for ten minutes at room temperature and briefly centrifuged before testing. All sample handling followed UCSF Biosafety Committee-approved Biosafety Level 2 (BSL2) practices.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "METHODS"
+        },
+        {
+            "text": "For the MGH study, samples were heat-inactivated at 56\u00b0C for 60 minutes, aliquoted, and stored at 4\u00b0C and -20\u00b0C. Samples stored at 4\u00b0C were used within 7 days. Frozen aliquots were stored until needed with only a single freeze-thaw cycle for any sample. All samples were brought to room temperature and briefly centrifuged prior to adding the recommended volume to the LFA cartridge.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "METHODS"
+        },
+        {
+            "text": ". CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. (which was not certified by peer review)",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "METHODS"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted April 29, 2020. . https://doi.org/10.1101/2020.04.25.20074856 doi: medRxiv preprint Immunochromatographic Lateral Flow Assays (LFAs): Ten lateral flow assays were evaluated on samples from UCSF and ZSFG (Supplementary Table 1 ). At the time of testing, cartridges were labeled by randomized sample location (plate, well). The appropriate sample volume was transferred from the plate to the indicated sample port, followed immediately by provided diluent, following manufacturer instructions. The lateral flow cartridges were incubated for the recommended time at room temperature before readings. Each cartridge was assigned a semiquantitative score (0 for negative, 1 to 6 for positive) for test line intensity by two independent readers blinded to specimen status and to each other's scores (Supplementary Figure 1 is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. (which was not certified by peer review)",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 262,
+                    "end": 284,
+                    "text": "(Supplementary Table 1",
+                    "ref_id": "TABREF0"
+                },
+                {
+                    "start": 867,
+                    "end": 875,
+                    "text": "Figure 1",
+                    "ref_id": "FIGREF5"
+                }
+            ],
+            "section": "METHODS"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted April 29, 2020. . https://doi.org/10.1101/2020.04.25.20074856 doi: medRxiv preprint value distribution from the 108 pre-COVID-19 plasma. For both ELISAs, background-corrected OD values were divided by the cutoff to generate signal-to-cutoff (S/CO) ratios. Samples with S/CO values greater than 1.0 were considered positive.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "METHODS"
+        },
+        {
+            "text": "Data Analysis: For LFA testing, the second reader's scores were used for performance calculations, and the first reader's score was used to calculate inter-reader agreement statistics.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "METHODS"
+        },
+        {
+            "text": "Percent seropositivity among RT-PCR-confirmed cases was calculated by time interval from symptom onset. Specificity was based on results in pre-COVID-2019 samples. Binomial exact 95% confidence intervals were calculated for all estimates. Analyses were conducted in R (3.6.3) and SAS (9.4).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "METHODS"
+        },
+        {
+            "text": "Study population: SARS-CoV-2-positive individuals in the UCSF/ZSFG study ranged from 22 to >90 years of age ( Figure 1A ), reaching the highest levels in the 16-20 and >20 day time intervals. The highest detection rate was achieved by combining IgM and IgG results ( Figure   1B ). However, 95% confidence intervals for later time intervals showed substantial overlap with those for earlier intervals ( Figure 1B ). Four assays (Bioperfectus, Premier, Wondfo, in-house . CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 110,
+                    "end": 119,
+                    "text": "Figure 1A",
+                    "ref_id": "FIGREF5"
+                },
+                {
+                    "start": 267,
+                    "end": 278,
+                    "text": "Figure   1B",
+                    "ref_id": "FIGREF5"
+                },
+                {
+                    "start": 403,
+                    "end": 412,
+                    "text": "Figure 1B",
+                    "ref_id": "FIGREF5"
+                }
+            ],
+            "section": "RESULTS"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted April 29, 2020. . https://doi.org/10.1101/2020.04.25.20074856 doi: medRxiv preprint ELISA) achieved >80% positivity in the latest two time intervals (16-20 and >20 days) while maintaining >95% specificity. Some tests were not performed on a subset of specimens due exhausted sample material, which may have affected reported percent positivity. IgM detection was less consistent than IgG for nearly all assays. Kappa agreement statistic ranged from 0.95 to 0.99 for IgG and 0.81-1.00 for IgM for standardized intensity score and training (Supplementary Table 2 and Supplementary Figure 2 ). Although variability in mean band intensities exists among different assays, the rate of sample positivity was generally consistent ( Figure 2 ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 612,
+                    "end": 619,
+                    "text": "Table 2",
+                    "ref_id": null
+                },
+                {
+                    "start": 638,
+                    "end": 646,
+                    "text": "Figure 2",
+                    "ref_id": "FIGREF4"
+                },
+                {
+                    "start": 784,
+                    "end": 792,
+                    "text": "Figure 2",
+                    "ref_id": "FIGREF4"
+                }
+            ],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "We observed a trend towards higher percent positivity by LFA for patients admitted to ICU compared to those with milder disease, but the specimen numbers per time interval were low, limiting statistical power (Supplementary Figure 3) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 224,
+                    "end": 233,
+                    "text": "Figure 3)",
+                    "ref_id": "FIGREF9"
+                }
+            ],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "Test specificity ranged from 84.3%-100.0%, with 39/108 samples demonstrating false positive results by at least one LFA (Table 2 and Figure 2B ). Of the false positive results, 61.5% (24/39) had a weak positive score (1). Intensity scores of 2-3 were seen in 30.8% (12/39) and scores of 4-6 were seen in 7.7% (3/39) of the positives from the pre-COVID-19 samples.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 120,
+                    "end": 128,
+                    "text": "(Table 2",
+                    "ref_id": null
+                },
+                {
+                    "start": 133,
+                    "end": 142,
+                    "text": "Figure 2B",
+                    "ref_id": "FIGREF4"
+                }
+            ],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "We evaluated the tradeoff between percent positivity and specificity as a function of LFA reader score. Changing the positive LFA threshold from 1 to 2 decreased the mean overall percent positivity across tests from 66.0% (range: 56.9%-74.2%) to 56.7% (range: 44.0%-64.6%) and increased the average specificity from 94.6% (range: 84.3%-100.0%) to 98.2% (range: 94.4%-100.0%) (Supplementary Figure 4 ). An independent study at MGH compared three LFAs, of which BioMedomics was also assessed in the current study (Supplementary Table 3 ). Overall, . CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 390,
+                    "end": 398,
+                    "text": "Figure 4",
+                    "ref_id": null
+                },
+                {
+                    "start": 511,
+                    "end": 533,
+                    "text": "(Supplementary Table 3",
+                    "ref_id": null
+                }
+            ],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted April 29, 2020. Agreement between results of LFAs with those of IgG and IgM Epitope ELISAs ranged from 75.8%-85.7%, while agreement with the in-house ELISA ranged from 83.6%-94.8% ( Figure   3A ). LFA band intensity scores showed a direct correlation with ELISA S/CO values ( Figure   3B ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 241,
+                    "end": 252,
+                    "text": "Figure   3A",
+                    "ref_id": "FIGREF9"
+                },
+                {
+                    "start": 335,
+                    "end": 346,
+                    "text": "Figure   3B",
+                    "ref_id": "FIGREF9"
+                }
+            ],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "This study describes test performance for 12 COVID-19 serology assays on a panel of 130 samples from 80 individuals with PCR-confirmed SARS-CoV-2 infection and 108 pre-COVID-19 specimens. For each test, we quantified detection of IgM and/or IgG antibodies by time period from onset of symptoms and assessed specificity and cross-reactivity. We hope these data will inform the medical community, public health efforts, and governmental institutions in . CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted April 29, 2020. . https://doi.org/10.1101/2020.04.25.20074856 doi: medRxiv preprint planning for SARS-CoV-2 serological testing. This study also seeks to provide feedback to manufacturers about areas of success and necessary improvement. There is no \"gold standard\" to identify true seropositive blood samples. The extent and time-course of antibody development are not fully understood as yet, and may vary between different populations, even among RT-PCR-confirmed cases.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "We focused on comparisons of percent positivity by time interval, rather than reporting the \"sensitivity\" of each assay. As expected, percent positivity rose with time after symptom onset. 5,6,21-23 High rates of positive results were not reached until at least 2 weeks into clinical illness; diagnosis at time of symptom onset thus remains dependent on viral detection methods.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "The assays showed a trend to higher positive rates within time intervals for more severe disease, but this finding should be interpreted with caution, due to the limited data from ambulatory cases. The majority of samples >20 days post-symptom onset had detectable anti-SARS-CoV-2 antibodies, suggesting good to excellent sensitivity for all evaluated tests in hospitalized patients three or more weeks into their disease course. However, well-powered studies testing ambulatory or asymptomatic individuals, including performance with capillary blood, will be essential to guide appropriate use of serology.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "Our data demonstrate specificity greater than 95% for the majority of tests evaluated and >99% for 2 LFAs (Wondfo, Sure Biotech) and the in-house ELISA (adapted from Amanat et al, 2020) 18 . We observed moderate-to-strong positive bands in several pre-COVID-19 blood donor specimens, some of them positive by multiple assays, suggesting the possibility of non-specific binding of plasma proteins, non-specific antibodies, or cross-reactivity with other viruses. Three of the pre-COVID-19 specimens (2.3%) were scored positive by more than three assays.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "Intriguingly, the fraction of positive tests was higher in a set of recent specimens obtained during . CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted April 29, 2020. . https://doi.org/10.1101/2020.04.25.20074856 doi: medRxiv preprint the COVID-19 outbreak from individuals undergoing respiratory viral workup, many with negative SARS-CoV-2 RT-PCR. Five of these (9.6%) had positive results by more than three assays, without relation to a specific viral pathogen, suggesting non-specific reactivity and/or missed COVID-19 diagnoses. One specimen was positive by 8 of 12 assays, including the inhouse ELISA. The patient was >90 years old and presented with altered mental status, fever, and High specificity testing is crucial in low-prevalence settings. One approach to increase specificity would employ confirmatory testing with an independent assay (perhaps recognizing a distinct epitope or antigen). Our comparison of UCSF and MGH data suggests that reclassifying faint bands as negative or inconclusive would increase specificity, albeit at the expense of . CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted April 29, 2020. . https://doi.org/10.1101/2020.04.25.20074856 doi: medRxiv preprint sensitivity. Detection cutoffs should be selected recognizing the likely tradeoff between specificity and sensitivity, the population prevalence, and the goals of testing. Accurate LFA use also depends on adequate reader training and standardized intensity cutoffs. Our findings highlight the need for rigorous evaluation of alternative implementation algorithms in multiple settings.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "Our study also reinforces the need for assay validation using standardized sample sets with: 1) known positives from individuals with a range of clinical presentations at multiple time points after onset of symptoms, 2) pre-COVID-19 outbreak samples for specificity, and 3) samples from individuals with other viral and inflammatory illnesses as cross-reactivity controls.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "Coordinated efforts to validate and ensure widespread availability of such standardized sample sets would facilitate effective utilization. We will continue to evaluate serology assays, and provide updated data on a dedicated website (https://covidtestingproject.org). Current and future studies by our group and others will provide an essential evidence base to guide serological testing during the COVID-19 pandemic.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": ". CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted April 29, 2020. . CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted April 29, 2020. . CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted April 29, 2020. . . CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted April 29, 2020. . https://doi.org/10.1101/2020.04.25.20074856 doi: medRxiv preprint *Other immune compromised condition includes rheumatology patients (rheumatoid arthritis, psoriasis, Crohn's disease, ankylosing spondylitis, and reactive arthritis), all of whom were taking immune modulating/suppressing therapies. **Ambulatory care includes outpatient as well as patients seen in ED and not admitted. Table 1 : Baseline demographic characteristics, presenting symptoms, chronic medical conditions, initial disposition and highest-level outcome for all participants whose samples were included in each time interval for serological testing. Only one sample per patient was included in each time interval, and some individuals are represented by multiple samples in different time intervals. In total, we tested 130 samples taken from 80 SARS-CoV-2 RT-PCR-positive cases.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 462,
+                    "end": 469,
+                    "text": "Table 1",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "All Patients (N=80) 6 (7.5%) 3 (11.1%) 3 (8.33%) 3 (8.57%) 0 (0.0%) 0 (0.0%) Solid organ transplant 6 (7.5%) 2 (7.40%) 0 (0.0%) 2 (5.71%) 2 (9.52%) 2 (18.1%) CAD 5 (6.25%) 1 (3.70%) 1 (2.77%) 2 (5.71%) 2 (9.52%) 3 (27.2%) Asthma 4 (5.0%) 1 (3.70%) 1 (2.77%) 3 (8.57%) 2 (9.52%) 0 (0.0%) CHF 3 (3.75%) 2 (7.40%) 2 (5.55%) 2 (5.71%) 1 (4.76%) 0 (0.0%) Liver disease 3 (3.75%) 0 (0.0%) 1 (2.77%) 2 (5.71%) 1 (4.76%) 1 (9.09%) Malignancy 3 (3.75%) 1 (3.70%) 2 (5.55%) 1 (2.85%) 2 (9.52%) 0 (0.0%) Emphysema 2 (2.5%) 0 (0.0%) 1 (2.77%) 1 (2.85%) 1 (4.76%) 1 (9.09%) Prior stroke 2 (2.5%) 1 (3.70%) 0 (0.0%) 0 (0.0%) 0 (0.0%) 1 (9.09%) HIV 1 (1.25%) 1 (3.70%) 0 (0.0%) 0 (0.0%) 0 (0.0%) 0 (0.0%) Other immune compromised condition* 5 (6.25%) 1 (3.70%) 1 (2.77%) 3 (8.57%) 2 (9.52%) 1 (9.09%) . CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Variable"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted April 29, 2020. . . CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted April 29, 2020. . Table 2 : Summary statistics for immunochromatographic lateral flow assays (LFAs) and Enzyme-Linked Immunosorbent Assays (ELISAs). Samples are binned by time after patient-reported symptom onset for SARS-CoV-2 RT-PCR-positive cases. Percent of seropositivity assessed by each assay in SARS-CoV-2 RT-PCR-positive samples is reported with 95% Confidence Intervals (95% CI). The column \"IgM or IgG\" refers to positivity of either isotype. Specificity is determined relative to pre-COVID-19 negative control serum samples. Percent of seropositivity assessed by each assay is reported with 95% Confidence Intervals for samples from individuals who were positive for non-SARS-CoV-2 viral infections and/or tested negative for SARS-CoV-2 by RT-PCR.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 77,
+                    "end": 84,
+                    "text": "Table 2",
+                    "ref_id": null
+                }
+            ],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": ". CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted April 29, 2020. so data were plotted as IgM or IgG depending on ELISA comparison. The F(ab')2 specific secondary antibody used in our in-house ELISA preferentially binds the IgG light chain but contains some reactivity for other isotypes (IgM, IgA). Error bars signify 95% confidence intervals.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "COVID-19 Dashboard by the Center for Systems Science and Engineering",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "IDSA Statement on COVID-19 Testing. 2020",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Intervention Serology and Interaction Substitution: Modeling the Role of 'Shield Immunity' in Reducing COVID-19 Epidemic Spread",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Weitz",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Beckett",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Coenen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "World Health Organization. Laboratory testing for coronavirus disease 2019 (COVID-19) in suspected human cases: interim guidance",
+            "authors": [],
+            "year": 2020,
+            "venue": "Geneva: World Health Organization",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Antibody responses to SARS-CoV-2 in patients of novel coronavirus disease",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Yuan",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Clin Infect Dis",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Virological assessment of hospitalized patients with COVID-2019",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Wolfel",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Corman",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Guggemos",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nature",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Temporal dynamics in viral shedding and transmissibility",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "He",
+                    "suffix": ""
+                },
+                {
+                    "first": "Ehy",
+                    "middle": [],
+                    "last": "Lau",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "California, San Francisco (UCSF)/Zuckerberg San Francisco General Hospital (ZSFG) and Massachusetts General Hospital (MGH). Study Design: The study population included individuals with symptomatic infection and positive SARS-CoV-2 real-time polymerase chain reaction (RT-PCR) testing of nasopharyngeal or oropharyngeal swabs, who had remnant serum and plasma specimens in clinical laboratories serving the UCSF and ZSFG Medical Center networks. We included multiple specimens per",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "). 17 For some cartridges (DeepBlue, UCP, Bioperfectus), the positive control indicator failed to appear after addition of diluent in a significant fraction of tests. For these tests, two further drops of diluent were added to successfully recover control indicators in all affected tests. These results were included in analyses. During testing, two plates were transposed 180\u02da and assays were run in the opposite order from the wells documented on cartridges. These data were corrected and accuracy was confirmed by empty well position and verification of a subset of results. Enzyme-Linked Immunosorbent Assays (ELISAs): Epitope Diagnostics ELISAs were performed according to manufacturer specifications. Cutoffs for IgG and IgM detection were calculated as the package insert described (see Supplementary Methods). Values greater than the cutoff were considered positive. An in-house ELISA was performed with minor deviations from a published protocol. 18 SARS-CoV-2 Receptor Binding Domain (RBD) protein was produced from the published construct (NR-52306, BEI Resources). The positive cutoff was equal to the mean of the OD values of the negative control wells on the respective plate plus three times the standard deviation of the OD",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "showed a trend for increased detection of SARS-CoV-2 specific antibodies with increased time from symptom onset. However, the MGH study displayed increased specificity with lower percent positivity at early timepoints after symptom onset. MGH positivity thresholds were set higher to prioritize test specificity (SupplementaryFigure4B-C). A set of specimens obtained during the COVID-19 outbreak that had negative SARS-CoV-2 RT-PCR testing and/or alternative respiratory pathogen diagnoses demonstrated higher numbers of positive results compared to the pre-COVID-19 sample set (Figure 2C). Five specimens had positives results by >3 tests, all with respiratory symptoms and concurrent negative SARS-CoV-2 RT-PCR testing (Figure 2C, arrows). One patient was positive on 8 different tests including the in-house ELISA. In this limited panel, no consistent pattern of cross-reactivity was identified in samples from individuals with non-SARS-CoV-2 respiratory viruses, including 2 strains of seasonal coronavirus (1 coronavirus OC43, 3 coronavirus HKU1).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "ground glass opacities on chest radiological imaging. SARS-CoV-2 RT-PCR was negative and ancillary laboratory testing suggested a urinary tract infection. This case could represent COVID-19 not detected by RT-PCR, reinforcing the importance of caution in interpreting negative molecular results as ruling out the infection. Moreover, this suggests potential utility of serological testing as a supplemental diagnostic tool, given the decline in sensitivity of current molecular tests in the second week of illness.5 Appropriate clinical algorithms for serology testing, including confirmatory or reflexive testing, have yet to be determined. These algorithms will be affected by test performance characteristics and prevalence of disease across all presentations of infected individuals. Importantly, we still do not know the extent to which positive results by serology reflect a protective immune response. 24 Future functional studies are critical to determine whether specific antibody responses predict virus neutralization and protection against re-infection. Until this is established, conventional antibody assays should not be used as predictors of future infection risk.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "Summary statistics for immunochromatographic lateral flow assays (LFAs) and Enzyme-Linked Immunosorbent Assays (ELISAs). Samples are binned by time after patientreported symptom onset for SARS-CoV-2 RT-PCR-positive cases. Percent of seropositivity assessed by each assay in SARS-CoV-2 RT-PCR-positive samples is reported with 95%Confidence Intervals (95% CI). The column \"IgM or IgG\" refers to positivity of either isotype.Specificity is determined relative to pre-COVID-19 negative control serum samples. Percent of seropositivity assessed by each assay is reported with 95% Confidence Intervals for samples from individuals who were positive for non-SARS-CoV-2 viral infections and/or tested negative for SARS-CoV-2 by RT-PCR.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF5": {
+            "text": "Figure 1",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF6": {
+            "text": "Performance data for immunochromatographic lateral flow assays (LFAs). A. The reader 2 score (0-6 based on band intensity) is reported for each assay, binned by time after patient-reported symptom onset. For tests with separate IgG and IgM bands, the higher score is reported. Joint IgM/IgG signal is represented by a single band in Wondfo. The lower, dark grey line refers to the positivity threshold (Score greater than or equal to 1) used in this study. The upper, light grey line refers to an alternative positivity threshold (Score greater than or equal to 2) discussed in the text andSupplementary Figure 4. B. Percent of SARS-CoV-2 RT-PCRpositive samples testing positive by each LFA are plotted relative to time after patient-reported symptom onset. The \"IgM or IgG\" category refers to positivity of either isotype. C. Specificity is plotted for each test using pre-COVID-19 negative control samples. All error bars signify 95% confidence intervals.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF7": {
+            "text": "Figure 2.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF8": {
+            "text": "LFA and ELISA values by serological assay. A. LFA scores for each of two readers (blue) and mean ELISA Signal/Cutoff Ratio (S/CO, purple) for each specimen are grouped by binned time after patient-reported symptom onset and plotted by assay. White cells indicate samples not run with the corresponding assay. For ELISAs, grey indicates S/CO less than or equal to 1. The same legend applies to Panels B and C. The F(ab')2 specific secondary antibody used in our in-house ELISA preferentially binds the IgG light chain but has some reactivity for other isotypes (IgM, IgA). B. LFA score and ELISA S/CO values are plotted for pre-COVID-19 historical control serum samples to determine assay specificity. C. LFA score and ELISA S/CO values are plotted for serum samples FilmArray (BioFire Diagnostics, Salt Lake City, UT) and/or SARS-CoV-2 RT-PCR testing (all negative) as indicated (black cells) in the appropriate columns. Arrows highlight specimens from five individuals with moderate to strong band intensity further discussed in the text. Specimens are grouped by positive testing for Coronavirus HKU1 (CoV HKU1), Coronavirus OC43 (CoV OC43), Influenza A Virus A/H3 (FluA H3), Influenza A Virus A/H1 2009 (FluA H1), Parainfluenza Type 1 Virus (PIV-1), Parainfluenza Type 4 Virus (PIV-4), Human Metapneumovirus (HMP), Adenovirus (ADNV), Respiratory Syncytial Virus (RSV), Human Rhinovirus/Enterovirus (HRE), or negative testing for SARS-CoV-2 and other viruses (nco-).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF9": {
+            "text": "Agreement of serological assays for SARS-CoV-2. A. Percent agreement is plotted across all assay combinations, and values signify the binomial regression of the two assays across all tests. Samples were labeled \"positive\" if any one isotype was detected (LFA score \u2265 1, S/CO > 1) for each assay. B. IgM or IgG LFA scores for each assay are compared to Signal/Cutoff Ratios (S/CO) from three different ELISAs for all SARS-CoV-2 RT-PCR-positive samples. Joint IgM/IgG signal is represented by a single band in Wondfo,",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": ". The majority of SARS-CoV-2-positive individuals were Hispanic/Latinx (68.7%), reflecting the ZSFG patient population and demographics of the epidemic in San Francisco. 19,20 Most presented with cough (91.2%) and fever (86.2%). Chronic medical conditions, such as hypertension, type 2 diabetes mellitus, obesity, and chronic kidney disease, were frequent. Of the 80 cases, 18.7% were outpatients, 45.0% inpatients without ICU care, and 36.2% required ICU care; there had been no reported deaths at the time of chart review.Test Performance: The percentage of specimens testing positive rose with increasing time from symptom onset (Table 2,",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "Du Z, Xu X, Wu Y, Wang L, Cowling BJ, Meyers LA. Serial Interval of COVID-19 among Publicly Reported Confirmed Cases. Emerg Infect Dis 2020;26. Tang A, Li KF, et al. Potential Presymptomatic Transmission of SARS-CoV-2,",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "San Francisco Department of Public Health Annual Report 2017-2018. 2018. (Accessed April 19th, 2020, at https://www.sfdph.org/dph/files/reports/PolicyProcOfc/DPHAnnualReportFY17-18.pdf.) Tsang OT, Leung WS, et al. Temporal profiles of viral load in posterior oropharyngeal saliva samples and serum antibody responses during infection by SARS-CoV-2:an observational cohort study. Lancet Infect Dis 2020.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF3": {
+            "text": "Baseline demographic characteristics, presenting symptoms, chronic medical",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF4": {
+            "text": "",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF8": {
+            "text": ". https://doi.org/10.1101/2020.04.25.20074856 doi: medRxiv preprint",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}

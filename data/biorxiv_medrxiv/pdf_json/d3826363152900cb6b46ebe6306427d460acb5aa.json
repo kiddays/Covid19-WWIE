@@ -1,0 +1,1994 @@
+{
+    "paper_id": "d3826363152900cb6b46ebe6306427d460acb5aa",
+    "metadata": {
+        "title": "",
+        "authors": [
+            {
+                "first": "Amirhoshang",
+                "middle": [
+                    "Hoseinpour"
+                ],
+                "last": "Dehkordi",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Majid",
+                "middle": [],
+                "last": "Alizadeh",
+                "suffix": "",
+                "affiliation": {},
+                "email": "majidalizadeh@ut.ac.ir"
+            },
+            {
+                "first": "Pegah",
+                "middle": [],
+                "last": "Derakhshan",
+                "suffix": "",
+                "affiliation": {},
+                "email": "pegah.derakhshan1997@gmail.com"
+            },
+            {
+                "first": "Peyman",
+                "middle": [],
+                "last": "Babazadeh",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [],
+    "body_text": [
+        {
+            "text": "respiratory failure, and the failure of more than one organ. Reports on April 5, 2020, show that the US, Italy, and China have the most confirmed, fatal and also recovered cases respectively. The order of confirmed cases after the US's is followed respectively by Spain, Italy, and Germany; which could be found in the table 1. Confirmed death cases caused by COVID-19 are also observed in 140 different countries (By April 5), lead in numbers by Italy, Spain, the US, and France respectively. About 24% of death cases, 26% of confirmed cases, and 32% of recovered cases are located in Italy, the US, and China respectively, were also present table 1.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "The overall stats since April 5 state that there are 1197405 confirmed, 64606 deaths and 243572 recovered cases, overall. Figure 1 also shows that the COVID-19 spread exists in all continents. is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 122,
+                    "end": 130,
+                    "text": "Figure 1",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": ""
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted March 18, 2020. . https://doi.org/10.1101/2020.03. 15.20036418 doi: medRxiv preprint ,",
+            "cite_spans": [
+                {
+                    "start": 110,
+                    "end": 121,
+                    "text": "15.20036418",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "There isn't much known at the moment about COVID-19, so there is a small amount of data about its comprehensive effects and behaviors. In this study, relations are assumed to be linear, when, initially the drawn plot shows obvious linear relations and secondly, the fitted linear regression line had a small enough error to preserve the values given and the linear regression results could be interpreted with relative ease. In addition, by fitting regression lines with higher order, causes overfitting, resulting from the amount of data. There is no evidence yet, about the relation of other conditions to the outbreak and its case fatality rate (CFR), so by using linear regression line, policies and behaviors could be compared. In the prediction cases, by using linear regression, we could compare future trends of countries in earlier stages, with the ones in later stages. By considering above mentioned statements, we will find the best linear relation between arrays of data. In some cases, the linear relation could be observed but it may exhibit linear relation with some date shift of others (i.e. death cases should have linear relation with earlier values of confirmed cases, given the fact that it should take time from confirmation to death.) CFR could be calculated by the following formula:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Finding Linear Relations"
+        },
+        {
+            "text": "In which D eath and C onf irmed functions will calculate the value of death cases and confirmed cases at that date, T being the date we want to inspect the CFR, dt is the mean duration of confirmed to death.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Finding Linear Relations"
+        },
+        {
+            "text": "To find linear relation with minimum error of two arrays X , Y of numbers, by shifting Y (maximum number of steps are stp)",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Algorithm 1 BRG (Best Linear Regression)"
+        },
+        {
+            "text": "N , x 0 , \u03b7 are NN, input point and neighborhood function respectively 3: len \u2190 length(X ) \u2212 stp 4: Y \u2190 i \u2212 th len elements of Y 10:",
+            "cite_spans": [
+                {
+                    "start": 71,
+                    "end": 73,
+                    "text": "3:",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Algorithm 1 BRG (Best Linear Regression)"
+        },
+        {
+            "text": "lm \u2190 LinearRegression() 11 :",
+            "cite_spans": [
+                {
+                    "start": 24,
+                    "end": 26,
+                    "text": "11",
+                    "ref_id": "BIBREF10"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Algorithm 1 BRG (Best Linear Regression)"
+        },
+        {
+            "text": "Fitting best regression line to X , Y 12: mae \u2190 lm.meanAbsoluteError 13: rma.append(mae) 14: if mae < min val then 15: min val \u2190 mae 16: best date \u2190 i 17: best lm \u2190 lm 18: return best date , best lm",
+            "cite_spans": [
+                {
+                    "start": 38,
+                    "end": 41,
+                    "text": "12:",
+                    "ref_id": null
+                },
+                {
+                    "start": 69,
+                    "end": 72,
+                    "text": "13:",
+                    "ref_id": null
+                },
+                {
+                    "start": 89,
+                    "end": 92,
+                    "text": "14:",
+                    "ref_id": null
+                },
+                {
+                    "start": 115,
+                    "end": 118,
+                    "text": "15:",
+                    "ref_id": null
+                },
+                {
+                    "start": 133,
+                    "end": 136,
+                    "text": "16:",
+                    "ref_id": null
+                },
+                {
+                    "start": 151,
+                    "end": 154,
+                    "text": "17:",
+                    "ref_id": null
+                },
+                {
+                    "start": 168,
+                    "end": 171,
+                    "text": "18:",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Algorithm 1 BRG (Best Linear Regression)"
+        },
+        {
+            "text": "Global Daily Statistics Figure 2a shows the global confirmed, deaths and recovered cases' trend for COVID-19 form Jan 22 to April 5, 2020. Death cases are excessively lower than confirmed ones, so we normalized (By dividing the value of Confirmed, Deaths and Recovered cases to their maximum respectively) it in Fig. 2c to investigate all three trends of cases. For the confirmed cases, there is a huge increase since Feb 11, the increase tones down from Feb 11 to the next day, Furthermore on Feb 13 another sharp increase is reported. It could be observed in Fig. 2b which shows new cases for each day (and normalized in Fig. 2d ). The most reliable speculation for this jump is that in that day, China (the country with the most confirmed cases) for the first time, reported the clinically diagnosed cases in addition to laboratory-confirmed cases [17] , in which 13332 clinically diagnosed cases are added to 1148 laboratory-confirmed ones. Since then, China has kept the same reporting method for the confirmed cases. On 23rd and 24th of Feb, again the decrease of new cases subsided and new cases increased as before. As shown in Fig. 2a the reduction trend is continued (approximately) and the cause of the increase was other countries' growing numbers. So, for more accurate analysis each country will be investigated separately.",
+            "cite_spans": [
+                {
+                    "start": 851,
+                    "end": 855,
+                    "text": "[17]",
+                    "ref_id": "BIBREF16"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 24,
+                    "end": 33,
+                    "text": "Figure 2a",
+                    "ref_id": null
+                },
+                {
+                    "start": 312,
+                    "end": 319,
+                    "text": "Fig. 2c",
+                    "ref_id": null
+                },
+                {
+                    "start": 561,
+                    "end": 568,
+                    "text": "Fig. 2b",
+                    "ref_id": null
+                },
+                {
+                    "start": 623,
+                    "end": 630,
+                    "text": "Fig. 2d",
+                    "ref_id": null
+                },
+                {
+                    "start": 1136,
+                    "end": 1143,
+                    "text": "Fig. 2a",
+                    "ref_id": null
+                }
+            ],
+            "section": "Algorithm 1 BRG (Best Linear Regression)"
+        },
+        {
+            "text": ". CC-BY-NC 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. (which was not certified by peer review)",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "4"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted March 18, 2020 ",
+            "cite_spans": [
+                {
+                    "start": 59,
+                    "end": 73,
+                    "text": "March 18, 2020",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "4"
+        },
+        {
+            "text": "Wuhan city located in Hubei Province is reported to be the origin of COVID-19. On January 23 2020, a lockdown in Wuhan and other cities in Hubei was implemented to control the outbreak of the COVID-19. A total of 12 other cities in Hubei, consisting of Huangshi, Jingzhou, Yichang, Xiaogan, Jingmen, Suizhou, Xianning, Qianjiang, Xiantao, Shiyan, Tianmen, and Enshi, restricted any form of transportation by the end of January 24. These decisions were made to prevent the expansion of COVID-19 any further.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "China: The Mainland"
+        },
+        {
+            "text": "As measured in [18] , the incubation period for Wuhan travelers estimated from 2.1 to 11.1 days (The mean incubation period was estimated to be 6.4 days), and also generally the mean incubation period was estimated at 5.2 days which distributed in intervals of 4.1 to 7.0 with 95% confidence [19] . By adding these two values, 11.6 days after Jan 24 (4th and 5th of Feb) the effects should be clearly manifesting. Figure 3b depicted the new daily confirmed cases of China outside of Hubei. The peak of the plot is located on Feb 13 and the daily new cases reduces afterward. This reduction shows that the lockdown plays a serious role in the further reduction of cases in China(excluding Hubei province). Even Though there is no reason to argue the lockdown's positive impact on Hubei itself, the decrease in new confirmed cases (Feb 13 increase's rationale was described in the previous section) shows that emergency circumstances and movement limitations yields positive results to the reduction 5 . CC-BY-NC 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. (which was not certified by peer review)",
+            "cite_spans": [
+                {
+                    "start": 15,
+                    "end": 19,
+                    "text": "[18]",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 292,
+                    "end": 296,
+                    "text": "[19]",
+                    "ref_id": "BIBREF18"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 414,
+                    "end": 423,
+                    "text": "Figure 3b",
+                    "ref_id": null
+                }
+            ],
+            "section": "Confirmed Cases"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted March 18, 2020. . https://doi.org/10.1101/2020.03. 15.20036418 doi: medRxiv preprint , of confirmed cases from 10th of Feb. Since February 13 2020, the Chinese government has issued shutdown of all non-essential companies, including manufacturing plants, in Hubei Province. 5 days later, on Feb 18, a drop of new cases could be observed (Fig. 3b) . Finally, the confirmed new cases in China were negligible from 1st of March.",
+            "cite_spans": [
+                {
+                    "start": 110,
+                    "end": 121,
+                    "text": "15.20036418",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 396,
+                    "end": 405,
+                    "text": "(Fig. 3b)",
+                    "ref_id": null
+                }
+            ],
+            "section": "Confirmed Cases"
+        },
+        {
+            "text": "The number of deaths is far lower than confirmed cases. So, to investigate the relation of confirmed cases trend with the CFR, the normalized plot will be investigated. By observing normalized Hubei province plot of confirmed deaths and recovered cases in Fig. 3k , it could be seen that the CFR trend behaves the same as the confirmation, with a shift (In date). Visually, it could be seen that the value of shift in date varies and increases during this time. In earlier cases, the period of confirmation cases leading to death was shorter. It seems, one reason for this variation is, that confirmed cases consist only of just laboratory cases, and by adding clinically diagnosed cases (which existed before but didn't count beforehand) the time of confirmation to death increases. In other words, the number of confirmed cases gets closer to the real value, and the cases are announced sooner than they did before. Other possible reasons include, the advancements in developing treatments, further delaying fatal cases, and the increase in public awareness, as more people with possible signs of infection come forward to be diagnosed. To estimate the expected value of confirming a case up to the death stage, assuming a linear relation between the death and confirmed rates, we draw a linear regression line for confirmed and death cases' value, each time increasing the duration and finding the mean absolute error (MAE) of the regression line. Normally, by increasing the duration, following the reduction in investigated points, the MAE is reduced. However if there is an obvious relation between these two parameters, at the point which they had a correlating relation, MAE will begin to increase (Fig. 4a ). Wang et al. estimated the time from the the appearance of first symptoms to dyspnea was 5.0 days, to hospital admission 7.0 days, and to ARDS 8.0 days [20] . Another study, found that the median days from the first symptom to death as 14 (range 6-41) days [21] . As seen in Fig. 4c this value is about 11 days in China (excluding Hubei province), Fig. 4e depicted the value 7 for Hubei and Fig. 4a depicted value is 9 days for China. Assuming the hospital admission is the same day as confirmation (or a day before confirmation) the mean total of 14 days from the first symptom could be approved in [21] . By finding the mean day from confirmation to death, it is possible to find out the CFR in China, Hubei and China(excluding Hubei province) (algorithm 1 reports best shifting date value and best linear regression line). To find CFR of April 5 for Hubei, confirmed cases on April 5 should be divided by the death cases of 7 days prior (which is March 29) returning 4.7%. Calculating CFR for China (excluding Hubei) on April 5, follows as confirmed cases on the same day divided by death cases of 11 days before that date that equals 0.9%; Finally, for China's CFR on April 5, dividing April 5 confirmed cases by death ones of 9 days prior (March 11) yields 4%.",
+            "cite_spans": [
+                {
+                    "start": 1869,
+                    "end": 1873,
+                    "text": "[20]",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 1974,
+                    "end": 1978,
+                    "text": "[21]",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 2317,
+                    "end": 2321,
+                    "text": "[21]",
+                    "ref_id": "BIBREF20"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 256,
+                    "end": 263,
+                    "text": "Fig. 3k",
+                    "ref_id": null
+                },
+                {
+                    "start": 1706,
+                    "end": 1714,
+                    "text": "(Fig. 4a",
+                    "ref_id": null
+                },
+                {
+                    "start": 1992,
+                    "end": 1999,
+                    "text": "Fig. 4c",
+                    "ref_id": null
+                },
+                {
+                    "start": 2065,
+                    "end": 2072,
+                    "text": "Fig. 4e",
+                    "ref_id": null
+                },
+                {
+                    "start": 2108,
+                    "end": 2115,
+                    "text": "Fig. 4a",
+                    "ref_id": null
+                }
+            ],
+            "section": "Deaths"
+        },
+        {
+            "text": "Recovered cases are defined active cases-patients recovered after a certain amount of time, with its trend seen in Fig.  3k , Fig. 3j and Fig. 3l . By comparing recovered cases with confirmed ones, a relation is observed after date shifts. Unlike death cases, recovered cases' shift are longer initially, and reduces over time. The assumed reasoning is that by the passing of time, more medical treatments develop, healthcare providers gain more experience in handling patients' care and as more people are informed, increasing numbers of them check in hospitals at the early stages of their disease, resulting in an even more efficient treatment. However this reduction doesn't break the linear relation between confirmed cases and recovered ones enough to be significant. To find the mean date shift between confirmed cases and recovered ones, we apply a linear regression line to different dates by shifting them back until a first local minimum MAE is found(algorithm 1). Hubei province's recovered mean duration value found is 17 days Fig. 4f , the same value for China(excluding Hubei province) is 19 days Fig. 4d , and finally for China it's 18 days Fig. 4b . To find out the recovered cases ratio of Hubei province at April 5th, recovered cases of April 5 are divided by confirmed cases of 17 days prior resulting in 94%. Same calculation applies for China (excluding Hubei) 99%, and finally for China 95%.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 115,
+                    "end": 123,
+                    "text": "Fig.  3k",
+                    "ref_id": null
+                },
+                {
+                    "start": 126,
+                    "end": 133,
+                    "text": "Fig. 3j",
+                    "ref_id": null
+                },
+                {
+                    "start": 138,
+                    "end": 145,
+                    "text": "Fig. 3l",
+                    "ref_id": null
+                },
+                {
+                    "start": 1040,
+                    "end": 1047,
+                    "text": "Fig. 4f",
+                    "ref_id": null
+                },
+                {
+                    "start": 1112,
+                    "end": 1119,
+                    "text": "Fig. 4d",
+                    "ref_id": null
+                },
+                {
+                    "start": 1157,
+                    "end": 1164,
+                    "text": "Fig. 4b",
+                    "ref_id": null
+                }
+            ],
+            "section": "Recovered"
+        },
+        {
+            "text": "First confirmed cases of COVID-19 was observed Jan 20th in South Korea, but the outbreak started around Feb 18th (29 days later), its death and recovered cases' trend shown in Fig. 5a after normalizing, in addition the new cases' real-valued and normal form are also found in Fig. 5b . New confirmed, death and recovered cases are also depicted in Fig. 5c and normalized in Fig. 5d . In Fig. 5e first days of four country's outbreak compared. New confirmed and death cases also depicted in Fig. 5g and 5h. Being one of the first countries reporting the outbreak of COVID-19, the first report was on Jan 20. However, no outbreak was observed by Feb 18th, after which there was a significant increase in the number of confirmed cases. A comparison between the growth trend in numbers from South Korea from this date with China's is depicted in Fig. 5e as shown the growth rate of South Korea is more than China's. Followed by a faster reduction in South Korea, patterns 6 . CC-BY-NC 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 176,
+                    "end": 183,
+                    "text": "Fig. 5a",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 276,
+                    "end": 283,
+                    "text": "Fig. 5b",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 348,
+                    "end": 355,
+                    "text": "Fig. 5c",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 374,
+                    "end": 381,
+                    "text": "Fig. 5d",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 387,
+                    "end": 394,
+                    "text": "Fig. 5e",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 490,
+                    "end": 497,
+                    "text": "Fig. 5g",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 842,
+                    "end": 849,
+                    "text": "Fig. 5e",
+                    "ref_id": "FIGREF2"
+                }
+            ],
+            "section": "Confirmed Cases"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted March 18, 2020. . https://doi.org/10.1101/2020.03.15.20036418 doi: medRxiv preprint 8 . CC-BY-NC 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted March 18, 2020. . https://doi.org/10.1101/2020.03.15.20036418 doi: medRxiv preprint are approximately the same between the two. COVID-19 spreads from human to human [22] , therefore in addition to isolation of people, social avoidance and quarantine policies, faster detection of infected cases should reduce further growth. Each infected individual, by having contact with others directly or by proxy, (in other words by activity) could infect a number of people, so to reduce the odds of transmission of virus, faster detection of infected individuals could play a key role alongside lockdown strategies. Based on the Korea Centers for Disease Control and Prevention (KCDC), as of March 8th 2020, a total number of 188,518 cases have been screened and tested for HCoV infection [23] . More than 10,000 tests had been taken on March 8th, and just in two days, this number has reached to 210,144 (indicating more than 20,000 tests had been taken in 2 days). At this date, South Korea reached to 4099 taken-tests per million people. The magnitude of this number clearly shows the policy of South Korea, an attempt to reduce the duration of detection, through a faster detection strategy [24] . Furthermore, the fact that the CFR in the old South Korean affected adults [25] (patients above 70 years) is still lower than that of Italian HCoV affected patients (average 47 years old), better signifies the role of early detection in controlling the epidemic.",
+            "cite_spans": [
+                {
+                    "start": 224,
+                    "end": 228,
+                    "text": "[22]",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 839,
+                    "end": 843,
+                    "text": "[23]",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 1245,
+                    "end": 1249,
+                    "text": "[24]",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 1327,
+                    "end": 1331,
+                    "text": "[25]",
+                    "ref_id": "BIBREF24"
+                }
+            ],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "To determine the CFR of confirmed cases, specially in countries in which the COVID-19 is spreading, the knowledge of confirmation to death duration is essential. To demonstrate a wrong approach, if dividing the death cases by confirmed ones on a specific date, yield the wrong answers, for the death cases might have been confirmed some day prior. By assuming that CFR has a linear (or near linear) relation with confirmed rate, duration of confirmation to death could be evaluated by fitting multiple linear regression lines. Minimum value for MAE appears for 5 days shift (for South Korea), meaning death cases were confirmed 5 days before. To discern the CFR of South Korea, total death cases should be divided by total confirmed date of 5 days prior (slope of the regression line also shows the rate). As alluded to before, there are many types of COVID-19 with respect to acuteness of the disease. The CFR varies depending on the level of infected people already confirmed. If a country manages to diagnose and confirm the affection of a patient, in an earlier stage and begins curating the infected individuals, or tallying those with mild COVID-19, the CFR would be comparatively lower. Such percussion alludes to the apparent lower CFRs in South Korea (1.8%) versus other countries with comparably large outbreaks.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Deaths"
+        },
+        {
+            "text": "The US's confirmed, death and recovered COVID-19 cases trend is depicted in Fig. 6a , as well as its normal form in Fig.  6b . On March 10 both the confirmed and death cases of the US increased (about 2.9 and 2.5 times respectively). The huge increase in death and confirmed cases lead the regression line algorithm to define confirmed to death duration 9 . CC-BY-NC 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 76,
+                    "end": 83,
+                    "text": "Fig. 6a",
+                    "ref_id": null
+                },
+                {
+                    "start": 116,
+                    "end": 124,
+                    "text": "Fig.  6b",
+                    "ref_id": null
+                }
+            ],
+            "section": "The US: The great outbreak"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted March 18, 2020. . https://doi.org/10.1101/2020.03. 15.20036418 doi: medRxiv preprint in 0 days. However, it wouldn't be possible unless most dead cases are confirmed after death. Accepting the 3 days for the US (see Fig.6g ), the CFR should be about 4%. The high CFR could be alluded to the detection of the infected individuals during the last stages of the illness, or reporting on serious cases with higher CFRs exclusively. Compared to China, Iran, Italy and South Korea, both confirmed and death cases of the US shows higher orders of incrementation. Comparing the increment rate of countries, the US seems to be in an earlier stage compared to China (outbreak is nearly ended), South Korea (at the ending stage), and Italy (passing the peak of the outbreak). Experimentally, for COVID-19 most of the countries in which the pandemic happened, (if the strategy does not change many times) two phases of the outbreak could be introduced. The first one is when the virus spreads increasingly (in each day new cases are more than previous), and the second one is the controlling outbreak in which new cases reduced to near zero. The US is now in the spreading phase (new confirmed and death cases depicted in Fig. 6e and Fig.6f) , the more reduction in new cases would cost more, and a trend with more slope costs more to be flattening. China and South Korea passed the fist phase and currently (April 5) it seems they are at the near end of the second stage. The experience of these two countries shows that the second phase will add about 150% of the first stage's cases but it also could varied depending on the taken strategies. Considering this calculation, each day in the first phase adds about 2.5 times the new cases on that date in total. Note that, these two phases could be repeated in a country more than once. It is advisable to follow the US in the coming days for more accurate information gathering, considering the latest increment could be caused by wrong data in the previous dates.",
+            "cite_spans": [
+                {
+                    "start": 110,
+                    "end": 143,
+                    "text": "15.20036418 doi: medRxiv preprint",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 275,
+                    "end": 281,
+                    "text": "Fig.6g",
+                    "ref_id": null
+                },
+                {
+                    "start": 1269,
+                    "end": 1288,
+                    "text": "Fig. 6e and Fig.6f)",
+                    "ref_id": null
+                }
+            ],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "Italy reported its first confirmed cases of COVID-19 infection on Jan 31, later announcing an outbreak around Feb 21st (21 days later). We have displayed (after normalizing) overall analysis in addition to death and recovered cases' trend in Fig. 7b depicted the COVID-19's trend in the country. By normalizing the plot, death and recovered cases' trend could be seen in Fig.7b . The plot for new cases also figured in Fig. 7c in real-valued and normal form. Comparison between the growth trend in numbers from Italy from this date with China's in the early stages is depicted in Fig. 7d as shown, the growth rate patterns are approximately the same between the two for first 14 days, showing identical behavior in the increasing numbers of confirmed cases. After day 14th, Italy exhibits incremental increase in confirmed cases juxtaposed to China's. Lombardy, the center of outbreak in Italy was locked down on February 22. To analyze the stage of the disease in the Italian HCoV infected patients (i.e., to find out how rapid the infected people have been screened and diagnosed), the results of the COVID-19 tests of Italy and South Korea can be compared. South Korea has been considered as a reference as its HCoV-related CFR is low enough, indicating that both countries are at the same level of HCoV infection. Till March 10th 2020, a total of 60,761 HCoV tests had been taken form Italians' through their screening program, where as in South Korea this number exceeds 210,144 tests, more than 3 folds. However, the number of the daily taken tests in Italy has been increasing, i.e., it was 13000 on March 11th [26] . On March 9, a national quarantine was imposed by the Italian government in which any movement of population has been restricted except necessary ones. Consequently, 11 days later the increase of new cases in Italy stopped, and it seems Italy is in changing-phase days.",
+            "cite_spans": [
+                {
+                    "start": 1618,
+                    "end": 1622,
+                    "text": "[26]",
+                    "ref_id": "BIBREF25"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 242,
+                    "end": 249,
+                    "text": "Fig. 7b",
+                    "ref_id": "FIGREF3"
+                },
+                {
+                    "start": 371,
+                    "end": 377,
+                    "text": "Fig.7b",
+                    "ref_id": "FIGREF3"
+                },
+                {
+                    "start": 419,
+                    "end": 426,
+                    "text": "Fig. 7c",
+                    "ref_id": "FIGREF3"
+                },
+                {
+                    "start": 580,
+                    "end": 587,
+                    "text": "Fig. 7d",
+                    "ref_id": "FIGREF3"
+                }
+            ],
+            "section": "Confirmed Cases"
+        },
+        {
+            "text": "By comparing new cases of Italy and China which manifested in Fig. 7e (and the overall CFR comparison of the two in Fig.7g) , it is clear that new death cases of Italy increased next to China's. Calculating the total CFR of Italy (confirmation to death duration calculated as 4 days) about 14.5% of confirmed cases passed away. Compared to South Korea's rate of 1.8% (8 times than Italy) and China's 4% (72% lower than Italy), the CFR of Italy is too high. Ignoring race and climate as conditions (in which there is no clue of their impact), there should exist a strong rationale for this difference. One hypothesis is that some infected individuals are not diagnosed until later more serious stages of the disease. This could also explain the increase in confirmed cases, suggesting those infected, remain in contact with others. By comparing hospital beds per 10000 people, the indicator was 115.32 (At 2014), 42 (At 2012) and 34.22 (At 2012)(Iran 15 2014) for South Korea, China and Italy, respectively [27] . Statistically, it is observed that the CFR of COVID-19 has had a direct relation with age (with the average age of death for these 3 countries respectively 28, 38 and 47 years old [28] ) and It also potentially contributes to the increase in CFRs.",
+            "cite_spans": [
+                {
+                    "start": 1006,
+                    "end": 1010,
+                    "text": "[27]",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 1193,
+                    "end": 1197,
+                    "text": "[28]",
+                    "ref_id": "BIBREF27"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 62,
+                    "end": 69,
+                    "text": "Fig. 7e",
+                    "ref_id": "FIGREF3"
+                },
+                {
+                    "start": 116,
+                    "end": 123,
+                    "text": "Fig.7g)",
+                    "ref_id": "FIGREF3"
+                }
+            ],
+            "section": "Deaths"
+        },
+        {
+            "text": "Massive levels of COVID-19 outbreak were reported around Feb 25 for Spain, as seen by its trend of confirmed, death and recovered cases demonstrated in Fig. 8a . By comparing the early stages of Spain with Iran, Italy and South Korea in Fig. 8c the trend since April 5 shows Spain has larger growth rate than other ones mentioned here. Mean age of Spain is 10 . CC-BY-NC 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 152,
+                    "end": 159,
+                    "text": "Fig. 8a",
+                    "ref_id": "FIGREF4"
+                },
+                {
+                    "start": 237,
+                    "end": 244,
+                    "text": "Fig. 8c",
+                    "ref_id": "FIGREF4"
+                }
+            ],
+            "section": "Spain: Italy's Follower"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted March 18, 2020 ",
+            "cite_spans": [
+                {
+                    "start": 59,
+                    "end": 73,
+                    "text": "March 18, 2020",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": ". CC-BY-NC 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "11"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted March 18, 2020 45 years old and hospital beds per person in the country is 29.65 for every 10000 (At 2013), compared to Italy the mean age of Spain is slightly smaller while hospital beds per person are relatively higher, consequently it is expected that the CFR should therefore be slightly lower. After calculating the confirmed to death cases duration which is 5 days the CFR of Spain results in 13.5% for Spain, as expected. Following by March 9 national quarantine in Italy, Spain proposed movement restriction on March 16. As it could be seen in 8b the increasing new cases of Spain stopped 10 days later. Following Italy, Spain is also at the beginning of the phase-shifting period.",
+            "cite_spans": [
+                {
+                    "start": 59,
+                    "end": 73,
+                    "text": "March 18, 2020",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "COVID-19 was first reported in Iran starting with 2 dead cases on 19th of Feb in Qom (a city near Tehran, Iran's capital), followed immediately by a huge outbreak, displayed in Fig. 9a detailing its number of confirmed, deaths and recovered cases, and normalized in Fig. 9b . Officially, Iran hasn't mandated any city wide lockdowns, but recently some provinces are refusing non-local travelers. Regarding the experiences in China, lockdown strategy will isolate cities to avoid transmitting the growth rate to other cities. However, such policies entail some negative consequences, and therefore they were not implemented in early stages of the outbreak in Iran; in contrast to Italy and South Korea, where there was a gap between outbreak and huge outbreak (21 and 27 days). On the 10th day of outbreak in Iran, total reported confirmed infected individual cases reached 388.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 177,
+                    "end": 184,
+                    "text": "Fig. 9a",
+                    "ref_id": "FIGREF5"
+                },
+                {
+                    "start": 266,
+                    "end": 273,
+                    "text": "Fig. 9b",
+                    "ref_id": "FIGREF5"
+                }
+            ],
+            "section": "Iran: Good Recovery Rate"
+        },
+        {
+            "text": "To find confirmed to death cases mean duration, as before, we calculate the minimum MAE, assuming there is a linear relation between these two. Linear regression algorithms shows the date shift should be zero, which means on average, death cases confirmed at the same day. By comparing the death trend with confirmed cases in Fig. 9b , it is obvious that the trend of CFR was not linear. The reported death vs confirmed are too excessive at early days. It is possible that the shortage of COVID-19 testing kits or/and the lack of clinical diagnosis approach caused such unreliable data. Countries at this stage mostly had about 7 days of confirmation to death period, so following this assumption the COVID-19's CFR in Iran is around 9.4%. By observing the 24th of Feb's report, there were 49 active cases (The cases which are not recovered or dead but confirmed as a COVID-19 infected) reported (at least 14 cases are new) and the value for active cases in the next day was 79 (at least 30 new cases). Two days later, the reported recovered cases was 49. Supposing no one was treated in less than two days, this results in 100% recovery of 14 new cases in two days and also no active cases after two days, marking a great experience which was reported by Iran's officials. Otherwise, some cases were treated in one day. This makes Iran's phenomena intriguing for investigating the details and contributing factors for such cases in order to find a relation between individual's physical conditions and their treatment period. However, errors in report could also explain this information. Using regression line to find the mean recovered duration shows that the recovery duration for Iran should be around 1 day, Also seen in Fig. 9c , the rate of recovery in Iran is quite significant at 37%. The 20th day of the outbreak, a temporal reduction in new cases could be observed starting on 6th of March persisting until 9th of March. Evidently, it is the impact of a nation wide implemented policy reducing working hours 6 days prior (5.4 days is the mean incubation period [18] ). After 4 days, with the arrival of weekends and the following 2 additional holidays. Reports indicate, many people took trips during these dates which is widely assumed as a reason for confirmed cases' rise. Although many companies implemented forms of remote work for their employees (which is estimated to have a positive impact on preventing the growth outbreak), yet many governmental office working hours returned to their pre-outbreak times (naturally assumed to negatively impact the prevention of disease's spread ).",
+            "cite_spans": [
+                {
+                    "start": 2073,
+                    "end": 2077,
+                    "text": "[18]",
+                    "ref_id": "BIBREF17"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 326,
+                    "end": 333,
+                    "text": "Fig. 9b",
+                    "ref_id": "FIGREF5"
+                },
+                {
+                    "start": 1727,
+                    "end": 1734,
+                    "text": "Fig. 9c",
+                    "ref_id": "FIGREF5"
+                }
+            ],
+            "section": "Iran: Good Recovery Rate"
+        },
+        {
+            "text": "The first confirmed cases of COVID-19 in Japan returned from Wuhan on 6th of Jan. However, the outbreak in Japan sped up on Feb 15. Fig. 10a shows the trend of outbreak after 15th Feb in Japan, while Fig. 10b is normalized to compare Confirmed, Deaths and Recovered cases. The trend shows that the spread of COVID-19 in Japan behaves at a lower rate than China's first dates. CFR is estimated that it is about 4.1%. The CFR is good by adding the information of mean age in Japan, which is 48. By finding out the hospital per bed value of Japan which is 134 (reported at 2012",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 132,
+                    "end": 140,
+                    "text": "Fig. 10a",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 200,
+                    "end": 208,
+                    "text": "Fig. 10b",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Japan"
+        },
+        {
+            "text": "13 . CC-BY-NC 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. WHO), the relation of death cases compared with hospital per bed is more clear. Although Japan managed the early stage exponential rate of COVID-19, a reduction in new cases is not observed.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Japan"
+        },
+        {
+            "text": "France underwent two increments in its rate of confirmed COVID-19 cases. The first one was on Feb 25, therefore chosen as the starting point of the outbreak. Second was from 4th of April as shown in Fig. 11a . By normalizing data displayed in Fig. 11b and calculating the confirmed to death duration which is 7, CFR for France at April 5 results in 19.9%. Considering the mean age as a parameter, which in France is lower than Spain (42 and 45 respectively) in addition to beds per person which is 64.77 (At 2013) [27] (Higher than Spain), CFRs are expected to be lower than Spain, but the unexpected growth in death cases from April 2 increases the CFR of France even more than Spain's. The unexpected change also had an impact on the regression line. By comparing the growth of confirmed cases with China, Iran, Italy and South Korea depicted in Fig. 11c , France has a very high slope in both confirmed and death. More than 1000 new death cases per day from April 2 and a more than 25000 new confirmed cases on April 4 contribute to such faster increment.",
+            "cite_spans": [
+                {
+                    "start": 514,
+                    "end": 518,
+                    "text": "[27]",
+                    "ref_id": "BIBREF26"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 199,
+                    "end": 207,
+                    "text": "Fig. 11a",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 243,
+                    "end": 251,
+                    "text": "Fig. 11b",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 848,
+                    "end": 856,
+                    "text": "Fig. 11c",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "France: Unexpected Recent Changes"
+        },
+        {
+            "text": "By observing the Fig. 12a and comparing the trend with China, Italy, Iran and South Korea, which is depicted in Fig.  12b , Germany had same COVID-19 trend as Italy. Total number of deaths in Germany since 17th March is 24. By dividing the deaths of April 5 to confirmed of March 30, 2.36% is the CFR, which is too low at considering the mean age 14 . CC-BY-NC 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. 15 . CC-BY-NC 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. of Germany which is 47. The possible reason for this low CRF is earlier confirmation, which leads earlier hospitalization for the infected.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 17,
+                    "end": 25,
+                    "text": "Fig. 12a",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 112,
+                    "end": 121,
+                    "text": "Fig.  12b",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Germany: Handled CFR"
+        },
+        {
+            "text": "The current outbreak of the novel coronavirus (COVID-19), epi-centered in Hubei Province of the People's Republic of China, has spread to many other countries. The case detection rate is changing daily and can be tracked in almost real time on the mentioned website. Reports on April 5, 2020, show that the USA, Italy, and China have the most confirmed, fatal, and recovered cases respectively, and in terms of confirmed cases, Spain, Italy, Germany, and France are following the USA, respectively. Confirmed death cases lead in numbers by Italy and followed respectively by Spain, US, and France. The daily statistics showed that lockdown are effective in reduction of incidence of confirmed cases with COVID-19 after about 10 days in China, Italy, and Spain. South Korea, is one of the first countries reporting the cases after China and the growth pattern of confirmed cases is the same as China's. However, they implement some policies such as in addition to isolation of people, social avoidance and quarantine policies for infected, and faster detection of infected cases which were effective in decrease in new confirmed case and also case fatality. Italy and China have the approximately same growth rate patterns for first 14 days. Lockdown strategy of Lombardy (the center of outbreak in Italy) seems to have had a positive effect on other municipalities. Unlike to China's growth pattern, Iran's incremental trend continued to rise until the 20th day of the outbreak, Even Though a temporal reduction in new cases could be observed due to a nation wide implemented policy reducing working hours. The case fatality rate in China was 4% (for Hubei was 4.7%). The highest and the lowest case fatality rates belong to Italy (14.3%), and South Korea (1.8%), respectively. Which could represent the effectiveness of their policies in control of the COVID-19. The US has more than a quarter of confirmed cases. It seems the leading country in confirmed cases of COVID-19 should propose a new policy to reduce new cases and go to the next phase of the pandemic. Social distancing was one of the most effective policies to control past epidemic disease by limitation human to human transmission and reducing mortality and morbidity ( [29] , [30] , [30] ). However studies suggest that combination of multiple policies can boost the effectiveness. For instance, New York City Department of Health implement different policies during the influenza pandemic in 1918-19 at the same time and they have the lowest rate of mortality on the eastern seaboard of the US [31] . During COVID-19 outbreak, researchers predicted that the mass movement of people at the end of the Lunar New Year holiday, would increase the spreading of disease. Facing this concern, government of China implemented policies which was helpful in control the disease such as, extended the holiday so the holiday would long enough to shelter the incubation period of COVID-19, isolation of confirmed cases in hospitals, quarantining mild or asymptomatic persons in different hospitals, home-based quarantine of people from Hubei province (epicenter of the epidemic), and the most important one was to prevent individuals with asymptomatic infections from spreading the virus.( [19] , [22] ) Iran is facing this concern as an important upcoming event in Iran is Nowruz which is the Iranian New Year, which recommended prompted policies from government.",
+            "cite_spans": [
+                {
+                    "start": 2236,
+                    "end": 2240,
+                    "text": "[29]",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 2243,
+                    "end": 2247,
+                    "text": "[30]",
+                    "ref_id": "BIBREF29"
+                },
+                {
+                    "start": 2250,
+                    "end": 2254,
+                    "text": "[30]",
+                    "ref_id": "BIBREF29"
+                },
+                {
+                    "start": 2562,
+                    "end": 2566,
+                    "text": "[31]",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 3245,
+                    "end": 3249,
+                    "text": "[19]",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 3252,
+                    "end": 3256,
+                    "text": "[22]",
+                    "ref_id": "BIBREF21"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": ". CC-BY-NC 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. (which was not certified by peer review)",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "16"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted March 18, 2020. . https://doi.org/10.1101/2020.03. 15.20036418 doi: medRxiv preprint . CC-BY-NC 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. (which was not certified by peer review)",
+            "cite_spans": [
+                {
+                    "start": 110,
+                    "end": 121,
+                    "text": "15.20036418",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "16"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted March 18, 2020. . https://doi.org/10.1101/2020.03. 15.20036418 doi: medRxiv preprint ",
+            "cite_spans": [
+                {
+                    "start": 110,
+                    "end": 143,
+                    "text": "15.20036418 doi: medRxiv preprint",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "16"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Human coronaviruses: a brief review",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Sh Myint",
+                    "suffix": ""
+                }
+            ],
+            "year": 1994,
+            "venue": "Reviews in Medical Virology",
+            "volume": "4",
+            "issn": "1",
+            "pages": "35--46",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Cultivation of viruses from a high proportion of patients with colds",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Daj Tyrrell",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Bynoe",
+                    "suffix": ""
+                }
+            ],
+            "year": 1966,
+            "venue": "Lancet",
+            "volume": "",
+            "issn": "",
+            "pages": "76--83",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Human coronaviruses: a review of virus-host interactions",
+            "authors": [
+                {
+                    "first": "Yvonne",
+                    "middle": [
+                        "Xinyi"
+                    ],
+                    "last": "Lim",
+                    "suffix": ""
+                },
+                {
+                    "first": "Yan",
+                    "middle": [
+                        "Ling"
+                    ],
+                    "last": "Ng",
+                    "suffix": ""
+                },
+                {
+                    "first": "James",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Tam",
+                    "suffix": ""
+                },
+                {
+                    "first": "Ding Xiang",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Diseases",
+            "volume": "4",
+            "issn": "3",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Coronavirus: A mini-review",
+            "authors": [
+                {
+                    "first": "Ashikujaman",
+                    "middle": [],
+                    "last": "Syed",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Int. J. Curr. Res. Med. Sci",
+            "volume": "6",
+            "issn": "1",
+            "pages": "8--10",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Ultrastructural characterization of sars coronavirus",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Cynthia",
+                    "suffix": ""
+                },
+                {
+                    "first": "Kathleen",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Goldsmith",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Tatti",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Thomas",
+                    "suffix": ""
+                },
+                {
+                    "first": "Pierre",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Ksiazek",
+                    "suffix": ""
+                },
+                {
+                    "first": "James",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Rollin",
+                    "suffix": ""
+                },
+                {
+                    "first": "William",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Comer",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Paul",
+                    "suffix": ""
+                },
+                {
+                    "first": "Bettina",
+                    "middle": [],
+                    "last": "Rota",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Bankamp",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "William",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Bellini",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Sherif R Zaki",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Emerging infectious diseases",
+            "volume": "10",
+            "issn": "2",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Coronaviruses: an overview of their replication and pathogenesis",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Anthony",
+                    "suffix": ""
+                },
+                {
+                    "first": "Stanley",
+                    "middle": [],
+                    "last": "Fehr",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Perlman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Coronaviruses",
+            "volume": "",
+            "issn": "",
+            "pages": "1--23",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Healthcare-associated atypical pneumonia",
+            "authors": [
+                {
+                    "first": "Sarah",
+                    "middle": [],
+                    "last": "Forgie",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Thomas",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Marrie",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Seminars in respiratory and critical care medicine",
+            "volume": "30",
+            "issn": "",
+            "pages": "67--085",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Prevalence and genetic diversity analysis of human coronaviruses among cross-border children",
+            "authors": [
+                {
+                    "first": "Peilin",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Lei",
+                    "middle": [],
+                    "last": "Shi",
+                    "suffix": ""
+                },
+                {
+                    "first": "Wei",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Jianan",
+                    "middle": [],
+                    "last": "He",
+                    "suffix": ""
+                },
+                {
+                    "first": "Chunxiao",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Chunzhong",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "Siu",
+                    "middle": [
+                        "Kai"
+                    ],
+                    "last": "Kong",
+                    "suffix": ""
+                },
+                {
+                    "first": "Jacky",
+                    "middle": [],
+                    "last": "Fong Chuen",
+                    "suffix": ""
+                },
+                {
+                    "first": "Dayong",
+                    "middle": [],
+                    "last": "Loo",
+                    "suffix": ""
+                },
+                {
+                    "first": "Longfei",
+                    "middle": [],
+                    "last": "Gu",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Virology journal",
+            "volume": "14",
+            "issn": "1",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Responding to global infectious disease outbreaks: lessons from sars on the role of risk perception, communication and management. Social science & medicine",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Richard",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Smith",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "",
+            "volume": "63",
+            "issn": "",
+            "pages": "3113--3123",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "World Health Organization et al. Case-control study to assess potential risk factors related to human illness caused by middle east respiratory syndrome coronavirus (mers-cov)",
+            "authors": [],
+            "year": 2014,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Middle east respiratory syndrome coronavirus (mers-cov): summary of current situation, literature update and risk assessment",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "World Health Organization",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "When is an epidemic an epidemic?",
+            "authors": [
+                {
+                    "first": "Tiberio",
+                    "middle": [],
+                    "last": "Manfred S Green",
+                    "suffix": ""
+                },
+                {
+                    "first": "Elana",
+                    "middle": [],
+                    "last": "Swartz",
+                    "suffix": ""
+                },
+                {
+                    "first": "Boaz",
+                    "middle": [],
+                    "last": "Mayshar",
+                    "suffix": ""
+                },
+                {
+                    "first": "Alex",
+                    "middle": [],
+                    "last": "Lev",
+                    "suffix": ""
+                },
+                {
+                    "first": "Paul",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Leventhal",
+                    "suffix": ""
+                },
+                {
+                    "first": "Joshua",
+                    "middle": [],
+                    "last": "Slater",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Shemer",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "The Israel Medical Association journal: IMAJ",
+            "volume": "4",
+            "issn": "1",
+            "pages": "3--6",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "World Health Organization. Coronavirus disease 2019 (covid-19) situation report -1",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Correlation analysis between disease severity and inflammation-related parameters in patients with covid-19 pneumonia. medRxiv",
+            "authors": [
+                {
+                    "first": "Jing",
+                    "middle": [],
+                    "last": "Gong",
+                    "suffix": ""
+                },
+                {
+                    "first": "Hui",
+                    "middle": [],
+                    "last": "Dong",
+                    "suffix": ""
+                },
+                {
+                    "first": "Song",
+                    "middle": [
+                        "Qing"
+                    ],
+                    "last": "Xia",
+                    "suffix": ""
+                },
+                {
+                    "first": "Yi",
+                    "middle": [
+                        "Zhao"
+                    ],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Dingkun",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Yan",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "Wenhua",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Shenghao",
+                    "middle": [],
+                    "last": "Tu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Mingmin",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Qi",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Analysis of 2019 novel coronavirus infection and clinical characteristics of outpatients: An epidemiological study from the fever clinic in wuhan, china",
+            "authors": [
+                {
+                    "first": "Wenhua",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Feng",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Gang",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "Yanqiu",
+                    "middle": [],
+                    "last": "Wei",
+                    "suffix": ""
+                },
+                {
+                    "first": "Xinying",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "Li",
+                    "middle": [],
+                    "last": "He",
+                    "suffix": ""
+                },
+                {
+                    "first": "Huihui",
+                    "middle": [],
+                    "last": "Yue",
+                    "suffix": ""
+                },
+                {
+                    "first": "Fengqin",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Qiongjie",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Jiaojiao",
+                    "middle": [],
+                    "last": "Chu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "World Health Organization. Coronavirus disease 2019 (covid-19) situation report -24-13",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Incubation period of 2019 novel coronavirus (2019-ncov) infections among travellers from wuhan, china",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Jantien",
+                    "suffix": ""
+                },
+                {
+                    "first": "Don",
+                    "middle": [],
+                    "last": "Backer",
+                    "suffix": ""
+                },
+                {
+                    "first": "Jacco",
+                    "middle": [],
+                    "last": "Klinkenberg",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Wallinga",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Eurosurveillance",
+            "volume": "25",
+            "issn": "5",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Early transmission dynamics in wuhan, china, of novel coronavirus-infected pneumonia",
+            "authors": [
+                {
+                    "first": "Qun",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "Xuhua",
+                    "middle": [],
+                    "last": "Guan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Peng",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Xiaoye",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Lei",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "Yeqing",
+                    "middle": [],
+                    "last": "Tong",
+                    "suffix": ""
+                },
+                {
+                    "first": "Ruiqi",
+                    "middle": [],
+                    "last": "Ren",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Kathy",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Leung",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Eric",
+                    "suffix": ""
+                },
+                {
+                    "first": "Jessica",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Lau",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Wong",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "New England Journal of Medicine",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Clinical characteristics of 138 hospitalized patients with 2019 novel coronavirus-infected pneumonia in wuhan",
+            "authors": [
+                {
+                    "first": "Dawei",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Bo",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Chang",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Fangfang",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Xing",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Jing",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Binbin",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Hui",
+                    "middle": [],
+                    "last": "Xiang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Zhenshun",
+                    "middle": [],
+                    "last": "Cheng",
+                    "suffix": ""
+                },
+                {
+                    "first": "Yong",
+                    "middle": [],
+                    "last": "Xiong",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Updated understanding of the outbreak of 2019 novel coronavirus (2019-ncov) in wuhan",
+            "authors": [
+                {
+                    "first": "Weier",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Jianming",
+                    "middle": [],
+                    "last": "Tang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Fangqiang",
+                    "middle": [],
+                    "last": "Wei",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "china. Journal of medical virology",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Covid-19 control in china during mass population movements at new year. The Lancet",
+            "authors": [
+                {
+                    "first": "Simiao",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "Juntao",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Weizhong",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Chen",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Till",
+                    "middle": [],
+                    "last": "B\u00e4rnighausen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "The update of covid-19 in rok",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Kcdc",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Coronavirus testing: Criteria and numbers by country",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "KCDC. 114 additional cases are confirmed",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Dati covid-19 italia",
+            "authors": [
+                {
+                    "first": "Umberto Rosini Bruce",
+                    "middle": [],
+                    "last": "Becker",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "World Health Organization. Hospital beds (per 10 000 population",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "Countries in the world by population",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Worldometers",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Effectiveness of workplace social distancing measures in reducing influenza transmission: a systematic review",
+            "authors": [
+                {
+                    "first": "Faruque",
+                    "middle": [],
+                    "last": "Ahmed",
+                    "suffix": ""
+                },
+                {
+                    "first": "Nicole",
+                    "middle": [],
+                    "last": "Zviedrite",
+                    "suffix": ""
+                },
+                {
+                    "first": "Amra",
+                    "middle": [],
+                    "last": "Uzicanin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "BMC public health",
+            "volume": "18",
+            "issn": "1",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "Quantifying social distancing arising from pandemic influenza",
+            "authors": [
+                {
+                    "first": "Peter",
+                    "middle": [],
+                    "last": "Caley",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "David",
+                    "suffix": ""
+                },
+                {
+                    "first": "Kevin",
+                    "middle": [],
+                    "last": "Philp",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Mccracken",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Journal of the Royal Society Interface",
+            "volume": "5",
+            "issn": "23",
+            "pages": "631--639",
+            "other_ids": {}
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "Nonpharmaceutical interventions implemented by us cities during the 1918-1919 influenza pandemic",
+            "authors": [
+                {
+                    "first": "Howard",
+                    "middle": [],
+                    "last": "Markel",
+                    "suffix": ""
+                },
+                {
+                    "first": "Alexander",
+                    "middle": [],
+                    "last": "Harvey B Lipman",
+                    "suffix": ""
+                },
+                {
+                    "first": "Alexandra",
+                    "middle": [],
+                    "last": "Navarro",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Sloan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Alexandra",
+                    "middle": [
+                        "Minna"
+                    ],
+                    "last": "Joseph R Michalsen",
+                    "suffix": ""
+                },
+                {
+                    "first": "Martin",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Stern",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Cetron",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "Jama",
+            "volume": "298",
+            "issn": "6",
+            "pages": "644--654",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Transmission of Coronavirus Disease 2019-2020 (COVID-19); Blue nodes represent regions with confirmed COVID-19 cases, and Red nodes represent the regions with COVID 19",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "COVID-19 epidemic data and statistics of China (mainland), Hubei province, and China excluding Hubei a-c) New [confirmed, recovered and death COVID-19 cases], d-f) Normal data [for confirmed, recovered and death COVID-19 cases], g-i) Confirmed and Death cases, and j-l) Normal data of confirmed and death Confirmed death and Confirmed recovered Regression MAE data for COVID-19 transmission through a,b) China (mainland), c,d) Hubei province, and e,f) China excluding Hubei.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "COVID-19 epidemic data and statistics of South Korea [a-d], and between counties (South Korea, Iran, Italy, and China). For South Korea: a) confirmed, recovered and death COVID-19 cases, b) normalized data, c) New data, and d) Normalized new data. To compare between countries: e) Confirmed cases, f) Death cases, g) Confirmed rate, and i) New confirmed cases",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "COVID-19 epidemic data and statistics of Italy: a) confirmed, recovered and death COVID-19 cases, b) normalized data, c) Normalized new data. Comparison of COVID-19 statistics between China and Italy: d) Confirmed cases, e) Death cases, f) New confirmed cases, and g) New death cases.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "COVID-19 epidemic data and statistics of Spain: a) Normalized data for Confirmed, Recovered and Death COVID-19 cases, b) New confirmed, recovered and death COVID-19 cases, c) Confirmed cases of different countries (Spain, China, South Korea, Italy, and Iran), and d) Death cases of the same countries.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF5": {
+            "text": "COVID-19 epidemic data and statistics of Iran: a) confirmed, recovered and death COVID-19 cases, b) normalized data, c) new data, and d) Normalized New data.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF6": {
+            "text": "COVID-19 epidemic data and statistics of Japan: a) confirmed, recovered and death COVID-19 cases, b) normalized data for confirmed, recovered and death COVID-19 cases. COVID-19 epidemic data and statistics of France: a) Confirmed, Recovered and Death COVID-19 cases, b) Normalized data for confirmed, recovered and death COVID-19 cases, c) Confirmed cases of different countries (France, China, South Korea, Italy, and Iran), and d) Death cases of the same countries.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF7": {
+            "text": "COVID-19 epidemic data and statistics of Germany: a) Confirmed, Recovered and Death COVID-19 cases, and b) Confirmed cases of different countries (Germany, China, South Korea, Italy, and Iran)",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "Top 10 total Confirmed, Deaths & Recovered cases for April-5th",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}

@@ -1,0 +1,890 @@
+{
+    "paper_id": "9ef303645d806909f700e0a467101260af82e37c",
+    "metadata": {
+        "title": "Title: Rapid diagnosis of SARS-CoV-2 infection by detecting IgG and IgM antibodies Running title: Rapid serologic test to diagnose SARS-CoV-2 infection 6 7",
+        "authors": [
+            {
+                "first": "Felipe",
+                "middle": [],
+                "last": "P\u00e9rez-Garc\u00eda",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Hospital Universitario Pr\u00edncipe de Asturias",
+                    "location": {
+                        "addrLine": "15 Madrid",
+                        "country": "Spain. 16 ("
+                    }
+                },
+                "email": "felipe.perez.garcia.87@gmail.comfpg"
+            },
+            {
+                "first": "Ram\u00f3n",
+                "middle": [],
+                "last": "P\u00e9rez-Tanoira",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Hospital Universitario Pr\u00edncipe de Asturias",
+                    "location": {
+                        "addrLine": "15 Madrid",
+                        "country": "Spain. 16 ("
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Juan",
+                "middle": [],
+                "last": "Romanyk",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Hospital Universitario Pr\u00edncipe de Asturias",
+                    "location": {
+                        "addrLine": "15 Madrid",
+                        "country": "Spain. 16 ("
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Teresa",
+                "middle": [],
+                "last": "Arroyo",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Hospital Universitario Pr\u00edncipe de Asturias",
+                    "location": {
+                        "addrLine": "15 Madrid",
+                        "country": "Spain. 16 ("
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Pe\u00f1a",
+                "middle": [],
+                "last": "G\u00f3mez-Herruz",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Hospital Universitario Pr\u00edncipe de Asturias",
+                    "location": {
+                        "addrLine": "15 Madrid",
+                        "country": "Spain. 16 ("
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Juan",
+                "middle": [],
+                "last": "Cuadros-Gonz\u00e1lez",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Hospital Universitario Pr\u00edncipe de Asturias",
+                    "location": {
+                        "addrLine": "15 Madrid",
+                        "country": "Spain. 16 ("
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Objectives: 30 SARS-CoV-2 infection diagnosis is challenging in patients from 2-3 weeks after the 31 onset of symptoms, due to the low positivity rate of the PCR. Serologic tests could be 32 complementary to PCR in these situations. The aim of our study was to analyze the 33 diagnostic performance of one serologic rapid test in COVID-19 patients. 34 Methods: 35 We evaluated an immunochromatographic test (AllTest COVID-19 IgG / IgM) which 36 detects IgG and IgM antibodies. We validated the serologic test using serum samples 37 from 45 negative patients (group 1) and 55 patients with COVID-19 confirmed by PCR 38 (group 2). Then, we prospectively evaluated the test in 63 patients with clinical 39 diagnosis of pneumonia of unknown etiology that were COVID-19 negative by PCR 40 (group 3).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "The pandemic due to SARS-CoV-2 that started in Wuhan four months ago (1,2) has 59 caused until April 8, 2020, a total of 1,353,361 cases and 79,235 deaths worldwide (3) . 60 Spain is the country of the European region that has been most affected by the 61 infection, accounting for 140,510 cases and 13,798 deaths by April 8 (3) . From the 62 beginning of the pandemic, one of the main concerns was the complexity and These limitations have led to development of different microplate ELISA tests (11, 12) . 81 Recently published studies confirm the usefulness of combining PCR in 82 nasopharyngeal exudates with the detection of IgM and IgG antibodies in the blood 83 (13). The combination of molecular and serologic techniques allowed some authors to 84 All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [
+                {
+                    "start": 165,
+                    "end": 168,
+                    "text": "(3)",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 171,
+                    "end": 173,
+                    "text": "60",
+                    "ref_id": null
+                },
+                {
+                    "start": 325,
+                    "end": 328,
+                    "text": "(3)",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 496,
+                    "end": 500,
+                    "text": "(11,",
+                    "ref_id": null
+                },
+                {
+                    "start": 501,
+                    "end": 504,
+                    "text": "12)",
+                    "ref_id": null
+                },
+                {
+                    "start": 507,
+                    "end": 509,
+                    "text": "81",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "58"
+        },
+        {
+            "text": "(which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "58"
+        },
+        {
+            "text": "Population and study period: 99 We included three groups of patients in our study: They were prospective studied after the validation of the serologic test. (which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. Group 2: (patients with positive PCR for SARS-CoV-2): they were used to evaluate the 138 sensitivity of the serological test, using PCR as a gold standard. A total of 55 confirmed 139 All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [
+                {
+                    "start": 29,
+                    "end": 31,
+                    "text": "99",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "98"
+        },
+        {
+            "text": "(which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "98"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted April 15, 2020. Table 1 within the first 2 weeks both for IgM and IgG (p=0.008 and p<0.001, respectively, Table   164 2), reaching a sensitivity of 73.9% after 14 days from the onset of symptoms. Figure 1 165 shows the evolution in the positivity rates of the test in group 2: for IgM antibodies, the 166 All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 75,
+                    "end": 82,
+                    "text": "Table 1",
+                    "ref_id": null
+                },
+                {
+                    "start": 165,
+                    "end": 176,
+                    "text": "Table   164",
+                    "ref_id": null
+                },
+                {
+                    "start": 255,
+                    "end": 263,
+                    "text": "Figure 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "98"
+        },
+        {
+            "text": "(which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. (which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. (which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "98"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted April 15, 2020. (2,6). This study shows that the AllTest COVID-19 IgG / IgM rapid test for the detection 225 All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "98"
+        },
+        {
+            "text": "(which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "98"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted April 15, 2020. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "98"
+        },
+        {
+            "text": "To the best of our knowledge, our study is the first evaluation of this serologic rapid test 243 which has complete data on the time from the onset of symptoms. As this is a 244 serological test, this kind of information is key in order to interpret properly the 245 sensitivity and specificity results. Additionally, in our experience, the use of these tests ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "242"
+        },
+        {
+            "text": "Our study is subject to some limitations. First, it has been conducted in a single 252 hospital. Further multicenter studies are necessary to reinforce our findings. Second, 253 All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "251"
+        },
+        {
+            "text": "(which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "251"
+        },
+        {
+            "text": "The question about the reliability of serologic rapid tests is still under debate 265 (18,19) and more research is needed on this topic. We think that our study may help to 266 point out the usefulness of these rapid tests. 278 The authors declare that they have no conflicts of interest.",
+            "cite_spans": [
+                {
+                    "start": 224,
+                    "end": 227,
+                    "text": "278",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "264"
+        },
+        {
+            "text": "280 All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Informed consent"
+        },
+        {
+            "text": "(which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. (which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Informed consent"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted April 15, 2020. (which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Informed consent"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted April 15, 2020. . https://doi.org/10.1101/2020.04.11.20062158 doi: medRxiv preprint",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Informed consent"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Coronavirus Disease 2019 in China",
+            "authors": [],
+            "year": 2020,
+            "venue": "New England Journal of Medicine",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "The COVID-19 Pandemic in the US: A Clinical Update",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Omer",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Malani",
+                    "suffix": ""
+                },
+                {
+                    "first": "Rio",
+                    "middle": [],
+                    "last": "Cd",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Novel Coronavirus (2019-nCoV) situation reports",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "The Laboratory Diagnosis of 305 COVID-19 Infection: Current Issues and Challenges",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Tang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Schmitz",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Persing",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Stratton",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Clin Microbiol",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "No reuse allowed without permission. (which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. The copyright holder for this preprint this version posted",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.04.11.20062158"
+                ]
+            }
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "No title",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Vashist",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Vitro Diagnostic Assays for COVID-19: Recent Advances 307 and Emerging Trends",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Virological assessment of hospitalized patients with COVID-2019",
+            "authors": [],
+            "year": null,
+            "venue": "Nature",
+            "volume": "2020",
+            "issn": "",
+            "pages": "1--10",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Temporal profiles 311 of viral load in posterior oropharyngeal saliva samples and serum antibody responses 312 during infection by SARS-CoV-2: an observational cohort study",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "To",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Tsang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Leung",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Tam",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Lung",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet Infect Dis",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Viral load of SARS-CoV-2 in clinical 315 samples",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Pan",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Poon",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "The Lancet Infectious Diseases",
+            "volume": "20",
+            "issn": "4",
+            "pages": "411--412",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Clinical characteristics and 317 imaging manifestations of the 2019 novel coronavirus disease (COVID-19):A multi-318 center study in Wenzhou city",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Cao",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Qin",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Cheng",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Pan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "China. Journal of Infection",
+            "volume": "80",
+            "issn": "4",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Spike Protein-based ELISAs for detecting antibodies against SARS-CoV-2",
+            "authors": [],
+            "year": null,
+            "venue": "J Clin",
+            "volume": "322",
+            "issn": "2020",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "SARS-CoV-2 specific antibody responses in COVID-19 patients",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "2020",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Profiling Early Humoral 326 Response to Diagnose Novel Coronavirus Disease (COVID-19)",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Guo",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Ren",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Xiao",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Chang",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Clinical Infectious",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Antibody responses to 329 SARS-CoV-2 in patients of novel coronavirus disease",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Yuan",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Liao",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Su",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Diagnostic value and dynamic 331 variance of serum antibody in coronavirus disease 2019",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Jin",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Zuo",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Fan",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Ye",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Cai",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Int J Infect Dis",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "No reuse allowed without permission. (which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. The copyright holder for this preprint this version posted",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.04.11.20062158"
+                ]
+            }
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "63 excessive time to results of the diagnostic test, based on polymerase chain reaction 64 (PCR) (4,5). Few clinical microbiology laboratories were prepared at this time to 65 process such a massive volume of samples that grew exponentially. In our hospital, 66 which is a medium-sized center (490 beds), from March 5 to April 6, a total of 7,453 67 respiratory samples (the vast majority nasopharyngeal exudates) were processed for 68 SARS-CoV-2 PCR, reaching a positivity rate between 20 and 40%. Another problem 69 was the low positivity rate of nasopharyngeal samples in patients presenting a clinical 70 syndrome compatible with COVID-19 in the second and third week of infection (1,6-8), 71 which is generally the period in which patients are admitted to the hospital (1). Besides, 72 most patients presented a non-productive cough (9), and this fact, together with the 73 high risk of generating aerosols in bronchoscopies explains that most respiratory 74 samples came from the upper respiratory tract, where the virus concentration is lower 75 beyond the first week after the onset of symptoms (8,10). As a consequence, the 76 positivity rate of the PCR in these patients could be lower than expected and many of 77 them were hospitalized with a provisional diagnosis of pneumonia of unknown etiology 78 and possible COVID-19.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "(healthy controls): a randomly selected group of 55 patients who had a serum 101 sample taken for other serologic studies, from October 1 to November 30, 2019 (before 102 the first cases of COVID-19 were reported). 103 Group 2 (confirmed cases of SARS-CoV-2 infection): 55 patients admitted to the 104 Emergency department between March 1 and April 6, 2020, with suspicion of COVID-105 19. The PCR was positive for SARS-CoV-2 for all of them.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "of unknown etiology): 63 patients admitted for at least 5 days 107 between February 9 and April 2, 2020, with a clinical and radiological diagnosis of 108 pneumonia of unknown etiology, in which the PCR for SARS-CoV-2 was negative.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF6": {
+            "text": "117manufacturer's instructions for both the handling and the interpretation of the results.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF7": {
+            "text": "Serology: we applied the AllTest COV-19 IgG / IgM kit (AllTest Biotech, Hangzhou, 119 China) for the serological diagnosis. This test is a qualitative membrane-based 120 immunoassay (immunochromatography) for the detection of IgG and IgM antibodies 121 against SARS-CoV-2 in whole blood, serum or plasma samples. We used 10\u03bcL of 122 serum for the performance of the test. For the negative control group (group 1), 123 cryopreserved archive samples were obtained, which were previously defrosted and 124 tempered to room temperature before analysis. The performance of the test and the 125 interpretation of the results were done according to the manufacturer's instructions. 126 Clinical data: 127 Demographic and clinical variables of the study population were obtained from the 128 medical records (age and sex). The time from the onset of symptoms was calculated 129 in groups 2 and 3 from the day of onset of symptoms to the day of the extraction of the 130 sample of serum. 131 Serologic test validation: 132 The serologic test was evaluated on clinical samples from groups 1 and 2 in order to 133 assess the sensitivity and specificity of the test: 134 Group 1 (negative controls): they were used to evaluate the specificity of the 135 serological test. 45 aliquots of cryopreserved sera, corresponding to 45 different 136 controls, were recovered from the serum archive.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF9": {
+            "text": "a positive result for samples in which IgG, IgM or both of them were 148 detected. Continuous variables are expressed as median and interquartile range (IQR) 149 and categorical variables as proportions. Comparisons between categorical variables 150 were made using the Chi-squared or Fisher's exact two-tailed test and the Mantel-151 Haenszel test for linear trends. For these comparisons, a p value less than or equal to 152 0.05 was considered significant. Statistical analysis was performed with SPSS v20.0 153 (IBM Corp., Armonk, NY, USA).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF10": {
+            "text": "of 163 patients were studied. Median age was 62 years (IQR: 51-74); 107 157 (65.6%) were males. The overall serologic results from the three groups of patients are 158 summarized in",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF11": {
+            "text": "of the serologic test:172    We assessed the serologic test in the group 3 patients (patients with pneumonia of173 unknown etiology and negative PCR). Antibodies against SARS-CoV-2 were detected 174 in 56 out of 63 patients (88.9%), being all of them positive for IgG antibodies. Twenty-175 five patients (39.7%) were also positive for IgM antibodies (Table 1). No patient had 176 less than 7 days from onset of symptoms and the positivity rate increased from 7-13 177 days (83.3%) to \u2265 14 days (91.1%), but this difference was not statistically significant for 178 IgM or IgG (p=1.000 and p=0.397, respectively, Table 3). We observed a similar 179 pattern in the evolution of the percentages of positivity for IgM in these patients 180 compared with those belonging to group 2 (Figure 2). However, group 3 patients 181 exhibited a sustained higher positivity rate for IgG from days 13 to 30 after the onset of",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF12": {
+            "text": "values are expressed as absolute count (percentage). A positive serologic 204 result was defined for samples that resulted positive for either IgM or IgG antibodies. P-205 values were calculated by the Mantel-Haenszel test for linear trend. Significant 206 differences are shown in bold. Abbreviations: PCR: polymerase chain reaction.207 208 Table 3. Serologic results in group 3 patients (pneumonia of unknown etiology 209 and negative PCR) according to the time from the onset of symptoms 210 Time from onset of symptoms <7 days 70%) 15 (83.3%) 41 (91.1%) 0.397 Statistics: values are expressed as absolute count (percentage). A positive serologic 211 result was defined for samples that resulted positive for either IgM or IgG antibodies. P-212 values were calculated by Fisher's exact two-tailed test. Significant differences are 213 shown in bold. Abbreviations: PCR: polymerase chain reaction. study shows that immunochromatographic tests are a reliable tool to diagnose 217 SARS-CoV-2 infection from 14 days of onset of symptoms and are especially useful in 218 hospitalized patients with pneumonia of unknown etiology with 14 or more days from 219 the onset of symptoms and in whom the PCR has been negative. 220 The current situation of the COVID-19 pandemic requires an urgent and coordinated 221 answer to the inherent problems of the PCR-based diagnosis: on the one hand the low 222 capacity to carry out PCR techniques in some laboratories and also the low sensitivity 223 of PCR test in nasopharyngeal samples, specially from the second week of infection 224",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF13": {
+            "text": "of symptoms in patients with previous positive PCR in a nasopharyngeal 227 exudate. There is increasing evidence on the usefulness of serology for diagnosis of 228 SARS-CoV-2 infection, but most of these studies are based on microplate ELISA tests 229 to detect IgA, IgM and IgG antibodies (12,13). These techniques have shown high 230 sensitivity and specificity, but they also require special equipment, trained personnel 231 and take several hours to perform. Due to this, there is an increasing interest about the 232 usefulness of serologic rapid tests, but there is scarce information about their 233 diagnostic performance. In a recently published study, Liu et al. (10) performed a 234 multicenter evaluation of a serologic rapid test that the authors had developed. In their 235 study, the overall sensitivity was 88.7% and the specificity was 90.6%. However, 236 although they achieved a higher sensitivity than that obtained in our study, these 237 authors did not present any data about the time after the onset of symptoms except 238 from 58 out of 525 patients enrolled in the study. Moreover, for this subgroup of 239 patients they only described that the time from the onset of symptoms was 8 to 33 240 days. Maybe there was a selection bias in the enrolled patients and most of the 241 recruited cases had long evolution times, possibly leading to these results in sensitivity.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF14": {
+            "text": "246 allowed diagnosis of COVID-19 infection in 91.1% of a group of 63 patients admitted 247 with a clinical diagnosis of COVID-19 pneumonia and negative PCR in nasopharyngeal 248 exudate. According to our data, the vast majority of patients seroconvert from day 21 249 and this is a key aspect in the management of health care personnel (16) and in 250 population immunity studies related to pandemic control (17).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF15": {
+            "text": "Additionally, group 3 patients also presented a longer evolution time than group 2 258 patients. This probably explains that the overall positivity rates of the serological test 259 are better than in group 3 (88.9% vs 47.3% in group 2). However, when we focus on260 patients with 14 or more days from onset of symptoms, the sensitivity and positivity rate 261 increased for groups (91.1% for group 3 and 73.9% for group 2 patients). Because all 262 of these limitations, further studies including all kinds of clinical presentations are 263 needed in order to reinforce our conclusions.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF16": {
+            "text": "to thank Carolyn Brimley Norris, from the University of Helsinki Language 270 Services for her help with the preparation of the manuscript.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF17": {
+            "text": "received no specific grant from any funding agency in the public, 274 commercial, or not-for-profit sectors.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF19": {
+            "text": "and design: FPG, RPT and JCG 288 Patients' selection and clinical data acquisition: FPG, RPT, JR, TA, PGH and JCG 289 Sample processing: JR, TA and PGH 290 Statistical analysis and interpretation of data: FPG and RPT 291 Writing of the manuscript: FPG, RPT, JR and JCG 292 Critical revision of the manuscript for relevant intellectual content: JR, JCG 293 Supervision and visualization: JCG 294 All authors read and approved the final manuscript. Xiang Y, Jin Y, Wang Y, Zhang Q, Zhang L, Cheung T. Tribute to health workers 336 in China: A group of respectable population during the outbreak of the COVID-19. Pang J, Wang MX, Ang IYH, Tan SHX, Lewis RF, Chen JI, et al. Potential rapid 339 diagnostics, vaccine and therapeutics for 2019 novel coronavirus (2019-nCoV): a 340 systematic review. Journal of clinical medicine 2020;9(3):623. 341 (18) Advice on the use of point-of-care immunodiagnostic tests for COVID-19.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF20": {
+            "text": "Available at: https://www.who.int/news-room/commentaries/detail/advice-on-the-use-of-343 point-of-care-immunodiagnostic-tests-for-covid-19. Accessed Apr 11, 2020. 344 (19) Cassaniti I, Novazzi F, Giardina F, Salinaro F, Sachs M, Perlini S, et al. 345 Performance of VivaDiag COVID-19 IgM/IgG Rapid Test is inadequate for diagnosis of 346 COVID-19 in acute patients referring to emergency room department. J Med Virol 2020 347 March 30.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF21": {
+            "text": "Figure captions",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF22": {
+            "text": "Temporal evolution of the percentage of positivity for IgM and IgG 350 antibodies in group 2 patients (PCR positive) 351 All rights reserved. No reuse allowed without permission.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF23": {
+            "text": "Temporal evolution of the percentage of positivity for IgM and IgG 353 antibodies in group 3 patients (pneumonia of unknown etiology with negative",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "achieve a sensitivity of 97% for diagnosis of SARS-CoV-2 infection (12). However, those time-consuming tests based on ELISA are not as suitable for clinical use as rapid tests and, as a matter of fact, cannot be included in the management algorithms in emergency departments (12-15).Since the beginning of the epidemic in Spain, information emerged about the availability of rapid serological diagnostic kits that detected IgG and IgM antibodies using immunochromatographic (ICT) tests. However, there are very few published studies about the clinical application of these kits (15). Our aim was to evaluate the diagnostic performance of one of these serologic rapid tests, first by a validation of the test in negative control patients and confirmed cases of COVID-19, and then by a prospective evaluation in patients with pneumonia of unknown etiology and a clinical 95 diagnosis of COVID-19 with negative PCR for SARS-CoV-2.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "Molecular techniques: Two automatic extractors were used to obtain viral RNA from clinical samples: MagCore HF16 (RBC bioscience, Taipei, Taiwan) and Hamilton Microlab Starlet (Hamilton Company, Bonaduz, Switzerland). RNA amplification was made using two real-time PCR platforms: VIASURE SARS-CoV-2 Real Time PCR Detection Kit (Certest Biotech, Zaragoza, Spain) and Allplex 2019-nCoV assay 116 (Seegene, Seoul, South Korea). All equipments were used according to the",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": ".Serologic test validation:All patients included in group 1 (negative controls) showed negative results for 161 serological tests. Thus, the serological test presented a specificity of 100%. The overall 162 sensitivity of the test was 47.3% compared to PCR (Table 1). The sensitivity increased",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF3": {
+            "text": "The copyright holder for this preprint this version posted April 15, 2020. . https://doi.org/10.1101/2020.04.11.20062158 doi: medRxiv preprint positivity increased to a maximum level of 66.7% that was reached approximately 13 to 167 18 days after the onset of symptoms and then began to decrease until reaching its minimum at 31 to 36 days. IgG positivity rates increased up to 100% at 31 to 36 days 169 after the onset of symptoms.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF4": {
+            "text": "Table 1. Overall serologic results from the three groups of patients",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF5": {
+            "text": "patient selection was made according to the diagnostic needs of our hospital.Consequently, group 3 patients were all patients with negative PCR patients with clinical and radiological criteria of pneumonia and because of that, our results could not be generalized to other patients with COVID-19 and other clinical syndromes.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF6": {
+            "text": "The copyright holder for this preprint this version posted April 15, 2020. . https://doi.org/10.1101/2020.04.11.20062158 doi: medRxiv preprint Since the present study is retrospective, informed consent was not required.Ethical approvalThe study was conducted according to the ethical requirements established by the Declaration of Helsinki. The Ethics Committee of Hospital Universitario Pr\u00edncipe de Asturias (Madrid) approved the study.",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}

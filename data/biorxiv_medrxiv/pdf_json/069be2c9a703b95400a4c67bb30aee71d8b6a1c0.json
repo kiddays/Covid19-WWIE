@@ -1,0 +1,1893 @@
+{
+    "paper_id": "069be2c9a703b95400a4c67bb30aee71d8b6a1c0",
+    "metadata": {
+        "title": "Impact of non-pharmaceutical interventions on documented cases of COVID-19",
+        "authors": [
+            {
+                "first": "Nicolas",
+                "middle": [],
+                "last": "Banholzer",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "ETH Zurich",
+                    "location": {
+                        "postCode": "8092",
+                        "settlement": "Zurich",
+                        "country": "Switzerland"
+                    }
+                },
+                "email": "es:nbanholzer@ethz.ch"
+            },
+            {
+                "first": "Eva",
+                "middle": [],
+                "last": "Van Weenen",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "ETH Zurich",
+                    "location": {
+                        "postCode": "8092",
+                        "settlement": "Zurich",
+                        "country": "Switzerland"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Bernhard",
+                "middle": [],
+                "last": "Kratzwald",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "ETH Zurich",
+                    "location": {
+                        "postCode": "8092",
+                        "settlement": "Zurich",
+                        "country": "Switzerland"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Arne",
+                "middle": [],
+                "last": "Seeliger",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "ETH Zurich",
+                    "location": {
+                        "postCode": "8092",
+                        "settlement": "Zurich",
+                        "country": "Switzerland"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Daniel",
+                "middle": [],
+                "last": "Tschernutter",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "ETH Zurich",
+                    "location": {
+                        "postCode": "8092",
+                        "settlement": "Zurich",
+                        "country": "Switzerland"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Pierluigi",
+                "middle": [],
+                "last": "Bottrighi",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "ETH Zurich",
+                    "location": {
+                        "postCode": "8092",
+                        "settlement": "Zurich",
+                        "country": "Switzerland"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Alberto",
+                "middle": [],
+                "last": "Cenedese",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "ETH Zurich",
+                    "location": {
+                        "postCode": "8092",
+                        "settlement": "Zurich",
+                        "country": "Switzerland"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Joan",
+                "middle": [
+                    "Puig"
+                ],
+                "last": "Salles",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "ETH Zurich",
+                    "location": {
+                        "postCode": "8092",
+                        "settlement": "Zurich",
+                        "country": "Switzerland"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Werner",
+                "middle": [],
+                "last": "Vach",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Stefan",
+                "middle": [],
+                "last": "Feuerriegel",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "ETH Zurich",
+                    "location": {
+                        "postCode": "8092",
+                        "settlement": "Zurich",
+                        "country": "Switzerland"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Background: The novel coronavirus (SARS-CoV-2) has rapidly evolved into a global epidemic. To control its spread, countries have implemented non-pharmaceutical interventions (NPIs), such as school or border closures, while others have even enforced complete lockdowns. Here we study the impact of NPIs in reducing documented cases of COVID-19. Documented case numbers are selected because they are essential for decision-makers in the area of health-policy when monitoring and evaluating current control mechanisms.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Methods: We empirically estimate the relative reduction in the number of new cases attributed to each NPI. A cross-country analysis is performed using documented cases through April 15, 2020 from n = 20 countries (i.e., the United States, Canada, Australia, the EU-15 countries, Norway, and Switzerland).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Results: As of April 15, venue closures were associated with a reduction in the number of new cases by 36 % (95% credible interval [CrI] 20-48 %), closely followed by gathering bans (34 %; 95% CrI 21-45 %), border closures (31 %; 95% CrI 19-42 %), and work bans on non-essential business activities (31 %; 95% CrI 16-44 %). Event bans lead to a slightly less pronounced reduction (23 %; 95% CrI 8-35 %). School closures (8 %; 95% CrI 0-23 %) and lockdowns (5 %; 95% CrI 0-14 %) appeared to be * Corresponding author. \u2020 These authors contributed equally.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "The novel coronavirus (SARS-CoV-2) has evolved into a global epidemic [1] . The coronavirus was first identified in Wuhan, China [2, 3, 4, 5] , but quickly spread across China and the rest of the world [6] . As of April 21, 2020, the total number of confirmed cases of COVID-19, the disease caused by the coronavirus, exceeded more than 2.3 million worldwide. Efforts to control the spread of SARS-CoV-2 focused on non-pharmaceutical interventions (NPIs). These represent public health-policy measures that were intended to diminish transmission rates and, to this end, aimed at reducing person-to-person contacts via so-called social distancing [7] . Examples include school closures, travel restrictions, or even complete lockdowns.",
+            "cite_spans": [
+                {
+                    "start": 70,
+                    "end": 73,
+                    "text": "[1]",
+                    "ref_id": null
+                },
+                {
+                    "start": 129,
+                    "end": 132,
+                    "text": "[2,",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 133,
+                    "end": 135,
+                    "text": "3,",
+                    "ref_id": null
+                },
+                {
+                    "start": 136,
+                    "end": 138,
+                    "text": "4,",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 139,
+                    "end": 141,
+                    "text": "5]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 202,
+                    "end": 205,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 646,
+                    "end": 649,
+                    "text": "[7]",
+                    "ref_id": "BIBREF7"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "NPIs have been linked to the spread of SARS-CoV-2 primarily within or from a single country [8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19] , mostly focusing on the novel coronavirus outbreak in China. The majority of findings are based on transmission models where epidemiological parameters are informed by previous studies or corroborated via simulation. One study analyzed the impact of NPIs using data from different countries and found that the NPIs considered were together effective in reducing transmission rates [20] , using the link between true unobserved infections and deaths. Here we focus on the relative impact of individual NPIs in reducing the number of documented cases. This is yet unknown, although documented COVID-19 cases are essential for decision-makers in health-policy when monitoring and evaluating the impact of NPIs (e.g., controlling the outbreak in a way that surge capacities are not exceeded).",
+            "cite_spans": [
+                {
+                    "start": 92,
+                    "end": 95,
+                    "text": "[8,",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 96,
+                    "end": 98,
+                    "text": "9,",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 99,
+                    "end": 102,
+                    "text": "10,",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 103,
+                    "end": 106,
+                    "text": "11,",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 107,
+                    "end": 110,
+                    "text": "12,",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 111,
+                    "end": 114,
+                    "text": "13,",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 115,
+                    "end": 118,
+                    "text": "14,",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 119,
+                    "end": 122,
+                    "text": "15,",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 123,
+                    "end": 126,
+                    "text": "16,",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 127,
+                    "end": 130,
+                    "text": "17,",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 131,
+                    "end": 134,
+                    "text": "18,",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 135,
+                    "end": 138,
+                    "text": "19]",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 521,
+                    "end": 525,
+                    "text": "[20]",
+                    "ref_id": "BIBREF21"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "We empirically estimated how NPIs were associated with changes in documented COVID-19 cases through April 15, 2020 across n = 20 countries (i.e., the United States, Canada, Australia, the EU-15 countries, Norway, and Switzerland). This amounts to \u223c1.6 million documented COVID-19 cases. Our estimation model allowed us to quantify the relative reduction in the number of new cases attributable to each NPI, accounting for the time delay until NPIs became effective, potential effects from the day of the week, and for differences in the speed of disease spread from country to country. 3 Preprint submitted to medRxiv . CC-BY-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. (which was not certified by peer review)",
+            "cite_spans": [
+                {
+                    "start": 586,
+                    "end": 587,
+                    "text": "3",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted April 21, 2020. [21] . Hence, these numbers are supposed to account for all COVID-19 cases identified on a specific day. Case numbers were collected through April 15, 2020.",
+            "cite_spans": [
+                {
+                    "start": 75,
+                    "end": 79,
+                    "text": "[21]",
+                    "ref_id": "BIBREF22"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "In total, our sample comprises \u223c1.6 million cases.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "NPIs were systematically obtained from government resources and news outlets before being classified into seven categories (see Tbl. 1): (1) school closures, (2) border closures, (3) public event bans, (4) gathering bans, (5) venue closures (e.g., shops, bars, restaurants, and venues for other recreational activities), (6) lockdowns prohibiting public movements without valid reason, and (7) work bans on non-essential business activities. Note that \"border closures\" represents a measure that was fairly severe in restricting international travel. Lockdowns always also implied the NPIs event bans, 4 Preprint submitted to medRxiv . CC-BY-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. (which was not certified by peer review)",
+            "cite_spans": [
+                {
+                    "start": 602,
+                    "end": 603,
+                    "text": "4",
+                    "ref_id": "BIBREF3"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Data on non-pharmaceutical interventions"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted April 21, 2020. Overall, the number and timing of implemented NPIs varied across countries ( Fig. 1 ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 152,
+                    "end": 158,
+                    "text": "Fig. 1",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Data on non-pharmaceutical interventions"
+        },
+        {
+            "text": "Within the period of our analysis, school closures were implemented by 18 out of the n = 20, lockdowns by 11, and work bans by 6. Rising numbers of documented cases prompted more severe NPIs.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data on non-pharmaceutical interventions"
+        },
+        {
+            "text": "Preprint submitted to medRxiv . CC-BY-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. (which was not certified by peer review)",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "5"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted April 21, 2020. This choice reflects that the true number of new cases was unknown and, therefore, the documented numbers served as the basis on which NPIs were monitored and evaluated by decision-makers in health-policy. In particular, case numbers had to be controlled to an extent, so that surge capacities in critical care were not exceeded at the peak of the epidemic [22] . Fig. 2 shows the number of new cases over time with the implemented NPIs indicated. Further descriptive statistics of our data are shown in Appendix A.",
+            "cite_spans": [
+                {
+                    "start": 432,
+                    "end": 436,
+                    "text": "[22]",
+                    "ref_id": "BIBREF23"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 439,
+                    "end": 445,
+                    "text": "Fig. 2",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "5"
+        },
+        {
+            "text": "6 Preprint submitted to medRxiv . CC-BY-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "5"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted April 21, 2020. Preprint submitted to medRxiv . CC-BY-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted April 21, 2020. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "Daily number of new cases of COVID-19 were linked to the NPIs that were already implemented. It was assumed that NPIs could only influence the number of new cases with a delay of t 0 = 7 days. This choice of the delay considered the following factors. First, prior research on SARS-CoV-2 transmissions indicated an incubation period of around 5 days [3] . Second, as testing was often performed only in response to symptoms and positive results may have been reported with some delay, a further overall delay of about two days was thus not unlikely. Third, behavioral responses could have varied with people adjusting their behavior with a certain delay or even before the NPI was issued. Given the overall uncertainty in the delay at which NPIs took effect, the sensitivity of our results to the chosen time delay of t 0 = 7 days was studied as part of a sensitivity analysis.",
+            "cite_spans": [
+                {
+                    "start": 350,
+                    "end": 353,
+                    "text": "[3]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Statistical analysis"
+        },
+        {
+            "text": "The daily number of new cases were related to the actual number of cumulative cases, such that the estimated effect for each NPI quantified the relative reduction in new cases. The model considered day-of-the-week effects as the frequency of testing may have depended on the day of the week and reporting may have been delayed to a higher degree during weekends. The background rate of new cases was allowed to vary across countries as this rate depends on the (unknown) age composition of the true cases, the population density, and other country-specific factors.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Statistical analysis"
+        },
+        {
+            "text": "The very early phase up to 100 documented cases was excluded from the analysis as countries still had to establish their documentation practices in the early phase.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Statistical analysis"
+        },
+        {
+            "text": "However, the number of cases at the start was varied as part of a sensitivity analysis.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Statistical analysis"
+        },
+        {
+            "text": "The effects of all NPIs were estimated simultaneously in a Bayesian hierarchical model assuming a negative binomial distribution for the daily number of new cases. Details about model specification and estimation procedure are given in Appendices B and C.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Statistical analysis"
+        },
+        {
+            "text": "In the results, we report the posterior mean and 80% and 95% credibility intervals for the relative reductions in the number of new daily cases for each NPI. 8 Preprint submitted to medRxiv . CC-BY-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [
+                {
+                    "start": 158,
+                    "end": 159,
+                    "text": "8",
+                    "ref_id": "BIBREF8"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Statistical analysis"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted April 21, 2020. . https://doi.org/10.1101/2020.04. 16.20062141 doi: medRxiv preprint 3. Results",
+            "cite_spans": [
+                {
+                    "start": 110,
+                    "end": 121,
+                    "text": "16.20062141",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "Using data from the early stages of the outbreak until April 15, 2020, the relative reduction in the number of new cases was estimated for each NPI (Fig. 3 of the four NPIs with the highest effect estimates we could be at least 85 % sure that they were among the four most effective NPIs. Conversely, for school closures and lockdowns, we could be at least 85 % sure that they were among the two least effective NPIs. 9 Preprint submitted to medRxiv . CC-BY-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [
+                {
+                    "start": 418,
+                    "end": 419,
+                    "text": "9",
+                    "ref_id": "BIBREF9"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 148,
+                    "end": 155,
+                    "text": "(Fig. 3",
+                    "ref_id": null
+                }
+            ],
+            "section": "Impact of non-pharmaceutical interventions"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted April 21, 2020. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "Results from the sensitivity analysis are reported in Appendix E. A small variation in the estimated effect of NPIs was observed, in particular for work bans, representing the NPI with the lowest rate of implementation. A model comparison (Appendix F) further suggested that an influence function with a longer time delay and/or a first-order spline would be beneficial, but the estimated reduction of each NPI remained qualitatively similar in these alternative model specifications.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Sensitivity analysis"
+        },
+        {
+            "text": "10 Preprint submitted to medRxiv . CC-BY-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Sensitivity analysis"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted April 21, 2020. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "The impact of different NPIs on new COVID-19 cases in single countries is illustrated in Fig. 5 . For this purpose, the effect estimate of the corresponding NPI was used to predict the hypothetical number of new cases as if the NPI was not implemented. In this hypothetical setting, the number of new cases is subject to considerable growth.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 89,
+                    "end": 95,
+                    "text": "Fig. 5",
+                    "ref_id": "FIGREF6"
+                }
+            ],
+            "section": "Illustrated hypothetical outcomes"
+        },
+        {
+            "text": "In contrast, the observed (documented) count remains well below the hypothetical prediction. Taking the United Kingdom as an example, the case count predicted under no interventions quickly exceeds 10,000 new cases per day, while the observed number ranges below 10,000 per day. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Illustrated hypothetical outcomes"
+        },
+        {
+            "text": "Preprint submitted to medRxiv . CC-BY-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "11"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted April 21, 2020. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "Preprint submitted to medRxiv . CC-BY-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "12"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted April 21, 2020. . https://doi.org/10.1101/2020.04. 16.20062141 doi: medRxiv preprint",
+            "cite_spans": [
+                {
+                    "start": 110,
+                    "end": 121,
+                    "text": "16.20062141",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "A cross-country analysis based on n = 20 countries was performed in order to assess the relative effectiveness of NPIs. Four of our seven NPIs were associated with relative reductions in the number of new cases of 30 % or above and a range of credible effects above 15 %, indicating a highly relevant role. Both venue closures and gathering bans were among these four NPIs, and each was implemented by 19 out of n = 20 countries in our sample. This is an interesting addition to prior literature, in which these NPIs have received rather little attention and thus deserve further investigation. Work bans also belonged to the group of effective measures, but this NPI was implemented by only six countries, which implied greater uncertainty about the estimate. The NPI border closures was the last member of this group.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Simulations confirmed that a rapid dissemination of SARS-CoV-2 was associated with large numbers of undocumented infections [6] , especially if not prevented by travel restrictions [8] . However, this measure should be interpreted with caution as it primarily targets international transmissions, which might be more pronounced in early stages of an outbreak as studied in this analysis. In later stages, the effect might be substantially smaller, with this measure primarily steering international travelers or cross-border commuters towards increased social distancing.",
+            "cite_spans": [
+                {
+                    "start": 124,
+                    "end": 127,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 181,
+                    "end": 184,
+                    "text": "[8]",
+                    "ref_id": "BIBREF8"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "School closures restrict access to education with unwanted implications for members of society who are already underprivileged. In our analysis, this NPI belonged to those with only a rather moderate effect estimate, amounting to a 10 % reduction. This finding is in line with prior literature in which the transmissibility of SARS-CoV-2 among children is regarded as comparatively small [11, 23] . The preceding argument also provides a possible explanation for why our model attributed only a small reduction of cases to this NPI. Lockdowns also had only a very moderate and possibly negligible effect. As our effect estimates describe the additional impact of an NPI on top of the other NPIs, the moderate effect of lockdown may be explainable by event bans, venue closures and gathering bans catching already a substantial part of the impact of a lockdown. Summing up the effects of all four NPIs, we obtain in any case a substantial effect. Event bans were located between the groups of NPIs with 13 Preprint submitted to medRxiv . CC-BY-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [
+                {
+                    "start": 388,
+                    "end": 392,
+                    "text": "[11,",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 393,
+                    "end": 396,
+                    "text": "23]",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 1002,
+                    "end": 1004,
+                    "text": "13",
+                    "ref_id": "BIBREF13"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted April 21, 2020. . https://doi.org/10.1101/2020.04. 16.20062141 doi: medRxiv preprint large and small relative reductions, with an estimated relative reduction of about 25 %, but a wide range of credible effects.",
+            "cite_spans": [
+                {
+                    "start": 110,
+                    "end": 121,
+                    "text": "16.20062141",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "Due to the concurring introduction of NPIs in many countries, it was difficult to distinguish between the effects of single NPIs. This is reflected by large credible intervals and a negative association between effects (Appendix D.2), suggesting that the effect of one NPI may be attributed partially to another. However, with respect to the ranking of NPIs, we were able to demonstrate that we can be fairly confident that venue closures, gathering bans, border closures, and work bans are among the four most effective NPIs and school closures and lockdowns among the two least effective when applied as a combination of NPIs.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "Our analysis is subject to limitations. First, our analysis is limited by the type of data utilized and by the need to make modeling assumptions. Using the number of documented cases implies that documentation practices may have an influence on the results. In particular, definitions and documentation practices differed between countries and over time. However, since the rate of new cases was investigated, many deviations from an optimal documentation practice will affect both the number of new cases and the number of existing cases in a similar manner and may thus cancel out. Short-term fluctuations were considered by including day-of-the-week effects and allowing for overdispersion. Moreover, it was taken into account that countries had to develop their documentation practices by starting with at least 100 cases for each country. However, there may still remain an undue influence of country-specific changes in documentation practices over time.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "Second, a fundamental issue with our modeling approach is the implicit assumption that any deviation from a constant rate of new cases is explained by the NPIs. It is possible that additional measures or an increasing general awareness encouraged social distancing and hence lead to less infections. If this is the case, such effects will erroneously be assigned to the NPIs and possibly overstate their overall impact.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "Third, we could not follow the more correct approach to relate the number of new cases to the number of non-recovered cases, as reliable information on the number of recovered cases was not available. However, within our study period, the number of recovered patients was comparatively low relative to the overall population and, hence, 14 Preprint submitted to medRxiv . CC-BY-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [
+                {
+                    "start": 337,
+                    "end": 339,
+                    "text": "14",
+                    "ref_id": "BIBREF14"
+                }
+            ],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted April 21, 2020. . https://doi.org/10.1101/2020.04. 16.20062141 doi: medRxiv preprint it was justified from our perspective to neglect this issue when analyzing the early stages of the outbreak. With respect to the true infection rate, theoretical simulations [22] suggested a stationary rate in the absence of NPIs for this early phase and, hence, independence from natural attrition phenomena.",
+            "cite_spans": [
+                {
+                    "start": 110,
+                    "end": 143,
+                    "text": "16.20062141 doi: medRxiv preprint",
+                    "ref_id": null
+                },
+                {
+                    "start": 318,
+                    "end": 322,
+                    "text": "[22]",
+                    "ref_id": "BIBREF23"
+                }
+            ],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "Fourth, our modeling assumptions do not account for any interaction between countries and the effect of NPIs. The simplifying assumption of a common effect reflects our aim to estimate an \"average\" effect and the current lack of power to investigate cross-country variation.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "In conclusion, NPIs lead to a strong overall reduction in the number of new documented cases of COVID-19. Venue closures, gathering bans, border closures, and work bans had a high impact, event bans a slightly less pronounced impact, and school closures and lockdowns had a comparably small impact. Our effect estimates provide first and timely estimates to inform the current debate. They should be updated and refined in the future. Additional information may arise from the federal structure of some countries (e.g., the US and Germany), from more detailed case data (e.g., recovery status or age), or from rescinding NPIs.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "Word count: 2692 . CC-BY-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. (which was not certified by peer review)",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted April 21, 2020. . https://doi.org/10.1101/2020.04. 16.20062141 doi: medRxiv preprint Preprint submitted to medRxiv . CC-BY-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. (which was not certified by peer review)",
+            "cite_spans": [
+                {
+                    "start": 110,
+                    "end": 121,
+                    "text": "16.20062141",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted April 21, 2020. . https://doi.org/10.1101/2020.04. 16.20062141 doi: medRxiv preprint Preprint submitted to medRxiv . CC-BY-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. (which was not certified by peer review)",
+            "cite_spans": [
+                {
+                    "start": 110,
+                    "end": 121,
+                    "text": "16.20062141",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted April 21, 2020. . https://doi.org/10.1101/2020.04. 16.20062141 doi: medRxiv preprint Preprint submitted to medRxiv . CC-BY-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. (which was not certified by peer review)",
+            "cite_spans": [
+                {
+                    "start": 110,
+                    "end": 121,
+                    "text": "16.20062141",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted April 21, 2020. . https://doi.org/10.1101/2020.04. 16.20062141 doi: medRxiv preprint regarding materials and methods.",
+            "cite_spans": [
+                {
+                    "start": 110,
+                    "end": 121,
+                    "text": "16.20062141",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "Contributions NB contributed to conceptualization, data collection, data analysis, results interpretation and manuscript writing. EvW contributed to data collection, data analysis and manuscript writing. AS contributed to data analysis and manuscript writing. BK, AC, PB, and JPS contributed to data collection.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "DT contributed to results interpretation. WV contributed to conceptualization, data analysis, results interpretation and manuscript writing. SF contributed to conceptualization, results interpretation and manuscript writing. 19 Preprint submitted to medRxiv . CC-BY-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. (which was not certified by peer review)",
+            "cite_spans": [
+                {
+                    "start": 225,
+                    "end": 227,
+                    "text": "19",
+                    "ref_id": "BIBREF20"
+                }
+            ],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted April 21, 2020. . https://doi.org/10.1101/2020.04. 16.20062141 doi: medRxiv preprint ",
+            "cite_spans": [
+                {
+                    "start": 110,
+                    "end": 143,
+                    "text": "16.20062141 doi: medRxiv preprint",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Clinical characteristics of coronavirus disease 2019 in China",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Guan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Ni",
+                    "middle": [],
+                    "last": "Zy",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Liang",
+                    "middle": [],
+                    "last": "Wh",
+                    "suffix": ""
+                },
+                {
+                    "first": "Ou",
+                    "middle": [],
+                    "last": "Cq",
+                    "suffix": ""
+                },
+                {
+                    "first": "He",
+                    "middle": [],
+                    "last": "Jx",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "New England Journal of Medicine",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Early transmission dynamics in Wuhan, China, of novel coronavirus-infected pneumonia",
+            "authors": [
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Guan",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Tong",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "New England Journal of Medicine",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "A new coronavirus associated with human respiratory disease in China",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Yu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Song",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nature",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "A pneumonia outbreak associated with a new coronavirus of probable bat origin",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nature",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Substantial undocumented infection facilitates the rapid dissemination of novel coronavirus",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "Pei",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Song",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Coronavirus diseases (COVID-19) advice for the public",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "The effect of travel restrictions on the spread of the 2019 novel coronavirus (COVID-19) outbreak",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Chinazzi",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Davis",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Ajelli",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Gioannini",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Litvinova",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Merler",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Science",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Impact assessment of non-pharmaceutical interventions against coronavirus disease 2019 and influenza in Hong Kong: an observational study. The Lancet Public Health",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Cowling",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Ali",
+                    "suffix": ""
+                },
+                {
+                    "first": "Twy",
+                    "middle": [],
+                    "last": "Ng",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Tsang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Jcm",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Fong",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Quantifying SARS-CoV-2 transmission suggests epidemic control with digital contact tracing",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Ferretti",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Wymant",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kendall",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Nurtay",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Abeler-D\u00f6rner",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Science",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Interventions to mitigate early spread of SARS-CoV-2 in Singapore: a modelling study. The Lancet Infectious Diseases",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Koo",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Cook",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Park",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Sun",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Sun",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Lim",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "The effect of human mobility and control measures on the COVID-19 epidemic in China",
+            "authors": [
+                {
+                    "first": "Mug",
+                    "middle": [],
+                    "last": "Kraemer",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Gutierrez",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Klein",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Pigott",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Science",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Early dynamics of transmission and control of COVID-19: a mathematical modelling study. The Lancet Infectious Diseases",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Kucharski",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Russell",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Diamond",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Edmunds",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Funk",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "First-wave COVID-19 transmissibility and severity in China outside Hubei after control measures, and second-wave scenario planning: a modelling impact assessment. The Lancet",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Leung",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Leung",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "The positive impact of lockdown in Wuhan on containing the COVID-19 outbreak in China",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Lau",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Khosrawipour",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Kocbach",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Mikolajczyk",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Schubert",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Bania",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Journal of Travel Medicine",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Effective containment explains subexponential growth in recent confirmed COVID-19 cases in China",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Maier",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Brockmann",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Science",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Association of Public Health Interventions With the Epidemiology of the COVID-19 Outbreak in Wuhan",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Pan",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Guo",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Hao",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "China. JAMA",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "The effect of control strategies to reduce social mixing on outcomes of the COVID-19 epidemic in Wuhan, China: a modelling study. The Lancet Public Health",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Prem",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Russell",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Kucharski",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Eggo",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Davies",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Impact of international travel and border control measures on the global spread of the novel 2019 coronavirus outbreak",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Wells",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Sah",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Moghadas",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Pandey",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Shoukat",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Proceedings of the National Academy of Sciences",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Estimating the number of infections and the impact of nonpharmaceutical interventions on COVID-19 in 11 European countries. Imperial College COVID-19 Response Team",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Flaxman",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Mishra",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Gandy",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Others",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "An interactive web-based dashboard to track COVID-19 in real time. The Lancet Infectious Diseases",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Dong",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Du",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Gardner",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Impact of non-pharmaceutical interventions (NPIs) to reduce COVID19 mortality and healthcare demand. Imperial College COVID-19 Response Team",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Ferguson",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Laydon",
+                    "suffix": ""
+                },
+                {
+                    "first": "Nedjati",
+                    "middle": [],
+                    "last": "Gilani",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Imai",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "Ainslie",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Baguelin",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "9",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "School closure and management practices during coronavirus outbreaks including COVID-19: a rapid systematic review. The Lancet Child & Adolescent Health",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Viner",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Russell",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Croker",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Packer",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Ward",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Stansfield",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Heatmap showing the cumulative number of documented COVID-19 cases for each country until a non-pharmaceutical intervention (NPI) was implemented. By reporting the cumulative number of cases, the heatmap highlights the ordering of NPIs within countries. If an NPI was not implemented by a country, it is colored gray. A heatmap showing the cumulative number of cases relative to the country's population is shown in Appendix Fig. 1. Our outcome of interest was the number of new documented COVID-19 cases per day.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "Temporal development of the observed (documented) number of new cases by country (n = 20). The points at which non-pharmaceutical interventions (NPIs) were implemented are annotated. The solid line refers to the study period, starting from a cumulative case count of 100. To show the timing of NPIs potentially implemented before that period, the dashed line refers to the early period, starting from a cumulative case count of 10.7",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": ", detailed estimation results are to be found in Appendix D). Venue closures were associated with the highest reduction in the number of new cases (36 %; 95% CrI 20-48 %). The mean reduction was slightly lower for gathering bans (34 %; 95% CrI 21-45 %), border closures (31 %; 95% CrI 19-42 %), and work bans on non-essential business activities (31 %; 95% CrI 16-44 %). Event bans were associated with a slightly less pronounced reduction (23 %; 95% CrI 8-35 %), whereas school closures (8 %; 95% CrI 0-23 %) and lockdowns (5 %; 95% CrI 0-14 %) appeared to be the least effective among the NPIs considered in this analysis.For a precise ranking of the impact of NPIs, the range of credible effects has to be considered. Thereby, venue closures, gathering bans, border closures, and work bans showed similar effect sizes with a magnitude of the relative reduction above 15 %. With respect to event bans, an effect close to 0 % was precluded but the range of credible effects included a moderate relative reduction by 10 % up to much larger reductions.The posterior distributions of school closures and lockdowns focused on small effects with a magnitude of 0 % to 10 %, but for school closures a 20 % reduction was still credible.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "directly depicts the posterior distribution of the ranking of effects. For each",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "Estimated reduction (posterior mean as dots with 80% and 95% credible interval as thick and thin lines, respectively) in the number of new cases (in %) for each non-pharmaceutical intervention (NPI)Posterior distribution of ranking non-pharmaceutical interventions (NPIs) by their effect. Shown is the proportion of posterior samples (4,000 in total) for each rank of the NPI parameter (\u03b8 m ). Highest reductions obtained rank 1 and lowest reductions rank 7.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF5": {
+            "text": "Fig. 5 also allows to compare the daily estimated number of new cases from our full model (based on the NPIs that the country actually implemented) with the observed (documented) number of new cases. Here an acceptable degree of agreement is observed for the UK, US, and other countries (Figures for all other countries are listed in Appendix G). Note that these figures solely serve as a visualization of the estimated effect of NPIs on new cases (and credible intervals are thus omitted in these figures).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF6": {
+            "text": "Hypothetical number of daily new cases if non-pharmaceutical interventions (NPIs) were not implemented. The stacked bars illustrate how the mean estimated number of new cases would have changed if NPIs were not enforced. The solid line refers to the observed (documented) and the dashed line to the estimated number of new cases. The NPIs are shown for the time period in which they were implemented while considering that their effect is subject to a time delay of 7 days.",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "Impact of non-pharmaceutical interventions on documented cases of COVID-192. Methods2.1. Data on documented COVID-19 casesA cross-country analysis for n = 20 countries was performed. The sample comprises the United States, Canada, Australia, the EU-15 countries (Austria, Belgium, Denmark, Finland, France, Germany, Greece, Ireland, Italy, Luxembourg, the Netherlands, Portugal, Spain, Sweden, and the United Kingdom), Norway, and Switzerland. Our selection of countries defines a sample that followed a similar and comparable overall strategy in controlling the COVID-19 outbreak and shares a common cultural background. In particular, Asian countries were excluded despite the availability of excellent data, as these countries have often responded quite differently based on their experience with previous pandemics such as the 2013 SARS-CoV-1 outbreak. Nevertheless, the sample entailed considerable variation across countries, as some countries have been affected severely, while others responded early as part of their mitigation strategy. Overall, the sample covers a population of \u223c0.8 billion people. SARS-CoV-2 infection figures for each country were obtained from the Johns Hopkins Coronavirus Resource Center, which was developed for real-time tracking of reported cases of the coronavirus disease 2019 (COVID-19) and directly aggregates cases recorded by local authorities in order to overcome time delays from alternative reporting bodies",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "gathering bans and venue closures, if these have not been explicitly implemented earlier. The timing was encoded such that it refers to the first day an NPI went into effect. We only considered NPIs that were implemented throughout a country or in at least two thirds of its regions. Sources and details on data collection for non-pharmaceutical interventions are provided in Appendix H.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "Impact of non-pharmaceutical interventions on documented cases of COVID-19",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF4": {
+            "text": "Impact of non-pharmaceutical interventions on documented cases of COVID-19",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF6": {
+            "text": "Mar 03 Mar 10 Mar 17 Mar 24 Mar 31 Apr 07 Apr 14",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "Acknowledgements We acknowledge feedback from the ETH COVID-19 Task Force.Funding NB, EvW and SF acknowledge funding from the Swiss National Science Foundation (SNSF) as part of the Eccellenza grant 186932 on \"Data-driven health management\". The funding bodies had no control over design, conduct, data, analysis, review, reporting, or interpretation of the research conducted.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "acknowledgement"
+        },
+        {
+            "text": "Competing interests SF reports further grants from the Swiss National Science Data availability We collected data from publicly available data sources (Johns Hopkins Coronavirus Resource Center for epidemiological data; news reports and government resources for policy measures). All the public health information that we used is documented in the main text, the extended data and supplementary tables. A preprocessed data file is available with the codes.Code availability With publication, codes that support the findings of this study are available from https://github.com/mis-research/covid19_npi_ effectiveness.Correspondence Correspondence should be addressed to SF (sfeuerriegel@ethz. ch) for general questions and to NB (nbanholzer@ethz.ch) for questions",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "annex"
+        }
+    ]
+}

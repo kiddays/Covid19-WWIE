@@ -1,0 +1,720 @@
+{
+    "paper_id": "144d28b500230fd162c0dd8ae305408a6fb5bfb8",
+    "metadata": {
+        "title": "Evolution and molecular characteristics of SARS-CoV-2 genome revealing the epidemiology mechanism of SARS-CoV-2 and coping with SARS-CoV-2 effectively",
+        "authors": [
+            {
+                "first": "Yunmeng",
+                "middle": [
+                    "Bai"
+                ],
+                "last": "1#",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "South China University of Technology",
+                    "location": {
+                        "settlement": "Guangzhou",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Dawei",
+                "middle": [],
+                "last": "Jiang",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "South China University of Technology",
+                    "location": {
+                        "settlement": "Guangzhou",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Jerome",
+                "middle": [
+                    "R"
+                ],
+                "last": "",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Lon",
+                "middle": [],
+                "last": "1#",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Xiaoshi",
+                "middle": [],
+                "last": "Chen",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "South China University of Technology",
+                    "location": {
+                        "settlement": "Guangzhou",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Meiling",
+                "middle": [],
+                "last": "Hu",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "South China University of Technology",
+                    "location": {
+                        "settlement": "Guangzhou",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Shudai",
+                "middle": [],
+                "last": "Lin",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "South China University of Technology",
+                    "location": {
+                        "settlement": "Guangzhou",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Zixi",
+                "middle": [],
+                "last": "Chen",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Yuhuan",
+                "middle": [],
+                "last": "Meng",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "South China University of Technology",
+                    "location": {
+                        "settlement": "Guangzhou",
+                        "country": "China"
+                    }
+                },
+                "email": "zb-mengyuhuan@kingmed.com.cn"
+            },
+            {
+                "first": "Hongli",
+                "middle": [],
+                "last": "Du",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "South China University of Technology",
+                    "location": {
+                        "settlement": "Guangzhou",
+                        "country": "China"
+                    }
+                },
+                "email": "hldu@scut.edu.cn"
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "In the evolution analysis of 622 complete human severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) genomes with high quality, the estimated Ka/Ks ratio of SARS-CoV-2 is 1.008, which is significantly higher than that of SARS-CoV and MERS-CoV, and the time to the most recent common ancestor (tMRCA) of SARS-CoV-2 is inferred in late September 2019 (95% CI: 2019/08/28-2019/10/26), which indicating that SARS-CoV-2 may have completed a positive selection pressure of the cross-host evolution in the early stage and be going through a neutral evolution at present. In addition, no-root phylogenetic tree of the 622 SARS-CoV-2 genomes were constructed by maximum likelihood (ML) with the bootstrap value of 100. According to the phylogenetic trees, all genomes were divided into Cluster 1 to 3, in which genomes were mainly from North America, global and Europe respectively. Further we find 9 key specific sites of highly linkage which play a decisive role in the classification of each cluster. Among them, 3 and 4 sites of almost complete linkage are the specific sites for Cluster 1 and Cluster 3 respectively. Notably the frequencies of haplotype TTTG and H1 are generally high in European countries and correlated to death rate (r>0.4) based on more than 3500 SARS-CoV-2 genomes, which indicated that the haplotypes might be related to pathogenicity of SARS-CoV-2 and need to be addressed. According to haplotype changes in chronological order, the H3 haplotype subgroup disappeared soon after detection, while H1 haplotype subgroup was globally increasing with time. The evolution and molecular characteristics of more than 3500 genomic sequences provided a new perspective for",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "correlation between root-to-tip divergence and sample collecting time (Extended Data Fig 1) , hence they are suitable for molecular clock analysis in BEAST 11 . The substitution rate of SARS-CoV-2 genome was estimated to be 1.60 x 10 -3 (95% CI: 1.42 x 10 -3 -1.80 x 10 -3 , Table 2 Table 2 , Extended Data Fig 2b) , about 2 months before the early cases of SARS-CoV-2 22 .",
+            "cite_spans": [
+                {
+                    "start": 369,
+                    "end": 371,
+                    "text": "22",
+                    "ref_id": "BIBREF3"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 80,
+                    "end": 91,
+                    "text": "Data Fig 1)",
+                    "ref_id": "FIGREF4"
+                },
+                {
+                    "start": 275,
+                    "end": 282,
+                    "text": "Table 2",
+                    "ref_id": "TABREF6"
+                },
+                {
+                    "start": 283,
+                    "end": 290,
+                    "text": "Table 2",
+                    "ref_id": "TABREF6"
+                },
+                {
+                    "start": 302,
+                    "end": 314,
+                    "text": "Data Fig 2b)",
+                    "ref_id": "FIGREF5"
+                }
+            ],
+            "section": ""
+        },
+        {
+            "text": "We firstly constructed the phylogenetic tree using PhyML 3.1 with fast likelihood-based method (aLRT SH-like), while it failed when set the bootstrap value as 100 due to no response for a long time, so that MEGA was used with GTR+G model and the bootstrap value was set to 100. According to the shape of phylogenetic trees (Fig 1, Extended Data Fig 3a and b) , we divided 622 sequences into three clusters: Cluster 1 including 76 sequences mainly from North America, Cluster 2 including 367 sequences from all regions of the world, and Cluster 3 including 179 sequences mainly from Europe (Extended Data Table 2 ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 323,
+                    "end": 358,
+                    "text": "(Fig 1, Extended Data Fig 3a and b)",
+                    "ref_id": "FIGREF4"
+                },
+                {
+                    "start": 599,
+                    "end": 611,
+                    "text": "Data Table 2",
+                    "ref_id": "TABREF6"
+                }
+            ],
+            "section": "Phylogenetic tree and clusters of SARS-CoV-2"
+        },
+        {
+            "text": "The Fst and population frequency of a total of 9 sites (NC_045512.2 as reference genome) were detected ( Table 3, Extended Data Table 3 ). Thereinto, three (C17747T, A17858G and C18060T) are the specific sites of Cluster 1, and four (C241T, C3037T, C14408T and A23403G) are the specific sites of Cluster 3. Notably, C241T was located in the 5'-UTR region and the others were located in coding regions (6 in ofr1ab gene, 1 in S gene and 1 in ORF8 gene). Five of them were missense variant, including C14408T, C17747T and A17858G in ofr1ab gene, A23403G in S gene, and C28144T in ORF8 gene. The PCA results showed that these 9 specific sites could clearly separate the three Clusters, while all SNV dataset could not clearly separate Cluster 1 and Cluster 2 (Extended Data Fig 4) , which further suggested that these 9 specific sites are the key sites for separating the three Clusters.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 105,
+                    "end": 135,
+                    "text": "Table 3, Extended Data Table 3",
+                    "ref_id": "TABREF7"
+                },
+                {
+                    "start": 766,
+                    "end": 777,
+                    "text": "Data Fig 4)",
+                    "ref_id": "FIGREF7"
+                }
+            ],
+            "section": "The specific sites of each Cluster"
+        },
+        {
+            "text": "We found the 9 specific sites are highly linkage based on 622 genome sequences (Fig 2a) , then we carried out a further linkage analysis using the redownloaded 3624 genome sequences (Fig 2b) . As a result, for the 3624 genome sequences, 3 specific sites in the Cluster 1 were almost complete (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 79,
+                    "end": 87,
+                    "text": "(Fig 2a)",
+                    "ref_id": "FIGREF5"
+                },
+                {
+                    "start": 182,
+                    "end": 190,
+                    "text": "(Fig 2b)",
+                    "ref_id": "FIGREF5"
+                }
+            ],
+            "section": "Linkage of specific sites and characteristics of main haplotype subgroups"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted April 24, 2020. . https://doi.org/10.1101/2020.04.24.058933 doi: bioRxiv preprint linkage, and haplotype CAC and TGT accounted for 98.65% of all the 3 site haplotypes. The same phenomenon was also found in 4 specific sites of Cluster 3, and haplotype CCCA and TTTG accounted for 97.68% of all the 4 site haplotypes. Intriguingly, the 9 specific sites were still highly linkage, and four haplotypes, including TTCTCACGT (H1), CCCCCACAT (H2), CCTCTGTAC (H3) and CCTCCACAC (H4), accounted for 95.89% of all the 9 site haplotypes. The frequencies of each site and main haplotype for each country were showed in Fig 3 and Extended Data Table   4 . The data of 3624 genomes showed that the haplotype TTTG of the 4 specific sites in Cluster 3 had existed globally at present, and still exhibited high frequencies in most European countries but quite low in Asian countries. While the haplotype TGT of the 3 specific sites in Cluster 1 existed almost only in North America and Australia. For the 9 specific sites, most countries had only two or three main haplotypes, except America, Australia and United Kingdom had all of four main haplotypes.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 666,
+                    "end": 675,
+                    "text": "Fig 3 and",
+                    "ref_id": "FIGREF6"
+                },
+                {
+                    "start": 690,
+                    "end": 699,
+                    "text": "Table   4",
+                    "ref_id": "TABREF8"
+                }
+            ],
+            "section": "Linkage of specific sites and characteristics of main haplotype subgroups"
+        },
+        {
+            "text": "All haplotypes of 9 specific sites and the numbers of them were shown in Extended Data Table 5 , and the numbers of these haplotypes detected in each country in chronological order were shown in , and the H3 haplotype subgroup disappeared soon after detection (2020-02-18 to 2020-04-07), while H1 haplotype subgroup was globally increasing with time, which indicated H1 subgroup had adapted to the human hosts, and was under an adaptive growth period worldwide.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 87,
+                    "end": 94,
+                    "text": "Table 5",
+                    "ref_id": null
+                }
+            ],
+            "section": "Linkage of specific sites and characteristics of main haplotype subgroups"
+        },
+        {
+            "text": "However, due to the nonrandom sampling on early phase (only patients having a recent travel to Wuhan were detected), some earlier cases of H3 may be lost, the high proportion of H3 subgroup during Feb 18 to 25 could confirm this point.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Linkage of specific sites and characteristics of main haplotype subgroups"
+        },
+        {
+            "text": "From the whole genome mutations in each haplotype subgroup (Fig 4b, Extended Data Table 6 ), we found that except the 9 specific sites, there was no common mutations with frequencies more than 0.01 in these haplotype subgroups but between H2 and H4 subgroups. H3 and H4 subgroups had the lowest Ka/Ks ratio (0.795 and 0.796 respectively) among the 4 main subgroups ( Table 4) , suggesting that H3 and H4 subgroup might be going through a purifying evolution and have existed for a long time, while H2 (1.268) and H1 subgroup (1.099) might be going through a positive selection and a neutral evolution according to their Ka/Ks ratios, respectively, which were consistent with the above phenomenon that only H1 subgroup was expanding with time around the world.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 59,
+                    "end": 89,
+                    "text": "(Fig 4b, Extended Data Table 6",
+                    "ref_id": "FIGREF7"
+                },
+                {
+                    "start": 367,
+                    "end": 375,
+                    "text": "Table 4)",
+                    "ref_id": "TABREF8"
+                }
+            ],
+            "section": "Linkage of specific sites and characteristics of main haplotype subgroups"
+        },
+        {
+            "text": "(which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Correlation analysis of specific sites with death rate"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted April 24, 2020. . https://doi.org/10.1101/2020.04.24.058933 doi: bioRxiv preprint",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Correlation analysis of specific sites with death rate"
+        },
+        {
+            "text": "To explore the relationship between death rate and the 9 specific sites, we used Pearson method to calculate the correlation coefficient between death rate and frequency of each specific site or main haplotype in 17 countries. As a result, all r values of 241T, 3037T, 14408T, 23403G and haplotype TTTG and H1 in Cluster 3 were more than 0.4 (Fig 5, Extended Data Table 4 ). This finding integrating their high frequencies in most European countries indicated that the 4 sites and haplotype TTTG and H1 might be related to the pathogenicity of SARS-CoV-2.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 342,
+                    "end": 371,
+                    "text": "(Fig 5, Extended Data Table 4",
+                    "ref_id": "FIGREF7"
+                }
+            ],
+            "section": "Correlation analysis of specific sites with death rate"
+        },
+        {
+            "text": "SARS-CoV-2 poses a great threat to the production, living and even survival of human beings 23 . With the further outbreak of SARS-CoV-2 in the world, further understanding on the evolution and molecular characteristics of SARS-CoV-2 based on a large number of genome sequences will help us cope better with the challenges brought by SARS-CoV-2. In the present study, we estimated the Ka/Ks ratio and tMRCA of SARS-CoV-2, SARS-CoV and MERS-CoV, and constructed the phylogenetic tree of SARS-CoV-2 genomes. As a result, we found that 9 specific sites of highly linkage could play a decisive role in the classification of SARS-CoV-2, and the haplotype TTTG might be related to pathogenicity of SARS-CoV-2 based on more than 3500 genomes. All these results could accelerate our further understanding of SARS-CoV-2.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Exploring evolution rate, tMRCA and phylogenetic tree of SARS-CoV-2 would help us better understand the virus 24 . The average Ka/Ks for all the coding sequences of 622 and 3624 SARS-CoV-2 genomes was 1.008 and 1.009, which was significantly higher than those of SARS-CoV and MERS-CoV, indicating that the SARS-CoV-2 was going through a neutral evolution. In general, SARS-CoV would show purifying selection pressures and the Ka/Ks would go down at the middle or end of the epidemic 25 . Therefore, it seemed to be reasonable considering that SARS-CoV-2 was under an exponential growth period around the world. Interestingly, we also found that the subgroups of different haplotypes (H1, H2, H3 and H4) seemed to experience different evolutionary patterns according to their Ka/Ks. The H3 haplotype subgroup disappeared soon after detection (2020-02-18 to 2020-04-07) (2020-02-18 to 2020-04-07, Fig 4a) , while H1 haplotype subgroup was globally increasing with time, these evolution and changes should be considered in developing therapeutic drugs and vaccines as soon as possible. The tMRCA of SARS-CoV-2 was inferred on the late September, 2019 (95% CI: 2019/08/28-2019/10/26), about 2 months before the early cases (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 895,
+                    "end": 902,
+                    "text": "Fig 4a)",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "Discussion"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted April 24, 2020. . https://doi.org/10.1101/2020.04.24.058933 doi: bioRxiv preprint of SARS-CoV-2 22 . We also estimated tMRCA of SARS-CoV and MERS-CoV with the same methods, both were about 3 months later than the corresponding tMRCAs estimated by previous studied 26,27 , which indicated the tMRCA of SARS-CoV-2 we estimated was reasonable.",
+            "cite_spans": [
+                {
+                    "start": 155,
+                    "end": 157,
+                    "text": "22",
+                    "ref_id": "BIBREF3"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "A recent study clustered 160 SARS-CoV-2 whole-genome sequences into A, B and C groups by a phylogenetic network analysis 28 . The cluster result was similar to our study: both the samples in Cluster A and our Cluster 1 were mainly from the United States; the samples in Cluster C and our Cluster 3 were mainly from European countries, while Cluster B and our Cluster 2 were mainly from China and the other regions. It was interesting that the markers in Cluster B (T8782C and C28144T) were also found in our study, but the other markers in Cluster A (T29095C) and Cluster C (G26144T) were not significantly in our study. That may be caused by different sample sizes and different constructing methods of phylogenetic tree. Based on the base substitution model, the ML method avoids the possible \"long-branch attraction\" problem in the maximum parsimony method and is faster than the Bayesian method 29 , hence it could be used as a reliable method for phylogenetic analysis. Nowadays, there is still a shortage of studies on phylogenetic analysis of SARS-CoV-2. Some studies used the genome of bat SARS-like-CoV 30 , RaTG13 30 or MT019529 from Wuhan (https://bigd.big.ac.cn/ncov/tree) as the root of phylogenetic tree. Unfortunately, there was no obvious evidence showing that SARS-CoV-2 was from the bat coronavirus even the identity between SARS-CoV-2 and RaTG13 was up to 96.2% 5 . In our study, the tMRCA of SARS-CoV-2 was inferred on the late September 2019, which indicated there might exist an earlier SARS-CoV-2 strain we didn't find. Then in the case of unclear source of SARS-CoV-2 and high homology of its genomes (> 99.9% homology), it may be inappropriate to identify the evolutionary characteristics inside the genomes by taking bat SARS-like-CoV, RaTG13 or MT019529 as root. Therefore, the maximum likelihood method was used in current study to construct a no-root tree to obtain the reliable clusters with different characteristics. Based on the no-root tree, we identified 9 specific sites of highly linkage that play a decisive role in the classification of clusters successfully. Among the four main haplotypes, H1 and H3 were in Cluster 3 and Cluster 1, respectively, while there were two haplotypes H2 and H4 in Cluster 2 (Fig 1, Extended Data Fig 3b) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 2243,
+                    "end": 2272,
+                    "text": "(Fig 1, Extended Data Fig 3b)",
+                    "ref_id": "FIGREF4"
+                }
+            ],
+            "section": "Discussion"
+        },
+        {
+            "text": "Among the 9 specific sites, 8 of them were located in coding regions (6 in ofr1ab gene, 1 in S gene and 1 in ORF8 gene), and 5 of them were missense variant, including C14408T, C17747T and A17858G in ofr1ab gene, A23403G in S gene, and C28144T in ORF8 gene. Orf1ab is composed of two partially (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted April 24, 2020. . https://doi.org/10.1101/2020.04.24.058933 doi: bioRxiv preprint overlapping open reading frames (orf), orf1a and 1b. It is proteolytic cleaved into 16 non-structural proteins (nsp), including nsp1 (suppress antiviral host response), nsp9 (RNA/DNA binding activity), nsp12 (RNA-dependent RNA polymerase), nsp13 (helicase) and others 31 , indicating the vital role of it in transcription, replication, innate immune response and virulence 32 . C14408T with high frequencies of T in European countries were located at nsp12 region, indicating that this missense variant might influence the role of RNA polymerase. Spike glycoprotein, the largest structural protein on the surface of coronaviruses, comprises of S1 and S2 subunits which mediating binding the receptor on the host cell surface and fusing membranes, respectively 33 . It has been reported that S protein of SARS-CoV-2 can bind angiotensin-converting enzyme 2 (ACE2) with higher affinity than that of SARS 4,5 . Whether the missense variant of A23403G in S gene, which with high frequencies of G in European countries, will change the affinity between S protein and ACE2 remains to be further investigated.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Previous studies showed that the death rate of SARS-CoV-2 is affected by many factors, such as medical supplies, aging, life style and other factors 34,35 . However, our study found that the 4 specific sites (C241T, C3037T, C14408T and A23403G) in the Cluster 3 were almost complete linkage, and the frequency of haplotype TTTG was generally high in European countries and correlated to death rate (r>0.4), which provides a new perspective to the reasons of relatively high death rate in Europe. In order to make frequency relatively credible, we selected countries with more than 10 genomes (except South Korea with 16 genomes, all the other countries with more than 20 genomes) to analyze the correlation between frequencies of haplotypes and death rate. Therefore, the correlation between the frequencies of haplotypes and death rate obtained in this study is quite reliable, and these specific sites should be considered in designing new vaccine and drug development of SARS-CoV-2.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "The Ka/Ks ratio of SARS-CoV-2 (1.008) and tMRCA of SARS-CoV-2 (95% CI: 2019/08/28-2019/10/26) indicated that SARS-CoV-2 might have completed the positive selection pressure of cross-host evolution in the early stage and be going through a neutral evolution at present. The 9 specific sites with highly linkage were found to play a decisive role in the classification of clusters.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusion and prospective"
+        },
+        {
+            "text": "Thereinto, 3 of them are the specific sites of Cluster 1 mainly from North America, 4 of them are the specific sites of Cluster 3 mainly from Europe, both of these 3 and 4 specific sites are almost complete linkage. The frequencies of haplotype TTTG for the 4 specific sites in Cluster 3 were generally high in European countries and correlated to death rate (r>0.4) based on more than 3500 SARS-CoV-2 genomes, which suggested this haplotype might relate to pathogenicity of SARS-CoV-2 and provided a new perspective to the reasons of relatively high death rates in Europe. The relationship between the haplotype TTTG and the pathogenicity of SARS-CoV-2 needs to be further verified by clinical samples or virus virulence test experiment, and the 9 specific sites with highly linkage may provide a starting point for the traceability research of SARS-CoV-2. Given that the different evolution patterns of different haplotypes subgroups, we should consider these evolution and changes in the development of therapeutic drugs and vaccines as soon as possible. (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusion and prospective"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted April 24, 2020. (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusion and prospective"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted April 24, 2020. . https://doi.org/10.1101/2020.04.24.058933 doi: bioRxiv preprint genome sequences; b, The plot for 3624 genome sequences. Tables   Table 1 . Statistics of Ka, Ks and Ka/Ks ratios for all coding regions of the SARS-CoV, MERS-CoV and SARS-CoV-2 genome sequences Table 2 . Substitution rate and tMRCA estimated by BEAST v2.6.2 Table 3 . The information of the 9 specific sites in each Cluster. (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 198,
+                    "end": 214,
+                    "text": "Tables   Table 1",
+                    "ref_id": "TABREF5"
+                },
+                {
+                    "start": 336,
+                    "end": 343,
+                    "text": "Table 2",
+                    "ref_id": "TABREF6"
+                },
+                {
+                    "start": 400,
+                    "end": 407,
+                    "text": "Table 3",
+                    "ref_id": "TABREF7"
+                }
+            ],
+            "section": "Conclusion and prospective"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted April 24, 2020. Extended Data Table 4 . The information of death rate, frequencies of the 9 specific sites and main haplotypes in each country for 3624 genomes.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 89,
+                    "end": 96,
+                    "text": "Table 4",
+                    "ref_id": "TABREF8"
+                }
+            ],
+            "section": "Conclusion and prospective"
+        },
+        {
+            "text": "Extended Data Table 5 . All haplotypes of the 9 specific sites and numbers of them for 3624 genomes.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 14,
+                    "end": 21,
+                    "text": "Table 5",
+                    "ref_id": null
+                }
+            ],
+            "section": "Conclusion and prospective"
+        },
+        {
+            "text": "Extended Data Table 6 . Whole genome mutations and frequencies in each main haplotype subgroup (NC_045512.2 as reference genome) (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 14,
+                    "end": 21,
+                    "text": "Table 6",
+                    "ref_id": null
+                }
+            ],
+            "section": "Conclusion and prospective"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted April 24, 2020. C241T  C3037T  C8782T  C14408T  C17747T  A17858G  C18060T  A23403G  T28144C  C241T  C3037T  C8782T  C14408T  C17747T  A17858G  C18060T  A23403G  T28144C   1  2  3  4  5  6  7  8  9  1  2  3  4  5  6  7  8  9  1  2  3  4  5  6  7  8  9  1  2  3 ",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 75,
+                    "end": 318,
+                    "text": "C241T  C3037T  C8782T  C14408T  C17747T  A17858G  C18060T  A23403G  T28144C  C241T  C3037T  C8782T  C14408T  C17747T  A17858G  C18060T  A23403G  T28144C   1  2  3  4  5  6  7  8  9  1  2  3  4  5  6  7  8  9  1  2  3  4  5  6  7  8  9  1  2  3",
+                    "ref_id": "TABREF5"
+                }
+            ],
+            "section": "Conclusion and prospective"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Coronavirus disease 2019 (COVID-19) Situation Report -93. WHO",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "GCTA: a tool for genome-wide complex trait analysis",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Goddard",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Visscher",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Am J Hum Genet",
+            "volume": "88",
+            "issn": "",
+            "pages": "76--82",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.ajhg.2010.11.011"
+                ]
+            }
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Haploview: analysis and visualization of LD and haplotype maps",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Barrett",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Fry",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Maller",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Daly",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Bioinformatics",
+            "volume": "21",
+            "issn": "",
+            "pages": "263--265",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Clinical features of patients infected with 2019 novel coronavirus in Wuhan",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "China. Lancet",
+            "volume": "395",
+            "issn": "",
+            "pages": "497--506",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S0140-6736(20)30183-5"
+                ]
+            }
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "2a) substitution/site/year, which is as in the same order of magnitude as SARS-CoV and MERS-CoV. The tMRCA was inferred on the late September, 2019 (95% CI: 2019/08/28-2019/10/26,",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "From these results, H2 and H4 haplotype subgroups had existed for a long time (2019-12-31 to 2020-04-14)",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "Guo, Y. R. et al. The origin, transmission and clinical therapies on coronavirus disease 2019 (COVID-19) outbreak -an update on the status. Mil Med Res 7, 11, doi:10., K.-S., Ye, Z.-W., Fung, S.-Y., Chan, C.-P. & Jin, D.-Y. SARS-CoV-2 and COVID-19: The most important research questions. Cell Biosci 10, 40, doi:10.1186/s13578-020-00404-4 (2020).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "Figure Legends",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "Phylogenetic tree and clusters of 622 SARS-CoV-2 genomes. The 622 sequences were clustered into three clusters: Cluster 1 were mainly from North America, Cluster 2 were from regions all over the world, and Cluster 3 were mainly from Europe.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF5": {
+            "text": "Linkage disequilibrium plot of haplotypes of the 9 specific sites. a, The plot for 622",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF6": {
+            "text": "The frequencies of both the 9 specific sites and haplotypes. The frequencies of the 9 specific sites (a) and haplotypes (b) in each country which with more than 10 genome sequences up to April 6th, 2020.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF7": {
+            "text": "The characteristics of haplotype subgroups. a, The numbers of haplotypes of the 9 specific sites detected in each country in chronological order (In order to get the latest trend of haplotype subgroup in chronological order, we had updated the genome data to April 20th, 2020); b, The whole genome mutations in each main haplotype subgroup.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF8": {
+            "text": "The correlation between death rate and frequencies of both the 9 specific sites and haplotypes.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF9": {
+            "text": "Statistics of Ka, Ks and Ka/Ks ratios for all coding regions of each 4 main haplotype genomes Extended Data Extended Data Figure 1. Regression analyses of the root-to-tip divergence with the maximumlikelihood phylogenetic tree of SARS-CoV (a), MERS-CoV (b) and SARS-CoV-2 (c). The root-to-tip genetic distances were inferred in TempEst v1.5.3. Three data sets exhibit a positive correlation between root-to-tip divergence and sample collecting time, and they appear to be suitable for molecular clock analysis. Extended Data Figure 2. Substitution rate and tMRCA estimate of SARS-CoV-2 a, Estimated substitution rate of SARS-CoV-2 using BEAST v2.6.2 under a strict molecular clock. The mean rate was 1.60 x 10 -3 (substitutions per site per year). b, The estimated tMRCA of SARS-CoV-2 using BEAST v2.6.2 under a strict molecular clock. The mean tMRACA was 2019.74 (date: 2019-09-27).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF10": {
+            "text": "The PCAs analysis result based on the 9 specific sites (a) and all SNVs (b).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF11": {
+            "text": "4156 08_2 020/ 03/0 8_No rthA meri ca/U SA/W ashi ngto n EPI_ ISL_ 4135 79_2 020/ 03/0 3_Eu rope /Net herl ands /Noo tdor p",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF12": {
+            "text": "Ka (mean) 10 -3 s.e. (Ka)10 -3 Ks (mean) 10 -3 s.e. (Ks)10 -3 Ka/Ks (mean) s.e. (Ka/Ks) Hypothesis P-value*One-sided T-test for the means of two independent samples.",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "Liu, Y., Gayle, A. A., Wilder-Smith, A. & Rocklov, J. The reproductive number of COVID-19 is higher compared to SARS coronavirus. J Travel Med 27, doi:10.1093/jtm/taaa021 (2020).",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "Shen, F.-m., Chen, F. & Lin, Z. Origin and Evolution of the 2019 Novel Coronavirus.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "The information of the first downloaded complete genome sequences.Extended DataTable 2. The sequence IDs in each Cluster.Extended DataTable 3. The details information of the SNVs in all Clusters.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF3": {
+            "text": "EP I_ IS L_ 41 54 73 _2 02 0/ 03 /0 9_ Eu ro pe /N et he rl an ds EP I_ IS L_ 41 55 96 _2 02 0/ 03 /0 9_ No rt hA me ri ca /U SA /W as hi ng to n 4_S out hAm eri ca/ Bra zil /Sa oPa ulo /Sa oPa ulo",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF4": {
+            "text": "9_No rthA meri ca/U SA/W ashi ngto n EPI_I SL_41 4012_ 2020/ 02/27 _Euro pe/Un itedK ingdo m/Eng land 1_ Eu ro pe /N et he rl an ds /U tr ec ht EPI_ISL_415613_202 0/03/09_NorthAmeri ca/USA/Washington EPI_I SL_41 3604_ 2020/ 03/03 _Euro pe/Fi nland /Hels inki 7_ No rt hA me ri ca /U SA /C al if or ni a/ So la no Co un ty 6_ As ia /G eo rg ia /T bi li si 0_ Ch in a/ Hu be i/ Wu ha n EPI_ISL_415129_2020/02/29_Europe/UnitedKingdom/England 5_N ort hAm eri ca/ USA /Ca lif orn ia/ San Fra nci sco EP I_ IS L_ 41 36 48 _2 02 0/ 03 /0 1_ Eu ro pe /P or tu ga l EP I_ IS L_ 40 85 15 _2 02 0/ 01 /0 1_ As ia /C hi na /H ub ei /W uh an EPI _IS L_4 156 00_ 202 0/0 3/0 9_N ort hAm eri ca/ USA EPI_ ISL_ 4164 47_2 020/ 03/1 0_No rthA meri ca/U SA/W EP I_ IS L_ 41 55 12 _2 02 0/ 03 /0 9_ Eu ro pe /N et he rl an ds /N oo rd Br ab an t (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. The copyright holder for this preprint this version posted April 24, 2020. . https://doi.org/10.1101/2020.04.24.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF5": {
+            "text": "Statistics of Ka, Ks and Ka/Ks ratios for all coding regions of the SARS-CoV, MERS-CoV and SARS-CoV-2 genome sequences Zhao, Z. et al. Moderate mutation rate in the SARS coronavirus genome and its implications. BMC Evol Biol 4, 21, doi:10.1186/1471-2148-4-21 (2004). 27 Cotten, M. et al. Spread, circulation, and evolution of the Middle East respiratory syndrome coronavirus. mBio 5, doi:10.1128/mBio.01062-13 (2014).",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF6": {
+            "text": "Substitution rate and tMRCA estimated by BEAST v2.6.2",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF7": {
+            "text": "The information of the 9 specific sites in each Cluster.*One-sided T-test for the means of two independent samples.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF8": {
+            "text": "Statistics of Ka, Ks and Ka/Ks ratios for all coding regions of each 4 main haplotype genomes",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}

@@ -1,0 +1,783 @@
+{
+    "paper_id": "fa5852cfa04122cb005be4d7f9b6dded9411a54c",
+    "metadata": {
+        "title": "Statistical methods for batch screening of input populations by stage and group in COVID-19 nucleic acid testing Author",
+        "authors": [
+            {
+                "first": "Cheng",
+                "middle": [],
+                "last": "Yuan",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Affiliation Henan University Huaihe hospital",
+                    "location": {
+                        "settlement": "Kaifeng City"
+                    }
+                },
+                "email": "henuhh@outlook.com"
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "To screen for COVID-19 patients in immigration using minimal nucleic acid testing (NAT). Methods: In the first phase, nasopharyngeal swab samples from the inbound population were numbered and grouped. The samples in the group were mixed together, and a NAT test was performed. When the test result is negative, it means that everyone in the group is not infected and the screening of the group is complete. When the test results were positive, the group moved on to the second stage. In the second stage, all samples in the positive group will be tested individually for NAT.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "The advantages and considerations of the method are discussed. Prevalence in the incoming population was a determinant of the sample size within the group. The lower the incidence, the larger the sample size within the group, the higher the savings in NAT and testing costs.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "This method has significant efficiency and cost advantages in COVID-19 screening. It can also be used to screen other populations, such as community populations and people at high risk of infection, etc.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "Since the WHO declared COVID-19 (Corona Virus Disease 2019) a global pandemic on March 11, 2020, [1] the number of Chinese arrivals has reached 600,000 by March 15, 2020, [2] and 44 new confirmed cases have been detected from the arriving population. [3] [4] [5] [6] [7] Starting from March 19, 2020, cities such as Shenzhen, Guangzhou, Shanghai, and Beijing have implemented the policy of nucleic acid testing (NAT) for all inbound persons. [8] [9] [10] [11] ",
+            "cite_spans": [
+                {
+                    "start": 97,
+                    "end": 100,
+                    "text": "[1]",
+                    "ref_id": null
+                },
+                {
+                    "start": 155,
+                    "end": 174,
+                    "text": "March 15, 2020, [2]",
+                    "ref_id": null
+                },
+                {
+                    "start": 251,
+                    "end": 254,
+                    "text": "[3]",
+                    "ref_id": null
+                },
+                {
+                    "start": 255,
+                    "end": 258,
+                    "text": "[4]",
+                    "ref_id": null
+                },
+                {
+                    "start": 259,
+                    "end": 262,
+                    "text": "[5]",
+                    "ref_id": null
+                },
+                {
+                    "start": 263,
+                    "end": 266,
+                    "text": "[6]",
+                    "ref_id": null
+                },
+                {
+                    "start": 267,
+                    "end": 270,
+                    "text": "[7]",
+                    "ref_id": null
+                },
+                {
+                    "start": 442,
+                    "end": 445,
+                    "text": "[8]",
+                    "ref_id": null
+                },
+                {
+                    "start": 446,
+                    "end": 449,
+                    "text": "[9]",
+                    "ref_id": null
+                },
+                {
+                    "start": 450,
+                    "end": 454,
+                    "text": "[10]",
+                    "ref_id": null
+                },
+                {
+                    "start": 455,
+                    "end": 459,
+                    "text": "[11]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "The formula used is as follows:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Method"
+        },
+        {
+            "text": "R software (Version 3.6.3) code to calculate y is as follows:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Method"
+        },
+        {
+            "text": "1 p<-#input value of incidence rate 2 x<-c(2:(1/p))",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Method"
+        },
+        {
+            "text": "where p is the incidence of the incoming population, d is the number of confirmed cases in the incoming population, t is the number of concurrent incoming population, q is the number of the same detection effect with the lowest number of NATs, a staged, batch screening approach is . CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. (which was not certified by peer review)",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Method"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted April 7, 2020. In the first stage, all arrivals are numbered, grouped, and each x is grouped. In the same group, a double nasopharyngeal swab was taken from each person, called sample A and sample B, and all sample A in the same group was mixed together for a single NAT test. When this test is negative, it means that everyone in the group is not infected and the test for that group is over. When a test result is positive, it means that at least one person in the group has a positive sample, and this group is called the \"positive group\", and all samples in the positive group go on to the second stage of testing.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Method"
+        },
+        {
+            "text": "In the second stage, NAT was performed on all samples B in the positive group one by one to find out which sample caused the positive result and to screen the corresponding patients.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Method"
+        },
+        {
+            "text": "After two stages of bulk screening in groups, only y NAT is required, q-y NAT is saved. . CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Method"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted April 7, 2020. We derive the minimum value of y by calculating x. The smaller the p, the larger the q-y, the more NATs can be saved and the greater the detection cost savings.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "For example, assuming p was 0.733/100,000, then q was 13,637, according to formulas (1), (2), (3) and code of R software 3.63, when x was 117, the minimum value of y was 234; that was, 13 On average, each person entering the country pays only 2.8 RMB instead of 160 RMB for NAT, which equates to a savings of 2.14 million RMB in testing costs, a 98.3 per cent savings. The savings rate was higher if two or more patients were found in the same group, or if the method was repeated in the positive group. The cost of NAT was at least 960,000 RMB, based on the average of more than 6,000 test visits per day in Beijing. Using this method, Beijing can save 940,000 RMB per day in testing costs and 28.2 million RMB in 30 days. Based on the daily average of 120,000 passengers entering China through land ports, seaports and airports, the cost of testing can be saved by 18.83 million RMB in 30 days, which was RMB 565 million.",
+            "cite_spans": [
+                {
+                    "start": 867,
+                    "end": 872,
+                    "text": "18.83",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "The method is not limited to screening of inbound populations, but can also be used to screen community populations and at-risk populations. [12] [13] [14] [15] [16] [17] [18] [19] [20] [21] [22] [23] [24] [25] [26] [27] It should be noted that p is the determinant of the number of people in each group x. The lower the p, the greater the value of x, the greater the value of q-y and vice versa (Table 1, Figure 2, Figure 3 ).",
+            "cite_spans": [
+                {
+                    "start": 141,
+                    "end": 145,
+                    "text": "[12]",
+                    "ref_id": null
+                },
+                {
+                    "start": 146,
+                    "end": 150,
+                    "text": "[13]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 151,
+                    "end": 155,
+                    "text": "[14]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 156,
+                    "end": 160,
+                    "text": "[15]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 161,
+                    "end": 165,
+                    "text": "[16]",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 166,
+                    "end": 170,
+                    "text": "[17]",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 171,
+                    "end": 175,
+                    "text": "[18]",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 176,
+                    "end": 180,
+                    "text": "[19]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 181,
+                    "end": 185,
+                    "text": "[20]",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 186,
+                    "end": 190,
+                    "text": "[21]",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 191,
+                    "end": 195,
+                    "text": "[22]",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 196,
+                    "end": 200,
+                    "text": "[23]",
+                    "ref_id": null
+                },
+                {
+                    "start": 201,
+                    "end": 205,
+                    "text": "[24]",
+                    "ref_id": null
+                },
+                {
+                    "start": 206,
+                    "end": 210,
+                    "text": "[25]",
+                    "ref_id": null
+                },
+                {
+                    "start": 211,
+                    "end": 215,
+                    "text": "[26]",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 216,
+                    "end": 220,
+                    "text": "[27]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 406,
+                    "end": 424,
+                    "text": "Figure 2, Figure 3",
+                    "ref_id": null
+                }
+            ],
+            "section": "Conclusion"
+        },
+        {
+            "text": ". CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusion"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted April 7, 2020. . https://doi.org/10.1101/2020.04.02.20050914 doi: medRxiv preprint Figure 2 Scatterplot of incidence and percentage saved for the entrying population. The relationship between the incidence rate and the percentage of savings can be seen, with the lower the incidence . CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted April 7, 2020. . https://doi.org/10.1101/2020.04.02.20050914 doi: medRxiv preprint rate, the greater the percentage of savings. Figure 3 Scatterplot of incidence rates in the incoming population versus sample size per group. It can be seen that the incidence in the inbound population is related to the sample size per group, the lower the incidence, the larger the sample size per group, the more NATs can be saved.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 187,
+                    "end": 195,
+                    "text": "Figure 3",
+                    "ref_id": null
+                }
+            ],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "There are many factors that affect p, such as international situation, country, city, observation period, customs policy, and the characteristics of the population entering the country. Sometimes these factors cause large fluctuations in p and require timely monitoring of p and adjustment of x according to Equation (2). when p fluctuates within a certain range, x should be adjusted according to the maximum value of p.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "[1]",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Reference:"
+        },
+        {
+            "text": "WHO Director-General's opening remarks at the media briefing on COVID-19 -11 March 2020.https://www.who.int/dg/speeches/detail/who-. CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. (which was not certified by peer review)",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Reference:"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted April 7, 2020. . https://doi.org/10.1101/2020.04.02.20050914 doi: medRxiv preprint",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Reference:"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "-general-s-opening-remarks-at-the-media-briefing-on-covid",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Correlation of Chest CT and RT-PCR Testing in Coronavirus Disease 2019 (COVID-19) in China: A Report of 1014 Cases",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Ai",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Hou",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Relation Between Chest CT Findings and Clinical Conditions of Coronavirus Disease (COVID-19) Pneumonia: A Multicenter Study",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Zhong",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Xie",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Yu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Chest CT for Typical 2019-nCoV Pneumonia: Relationship to Negative RT-PCR Testing",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Xie",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Zhong",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Zheng",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Radiology",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1148/radiol.2020200343"
+                ]
+            }
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Detection of 2019 novel coronavirus (2019-nCoV) by real-time RT-PCR",
+            "authors": [
+                {
+                    "first": "V",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Corman",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Landt",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kaiser",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Euro Surveill",
+            "volume": "25",
+            "issn": "3",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.2807/1560-7917.ES.2020.25.3.2000045"
+                ]
+            }
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Potential preanalytical and analytical vulnerabilities in the laboratory diagnosis of coronavirus disease 2019 (COVID-19)",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Lippi",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Simundic",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Plebani",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "2020;/j/cclm.ahead-ofprint",
+            "authors": [],
+            "year": null,
+            "venue": "Clin Chem Lab Med",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1515/cclm-2020-0285"
+                ]
+            }
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Diagnosing COVID-19: The Disease and Tools for Detection",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Udugama",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Kadhiresan",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Kozlowski",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Covid-19 mass testing facilities could end the epidemic rapidly",
+            "authors": [
+                {
+                    "first": "Peto",
+                    "middle": [],
+                    "last": "Julian",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "BMJ",
+            "volume": "368",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Feasibility of controlling COVID-19 outbreaks by isolation of cases and contacts",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Hellewell",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Abbott",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Gimma",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet Glob Health",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Active Monitoring of Persons Exposed to Patients with Confirmed COVID-19 -United States",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Burke",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Midgley",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Dratch",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "MMWR Morb Mortal Wkly Rep",
+            "volume": "69",
+            "issn": "9",
+            "pages": "245--246",
+            "other_ids": {
+                "DOI": [
+                    "10.15585/mmwr.mm6909e1"
+                ]
+            }
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "A rapid advice guideline for the diagnosis and treatment of 2019 novel coronavirus (2019-nCoV) infected pneumonia (standard version)",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Jin",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Cai",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Cheng",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Mil Med Res",
+            "volume": "7",
+            "issn": "1",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1186/s40779-020-0233-6"
+                ]
+            }
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Diagnosis and Treatment Plan for COVID-19 (Trial Version 6)",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Schematic diagram of the process of phased batch screening in groups.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "divided into 117 groups, each group of 117 people, the minimum value of NAT was 234, instead of 13,637. Each group of 117 people were taken double samples, with 234 nasopharyngeal swabs, as sample A and sample B, respectively. Each group had 117 samples A and 117 samples B, and all samples A mixed together for one NAT. When the test result was negative, it means that the test result of all 117 people was negative, the test of that group was over. When the test result was positive, it means that at least one of the 117 people tested positive. All samples B in the positive group underwent a second stage of testing. In the second stage, all samples B from the positive group were tested individually with NAT for a total of 117 tests. As a result, one patient was screened from 13,637, requiring only 234 NATs, saving 13,403 tests compared to 13,637 NATs.",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "incoming persons bringing one COVID-19 patient, y is the number of NATs, x is the number of samples per group, and ymin is the minimum number of NATs. According to equation (1), when d",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "Uninfected person or sample \u25b3: Infected person or sample",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF3": {
+            "text": "Relationship between incidence, sample size, and savings rate",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "The authors declare no competing interests.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Competing Interest Statement"
+        },
+        {
+            "text": "There is no external funding, and there is no conflict of interest.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Funding Statement"
+        },
+        {
+            "text": "All relevant ethical guidelines have been followed; any necessary IRB and/or ethics committee approvals have been obtained, and details of the IRB/oversight body are included in the manuscript.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Author Declaration"
+        },
+        {
+            "text": "All necessary patient/participant consent was obtained, and the appropriate institutional forms were archived.Yes I understand that all clinical trials and any other prospective interventional studies must be registered with an ICMJE-approved registry, such as ClinicalTrials.gov. I confirm that any such study reported in the manuscript has been registered and the trial registration ID is provided (note: if posting a prospective study registered retrospectively. Please provide a statement in the trial ID field explaining why the study was not registered in advance).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Yes"
+        },
+        {
+            "text": "I have followed all appropriate research reporting guidelines and uploaded the relevant EQUATOR Network research reporting checklist(s) and other pertinent materials as supplementary files, if applicable.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Yes"
+        }
+    ]
+}

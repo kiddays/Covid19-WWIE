@@ -1,0 +1,2260 @@
+{
+    "paper_id": "e0abbcf03cd3d97c74cb29297f7cb6ed8861000d",
+    "metadata": {
+        "title": "Repurposing Pyramax\u00ae for the Treatment of Ebola Virus Disease: Additivity of the Lysosomotropic Pyronaridine and Non-Lysosomotropic Artesunate Short running title: Pyronaridine combination treatment for Ebola",
+        "authors": [
+            {
+                "first": "Thomas",
+                "middle": [
+                    "R"
+                ],
+                "last": "Lane",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Collaborations Pharmaceuticals, Inc",
+                    "location": {
+                        "addrLine": "840 Main Campus Drive, Lab 3510",
+                        "postCode": "27606",
+                        "settlement": "Raleigh",
+                        "region": "NC",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Julie",
+                "middle": [],
+                "last": "Dyall",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Integrated Research Facility",
+                    "institution": "National Institutes of Health",
+                    "location": {
+                        "settlement": "Frederick",
+                        "region": "MD",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Luke",
+                "middle": [],
+                "last": "Mercer",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Caleb",
+                "middle": [],
+                "last": "Goodin",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Daniel",
+                "middle": [
+                    "H"
+                ],
+                "last": "Foil",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Collaborations Pharmaceuticals, Inc",
+                    "location": {
+                        "addrLine": "840 Main Campus Drive, Lab 3510",
+                        "postCode": "27606",
+                        "settlement": "Raleigh",
+                        "region": "NC",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Huanying",
+                "middle": [],
+                "last": "Zhou",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Integrated Research Facility",
+                    "institution": "National Institutes of Health",
+                    "location": {
+                        "settlement": "Frederick",
+                        "region": "MD",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Elena",
+                "middle": [],
+                "last": "Postnikova",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Janie",
+                "middle": [
+                    "Y"
+                ],
+                "last": "Liang",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Integrated Research Facility",
+                    "institution": "National Institutes of Health",
+                    "location": {
+                        "settlement": "Frederick",
+                        "region": "MD",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Michael",
+                "middle": [
+                    "R"
+                ],
+                "last": "Holbrook",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Integrated Research Facility",
+                    "institution": "National Institutes of Health",
+                    "location": {
+                        "settlement": "Frederick",
+                        "region": "MD",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Peter",
+                "middle": [
+                    "B"
+                ],
+                "last": "Madrid",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "SRI International",
+                    "location": {
+                        "addrLine": "333 Ravenswood Avenue",
+                        "postCode": "94025",
+                        "settlement": "Menlo Park",
+                        "region": "CA",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Sean",
+                "middle": [],
+                "last": "Ekins",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Collaborations Pharmaceuticals, Inc",
+                    "location": {
+                        "addrLine": "840 Main Campus Drive, Lab 3510",
+                        "postCode": "27606",
+                        "settlement": "Raleigh",
+                        "region": "NC",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "We have recently identified three molecules (tilorone, quinacrine and pyronaridine tetraphosphate) which all demonstrated efficacy in the mouse model of infection with mouse-adapted Ebola virus (EBOV) model of disease and had similar in vitro inhibition of an Ebola pseudovirus (VSV-EBOV-GP), suggesting they interfere with viral entry.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Using a machine learning model to predict lysosomotropism these compounds were evaluated for their ability to inhibit via a lysosomotropic mechanism in vitro. We now demonstrate in vitro that pyronaridine tetraphosphate is an inhibitor of Lysotracker accumulation in lysosomes (IC 50 = 0.56 \u03bcM). Further, we evaluated synergy between pyronaridine and artesunate (Pyramax\u00ae), which are used in combination to treat malaria. Artesunate was not found to have lysosomotropic activity in vitro and the combination effect on EBOV inhibition was shown to be additive. Pyramax\u00ae may represent a unique example of the repurposing of a combination product for another disease.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "The outbreaks of Ebola virus (EBOV) disease (EVD) in Africa have come at great human and financial cost (1, 2) . For example, the outbreak in 2014-2016 killed over 11,000 and it is estimated that it resulted in $53bn in economic damage (3) . The most recent outbreak in the Democratic Republic of the Congo, has killed more than 2200 people (4) . Even with approval of a vaccine for prevention of EVD (5) there is still an urgent need to advance development of filovirus-specific antiviral therapeutics. A clinical trial (NCT03719586) investigated ZMapp (a monoclonal antibody cocktail) (6) ), remdesivir (a small molecule), MAb114 (a monoclonal combination) (7)) and REGN-EB3 (monoclonal antibody combination) (8). These results showed that the antibodies REGN-EB3 and mAb114 had overall statistically similar survival rates of 71% and 66%, respectively. Unfortunately, ZMapp and remdesivir were less effective with a 51% and 47% survival rates, respectively (9) . With remdesivir showing no statistically significant clinical efficacy the search for antiviral small molecules continues.",
+            "cite_spans": [
+                {
+                    "start": 104,
+                    "end": 107,
+                    "text": "(1,",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 108,
+                    "end": 110,
+                    "text": "2)",
+                    "ref_id": null
+                },
+                {
+                    "start": 236,
+                    "end": 239,
+                    "text": "(3)",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 341,
+                    "end": 344,
+                    "text": "(4)",
+                    "ref_id": null
+                },
+                {
+                    "start": 401,
+                    "end": 404,
+                    "text": "(5)",
+                    "ref_id": null
+                },
+                {
+                    "start": 587,
+                    "end": 590,
+                    "text": "(6)",
+                    "ref_id": null
+                },
+                {
+                    "start": 960,
+                    "end": 963,
+                    "text": "(9)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "In an effort to repurpose drugs for the treatment of EVD, we have developed a Bayesian machine learning (ML) approach with a set of 868 anti-EBOV active molecules identified in a viral pseudotype entry assay and confirmed in an EBOV replication assay (10, 11) . The EBOV ML model enabled us to virtually screen several thousand compounds and identify three active compounds against EBOV: tilorone, quinacrine and pyronaridine tetraphosphate (12). The three molecules inhibited EBOV in HeLa cells and demonstrated significant in vivo activity in the mouse-adapted EBOV (ma-EBOV) . CC-BY-NC-ND 4.0 International license was not certified by peer review) is the author/funder. It is made available under a The copyright holder for this preprint (which this version posted April 27, 2020. . https://doi.org /10.1101/2020.04.25.061333 doi: bioRxiv preprint 4 efficacy model (13) (14) (15) (16) and in the guinea pig model of EBOV infection. The compounds also inhibited replication of multiple strains of EBOV and Marburg virus (MARV) (17).",
+            "cite_spans": [
+                {
+                    "start": 251,
+                    "end": 255,
+                    "text": "(10,",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 256,
+                    "end": 259,
+                    "text": "11)",
+                    "ref_id": null
+                },
+                {
+                    "start": 803,
+                    "end": 829,
+                    "text": "/10.1101/2020.04.25.061333",
+                    "ref_id": null
+                },
+                {
+                    "start": 869,
+                    "end": 873,
+                    "text": "(13)",
+                    "ref_id": null
+                },
+                {
+                    "start": 874,
+                    "end": 878,
+                    "text": "(14)",
+                    "ref_id": null
+                },
+                {
+                    "start": 879,
+                    "end": 883,
+                    "text": "(15)",
+                    "ref_id": null
+                },
+                {
+                    "start": 884,
+                    "end": 888,
+                    "text": "(16)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "The trend for compounds to be active against both EBOV and MARV has been demonstrated before, with analysis of previously published data revealing an in vitro inhibition (IC 50 's) correlation ((10, 18) , Figure S1 ).",
+            "cite_spans": [
+                {
+                    "start": 193,
+                    "end": 202,
+                    "text": "((10, 18)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 205,
+                    "end": 214,
+                    "text": "Figure S1",
+                    "ref_id": null
+                }
+            ],
+            "section": "Introduction"
+        },
+        {
+            "text": "To date, we have not determined the mechanism of the antiviral compounds we have identified. Previously we evaluated pyronaridine, tilorone and quinacrine in vitro for its anti-EBOV activity (Zaire strain) in the type I IFN-deficient Vero 76 cell line (19, 20) and no antiviral activity was observed at any concentration below the 50% cytotoxicity concentration. In HeLa cells all three drugs demonstrated selectivity (12, 14) . These observations support the hypothesis that their antiviral activity could be partially acting through or on the type I IFN-related innate immunity pathway (15). We also tested a combination of pyronaridine with tilorone in HeLa cells and evaluated the data with the BRAID model which suggested they are likely synergistic (21). Based on published data for tilorone and quinacrine, which are well known to be lysosomotropic agents, it was suspected that this may also be important. In addition, pyronaridine is used as an antimalarial in combination with artesunate (Pyramax\u00ae). We had previously determined that artesunate also has micromolar in vitro inhibitory activity against EBOV (22). We now assess whether pyronaridine accumulates in lysosomes and if there is any effect with artesunate or its active metabolite dihydroartemisinin against EBOV when combined with pyronaridine in vitro.",
+            "cite_spans": [
+                {
+                    "start": 252,
+                    "end": 256,
+                    "text": "(19,",
+                    "ref_id": null
+                },
+                {
+                    "start": 257,
+                    "end": 260,
+                    "text": "20)",
+                    "ref_id": null
+                },
+                {
+                    "start": 418,
+                    "end": 422,
+                    "text": "(12,",
+                    "ref_id": null
+                },
+                {
+                    "start": 423,
+                    "end": 426,
+                    "text": "14)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": ". CC-BY-NC-ND 4.0 International license was not certified by peer review) is the author/funder. It is made available under a The copyright holder for this preprint (which this version posted April 27, 2020. . https://doi.org /10.1101 /10. /2020 ",
+            "cite_spans": [
+                {
+                    "start": 225,
+                    "end": 233,
+                    "text": "/10.1101",
+                    "ref_id": null
+                },
+                {
+                    "start": 234,
+                    "end": 244,
+                    "text": "/10. /2020",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Pyronaridine tetraphosphate [1, 5] Sigma-Aldrich (#D7439).",
+            "cite_spans": [
+                {
+                    "start": 28,
+                    "end": 31,
+                    "text": "[1,",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 32,
+                    "end": 34,
+                    "text": "5]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Chemicals and reagents"
+        },
+        {
+            "text": "Pyronaridine tetraphosphate, tilorone and quinacrine were also tested (using the NIAID DMID services) against representatives of several viruses using human cells. The general methods have been described previously (16).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "NIAID screening"
+        },
+        {
+            "text": "The Assay Central software has been previously described (23-32) which uses the source code management system Git to gather and store structure-activity datasets ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Lysosomotropic machine learning model"
+        },
+        {
+            "text": "A previous published lysosomotropic assay by Nadanaciva et al. was used as the basis for the following work (38).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Lysosomotropic method"
+        },
+        {
+            "text": "The human metastatic mammary gland cell line MCF7 was obtained from American Type Culture Collection (ATCC# HTB-22). Cells were grown in Eagle's minimum essential medium (Corning) supplemented with 10% fetal bovine serum (Gibco), 100 unit/ml penicillin and 100 \u00b5g/ml streptomycin (Corning) in a humidified incubator at 37\u00b0C and 5% CO 2 .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "MCF7 cell culture conditions"
+        },
+        {
+            "text": ". CC-BY-NC-ND 4.0 International license was not certified by peer review) is the author/funder. It is made available under a The copyright holder for this preprint (which this version posted April 27, 2020. . https://doi.org /10.1101 /10. /2020 Lysosomotropic Assay MCF7 cells were seeded into black walled clear bottom 96-well plates at 15,000 cells/well in 100 ul growth media and incubated for 48 hours (h). Cells were treated with drugs at 2-fold dilutions, with an initial testing concentration of 50 \u00b5M and an additional series of 9 tested dilutions (final 0.098 \u00b5M). Based on solubility restrictions, compounds for stocks were either solubilized in DMSO (tilorone, quinacrine, artesunate) or water (pyronaridine, chloroquine). Control wells included cells treated with DMSO or water. To start assay, 0.5 \u00b5l of appropriate compound stock or control was added using Biomek NX p (Beckman Coulter) and incubated at 37\u00b0C, 5% CO 2 for 3 hours. LysoTracker Red (75 nM) (ThermoFisher) was then added and incubated for 30 min followed by a wash in phosphate buffered saline (PBS). The cells were immediately fixed with 10% formalin at room temperature for 15 min. Cells were then stained with Hoechst (5 \u00b5g/ml) (Sigma-Aldrich) in PBS for 10 min at room temperature. Following cell staining they were washed in PBS. Each experimental run tested a series of compounds in triplicate and was repeated on two different days (n=6 for each compound series) with multiple DMSO (n=12) and water (n=24) controls per plate.",
+            "cite_spans": [
+                {
+                    "start": 225,
+                    "end": 233,
+                    "text": "/10.1101",
+                    "ref_id": null
+                },
+                {
+                    "start": 234,
+                    "end": 244,
+                    "text": "/10. /2020",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "MCF7 cell culture conditions"
+        },
+        {
+            "text": "Imaging was done using a CellInsight CX5 High Content Screening Platform (Thermo Scientific) with 10X objective. Fluorescence was measured with Hoechst (nuclei) and",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "MCF7 cell culture conditions"
+        },
+        {
+            "text": "LysoTracker Red (lysosomes) in channel 1 and 2, respectively. A total of 3 to 4 fields were captured for all wells. For analysis, nuclei were identified, and a circular mask was extended out 5 pixels to represent the cell. Total intensity of the fluorescent signal from Lysotracker Red within the mask area was then used to represent the lysosomal . CC-BY-NC-ND 4.0 International license was not certified by peer review) is the author/funder. It is made available under a The copyright holder for this preprint (which this version posted April 27, 2020. . https://doi.org/10.1101/2020.04.25.061333 doi: bioRxiv preprint 8 staining in the cells. Data was normalized to controls and then analyzed with GraphPad Prism version 8.00. Error bars of dose-response curves represent the SEM of the replicates.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "MCF7 cell culture conditions"
+        },
+        {
+            "text": "MCF7 cells were seeded in white walled clear bottom 96-well plates at 15,000 cells/well in 100 \u00b5l growth media and incubated for 48 h. To start the assay, 0.5 \u00b5l of compound stock or control was added using Biomek NX p and incubated at 37\u00b0C, 5% CO 2 for 3.5 hours. Following compound incubation, 80 \u00b5l of CellTiter-Glo (Promega) was added.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Cell Viability"
+        },
+        {
+            "text": "The plates were shaken on an orbital shaker at 300 rpm for 20 min and then read on an Envision 2104 Multilabel reader (PerkinElmer). Experiments were repeated in triplicate and data was analyzed with Graphpad Prism version 8.00. Error bars of dose-response curves represent the SEM of the replicates.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Cell Viability"
+        },
+        {
+            "text": "The Luminescence was read on an Spark 20M plate reader (Tecan US, Morrisville, NC).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "In vitro combination studies methods"
+        },
+        {
+            "text": "The signal of treated, infected wells was normalized to uninfected control wells and measured (in percent) relative to untreated infected wells. Non-linear regression analysis was performed, and the 50% inhibitory concentrations (EC 50 s) were calculated from fitted curves (log [agonist] versus response [variable slope] with constraints to remain above 0% and not exceed 100%) (GraphPad Software version 8.0, La Jolla, CA). The EBOV drug screen assay was performed with three replicates for each drug concentration. Error bars of dose-response curves represent the SEM of the replicates.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "In vitro combination studies methods"
+        },
+        {
+            "text": "For quantitation of drug toxicity, HeLa cells were mock infected (no virus) and treated with drug dilutions under the same conditions as the infected cells. After 48 h, cell viability was measured using the CellTiter Glo Luminescent Cell Viability Assay kit according to manufacturer's protocol (Promega, Madison, WI).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "In vitro combination studies methods"
+        },
+        {
+            "text": "The BRAID analysis (21) service calculates synergy by fitting data to a seven-variable function. The variable \u03ba represents a quantitative synergy value where \u03ba < 0 implies antagonism, \u03ba = 0 implies additivity, and \u03ba > 0 implies synergy. As an additional reference, \"strong synergy\" corresponds to \u03ba = 2.5, \"mild synergy\" corresponds to \u03ba = 1, \"mild antagonism\" corresponds to \u03ba = \u22120.66, and \"strong antagonism\" corresponds to \u03ba = \u22121. To assess if the combined inhibitory effect of pyronaridine and . CC-BY-NC-ND 4.0 International license was not certified by peer review) is the author/funder. It is made available under a The copyright holder for this preprint (which this version posted April 27, 2020. . https://doi.org/10.1101/2020.04.25.061333 doi: bioRxiv preprint 1 0 or artesunate/dihydroartemisinin on EBOV was synergistic, additive, or antagonistic we analyzed a 6x6 checkboard assay with these pairs of drugs at various combined concentrations in HeLa and Huh 7 cells. It is noted that inhibition data under toxic concentrations (consistently >50% cell death) were removed from the analysis.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Combination Analysis using BRAID and SynergyFinder"
+        },
+        {
+            "text": "Inclusively, this consisted of only individual and combined experiments with concentrations of pyronaridine that exceeded its CC 50 (i.e. 5 \u00b5M concentrations in HeLa cells only). All toxicity data was retained for BRAID analysis.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Combination Analysis using BRAID and SynergyFinder"
+        },
+        {
+            "text": "The SynergyFinder analysis service (41) similarly calculates the degree of combination, synergy or antagonism by comparing the observed drug combination response against the expected response, while assuming there is no interaction between the two drugs.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Combination Analysis using BRAID and SynergyFinder"
+        },
+        {
+            "text": "These scores were calculated using the Loewe reference additivity mode (42) . The threshold to define a good synergy score is variable, but the program developers suggest that synergy scores near 0 gives limited confidence on synergy or antagonism and a score < -10 or >10 are expected to be antagonist or synergistic, respectively.",
+            "cite_spans": [
+                {
+                    "start": 71,
+                    "end": 75,
+                    "text": "(42)",
+                    "ref_id": "BIBREF25"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Combination Analysis using BRAID and SynergyFinder"
+        },
+        {
+            "text": "Pyronaridine, quinacrine and tilorone were previously demonstrated to be active against EBOV in HeLa cell but not Vero cells (14 showed selectivity in the cell lines and concentrations tested, but this may be due to high cytotoxicity and or the insufficient range of concentrations tested in these cell lines (Table S1A- ",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 309,
+                    "end": 320,
+                    "text": "(Table S1A-",
+                    "ref_id": null
+                }
+            ],
+            "section": "NIAID invitro screening"
+        },
+        {
+            "text": "A Bayesian machine learning model with 52 compounds (23 were classed as lysosomotropic) was generated from published data using Assay Central TM with 5-fold cross validation ROC = 0.765 ( Figure 1 ). Additional model statistics suggest that the model is potentially useful for scoring compounds to predict lysosomal accumulation (Table 1) . Tilorone, pyronaridine and artesunate were used as a prospective test set. All compounds were correctly predicted, with tilorone and pyronaridine predicted to be lysosomotropic, while artesunate was predicted to not be lysosomotropic.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 188,
+                    "end": 196,
+                    "text": "Figure 1",
+                    "ref_id": null
+                },
+                {
+                    "start": 329,
+                    "end": 338,
+                    "text": "(Table 1)",
+                    "ref_id": null
+                }
+            ],
+            "section": "Lysosomotropic machine learning model predictions"
+        },
+        {
+            "text": "Pyronaridine tetraphosphate was found to be a potent inhibitor of Lysotracker accumulation in MCF7 lysosomes in vitro (IC 50 = 0.56 \u03bcM). In contrast, artesunate showed no appreciable inhibition of Lysotracker ( Figure 2 ). Tilorone (IC 50 = 3.09 \u03bcM), chloroquine (IC 50 = 6.21 \u03bcM) and finally quinacrine (IC 50 = 7.31 \u03bcM) were less potent inhibitors of Lysotracker accumulation in MCF7 lysosomes in vitro ( Figure S2 ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 211,
+                    "end": 219,
+                    "text": "Figure 2",
+                    "ref_id": null
+                },
+                {
+                    "start": 407,
+                    "end": 416,
+                    "text": "Figure S2",
+                    "ref_id": null
+                }
+            ],
+            "section": "In vitro inhibition of lysosomal accumulation of Lysotracker"
+        },
+        {
+            "text": "The BRAID analysis (Figure 3 ) of pyronaridine and artesunate in vitro inhibition data from the checkerboard assay indicates additivity of these molecules in HeLa cells.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 19,
+                    "end": 28,
+                    "text": "(Figure 3",
+                    "ref_id": null
+                }
+            ],
+            "section": "Combination Analysis"
+        },
+        {
+            "text": ". CC-BY-NC-ND 4.0 International license was not certified by peer review) is the author/funder. It is made available under a The copyright holder for this preprint (which this version posted April 27, 2020. . https://doi.org/10.1101/2020.04.25.061333 doi: bioRxiv preprint 1 2 Artesunate ameliorates the toxicity of pyronaridine in the checkboard assay and therefore indirectly potentiates pyronaridine. The non-linear regression, 4-parameter curve fit (Hill equation) for the artesunate control in Huh 7 cells suggested a plateau at ~60% inhibition ( Figure S3 ), therefore the combination data for this cell-line and pyronaridine/artesunate pair was not included in the analysis. Pyronaridine and DHA similarly shows an additive effect in HeLa and Huh 7 cells, both with a parallel reduction in toxicity based on the BRAID analysis ( Figure S4) . A secondary analysis using Synergyfinder ( Figures S5-S6 ) also suggests that this combination indirectly potentiates pyronaridine in HeLa cells, but in Huh 7 cells these interpretations are ambiguous ( Figure S7 ).",
+            "cite_spans": [
+                {
+                    "start": 273,
+                    "end": 276,
+                    "text": "1 2",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 552,
+                    "end": 561,
+                    "text": "Figure S3",
+                    "ref_id": null
+                },
+                {
+                    "start": 836,
+                    "end": 846,
+                    "text": "Figure S4)",
+                    "ref_id": null
+                },
+                {
+                    "start": 892,
+                    "end": 905,
+                    "text": "Figures S5-S6",
+                    "ref_id": null
+                },
+                {
+                    "start": 1052,
+                    "end": 1061,
+                    "text": "Figure S7",
+                    "ref_id": null
+                }
+            ],
+            "section": "Combination Analysis"
+        },
+        {
+            "text": "Within the last 5 years we have seen two major EVD outbreaks in Africa. These led to renewed efforts to develop treatments for this virus. The actives and inactives of several in vitro high throughput drug screens (10, 18, 43) have been used to develop computational models for predicting anti-EBOV activity of compounds. More recently, combinations of approved drugs found in these and other studies have suggested synergistic combinations (44) (45) (46) (47) . To date, none of these many efforts for EBOV have resulted in a clinical antiviral candidate. Several small molecule antivirals were felled at the hurdle of animal models, specifically the transition from mouse to the guinea pig model. Compounds that have failed to show in vivo efficacy against EBOV following this well-trodden route include chloroquine (18, 48), azithromycin (18), amiodarone (49), . CC-BY-NC-ND 4.0 International license was not certified by peer review) is the author/funder. It is made available under a The copyright holder for this preprint (which this version posted April 27, 2020. . https://doi.org/10.1101/2020.04.25.061333 doi: bioRxiv preprint 1 3 BGB324 (50), NCK8 (50) and 17-DMAG (50) . As discussed previously (17), this may be due to differences in drug metabolism making the model inappropriate for EBOV.",
+            "cite_spans": [
+                {
+                    "start": 214,
+                    "end": 218,
+                    "text": "(10,",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 219,
+                    "end": 222,
+                    "text": "18,",
+                    "ref_id": null
+                },
+                {
+                    "start": 223,
+                    "end": 226,
+                    "text": "43)",
+                    "ref_id": null
+                },
+                {
+                    "start": 441,
+                    "end": 445,
+                    "text": "(44)",
+                    "ref_id": null
+                },
+                {
+                    "start": 446,
+                    "end": 450,
+                    "text": "(45)",
+                    "ref_id": null
+                },
+                {
+                    "start": 451,
+                    "end": 455,
+                    "text": "(46)",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 456,
+                    "end": 460,
+                    "text": "(47)",
+                    "ref_id": null
+                },
+                {
+                    "start": 1137,
+                    "end": 1140,
+                    "text": "1 3",
+                    "ref_id": null
+                },
+                {
+                    "start": 1176,
+                    "end": 1180,
+                    "text": "(50)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Efforts to improve the efficiency and cost effectiveness of EBOV drug discovery have involved our efforts to identify several molecules using ML which have progressed through in vitro and in vivo testing (12-15, 17, 51) . We have also previously used these ML models to predict in vitro efficacy for drugs that were then tested against EBOV (12, 22) . The mechanism for these three compounds against EBOV is unknown. Others have demonstrated that compounds with physicochemical properties such as a basic pKa (> 6.5) and cLogP of > 2 tend to be lysosomotropic (38) and they accumulate in the lysosomes. We have now taken an ML approach to predict potential for a lysosomotropic mechanism using published in vitro data (38, 39) along with ECFP6 molecular fingerprints and a Bayesian algorithm. We have now performed several in vitro studies to validate the predictive ability of this model as well as infer the potential mechanism of one of these EBOV drugs. Pyronaridine clearly is a potent lysosomotropic agent, more so than all the other molecules tested. There is a strong correlation between published anti-EBOV activity and the lysosomotropic property (Table S2 ) for a large number of drugs. All of the compounds that were considered actives in our model were researched to identify whether they had been previously tested against EBOV and or MARV either with a psuedovirus/VLP and or a competent virus inhibition assay. 21 of 23 of these compounds had been tested previously and all inhibited these viruses, with AC 50 s almost all in the nM to low \u00b5M range. This is certainly not a comprehensive list of all lysosomotropic compounds, but this strongly supports the . CC-BY-NC-ND 4.0 International license was not certified by peer review) is the author/funder. It is made available under a The copyright holder for this preprint (which this version posted April 27, 2020. . https://doi.org /10.1101/2020.04.25 .061333 doi: bioRxiv preprint 1 4 notion that the lysosomotropic characteristic is directly related to the antiviral activity of the compounds within this model. Artesunate which is also similarly active against EBOV was found not to share this physiological characteristic. The initial combination of these two drugs to form Pyramax\u00ae was to avoid drug resistance of Plasmodium parasites, the causative agents of Malaria and has been extensively reviewed (52) . The combinations of these two molecules are additive in inhibiting EBOV replication in vitro but with a reduced cytotoxicity as compared to the individual treatments (Figure 2 and 3). Previous work has suggested that it is possible to identify pairs of drugs that block EBOV infection in vitro via the same methodology as used here (47) This current study has implications outside of EBOV, with the increased interest in antivirals for testing against SARS-CoV-2, and in particular the heavy focus on chloroquine and hydroxychloroquine, which have shown low micromolar activity in vitro against this virus (54) (55) (56) (57) . Pyronaridine has recently also been shown to have some limited activity against SAR-CoV-2 in Vero cells (54) , but Vero cells may not be as appropriate as human cells to test compounds such as pyronaridine (low in vitro selectivity index, but high in vivo antiviral activity). Based on our previous findings, this leaves the distinct possibility that there has been an underestimate of pyronaridine's . CC-BY-NC-ND 4.0 International license was not certified by peer review) is the author/funder. It is made available under a The copyright holder for this preprint (which this version posted April 27, 2020. . https://doi.org /10.1101/2020.04.25 .061333 doi: bioRxiv preprint 1 5 antiviral inhibition potential. Our current data also suggests that we should be testing artesunate versus additional viruses as well as in combination with pyronaridine.",
+            "cite_spans": [
+                {
+                    "start": 204,
+                    "end": 219,
+                    "text": "(12-15, 17, 51)",
+                    "ref_id": null
+                },
+                {
+                    "start": 341,
+                    "end": 345,
+                    "text": "(12,",
+                    "ref_id": null
+                },
+                {
+                    "start": 346,
+                    "end": 349,
+                    "text": "22)",
+                    "ref_id": null
+                },
+                {
+                    "start": 1898,
+                    "end": 1917,
+                    "text": "/10.1101/2020.04.25",
+                    "ref_id": null
+                },
+                {
+                    "start": 1948,
+                    "end": 1951,
+                    "text": "1 4",
+                    "ref_id": null
+                },
+                {
+                    "start": 2373,
+                    "end": 2377,
+                    "text": "(52)",
+                    "ref_id": "BIBREF46"
+                },
+                {
+                    "start": 2986,
+                    "end": 2990,
+                    "text": "(54)",
+                    "ref_id": "BIBREF50"
+                },
+                {
+                    "start": 2991,
+                    "end": 2995,
+                    "text": "(55)",
+                    "ref_id": null
+                },
+                {
+                    "start": 2996,
+                    "end": 3000,
+                    "text": "(56)",
+                    "ref_id": null
+                },
+                {
+                    "start": 3001,
+                    "end": 3005,
+                    "text": "(57)",
+                    "ref_id": "BIBREF55"
+                },
+                {
+                    "start": 3112,
+                    "end": 3116,
+                    "text": "(54)",
+                    "ref_id": "BIBREF50"
+                },
+                {
+                    "start": 3634,
+                    "end": 3653,
+                    "text": "/10.1101/2020.04.25",
+                    "ref_id": null
+                },
+                {
+                    "start": 3684,
+                    "end": 3687,
+                    "text": "1 5",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 1157,
+                    "end": 1166,
+                    "text": "(Table S2",
+                    "ref_id": null
+                },
+                {
+                    "start": 2546,
+                    "end": 2559,
+                    "text": "(Figure 2 and",
+                    "ref_id": null
+                }
+            ],
+            "section": "Discussion"
+        },
+        {
+            "text": "Frequently, single drugs are repurposed for new uses (58) , to our knowledge there is no precedent for a two drug combination being repurposed for the same indication. We have previously estimated that the dose used for treating malaria patients may have a beneficial effect in EBOV patients (14), further indicating the potential for direct repurposing without the need to change dose, route or formulation. From our experience and insights gained during the discovery of the antiviral properties of pyronaridine, tilorone and quinacrine we propose our ML approach could be optimized by adding the additional ML model for the lysosomotropic mechanism described here.",
+            "cite_spans": [
+                {
+                    "start": 53,
+                    "end": 57,
+                    "text": "(58)",
+                    "ref_id": "BIBREF56"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "This would enable us to create a computational pipeline to identify new antivirals more rapidly that could have this lysosomotropic property and hence direct the antiviral mechanism of action investigations. Molecules with this mechanism may also have more utility as broad-spectrum antivirals which is needed to counter flare ups of viruses like EBOV, MARV or potential pandemics such as SARS-CoV-2. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "TRL is an employee at Collaborations Pharmaceuticals, Inc. Collaborations Pharmaceuticals, Inc. has obtained FDA orphan drug designations for pyronaridine, tilorone and quinacrine for use against Ebola.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "SE is CEO of Collaborations Pharmaceuticals, Inc."
+        },
+        {
+            "text": ". CC-BY-NC-ND 4.0 International license was not certified by peer review) is the author/funder. It is made available under a The copyright holder for this preprint (which this version posted April 27, 2020. . https://doi.org/10.1101/2020.04.25.061333 doi: bioRxiv preprint 1 8",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "References"
+        },
+        {
+            "text": "Nature 514, 47-53 (2014) . . CC-BY-NC-ND 4.0 International license was not certified by peer review) is the author/funder. It is made available under a The copyright holder for this preprint (which this version posted April 27, . . https://doi.org/10.1101 . CC-BY-NC-ND 4.0 International license was not certified by peer review) is the author/funder. It is made available under a The copyright holder for this preprint (which this version posted April 27, 2020. . https://doi.org /10.1101 /10. /2020 ",
+            "cite_spans": [
+                {
+                    "start": 12,
+                    "end": 24,
+                    "text": "47-53 (2014)",
+                    "ref_id": null
+                },
+                {
+                    "start": 218,
+                    "end": 255,
+                    "text": "April 27, . . https://doi.org/10.1101",
+                    "ref_id": null
+                },
+                {
+                    "start": 481,
+                    "end": 489,
+                    "text": "/10.1101",
+                    "ref_id": null
+                },
+                {
+                    "start": 490,
+                    "end": 500,
+                    "text": "/10. /2020",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Reversion of advanced Ebola virus disease in nonhuman primates with ZMapp."
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Finding small molecules for the 'next Ebola'. F1000Res",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Ekins",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Southan",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Coffee",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "",
+            "volume": "4",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "A Two-Antibody Pan-Ebolavirus Cocktail Confers Broad Therapeutic Protection in Ferrets and Nonhuman Primates",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Geisbert",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Dye",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Cell Host Microbe",
+            "volume": "25",
+            "issn": "",
+            "pages": "49--58",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Pandemic bonds: designed to fail in Ebola",
+            "authors": [
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Jonas",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Nature",
+            "volume": "572",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "The Ongoing Ebola Epidemic in the Democratic Republic of Congo",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Ghebreyesus",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "N Engl J Med",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "International license was not certified by peer review) is the author/funder",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Cc-By-Nc-Nd",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Controlled Trial of Ebola Virus Disease Therapeutics",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Holman",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Gettinger",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Vallee",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "C S"
+                    ],
+                    "last": "Nordwall",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Team",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Randomized",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "N Engl J Med",
+            "volume": "381",
+            "issn": "",
+            "pages": "2293--2303",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "A systematic screen of FDA-approved drugs for inhibitors of biological threat agents",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Madrid",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Chopra",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Manger",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Gilfillan",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Keepers",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Shurtleff",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Green",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Iyer",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Dilks",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Davey",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Kolokoltsov",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Carrion",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Patterson",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Bavari",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Panchal",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Warren",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Wells",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Moos",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Burke",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Tanga",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "PLoS One",
+            "volume": "8",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Lysosomal sequestration (trapping) of lipophilic amine (cationic amphiphilic) drugs in immortalized human hepatocytes (Fa2N-4 cells)",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Kazmi",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Hensley",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Pope",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Funk",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Loewen",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Buckley",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Parkinson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Drug Metab Dispos",
+            "volume": "41",
+            "issn": "",
+            "pages": "897--905",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Evaluation of the Activity of Lamivudine and Zidovudine against Ebola Virus",
+            "authors": [
+                {
+                    "first": "Jr",
+                    "middle": [],
+                    "last": "Olinger",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Bennett",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Holbrook",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Hensley",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Jahrling",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "PLoS One",
+            "volume": "11",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "SynergyFinder 2.0: visual analytics of multidrug combination synergies",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Ianevski",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Giri",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Aittokallio",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nucleic Acids Res",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "The problem of synergism and antagonism of combined drugs",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Loewe",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "A Rapid Screening Assay Identifies Monotherapy with Interferon-ss and Combination Therapies with Nucleoside Analogs as Effective Inhibitors of Ebola Virus",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Hoenen",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Kobinger",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Fish",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Branch",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "PLoS Negl Trop Dis",
+            "volume": "10",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "Anticancer kinase inhibitors impair intracellular viral trafficking and exert broadspectrum antiviral effects",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Diamond",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "De Jonghe",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Herdewijn",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Dye",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Randall",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Einav",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "J Clin Invest",
+            "volume": "127",
+            "issn": "",
+            "pages": "1338--1352",
+            "other_ids": {}
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "Synergistic drug combination effectively blocks Ebola virus infection",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Sun",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "He",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Martinez-Romero",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Kouznetsova",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Tawa",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Shinn",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Fisher",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Long",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Motabar",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Sanderson",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Williamson",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Garcia-Sastre",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Qiu",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Zheng",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Antiviral Res",
+            "volume": "137",
+            "issn": "",
+            "pages": "165--172",
+            "other_ids": {}
+        },
+        "BIBREF33": {
+            "ref_id": "b33",
+            "title": "Identification of Combinations of Approved Drugs With Synergistic Activity Against Ebola Virus in Cell Cultures",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Mierzwa",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Shinn",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Glass",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Johansen",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Jahrling",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Hensley",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Olinger",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Thomas",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "White",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "J Infect Dis",
+            "volume": "218",
+            "issn": "",
+            "pages": "672--678",
+            "other_ids": {}
+        },
+        "BIBREF34": {
+            "ref_id": "b34",
+            "title": "International license was not certified by peer review) is the author/funder. It is made available under a The copyright holder for this preprint (which this version posted",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Cc-By-Nc-Nd",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.04.25.061333"
+                ]
+            }
+        },
+        "BIBREF36": {
+            "ref_id": "b36",
+            "title": "Chloroquine inhibited Ebola virus replication in vitro but failed to protect against infection and disease in the in vivo guinea pig model",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Dowall",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Bosworth",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Watson",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Bewley",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Taylor",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Rayner",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Hunter",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Pearson",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Easterbrook",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Pitman",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Hewson",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Carroll",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "J Gen Virol",
+            "volume": "96",
+            "issn": "",
+            "pages": "3484--3492",
+            "other_ids": {}
+        },
+        "BIBREF40": {
+            "ref_id": "b40",
+            "title": "Vitro and In Vivo Activity of Amiodarone Against Ebola Virus",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Hensley",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "",
+            "volume": "218",
+            "issn": "",
+            "pages": "592--596",
+            "other_ids": {}
+        },
+        "BIBREF44": {
+            "ref_id": "b44",
+            "title": "Antiviral Screening of Multiple Compounds against Ebola Virus",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Funnell",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Vipond",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Charlton",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Haldar",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Hewson",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Carroll",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Viruses",
+            "volume": "8",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF45": {
+            "ref_id": "b45",
+            "title": "Tilorone: A Broad-Spectrum Antiviral For Emerging Viruses",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Ekins",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Madrid",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Antimicrob Agents Chemother IN Press",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF46": {
+            "ref_id": "b46",
+            "title": "Review of pyronaridine anti-malarial properties and product characteristics",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Croft",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Duparc",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Arbe-Barnes",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Craft",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Shin",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Fleckenstein",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Borghini-Fuhrer",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Rim",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Malar J",
+            "volume": "11",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF47": {
+            "ref_id": "b47",
+            "title": "International license was not certified by peer review) is the author/funder. It is made available under a The copyright holder for this preprint (which this version posted",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Cc-By-Nc-Nd",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.04.25.061333"
+                ]
+            }
+        },
+        "BIBREF49": {
+            "ref_id": "b49",
+            "title": "SynToxProfiler: An interactive analysis of drug combination synergy, toxicity and efficacy",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Ianevski",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Timonen",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Kononov",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Aittokallio",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Giri",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "PLoS Comput Biol",
+            "volume": "16",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF50": {
+            "ref_id": "b50",
+            "title": "Identification of antiviral drug candidates against SARS-CoV-2 from FD-approved drugs",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Jeon",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Ko",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Choi",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Byun",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Park",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Shum",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Kim",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF52": {
+            "ref_id": "b52",
+            "title": "Hydroxychloroquine, a less toxic derivative of chloroquine, is effective in inhibiting SARS-CoV-2 infection in vitro",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Cell Discov",
+            "volume": "6",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF54": {
+            "ref_id": "b54",
+            "title": "Remdesivir and chloroquine effectively inhibit the recently emerged novel coronavirus (2019-nCoV) in vitro",
+            "authors": [
+                {
+                    "first": "Xiao",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Cell Res",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF55": {
+            "ref_id": "b55",
+            "title": "FDA approved drugs with broad anti-coronaviral activity inhibit SARS-CoV-2 <em>in vitro</em>. bioRxiv",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Weston",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Haupt",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Logue",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Matthews",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Frieman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF56": {
+            "ref_id": "b56",
+            "title": "A bibliometric review of drug repurposing",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Baker",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Ekins",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Williams",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Tropsha",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Drug Discov Today",
+            "volume": "23",
+            "issn": "",
+            "pages": "661--672",
+            "other_ids": {}
+        },
+        "BIBREF58": {
+            "ref_id": "b58",
+            "title": "Use of physicochemical calculation of pKa and CLogP to predict phospholipidosis-inducing potential: a case study with structurally related piperazines",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Saleminki",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Van Esch",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Exp Toxicol Pathol",
+            "volume": "55",
+            "issn": "",
+            "pages": "347--355",
+            "other_ids": {}
+        },
+        "BIBREF59": {
+            "ref_id": "b59",
+            "title": "International license was not certified by peer review) is the author/funder",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Cc-By-Nc-Nd",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "in vitro infection inhibition of EBOV/Mak (Makona, IRF0165, 1.98E7 PFU/mL) was performed in HeLa and Huh 7 cells. HeLa cells were seeded at 3 x 10 4 cells/well in 96well plates. After 24 hr the drugs were added to cells in a 6x6 matrix with 2-fold serial dilutions with a starting concentration of 30 \u00b5M. The experiment was run on 3-4 replicate plates. The experiment was run on 2 different days. Cells were infected with virus 1 h after the addition of the drugs in BSL4-containment at a multiplicity of infection (MOI) of 0.21 (Huh 7) or 0.5 (HeLa). After 48 h, plates were fixed and virus was detected with a mouse antibody specific for EBOV VP40 protein (#B-MD04-BD07-AE11, -mouse IgG-peroxidase labeled antibody (KPL, Gaithersburg, MD, #074-1802).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "and these prior data have been used with other software to suggest a variation in prioritizing drug pairs based on selective efficacy (53), which considers both synergy and toxicity. This software independently confirms our observations with the BRAID analysis (Figure S5-7).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "Dr. Mindy Davis is gratefully acknowledged for assistance with the NIAID virus screening capabilities, Task Order number B22. We acknowledge numerous discussions with Dr. Jason E. Comer, Dr. Shane Massey, Dr. Manu Anantpadma, Dr.Robert A. Davey and Dr. Joel S. Freundlich. of small drug discovery organizations\" from NIGMS and NIEHS for 1R43ES031038-01 \"MegaTox for analyzing and visualizing data across different screening systems\". \"Research reported in this publication was supported by the National Institute of Environmental Health Sciences of the National Institutes of Health under Award Number R43ES031038. The content is solely the responsibility of the authors and does not necessarily represent the official views of the National Institutes of Health. \"This work was supported by the Division of Intramural Research of the National Institute of Allergy and Infectious Diseases (NIAID); Integrated Research Facility (NIAID, Division of Clinical Research); Battelle Memorial Institute's prime contract with NIAID (Contract # HHSN272200700016I). H.Z., J.D., and M.R.H performed this work as employees of Battelle Memorial Institute (BMI). The findings and conclusions in this report do not necessarily reflect the views or policies of the US Department of Health and Human Services or of the institutions and companies affiliated with the authors.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": ", J. Misasi, S. Mulangu, D. A. Stanley, M. Kanekiyo, S. Wollen, A. Ploquin, N. A. Doria-Rose, R. P. Staupe, M. Bailey, W. Shi, M. Choe, H. Marcus, E. A. Thompson, A. Cagigi, C. Silacci, B. Fernandez-Rodriguez, L. Perez, F. Sallusto, F. Vanzetta, G. Agatic, E. Cameroni, N. Kisalu, I. Gordon, J. E. Ledgerwood, J. R. Mascola, B. S. Graham, J. J. Muyembe-Tamfun, J. C. Trefry, A. Lanzavecchia, N. J. Sullivan, Protective monotherapy against lethal Ebola virus infection by a potently neutralizing antibody. Science 351, Sivapalasingam, M. Kamal, R. Slim, R. Hosain, W. Shao, R. Stoltz, J. Yen, L. G. Pologe, Y. Cao, M. Partridge, G. Sumner, L. Lipsich, Safety, pharmacokinetics, and immunogenicity of a co-formulated cocktail of three human monoclonal antibodies targeting Ebola virus glycoprotein in healthy adults: a randomised, first-in-human phase 1 study. Lancet Infect Dis 18, Mulangu, L. E. Dodd, R. T. Davey, Jr., O. Tshiani Mbaya, M. Proschan, D. Mukadi, M. Lusakibanza Manzo, D. Nzolo, A. Tshomba Oloma, A. Ibanda, R. Ali, S. Coulibaly, A. C. Levine, R. Grais, J. Diaz, H. C. Lane, J. J. Muyembe-Tamfum, P. W. Group, B. Sivahera, M. Camara, R. Kojan, R. Walker, B. Dighero-Kemp, H. Cao, P. Mukumbayi, P. Mbala-Kingebeni, S. Ahuka, S. Albert, T. Bonnett, I. Crozier, M. Duvenhage, C. Proffitt, M. Teitelbaum, T. Moench, J. Aboulhab, K. . B. Madrid, R. G. Panchal, T. K. Warren, A. C. Shurtleff, A. N. Endsley, C. E. Green, A. A. Kolokoltsov, R. A. Davey, I. D. Manger, L. Gilfillan, S. Bavari, M. J. Tanga, Evaluation of Ebola Virus Inhibitors for Drug Repurposing. ACS Inf Dis 1, 317-326 (2015). 12. S. Ekins, J. Freundlich, A. Clark, M. Anantpadma, R. Davey, P. Madrid, Machine learning models identify molecules active against Ebola virus in vitro. F1000Res 4, 1091 (2015). 13. T. R. Lane, J. E. Comer, A. N. Freiberg, P. B. Madrid, S. Ekins, Repurposing Quinacrine Against Ebola Virus Infection In vivo. Antimicrob Agents Chemother 63, e01142-01119 (2019).",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF1": {
+            "text": "Recall, Precision, F1 Score, Cohen'sKappa (33, 34), and Matthews CorrelationCoefficient (35). Applicability is representative of the overlap between the training and the test set. It is the quotient of the total number of ECFP6 fingerprints of the test molecule represented in the model divided by the total number of ECFP6 fingerprints of that test molecule. Generation and interpretation of prediction scores has been previously described(36, 37). The model consisted of curated data from a key paperfrom Nadanaciva et al. (38), where their quantitative approach to measuring lysosomotropic properties allowed for a direct activity threshold cut-off and was defined as an IC 50 (decrease in LysoTracker Red staining) of \u2265 70 \u00b5M. A negative series of drugs that lack lysosomotropic properties from Kazmi et al. was also curated and added as inactive compounds (39) to the model.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "). We have now tested these compounds against Adenovirus 5, Human papillomavirus 11, Chikungunya virus, Dengue virus 2, Powassan virus, Rift valley virus, Yellow Fever virus and human cytomegalovirus in additional human cells through the use of NIAID screening resources. None however",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF3": {
+            "text": "Ekins, T. R. Lane, P. B. Madrid, Tilorone: a Broad-Spectrum Antiviral Invented in the USA and Commercialized in Russia and beyond. Pharm Res 37, 71 (2020). 17. T. R. Lane, C. Massey, J. E. Comer, A. N. Freiberg, H. Zhou, J. Dyall, M. R. Holbrook, M. Anantpadma, R. A. Davey, P. B. Madrid, S. Ekins, Pyronaridine Tetraphosphate Efficacy Against Ebola Virus Infection in Guinea Pig. bioRxiv, 2020.2003.2020.001081 (2020). 18. P. B. Madrid, R. G. Panchal, T. K. Warren, A. C. Shurtleff, A. N. Endsley, C. E. Green, A. Kolokoltsov, R. Davey, I. D. Manger, L. Gilfillan, S. Bavari, M. J. Tanga, Evaluation of Ebola Virus Inhibitors for Drug Repurposing. ACS Infect Dis BY-NC-ND 4.0 International license was not certified by peer review) is the author/funder. It is made available under a The copyright holder for this preprint (which this version posted April 27, 2020. . https://doi.org/10.1101/2020.04.19. J. Desmyter, J. L. Melnick, W. E. Rawls, Defectiveness of interferon production and of rubella virus interference in a line of African green monkey kidney cells (Vero). J Virol 2, 955-961 (1968). 20. J. M. Emeny, M. J. Morgan, Regulation of the interferon system: evidence that Vero cells have a genetic defect in interferon production. J Gen Virol 43, 247-252 Twarog, E. Stewart, C. V. Hammill, A. S. A, BRAID: A Unifying Paradigm for the Analysis of Combined Drug Action. Sci Rep 6, 25523 (2016). 22. M. Anantpadma, T. Lane, K. M. Zorn, M. A. Lingerfelt, A. M. Clark, J. S. Freundlich, R. A. Davey, P. Madrid, S. Ekins, Ebola Virus Bayesian Machine Learning Models Enable New In Vitro Leads ACS Omega 4, 2353-2361 (2019). 23. M. Anantpadma, T. Lane, K. M. Zorn, M. A. Lingerfelt, A. M. Clark, J. S. Freundlich, R. A. Davey, P. B. Madrid, S. Ekins, Ebola Virus Bayesian Machine Learning Models Enable New in Vitro Leads. ACS Omega 4, 2353-2361 (2019). 24. A. G. Dalecki, K. M. Zorn, A. M. Clark, S. Ekins, W. T. Narmore, N. Tower, L. Rasmussen, R. Bostwick, O. Kutsch, F. Wolschendorf, High-throughput screening and Bayesian machine learning for copper-dependent inhibitors of Staphylococcus aureus. Metallomics 11, 696-706 (2019). 25. S. Ekins, J. Gerlach, K. M. Zorn, B. M. Antonio, Z. Lin, A. Gerlach, Repurposing Approved Drugs as Inhibitors of Kv7.1 and Nav1.8 to Treat Pitt Hopkins Syndrome. Pharm Res 36, 137 (2019). . CC-BY-NC-ND 4.0 International license was not certified by peer review) is the author/funder. It is made available under a The copyright holder for this preprint (which this version posted April 27, 2020. . https://doi.org/10.1101/2020.04.26. S. Ekins, A. C. Puhl, K. M. Zorn, T. R. Lane, D. P. Russo, J. J. Klein, A. J. Hickey, A. M. Clark, Exploiting machine learning for end-to-end drug discovery and development. Nat Mater 18, 435-441 (2019). 27. H. W. Hernandez, M. Soeung, K. M. Zorn, N. Ashoura, M. Mottin, C. H. Andrade, C. R. Caffrey, J. L. de Siqueira-Neto, S. Ekins, High Throughput and Computational Repurposing for Neglected Diseases. Pharm Res 36, 27 (2018). 28. T. Lane, D. P. Russo, K. M. Zorn, A. M. Clark, A. Korotcov, V. Tkachenko, R. C. Reynolds, A. L. Perryman, J. S. Freundlich, S. Ekins, Comparing and Validating Machine Learning Models for Mycobacterium tuberculosis Drug Discovery. Mol Pharm 15, 4346-4360 (2018). 29. D. P. Russo, K. M. Zorn, A. M. Clark, H. Zhu, S. Ekins, Comparing Multiple Machine Learning Algorithms and Metrics for Estrogen Receptor Binding Prediction. Mol Pharm 15, 4361-4370 (2018). 30. P. J. Sandoval, K. M. Zorn, A. M. Clark, S. Ekins, S. H. Wright, Assessment of Substrate-Dependent Ligand Interactions at the Organic Cation Transporter OCT2 Using Six Model Substrates. Mol Pharmacol 94, 1057-1068 (2018). 31. P. F. Wang, A. Neiner, T. R. Lane, K. M. Zorn, S. Ekins, E. D. Kharasch, Halogen Substitution Influences Ketamine Metabolism by Cytochrome P450 2B6: In Vitro and Computational Approaches. Mol Pharm 16, 898-906 (2019).. CC-BY-NC-ND 4.0 International license was not certified by peer review) is the author/funder. It is made available under aThe copyright holder for this preprint (which this version posted April 27, 2020. . https://doi.org/10.1101/2020.04.25.32. K. M. Zorn, T. R. Lane, D. P. Russo, A. M. Clark, V. Makarov, S. Ekins, Multiple Machine Learning Comparisons of HIV Cell-based and Reverse Transcriptase Data Sets. Mol Pharm 16, 1620-1632 (2019). 33. J. Carletta, Assessing agreement on classification tasks: The kappa statistic. Cohen, A coefficient of agreement for nominal scales. Education and Matthews, Comparison of the predicted and observed secondary structure of T4 phage lysozyme. Biochim Biophys Acta 405, 442-451 (1975). 36. A. M. Clark, S. Ekins, Open Source Bayesian Models. 2. Mining a \"Big Dataset\" To Create and Validate Models with ChEMBL. J Chem Inf Model 55, 1246-1260 (2015). 37. A. M. Clark, K. Dole, A. Coulon-Spektor, A. McNutt, G. Grass, J. S. Freundlich, R. C. Reynolds, S. Ekins, Open Source Bayesian Models. 1. Application to ADME/Tox and Drug Discovery Datasets. J Chem Inf Model 55, 1231-1245 Nadanaciva, S. Lu, D. F. Gebhard, B. A. Jessen, W. D. Pennie, Y. Will, A high content screening assay for identifying lysosomotropic compounds. Toxicol In Vitro 25, 715-723 (2011).",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": " Arzneimittelforschung 3, 285-290 (1953) . Med 5, 190ra179-190ra179 (2013) .. CC-BY-NC-ND 4.0 International license was not certified by peer review) is the author/funder. It is made available under a The copyright holder for this preprint (which this version posted April 27, . . https://doi.org/10.1101 doi: bioRxiv preprint 2 5 The copyright holder for this preprint (which this version posted April 27, 2020. 1-6 (2006) .. CC-BY-NC-ND 4.0 International license was not certified by peer review) is the author/funder. It is made available under a The copyright holder for this preprint (which this version posted April 27, 2020. . https://doi.org/10.1101/2020.04.25.061333 doi: bioRxiv preprint 2 9 Table 1 . Physicochemical properties and Assay Central lysosomotropic machine learning predictions for compounds tested in vitro. An applicability score of 1 indicates that all the fragments are in the model and may indicate the molecule is in the training set (chloroquine is in the training set). (Calculated with ACD/Labs PhysChem Batch program $ , (59)) Predicted pka's (negative log of the acid dissociation constant) were obtained from drugbank, which were initially calculated using Chemaxon. AlogP (predicted log octanol-water partition coefficient was calculated via Discovery Studio). plots of the smoothed raw data, predicted additive inhibition and predicted inhibition using the 7-parameter BRAID analysis. It is noted that inhibition data under toxic concentrations (>50% cell death) were removed from the analysis. The \"Additive\" or \"BRAID\" error represents the corresponding accuracy of fit with the \"Observed Effect\". \u03ba represents the combinatory effect where \"strong synergy\" corresponds to \u03ba = 2.5, \"mild synergy\" corresponds to \u03ba = 1, \"mild antagonism\" corresponds to \u03ba = \u22120.66, and \"strong antagonism\" corresponds to \u03ba = \u22121. C) Representation of the cytotoxicity (toxicity is representative of % cell death from control) arranged in the same manner as inhibition.",
+            "cite_spans": [
+                {
+                    "start": 1,
+                    "end": 40,
+                    "text": "Arzneimittelforschung 3, 285-290 (1953)",
+                    "ref_id": null
+                },
+                {
+                    "start": 43,
+                    "end": 74,
+                    "text": "Med 5, 190ra179-190ra179 (2013)",
+                    "ref_id": null
+                },
+                {
+                    "start": 267,
+                    "end": 304,
+                    "text": "April 27, . . https://doi.org/10.1101",
+                    "ref_id": null
+                },
+                {
+                    "start": 327,
+                    "end": 330,
+                    "text": "2 5",
+                    "ref_id": null
+                },
+                {
+                    "start": 413,
+                    "end": 423,
+                    "text": "1-6 (2006)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 702,
+                    "end": 709,
+                    "text": "Table 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "annex"
+        },
+        {
+            "text": ". CC-BY-NC-ND 4.0 International license was not certified by peer review) is the author/funder. It is made available under a The copyright holder for this preprint (which this version posted April 27, 2020. . https://doi.org/10.1101/2020.04.25.061333 doi: bioRxiv preprint 3 4 . CC-BY-NC-ND 4.0 International license was not certified by peer review) is the author/funder. It is made available under a The copyright holder for this preprint (which this version posted April 27, 2020. . https://doi.org /10.1101 /10. /2020 ",
+            "cite_spans": [
+                {
+                    "start": 273,
+                    "end": 276,
+                    "text": "3 4",
+                    "ref_id": null
+                },
+                {
+                    "start": 502,
+                    "end": 510,
+                    "text": "/10.1101",
+                    "ref_id": null
+                },
+                {
+                    "start": 511,
+                    "end": 521,
+                    "text": "/10. /2020",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Name pK a (predicted) Pka (Experimental) AlogP Lysosomotropic"
+        }
+    ]
+}

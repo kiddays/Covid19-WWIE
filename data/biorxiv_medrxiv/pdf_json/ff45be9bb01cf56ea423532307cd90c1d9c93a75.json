@@ -1,0 +1,2279 @@
+{
+    "paper_id": "ff45be9bb01cf56ea423532307cd90c1d9c93a75",
+    "metadata": {
+        "title": "Title: Effectiveness of interventions targeting air travellers for delaying local outbreaks of SARS-CoV-2",
+        "authors": [
+            {
+                "first": "Samuel",
+                "middle": [],
+                "last": "Clifford",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Centre for Mathematical Modelling of Infectious Diseases",
+                    "institution": "",
+                    "location": {
+                        "addrLine": "Keppel Street",
+                        "postCode": "WC1E 7HT",
+                        "settlement": "London, London",
+                        "country": "UK"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Carl",
+                "middle": [
+                    "A B"
+                ],
+                "last": "Pearson",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Centre for Mathematical Modelling of Infectious Diseases",
+                    "institution": "",
+                    "location": {
+                        "addrLine": "Keppel Street",
+                        "postCode": "WC1E 7HT",
+                        "settlement": "London, London",
+                        "country": "UK"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Petra",
+                "middle": [],
+                "last": "Klepac",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Centre for Mathematical Modelling of Infectious Diseases",
+                    "institution": "",
+                    "location": {
+                        "addrLine": "Keppel Street",
+                        "postCode": "WC1E 7HT",
+                        "settlement": "London, London",
+                        "country": "UK"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Kevin",
+                "middle": [],
+                "last": "Van Zandvoort",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Centre for Mathematical Modelling of Infectious Diseases",
+                    "institution": "",
+                    "location": {
+                        "addrLine": "Keppel Street",
+                        "postCode": "WC1E 7HT",
+                        "settlement": "London, London",
+                        "country": "UK"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Billy",
+                "middle": [
+                    "J"
+                ],
+                "last": "Quilty",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Centre for Mathematical Modelling of Infectious Diseases",
+                    "institution": "",
+                    "location": {
+                        "addrLine": "Keppel Street",
+                        "postCode": "WC1E 7HT",
+                        "settlement": "London, London",
+                        "country": "UK"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Cmmid",
+                "middle": [],
+                "last": "Covid-19",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Centre for Mathematical Modelling of Infectious Diseases",
+                    "institution": "",
+                    "location": {
+                        "addrLine": "Keppel Street",
+                        "postCode": "WC1E 7HT",
+                        "settlement": "London, London",
+                        "country": "UK"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Rosalind",
+                "middle": [
+                    "M"
+                ],
+                "last": "Eggo",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Centre for Mathematical Modelling of Infectious Diseases",
+                    "institution": "",
+                    "location": {
+                        "addrLine": "Keppel Street",
+                        "postCode": "WC1E 7HT",
+                        "settlement": "London, London",
+                        "country": "UK"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Stefan",
+                "middle": [],
+                "last": "Flasche",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Centre for Mathematical Modelling of Infectious Diseases",
+                    "institution": "",
+                    "location": {
+                        "addrLine": "Keppel Street",
+                        "postCode": "WC1E 7HT",
+                        "settlement": "London, London",
+                        "country": "UK"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "We evaluated if interventions aimed at air travellers can delay local SARS-CoV-2 community transmission in a previously unaffected country. Methods: We simulated infected air travellers arriving into countries with no sustained SARS-CoV-2 transmission or other introduction routes from affected regions. We assessed the effectiveness of syndromic screening at departure and/or arrival & traveller sensitisation to the COVID-2019-like symptoms with the aim to trigger rapid self-isolation and reporting on symptom onset to enable contact tracing. We assumed that syndromic screening would reduce the number of infected arrivals and that traveller sensitisation reduces the average number of secondary cases. We use stochastic simulations to account for uncertainty in both arrival and secondary infections rates, and present sensitivity analyses on arrival rates of infected travellers and the effectiveness of traveller sensitisation. We report the median expected delay achievable in each scenario and an inner 50% interval. Results: Under baseline assumptions, introducing exit and entry screening in combination with traveller sensitisation can delay a local SARS-CoV-2 outbreak by 8 days (50% interval: 3-14 days) when the rate of importation is 1 infected traveller per week at time of introduction. The additional benefit of entry screening is small if exit screening is effective: the combination of only exit screening and traveller sensitisation can delay an outbreak by 7 days (50% interval: 2-13 days). In the absence of screening, with less effective sensitisation, or a higher rate of importation, these delays shrink rapidly to less than 4 days. Conclusion: Syndromic screening and traveller sensitisation in combination may have marginally delayed SARS-CoV-2 outbreaks in unaffected countries.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": ". CC-BY 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. (which was not certified by peer review)",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "Similar to outbreaks of other respiratory pathogens (1) (2) (3) (4) , syndromic airport screening at arrival of travellers from regions with a high risk of SARS-CoV-2 infection is unlikely to identify a sufficient proportion of infected travellers to prevent global spread (5, 6) . Sensitising arriving travellers to the symptoms and risk of SARS-CoV-2 and encouraging appropriate reactions (e.g., early self-isolation, requesting medical assistance via telephone, reporting travel history to providers to trigger tracing and quarantine of contacts), may have a more pronounced effect and has been implemented in many transport hubs (7) . Unfortunately, with increasing numbers of infected travellers contact tracing is unlikely to be sustainable for long because of the immensely resource-intensive nature of contact tracing and hence is similarly unlikely to prevent local transmission in the long term (8) .",
+            "cite_spans": [
+                {
+                    "start": 52,
+                    "end": 55,
+                    "text": "(1)",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 56,
+                    "end": 59,
+                    "text": "(2)",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 60,
+                    "end": 63,
+                    "text": "(3)",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 64,
+                    "end": 67,
+                    "text": "(4)",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 273,
+                    "end": 276,
+                    "text": "(5,",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 277,
+                    "end": 279,
+                    "text": "6)",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 633,
+                    "end": 636,
+                    "text": "(7)",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 905,
+                    "end": 908,
+                    "text": "(8)",
+                    "ref_id": "BIBREF7"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Background"
+        },
+        {
+            "text": "Even if containment is ultimately impossible, delaying local spread remains a key target of pandemic response (9) . This will allow additional time for preparation of the health system and mobilisation of additional public health resources. Delaying local spread will also allow for crucial time to better understand the pathogen and to evaluate effective treatment and prevention measures.",
+            "cite_spans": [
+                {
+                    "start": 110,
+                    "end": 113,
+                    "text": "(9)",
+                    "ref_id": "BIBREF8"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Background"
+        },
+        {
+            "text": "We aim to estimate the effectiveness of syndromic screening and traveller sensitisation for delaying the onset of sustained SARS-CoV-2 spread in previously unaffected regions.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Background"
+        },
+        {
+            "text": "We represent the potential importation of infections by a non-homogeneous Poisson process with intensity function, \u07e3 \u123a \u202b\u0750\u202c \u123b , representing the instantaneous rate of arrival of infected travellers (per week), and that the travellers are attempting to travel to a specific country or region currently not experiencing an outbreak. Implicitly, the number of infected travellers is a product of the prevalence and the number of travellers per week. We assume that individuals with severe symptoms do not attempt to travel, though travellers may develop severe symptoms en route (6) .",
+            "cite_spans": [
+                {
+                    "start": 575,
+                    "end": 578,
+                    "text": "(6)",
+                    "ref_id": "BIBREF5"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Infected Traveller Arrivals Model"
+        },
+        {
+            "text": "For early stages of an outbreak, with sufficient control measures in place at the source of the outbreak to flatten or reverse the spread, it may be reasonable to assume a constant arrival rate. Instead we assume that \u07e3 \u123a \u202b\u0750\u202c \u123b grows from an initial rate, \u07e3 infected travellers per week, when measures to limit the spread from imported cases are introduced. The assumed exponential growth rate of \u202b\u074e\u202c \u0d4c 0 . 1 (95% CI, 0.050-0.16) corresponds to an epidemic doubling time of 7.4 days (95% interval: 4.2-14 days), in line with the local epidemic growth during attempted control via contact tracing but without a lockdown (10) . We consider that the epidemic grows exponentially at the source during the early phase of the outbreak when the population is effectively entirely susceptible. In addition to their use in modelling the risk of exportation of SARS-CoV-2 (11) and turning points for daily case trends in SARS-CoV (12) , nonhomogeneous Poisson processes, particularly those with decreasing inter-arrival times, have previously been applied to a range of infectious disease settings for investigating the effectiveness of border control (13) , estimating epidemic parameters (14) and assessing scheduling in mass immunisation clinics for pandemic Influenza (15) .",
+            "cite_spans": [
+                {
+                    "start": 619,
+                    "end": 623,
+                    "text": "(10)",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 862,
+                    "end": 866,
+                    "text": "(11)",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 920,
+                    "end": 924,
+                    "text": "(12)",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 1142,
+                    "end": 1146,
+                    "text": "(13)",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 1180,
+                    "end": 1184,
+                    "text": "(14)",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 1262,
+                    "end": 1266,
+                    "text": "(15)",
+                    "ref_id": "BIBREF14"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Infected Traveller Arrivals Model"
+        },
+        {
+            "text": "Upon arrival, we assume all infected travellers have the same distribution of the number of onwards infections they would generate if circulating in the community. These potential secondary infections are determined by the average number of those infections, \u0734 , the basic reproduction number, and the dispersion of that number, \u0747 , is sampled from a Gamma distribution with 95% interval (0.05, 0.16) representing the growth early in the Wuhan outbreak (10) . Additionally, because \u0734 is uncertain, this leads to uncertainty in q and variability in \u202b\u0750\u202c beyond the stochasticity from the arrival process. This exponential growth rate is consistent with a case doubling times of: 5 days (95% interval: 4.3, 6.2 days) found by Ferretti et al. (17) which would give a growth rate of approximately 0.14; and that of 6.4 days (5.8, 7.1 days) by Wu et al. (18) giving a growth rate of 0.11 days. We have chosen to parameterise in terms of the exponential growth rate of the epidemic rather than the doubling time of cases to account for recovery at the travel origin.",
+            "cite_spans": [
+                {
+                    "start": 453,
+                    "end": 457,
+                    "text": "(10)",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 723,
+                    "end": 743,
+                    "text": "Ferretti et al. (17)",
+                    "ref_id": null
+                },
+                {
+                    "start": 848,
+                    "end": 852,
+                    "text": "(18)",
+                    "ref_id": "BIBREF17"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Outbreak Probability Model"
+        },
+        {
+            "text": "When syndromic screening is implemented, each arriving infected traveller is identified during screening with probability 1 \u0d46 \u07e0 , reducing the number of infected travellers arriving and potentially delaying the outbreak. For the scenarios we consider, we assume the same baseline assumptions as in Quilty et al (6) ; i.e. a syndromic screening sensitivity of 86%, travel duration of 12 hours, and average times from infection to onset of symptoms and from onset to severe symptoms/hospitalisation as 5.2 and 9.2 days, respectively. For those assumptions, Quilty et al estimate the mean probability of SARS-CoV-2 infected travellers not being detected at either exit or entry screening as 46% and as 42% for exit-only screening. Here we consider the uncertainty in \u03b8 by bootstrap resampling 100 travellers per simulation from the model of Quilty et al. and obtain 95% confidence intervals of (33%, 53%) and (37%, 57%) respectively. As in that paper, the benefit of entry screening is dependent on the effectiveness of exit screening, and entry-only screening is likely to pick up those who would have been identified by exit screening.",
+            "cite_spans": [
+                {
+                    "start": 311,
+                    "end": 314,
+                    "text": "(6)",
+                    "ref_id": "BIBREF5"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Model of symptom screening and sensitisation"
+        },
+        {
+            "text": "Sensitisation occurs via, e.g., posters and handouts to travellers arriving from high risk regions, which increases the likelihood that those travellers, if they experience SARS-CoV-2 symptoms, will self-isolate on the occurrence of mild symptoms and rapidly report to health care providers who in turn trigger contact tracing (8) . We represent traveller sensitisation as reducing \u0734",
+            "cite_spans": [
+                {
+                    "start": 327,
+                    "end": 330,
+                    "text": "(8)",
+                    "ref_id": "BIBREF7"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Model of symptom screening and sensitisation"
+        },
+        {
+            "text": "is interpreted as the effectiveness of sensitisation, rather than the proportion of passengers perfectly sensitised. The lower \u0734 \u0522 results in a lower probability that an arriving infected traveller triggers an outbreak, \u202b\u074d\u202c \u0522",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Model of symptom screening and sensitisation"
+        },
+        {
+            "text": ", and therefore it may require the entry of more infected travellers, \u0730 \u0522 \u0730 , to trigger the outbreak than in the no-sensitisation case, resulting in a correspondingly longer time to outbreak in the Poisson process.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Model of symptom screening and sensitisation"
+        },
+        {
+            "text": "As a base case for the intervention, we consider recent work (5) which indicates that sensitisation by itself may cause only 25% of those symptomatically infected with SARS-CoV-2 to self-report upon onset of symptoms. In line with Hellewell et al (8) we assume, for sensitivity, a best case scenario that these measures accelerate self-isolation and reporting in the early stages of the SARS-CoV-2 pandemic and reduce the average number of onward transmitting secondary infections by about 50%.",
+            "cite_spans": [
+                {
+                    "start": 247,
+                    "end": 250,
+                    "text": "(8)",
+                    "ref_id": "BIBREF7"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Model of symptom screening and sensitisation"
+        },
+        {
+            "text": "To determine the impact of the interventions, we calculate the difference in time to outbreak occurrence with and without interventions: ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Calculation of delays to reach outbreak threshold"
+        },
+        {
+            "text": "Where \u0734 \u0522 is less than 1, \u0730 \u0522 is infinite and the simulated outbreak does not occur as the infected traveller causing the outbreak will never arrive.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Calculation of delays to reach outbreak threshold"
+        },
+        {
+            "text": ". CC-BY 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Calculation of delays to reach outbreak threshold"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted February 13, 2020. . We report the median delay and inner 50% and 95% intervals and plot the empirical complementary cumulative probability densities to show how many simulations result in a delay of at least a given duration given",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "We considered three syndromic screening intervention scenarios: no screening, exit-only, and exit-and-entry screening. We further considered two scenarios of the effectiveness of traveller sensitisation: 0% and a reasonable average case of 25%. No screening and 0% sensitisation effectiveness form the non-intervention reference. These are reported in the context of either 0.1, 1, 10 or 100 infected travellers per week at the time of measures being introduced. We assume that the mean \u0734 is gamma distributed with an inner 95% range from 1.4 to 3.9 (10); we assume, for the calculation of probability of outbreak triggering, the dispersion in secondary cases is k=0.54 (20) .",
+            "cite_spans": [
+                {
+                    "start": 670,
+                    "end": 674,
+                    "text": "(20)",
+                    "ref_id": "BIBREF19"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Scenarios considered"
+        },
+        {
+            "text": "For sensitivity analyses, we also investigate alternative scenarios for the dispersion of \u0734 and a reasonable best case of 50% effectiveness of contact tracing and self-reporting. All scenarios and parameters are summarised in Table 1 .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 226,
+                    "end": 233,
+                    "text": "Table 1",
+                    "ref_id": "TABREF2"
+                }
+            ],
+            "section": "Scenarios considered"
+        },
+        {
+            "text": "All analyses were done with R 3.6.2 (21) and can be found on GitHub at https://github.com/cmmid/screening_outbreak_delay/. \u03c1 , effectiveness of traveller sensitisation 0%, 25%, Sensitivity analyses: 50% (5, 8) . CC-BY 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [
+                {
+                    "start": 203,
+                    "end": 206,
+                    "text": "(5,",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 207,
+                    "end": 209,
+                    "text": "8)",
+                    "ref_id": "BIBREF7"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Scenarios considered"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted February 13, 2020. . , epidemic growth rate (per day) Central 95% range is 0.05 to 0.16 Gamma distributed, (10) , probability of outbreak caused by a single infected traveller (without and with intervention, respectively) Solution to Eq. 1 with for and for (16) , number of infected arrivals required to trigger an outbreak in absence of interventions quantile of a geometric distribution with probability . CC-BY 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [
+                {
+                    "start": 166,
+                    "end": 170,
+                    "text": "(10)",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 316,
+                    "end": 320,
+                    "text": "(16)",
+                    "ref_id": "BIBREF15"
+                }
+            ],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted February 13, 2020. . Figure 1 : Schematic of the air traveller intervention process. A proportion of infected travellers (red dots) will be detected through syndromic exit or entry screening (green arrows) and will immediately be isolated and not cause secondary cases (yellow dots) in the yet unaffected destination. Travellers not identified by syndromic screening enter the destination country (red arrows), where they are provided by sensitisation information and are more likely to self-isolate and/or report their symptoms soon after onset and cause fewer secondary cases (dots which are yellow under \"delayed contact tracing\" but grey under \"rapid contact tracing\").",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 80,
+                    "end": 88,
+                    "text": "Figure 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "For all scenarios investigated, the lower bound of the 95% interval is always less than 1 day of delay ( Table 2) . Where sensitisation has been performed (\u07f7 either 25% or 50%), the sampled value of \u0734 \u0522 may be less than 1; for such values, the outbreak is averted. Where the upper bound of the 95% interval is infinite, this indicates that at least 2.5% of outbreaks have been averted.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 105,
+                    "end": 113,
+                    "text": "Table 2)",
+                    "ref_id": null
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "Here we present results in terms of their median and inner 50% interval and only present the upper bounds of the 95% interval when they are finite. The percentage of outbreaks averted for all combinations of \u07f7 and \u07e0 are given in Table S1 .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 229,
+                    "end": 237,
+                    "text": "Table S1",
+                    "ref_id": "TABREF2"
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "In the case of 1 infected traveller per week at the time of the intervention, the combination of traveller sensitisation and exit and entry screening typically delays the outbreak by 8 days (inner 50% interval: 3-14 days) (Table 2, Figure 2 ). If there are 10 infected travellers per week at the time of these interventions being introduced, the outbreak is typically delayed by only 2 days (50%: <1-5 days). At \u07e3 \u0d4c 1 0 0 the median delay is less than 1 day, and less than 25% of delays are longer than 1 day.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 232,
+                    "end": 240,
+                    "text": "Figure 2",
+                    "ref_id": null
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "Additional figures in the appendix show the complementary cumulative density functions, focusing on either variation with screening ( Figure S1 ), traveller sensitisation ( Figure S2 ), arrival rate ( Figure S3 ), or dispersion parameter ( Figure S4 ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 134,
+                    "end": 143,
+                    "text": "Figure S1",
+                    "ref_id": null
+                },
+                {
+                    "start": 173,
+                    "end": 182,
+                    "text": "Figure S2",
+                    "ref_id": null
+                },
+                {
+                    "start": 201,
+                    "end": 210,
+                    "text": "Figure S3",
+                    "ref_id": null
+                },
+                {
+                    "start": 240,
+                    "end": 249,
+                    "text": "Figure S4",
+                    "ref_id": null
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "The incremental benefit of syndromic entry screening is highly dependent on the effectiveness of exit screening. With one infected traveller per week, traveller sensitisation, and under baseline assumptions of exit screening effectiveness but no entry screening, the outbreak is delayed by 2 days (50%: <1-13 days), indicating that additional entry screening adds little in this case. Table 2 : Summary statistics providing the inner 50% and 95% confidence intervals and medians (all rounded to the nearest day) for the estimated number of days an outbreak is delayed given one arriving infection per week at the introduction of an intervention consisting of a combination of traveller screening and sensitisation and contact tracing. Comparisons are made to no contact tracing and no screening (there are no \"No screening\" results at 0% sensitisation as this is the baseline against which comparisons are to be made). . CC-BY 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 385,
+                    "end": 392,
+                    "text": "Table 2",
+                    "ref_id": null
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted February 13, 2020. We estimate that with no traveller sensitisation and under baseline assumptions for the effectiveness of syndromic screening at exit and entry, the delays are half as long as if the effect . CC-BY 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted February 13, 2020. . of sensitisation was 25%. In the early stages of the outbreak with 1 infected traveller per week at the time the intervention is introduced, an outbreak may be delayed by screening alone by only 4 days (50%: <1-9 days). Again, this is largely due to exit screening at departure, which on its own is estimated to delay the outbreak by 3 days (50%: <1-8 days). Forgoing screening measures until a rate of arrival of 10 infected travellers per week, essentially eliminates any potential delay in onset of a local outbreak; specifically, if infected traveller numbers approach 10 per week, syndromic screening alone can only delay the outbreak by 1 day (50%: <1-3 days).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "Similarly, we estimate that in the absence of syndromic air traveller screening, traveller sensitisation can only delay the outbreak by 1 day (50%:<1-4 days) early in the epidemic when the arrival rate is 1 infected traveller per week at time of introduction of the intervention. When the rate of arrival at time of introducing only sensitisation is 10 infected travellers per week, the introduction of sensitisation results in delays of less than 1 day (50%: <1-1 day) and that at 100 infected arrivals per week there is no delay unless the outbreak is completely averted (only the case for 13% of simulated outbreaks).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "For sensitivity analyses, we varied the effectiveness of traveller sensitisation and the heterogeneity in the number of secondary infections. A 50% reduction in the effective reproduction number through traveller sensitisation followed by rapid case isolation and contact tracing can potentially prevent a local outbreak independent of the number of infected arrivals if the basic reproduction number is smaller than 3.3 (i.e.,",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "). As traveller sensitisation increases and therefore a greater proportion of simulated \u0734 \u0522 values are less than 1, the proportion of simulated delays that are infinitely long (indicating that that specific simulated potential outbreak has been averted) increases to nearly 66% (Table S1 ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 278,
+                    "end": 287,
+                    "text": "(Table S1",
+                    "ref_id": "TABREF2"
+                }
+            ],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "If the number of secondary infections is substantially less disperse, e.g. influenza-like, fewer outbreaks are averted, and median outbreak delays decrease by about 25%, as the outbreak becomes less reliant on occasional super-spreading events ( Figure S4 ). If, however, the number of secondary infections is slightly more disperse, i.e. the dispersion parameter estimate of 0.1 (23), then outbreak delays are also approximately 25% shorter but fewer outbreaks are averteed than in the \u0747 \u0d4c 2 case (Table S1 ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 246,
+                    "end": 255,
+                    "text": "Figure S4",
+                    "ref_id": null
+                },
+                {
+                    "start": 498,
+                    "end": 507,
+                    "text": "(Table S1",
+                    "ref_id": "TABREF2"
+                }
+            ],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": ". CC-BY 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted February 13, 2020. . Figure 2 : Complementary empirical cumulative density functions for the estimated number of days an outbreak is delayed given an intervention consisting of a combination of traveller screening and sensitisation and contact tracing. Rows correspond to different arrival rates and columns to traveller sensitisation. Comparisons are made to no contact tracing and no screening (there are no \"No screening\" results at 0% sensitisation as this is the baseline against which comparisons are to be made).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 80,
+                    "end": 88,
+                    "text": "Figure 2",
+                    "ref_id": null
+                }
+            ],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "Syndromic screening of air travellers at departure and/or arrival is unlikely to prevent a sufficient proportion of SARS-CoV-2 infected travellers from entering a yet unaffected country and thereby prevent a local outbreak. Similarly, sensitisation of travellers from high-risk countries to encourage self-isolation and enable accelerated case detection and contact tracing if indeed infected will likely not be able to halt an outbreak indefinitely, particularly when many infected g. ct ch nt . CC-BY 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted February 13, 2020. . travellers arrive undetected, unless the effect of sensitisation is large enough ensure that the number of secondary infections are, on average, less than 1 for the traveller and subsequent cases. We investigate here how syndromic screening and traveller sensitisation, as well as their combination, may delay an outbreak of SARS-CoV-2.",
+            "cite_spans": [
+                {
+                    "start": 59,
+                    "end": 79,
+                    "text": "February 13, 2020. .",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "We find that when syndromic screening alone is introduced very early in the outbreak, i.e. at a point when 0.1 infected travellers per week arrive, it can only slightly delay an outbreak (6 days, 50%: <1-13 days). Traveller sensitisation alone has a less pronounced effect by delaying the outbreak by 1 day (50%: <1-7 days). The combination of syndromic screening and traveller sensitisation may more substantially delay an outbreak while the number of infected travellers is this low (12 days, 50%: [4] [5] [6] [7] [8] [9] [10] [11] [12] [13] [14] [15] [16] [17] [18] [19] [20] [21] [22] . The incremental effect of syndromic entry screening is only notable if exit screening is poor or even absent. These results are sensitive to a number of key assumptions: with increasing R 0 , less heterogeneous R 0 or less effective traveller sensitisation the estimated achievable delay quickly becomes negligible. Furthermore, once the weekly number of infected passengers increases to 10 and above, e.g. as a result of an exponential increase in cases at the origin of travel, even the combination of syndromic screening and traveller sensitisation delays is unlikely to delay an outbreak for more than a week.",
+            "cite_spans": [
+                {
+                    "start": 500,
+                    "end": 503,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 504,
+                    "end": 507,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 508,
+                    "end": 511,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 512,
+                    "end": 515,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 516,
+                    "end": 519,
+                    "text": "[8]",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 520,
+                    "end": 523,
+                    "text": "[9]",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 524,
+                    "end": 528,
+                    "text": "[10]",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 529,
+                    "end": 533,
+                    "text": "[11]",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 534,
+                    "end": 538,
+                    "text": "[12]",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 539,
+                    "end": 543,
+                    "text": "[13]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 544,
+                    "end": 548,
+                    "text": "[14]",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 549,
+                    "end": 553,
+                    "text": "[15]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 554,
+                    "end": 558,
+                    "text": "[16]",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 559,
+                    "end": 563,
+                    "text": "[17]",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 564,
+                    "end": 568,
+                    "text": "[18]",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 569,
+                    "end": 573,
+                    "text": "[19]",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 574,
+                    "end": 578,
+                    "text": "[20]",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 579,
+                    "end": 583,
+                    "text": "[21]",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 584,
+                    "end": 588,
+                    "text": "[22]",
+                    "ref_id": "BIBREF21"
+                }
+            ],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "We find a potential small role for interventions targeting air-passengers to delay major outbreaks of SARS-CoV-2 in previously unaffected regions as long as implemented very early in an outbreak. We find that syndromic screening on arrival can add to the effect of traveller sensitisation in these early stages of a pandemic. Syndromic screening can also aid to reduce the number of passengers that would eventually self-report and then require resource-intensive follow up, including contact tracing. As the rate of infected arrivals increases, contact tracing becomes increasingly more difficult and the effectiveness is likely to decrease, further shortening the achievable delays. Therefore, syndromic screening may have an additional role in helping to sustain control efforts for longer. Of note, however, is that syndromic screening at arrival only substantially adds to control efforts if syndromic screening at departure is absent or largely ineffective.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "Delays in airport processes arising from screening may expose travellers to additional risk depending on airport design and reduction in pedestrian flow rates within the terminal and therefore the amount of time passengers spend waiting in crowded areas (24) as well as the time spent boarding and alighting (25) . While not as long in duration as the flight itself, during their time in terminals, travellers mix with a much larger and more diverse range of people than during the flight. This is outside the scope of this study, however, and relies on assumptions about background prevalence in the community of airport users and mixing within airports.",
+            "cite_spans": [
+                {
+                    "start": 254,
+                    "end": 258,
+                    "text": "(24)",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 308,
+                    "end": 312,
+                    "text": "(25)",
+                    "ref_id": "BIBREF24"
+                }
+            ],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "While our findings may encourage implementation of both syndromic screening on entry and traveller sensitisation in the early stages of the SARS-CoV-2 pandemic, it is important to note that these findings are highly sensitive to the underlying base-case assumptions and do not consider the economic implications of large scale air passenger screening and contact tracing (26) . Despite the cost, however, the argument could be made that public health (which enables . CC-BY 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [
+                {
+                    "start": 371,
+                    "end": 375,
+                    "text": "(26)",
+                    "ref_id": "BIBREF25"
+                }
+            ],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted February 13, 2020. . https://doi.org/10.1101/2020.02.12.20022426 doi: medRxiv preprint ongoing economic health) is more important a goal during a pandemic than short-term budgetary considerations (27) particularly in the absence of a vaccine.",
+            "cite_spans": [
+                {
+                    "start": 255,
+                    "end": 259,
+                    "text": "(27)",
+                    "ref_id": "BIBREF26"
+                }
+            ],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "Wells et al. (28) focus on the risk of exporting, rather than importing, the virus and estimate the risk of exportation from China to another country given weights based on airline movements and distributions of incubation time. They considered the impact of travel and border restrictions and found that these restrictions decreased the daily rate of exportation from mainland China to other countries by 81% in the three weeks after introduction, and averted 71% of the cases that they estimated would have occurred had no lockdown been introduced. This would provide countries without established outbreaks to take measures to further delay, e.g. screening, sensitisation and contact tracing, as well as preparing their health systems for the outbreak (7, 29) .",
+            "cite_spans": [
+                {
+                    "start": 13,
+                    "end": 17,
+                    "text": "(28)",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 755,
+                    "end": 758,
+                    "text": "(7,",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 759,
+                    "end": 762,
+                    "text": "29)",
+                    "ref_id": "BIBREF28"
+                }
+            ],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "With increasing numbers of infected travellers, a higher number of secondary infections or a lower heterogeneity thereof, or less effective interventions, the achievable delay quickly drops down to a few days of delay. While all of our assumptions include the best knowledge on SARS-CoV-2 to date, there is considerable uncertainty associated with all of these assumptions. For example, we have assumed recently reported heterogeneity in the individual R 0 , however, the reported range of uncertainty includes SARS-like and influenza-like which can drastically alter the results. Some recent estimates would suggest more SARS-like or even more overdispersed k which would imply that longer outbreak delays are possible as shown in our sensitivity analysis (30) . We also don't explicitly account for potential asymptomatic transmission. However, we implicitly do so as both the syndromic screening as well as the contact tracing work that informed our estimates accounted for a small proportion of asymptomatic transmitters who we assume similarly transmit but will not be affected by syndromic screening or sensitisation. Furthermore, the results are predicated on a syndromic screening sensitivity of 86% (6) . When reducing the sensitivity to 70%, as used in other reports (5) , delays reduce by about 20%.",
+            "cite_spans": [
+                {
+                    "start": 757,
+                    "end": 761,
+                    "text": "(30)",
+                    "ref_id": "BIBREF29"
+                },
+                {
+                    "start": 1208,
+                    "end": 1211,
+                    "text": "(6)",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 1277,
+                    "end": 1280,
+                    "text": "(5)",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "Travel restrictions were implemented in the form of flights exiting China being suspended (31) , which has potentially curbed the exponential increase of infected travellers despite an exponential increase of infections in China. Assuming exponential growth with \u202b\u074e\u202c \u0d4c 0 . 1 numbers of infected arrivals would have increased from 1 to 10 and 100 per week within about 23 and 46 days respectively (assuming exponential growth with \u202b\u074e\u202c \u0d4c 0 . 1 ) and estimated delays would decrease accordingly. However, infected traveller arrivals likely still have increased exponentially as a result of the largely undetected spread in Iran and Italy (32) early on in the pandemic (increasing, respectively, from 28 and 76 cases as of 23 Feb. 2020 (33) to 593 and 1128 a week later on 1 Mar. 2020 (34) ).",
+            "cite_spans": [
+                {
+                    "start": 90,
+                    "end": 94,
+                    "text": "(31)",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 732,
+                    "end": 736,
+                    "text": "(33)",
+                    "ref_id": "BIBREF32"
+                },
+                {
+                    "start": 781,
+                    "end": 785,
+                    "text": "(34)",
+                    "ref_id": "BIBREF33"
+                }
+            ],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "By February, many major airlines had suspended flights from mainland China with travel restrictions from Iran, Italy and Korea being added more recently. In the three weeks leading up to the 28th February the UK reported 10 imported cases, 4 of them in the final week (35) . At that early point a more optimistic scenario would have been that the control measures in place limit the number of infected travellers and may sustainably do so for a considerable amount of time.",
+            "cite_spans": [
+                {
+                    "start": 268,
+                    "end": 272,
+                    "text": "(35)",
+                    "ref_id": "BIBREF34"
+                }
+            ],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": ". CC-BY 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted February 13, 2020. . This constant rate of importation, which is more similar to e.g. SARS in 2003 would have led to much larger possible delays in local outbreak through targeting of air travellers.",
+            "cite_spans": [
+                {
+                    "start": 59,
+                    "end": 79,
+                    "text": "February 13, 2020. .",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "Future pandemic threats will bear similar questions. While our considerations are focussed around SARS-CoV-2 prevention there are some generally applicable conclusions. The expected delay of a local outbreak as a result of traveller targeted interventions will depend on the pathogen specific epidemiology but potential pre-and asymptomatic transmission are a key challenge to the success of such. Further, for pathogens with long incubation period, syndromic screening is likely to miss many infected passengers and a high reproduction number increases the chance that a single missed infected will trigger a local outbreak.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "In summary, we find that the targeting of air-travellers with syndromic screening at exit or entry and sensitisation for signs of symptoms following their arrival has likely delayed the local spread of SARS-CoV-2, but only by a few days. This is because measures were largely put in place at a time where already a few infected travellers a week were arriving and that infection prevalence among travellers was likely increasing exponentially. We find that syndromic screening at arrival may enhance control efforts, but only in the absence of syndromic screening at departure.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "We also like to thank John Edmunds, Graham Medley and Annelies Wilder-Smith for their helpful comments during the conception of this work.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "Neither patients nor the public were involved with the design, conduct, reporting, or dissemination plans of our research. As this work is a simulation study, there are no participants to which we can disseminate the results of this research.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": ". CC-BY 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted February 13, 2020. . https://doi.org/10.1101/2020.02.12.20022426 doi: medRxiv preprint Figure S1 : All scenarios for Figure 2 -complementary cumulative density functions (CCDF = 1-ECDF) of the estimated number of days an outbreak is delayed given an intervention consisting of a combination of traveller screening and sensitization and contact tracing. Within each panel, and for a given delay, the CCDF shows the percentage of simulations which result in a delay of at least that long for each screening regime (no screening, exit only, exit and entry). Comparisons are made to no contact tracing and no screening.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 146,
+                    "end": 155,
+                    "text": "Figure S1",
+                    "ref_id": null
+                },
+                {
+                    "start": 176,
+                    "end": 184,
+                    "text": "Figure 2",
+                    "ref_id": null
+                }
+            ],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": ". CC-BY 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted February 13, 2020. . https://doi.org/10.1101/2020.02.12.20022426 doi: medRxiv preprint Figure S2 : All scenarios for Figure 2 -complementary cumulative density functions (CCDF) of the estimated number of days an outbreak is delayed given an intervention consisting of a combination of traveller screening and sensitization and contact tracing. Within each panel, and for a given delay, the CCDF shows the percentage of simulations which result in a delay of at least that long for each level of traveller sensitisation (0%, 25%, 50%). Comparisons are made to no contact tracing and no screening.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 146,
+                    "end": 155,
+                    "text": "Figure S2",
+                    "ref_id": null
+                },
+                {
+                    "start": 176,
+                    "end": 184,
+                    "text": "Figure 2",
+                    "ref_id": null
+                }
+            ],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": ". CC-BY 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted February 13, 2020. . https://doi.org/10.1101/2020.02.12.20022426 doi: medRxiv preprint Figure S3 : All scenarios for Figure 2 -complementary cumulative density functions (CCDF) of the estimated number of days an outbreak is delayed given an intervention consisting of a combination of traveller screening and sensitization and contact tracing. Within each panel, and for a given delay, the CCDF shows the percentage of simulations which result in a delay of at least that long for each rate of arrival of infected travellers at the time interventions are introduced (0.1, 1, 10 and 100 per week). Comparisons are made to no contact tracing and no screening.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 146,
+                    "end": 155,
+                    "text": "Figure S3",
+                    "ref_id": null
+                },
+                {
+                    "start": 176,
+                    "end": 184,
+                    "text": "Figure 2",
+                    "ref_id": null
+                }
+            ],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": ". CC-BY 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. (which was not certified by peer review)",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted February 13, 2020. . https://doi.org/10.1101/2020.02.12.20022426 doi: medRxiv preprint Figure S4 : All scenarios for Figure 2 -complementary cumulative density functions (CCDF) of the estimated number of days an outbreak is delayed given an intervention consisting of a combination of traveller screening and sensitization and contact tracing. Within each panel, and for a given delay, the CCDF shows the percentage of simulations which result in a delay of at least that long for each dispersion parameter considered. Comparisons are made to no contact tracing and no screening. Table S1 shows the percentage of the delays in Figures 1, S1 -S3 that are infinitely long as a function of the traveller sensitisation. These values are independent of whether or not screening is performed, as well as \u07e3 and \u0747 . In Table S2 we present the full summary statistics of the sensitivity analysis. Table S2 . Sensitivity analysis summary statistics providing the inner 50% and 95% confidence intervals and medians (all rounded to the nearest day) for the estimated number of days an outbreak is delayed given an intervention consisting of a combination of traveller screening and sensitisation and contact tracing. Comparisons are made to no contact tracing and no screening (there are no \"No screening\" results at 0% sensitisation as this is the baseline against which comparisons are to be made). ",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 146,
+                    "end": 155,
+                    "text": "Figure S4",
+                    "ref_id": null
+                },
+                {
+                    "start": 176,
+                    "end": 184,
+                    "text": "Figure 2",
+                    "ref_id": null
+                },
+                {
+                    "start": 639,
+                    "end": 647,
+                    "text": "Table S1",
+                    "ref_id": "TABREF2"
+                },
+                {
+                    "start": 686,
+                    "end": 699,
+                    "text": "Figures 1, S1",
+                    "ref_id": null
+                },
+                {
+                    "start": 870,
+                    "end": 878,
+                    "text": "Table S2",
+                    "ref_id": null
+                },
+                {
+                    "start": 947,
+                    "end": 955,
+                    "text": "Table S2",
+                    "ref_id": null
+                }
+            ],
+            "section": "(which was not certified by peer review)"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Airport screening for Ebola",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Mabey",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Flasche",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Edmunds",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "BMJ",
+            "volume": "349",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Entry and exit screening of airline travellers during the A(H1N1) 2009 pandemic: a retrospective evaluation",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Khan",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Eckhardt",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Brownstein",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Naqvi",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Kossowsky",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Bull World Health Organ",
+            "volume": "91",
+            "issn": "5",
+            "pages": "368--76",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Entry screening to delay local transmission of 2009 pandemic influenza A (H1N1)",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Cowling",
+                    "suffix": ""
+                },
+                {
+                    "first": "Llh",
+                    "middle": [],
+                    "last": "Lau",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Hwc",
+                    "middle": [],
+                    "last": "Wong",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Fang",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Riley",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "BMC Infect Dis",
+            "volume": "10",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "International travels and fever screening during epidemics: a literature review on the effectiveness and potential use of non-contact infrared thermometers",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Bitar",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Goubar",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Desenclos",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Euro Surveill Bull Eur Sur Mal Transm Eur Commun Dis Bull",
+            "volume": "14",
+            "issn": "6",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Estimated effectiveness of symptom and risk screening to prevent the spread of COVID-19. eLife",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Gostic",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Gomez",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "O"
+                    ],
+                    "last": "Mummah",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Kucharski",
+                    "suffix": ""
+                },
+                {
+                    "first": "Lloyd-Smith",
+                    "middle": [],
+                    "last": "Jo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "9",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "CMMID nCoV working group. Effectiveness of airport screening at detecting travellers infected with novel coronavirus (2019-nCoV)",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Quilty",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Clifford",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Flasche",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Eggo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Euro Surveill Bull Eur Sur Mal Transm Eur Commun Dis Bull",
+            "volume": "25",
+            "issn": "5",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "COVID-19 in Singapore-Current Experience: Critical Global Issues That Require Attention and Action",
+            "authors": [
+                {
+                    "first": "Jel",
+                    "middle": [],
+                    "last": "Wong",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Leo",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Tan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "JAMA",
+            "volume": "323",
+            "issn": "13",
+            "pages": "1243--1247",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Feasibility of controlling COVID-19 outbreaks by isolation of cases and contacts",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Hellewell",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Abbott",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Gimma",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Bosse",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Jarvis",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Russell",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet Glob Health",
+            "volume": "8",
+            "issn": "4",
+            "pages": "488--96",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "World Health Organization, editors. Pandemic influenza preparedness and response: a WHO guidance document. Geneva: World Health Organization",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Fukuda",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "",
+            "volume": "58",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Early Transmission Dynamics in Wuhan, China, of Novel Coronavirus-Infected Pneumonia",
+            "authors": [
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Guan",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Tong",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "N Engl J Med",
+            "volume": "382",
+            "issn": "13",
+            "pages": "1199--207",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Risk for Transportation of Coronavirus Disease from Wuhan to Other Cities in China",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Du",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Cauchemez",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Cowling",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Emerg Infect Dis",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Modelling SARS data using threshold geometric process",
+            "authors": [
+                {
+                    "first": "Jsk",
+                    "middle": [],
+                    "last": "Chan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Plh",
+                    "middle": [],
+                    "last": "Yu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Lam",
+                    "suffix": ""
+                },
+                {
+                    "first": "Apk",
+                    "middle": [],
+                    "last": "Ho",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Stat Med",
+            "volume": "25",
+            "issn": "11",
+            "pages": "1826--1865",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "A simple explanation for the low impact of border control as a countermeasure to the spread of an infectious disease",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Scalia Tomba",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Wallinga",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Math Biosci",
+            "volume": "214",
+            "issn": "1-2",
+            "pages": "70--72",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Characterizing the dynamics underlying global spread of epidemics",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Wu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Nat Commun",
+            "volume": "9",
+            "issn": "1",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "A simulation case study to improve staffing decisions at mass immunization clinics for pandemic influenza",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Beeler",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Aleman",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Carter",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "J Oper Res Soc",
+            "volume": "65",
+            "issn": "4",
+            "pages": "497--511",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Introducing the Outbreak Threshold in Epidemiology",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Hartfield",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Alizon",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "PLoS Pathog",
+            "volume": "9",
+            "issn": "6",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Quantifying SARS-CoV-2 transmission suggests epidemic control with digital contact tracing",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Ferretti",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Wymant",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kendall",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Nurtay",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Abeler-D\u00f6rner",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Science",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Nowcasting and forecasting the potential domestic and international spread of the 2019-nCoV outbreak originating in Wuhan, China: a modelling study. The Lancet",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Leung",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Leung",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "395",
+            "issn": "",
+            "pages": "689--97",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Recurrent Event Data Analysis",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Fu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Yan",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Reda",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Pattern of early human-to-human transmission of Wuhan",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Riou",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Althaus",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Eurosurveillance",
+            "volume": "25",
+            "issn": "4",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "R: A Language and Environment for Statistical Computing [Internet]. R Foundation for Statistical Computing",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "R Core Team",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Superspreading and the effect of individual variation on disease emergence",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "O"
+                    ],
+                    "last": "Lloyd-Smith",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Schreiber",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Kopp",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Getz",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Nature",
+            "volume": "438",
+            "issn": "7066",
+            "pages": "355--364",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Estimating the overdispersion in COVID-19 transmission using outbreak sizes outside China",
+            "authors": [
+                {
+                    "first": "A ;",
+                    "middle": [],
+                    "last": "Endo",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Abbott",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Kucharski",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Funk",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Wellcome Open Res",
+            "volume": "5",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Analysis of airport configuration and passenger behaviour",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Kalakou",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Moura",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Medeiros",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Effect of pedestrian movement on the spread of infectious diseases during air travel: a modeling study",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Derjany",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Namilae",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Mubayi",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Scotch",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Srinivasan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "National Science Foundation",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Interrupting transmission of COVID-19: lessons from containment efforts in Singapore",
+            "authors": [
+                {
+                    "first": "V",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Chiew",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "X"
+                    ],
+                    "last": "Khong",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Travel Med",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/jtm/taaa039/5804843"
+                ]
+            }
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "COVID-19: too little, too late?",
+            "authors": [],
+            "year": 2020,
+            "venue": "The Lancet",
+            "volume": "395",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "Impact of international travel and border control measures on the global spread of the novel 2019 coronavirus outbreak",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Wells",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Sah",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Moghadas",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Pandey",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Shoukat",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Proc Natl Acad Sci",
+            "volume": "117",
+            "issn": "13",
+            "pages": "7504--7513",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "World Health Organisation. Critical preparedness, readiness and response actions for COVID-19",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "Dispersion vs",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Grantz",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Metcalf",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Lessler",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "Flights Worldwide Suspended by the Coronavirus Outbreak",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Pogkas",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Sam",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Whiteaker",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "Critical Care Utilization for the COVID-19 Outbreak in Lombardy, Italy: Early Experience and Forecast During an Emergency Response",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Grasselli",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Pesenti",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Cecconi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "JAMA",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "World Health Organisation. Coronavirus disease 2019 (COVID-19) Situation Report -34",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "2020",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF33": {
+            "ref_id": "b33",
+            "title": "World Health Organisation",
+            "authors": [],
+            "year": null,
+            "venue": "Coronavirus disease 2019 (COVID-19) Situation Report -41",
+            "volume": "2020",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF34": {
+            "ref_id": "b34",
+            "title": "World Health Organisation. Novel Coronavirus(2019-nCoV) Situation Report -21",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF35": {
+            "ref_id": "b35",
+            "title": "World Health Organization",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "2020",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "TABREF0": {
+            "text": ", the number of infected travellers required to trigger the outbreak from a geometric distribution with probability \u202b\u074d\u202c quantile of said distribution to match initial conditions between intervention scenarios across simulation samples. We assume that the arrival times of infected travellers follows a non-homogeneous Poisson process with intensity",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "Overview of parameter assumptions for the model.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF5": {
+            "text": "Percentage of delays which are infinitely long under varying levels of traveller sensitisation. Results from",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF6": {
+            "text": "ScreeningNumber of days for which the given percentage of delays are at least this long",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "SF and SC are supported by a Sir Henry Dale Fellowship jointly funded by the Wellcome Trust and the Royal Society (Grant number 208812/Z/17/Z). RME acknowledges an HDR UK Innovation Fellowship (Grant number MR/S003975/1). BQ was funded by the National Institute for Health Research (NIHR) (16/137/109) using UK aid from the UK Government to support global health research. PK was funded by the Bill & Melinda Gates Foundation (INV-003174). KvZ, is supported by Elrha's Research for Health in Humanitarian Crises (R2HC) Programme, which aims to improve health outcomes by strengthening the evidence base for public health interventions in humanitarian crises. The R2HC programme is funded by the UK Government (DFID), the Wellcome Trust, and the UK National Institute for Health Research (NIHR). The views expressed in this publication are those of the author(s) and not necessarily those of the NHS, the NIHR or the UK Department of Health and Social Care. The following authors were part of the Centre for Mathematical Modelling of Infectious Disease SARS-CoV-2 working group and contributed equally and appear in random order: Christopher I Jarvis, Yang Liu, Nikos I Bosse, Kiesha Prem, Adam J Kucharski, W John Edmunds, Timothy W Russell, Sebastian",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Acknowledgements"
+        },
+        {
+            "text": "We declare no competing interests.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Competing interests"
+        }
+    ]
+}

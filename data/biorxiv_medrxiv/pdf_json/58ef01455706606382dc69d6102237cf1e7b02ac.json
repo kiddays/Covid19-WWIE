@@ -1,0 +1,2681 @@
+{
+    "paper_id": "58ef01455706606382dc69d6102237cf1e7b02ac",
+    "metadata": {
+        "title": "Exposure to air pollution and COVID-19 mortality in the United States: A nationwide cross-sectional study",
+        "authors": [
+            {
+                "first": "Xiao",
+                "middle": [],
+                "last": "Wu",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Harvard T.H. Chan School of Public Health",
+                    "location": {
+                        "addrLine": "677 Huntington Avenue Boston",
+                        "postCode": "02115, 02115",
+                        "settlement": "Boston",
+                        "region": "MA, MA",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Rachel",
+                "middle": [
+                    "C"
+                ],
+                "last": "Nethery",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Harvard T.H. Chan School of Public Health",
+                    "location": {
+                        "addrLine": "677 Huntington Avenue Boston",
+                        "postCode": "02115, 02115",
+                        "settlement": "Boston",
+                        "region": "MA, MA",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Benjamin",
+                "middle": [],
+                "last": "Sabath",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Harvard T.H. Chan School of Public Health",
+                    "location": {
+                        "addrLine": "677 Huntington Avenue Boston",
+                        "postCode": "02115, 02115",
+                        "settlement": "Boston",
+                        "region": "MA, MA",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Danielle",
+                "middle": [],
+                "last": "Braun",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Harvard T.H. Chan School of Public Health",
+                    "location": {
+                        "addrLine": "677 Huntington Avenue Boston",
+                        "postCode": "02115, 02115",
+                        "settlement": "Boston",
+                        "region": "MA, MA",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Francesca",
+                "middle": [],
+                "last": "Dominici",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Harvard T.H. Chan School of Public Health",
+                    "location": {
+                        "addrLine": "677 Huntington Avenue Boston",
+                        "postCode": "02115, 02115",
+                        "settlement": "Boston",
+                        "region": "MA, MA",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Harvard",
+                "middle": [
+                    "T H"
+                ],
+                "last": "Chan",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Harvard T.H. Chan School of Public Health",
+                    "location": {
+                        "addrLine": "677 Huntington Avenue Boston",
+                        "postCode": "02115, 02115",
+                        "settlement": "Boston",
+                        "region": "MA, MA",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Objectives: United States government scientists estimate that COVID-19 may kill tens of thousands of Americans. Many of the pre-existing conditions that increase the risk of death in those with COVID-19 are the same diseases that are affected by long-term exposure to air pollution. We investigated whether long-term average exposure to fine particulate matter (PM2.5) is associated with an increased risk of COVID-19 death in the United States.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Design: A nationwide, cross-sectional study using county-level data.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Data sources: COVID-19 death counts were collected for more than 3,000 counties in the United States (representing 98% of the population) up to April 22, 2020 from Johns Hopkins University, Center for Systems Science and Engineering Coronavirus Resource Center.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "We fit negative binomial mixed models using county-level COVID-19 deaths as the outcome and county-level long-term average of PM2.5 as the exposure. In the main analysis, we adjusted by 20 potential confounding factors including population size, age distribution, population density, time since the beginning of the outbreak, time since state's issuance of stay-at-home order, hospital beds, number of individuals tested, weather, and socioeconomic and behavioral variables such as obesity and smoking. We included a random intercept by state to account for potential correlation in counties within the same state. We conducted more than 68 additional sensitivity analyses.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "We found that an increase of only 1 g/m3 in PM2.5 is associated with an 8% increase in the COVID-19 death rate (95% confidence interval [CI]: 2%, 15%). The results were statistically significant and robust to secondary and sensitivity analyses.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Conclusions: A small increase in long-term exposure to PM2.5 leads to a large increase in the COVID-19 death rate. Despite the inherent limitations of the ecological study design, our results All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "The scale of the COVID-19 public health emergency is unmatched in our lifetime and will have grave social and economic consequences. The suddenness and global scope of this pandemic has raised urgent questions that require coordinated investigation in order to slow the disease's devastation. A critically important public health objective is to identify key modifiable environmental factors that may contribute to the severity of the health outcomes (e.g., ICU hospitalization and death) among individuals with COVID-19. Data from China and Italy show that a majority of COVID-19 deaths occurred in adults aged \u226560 years1 and in persons with serious underlying health conditions.2-4 Early age-stratified COVID-19 death rates in the United States, reported by the Centers for Disease Control and Prevention (CDC),5 also suggest that persons aged \u226565 are at highest risk. Additional factors associated with severe disease include male sex and the presence of comorbidities including hypertension, obesity, diabetes mellitus, cardiovascular disease, and chronic lung disease.6 7 Severe COVID-19 infection is characterized by a high inflammatory burden, and it can cause viral pneumonia with additional extrapulmonary manifestations and complications including acute respiratory distress syndrome (ARDS),8-13 which has a mortality rate ranging from 27% to 45%.14 Studies have also documented high rates of heart damage,11 15 cardiac arrhythmias,12 and blood clots16 in COVID-19 patients. Patients with severe disease can suffer respiratory failure and failure of other vital systems, leading to death.",
+            "cite_spans": [
+                {
+                    "start": 1419,
+                    "end": 1421,
+                    "text": "15",
+                    "ref_id": "BIBREF15"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Although the epidemiology of COVID-19 is evolving, there is a large overlap between causes of death in COVID-19 patients and the conditions caused and/or exacerbated by long-term exposure to fine particulate matter (PM2.5). PM2.5 contains microscopic solids or liquid droplets small enough that they can be inhaled and cause serious health problems. The Global Burden of Disease Study identified air pollution as a risk factor for total and cardiovascular disease mortality, and it is believed to have contributed to nearly 5 million premature deaths worldwide in 2017 alone.17",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "On Thursday, March 26, 2020 the US EPA announced a sweeping relaxation of environmental rules in response to the coronavirus pandemic, allowing power plants, factories and other facilities to determine for themselves if they are able to meet legal requirements on reporting air and water pollution. The association between PM2.5 and health, including both infectious and chronic respiratory diseases, cardiovascular diseases, neurocognitive disease, and pregnancy outcomes in the United States and worldwide is well established.18-24 A recent study by our group also documented a statistically significant association between long-term exposures to PM2.5 and ozone and risk of ARDS among older adults in the United States.25 Numerous scientific studies reviewed by the United States Environmental Protection Agency (US EPA) have linked PM2.5 to a variety of health concerns including premature death in people with heart or lung disease, non-fatal heart attacks, irregular heartbeats, aggravated asthma, decreased lung function, and increased respiratory symptoms such as inflammation, airway irritations, coughing, or difficulty breathing. 26 We hypothesize that because long-term exposure to PM2.5 adversely affects the respiratory and cardiovascular systems and increases mortality risk,27-29 it also exacerbates the severity of COVID-19 infection symptoms and worsens the prognosis of COVID-19 patients. In this study, we quantified the impact of long-term PM2.5 exposure on COVID-19 mortality rates in United States counties. Our study includes 3,087 counties in the United States, covering 98% of the population.",
+            "cite_spans": [
+                {
+                    "start": 1141,
+                    "end": 1143,
+                    "text": "26",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "We leveraged our previous efforts that focused on estimating the long-term effects of PM2.5 on mortality among 60 million United States' Medicare enrollees.20 30 31 We used a well-tested research data platform that gathers, harmonizes, and links nationwide air pollution data, census All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [
+                {
+                    "start": 159,
+                    "end": 164,
+                    "text": "30 31",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "The copyright holder for this preprint (which this version posted April 7, 2020. . https://doi.org/10.1101/2020.04.05.20054502 doi: medRxiv preprint data, and other potential confounding variables with health outcome data. We augmented this platform with newly collected COVID-19 data from authoritative data sources.32 All data sources used in these analyses, along with fully reproducible code, are publicly available to facilitate continued investigation of these relationships as the COVID-19 outbreak evolves and more data become available. Table 1 summarizes our data sources and their provenance, including links where the raw data can be extracted directly.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 546,
+                    "end": 553,
+                    "text": "Table 1",
+                    "ref_id": "TABREF5"
+                }
+            ],
+            "section": "Introduction"
+        },
+        {
+            "text": "We obtained COVID-19 death counts for each county in the United States from Johns Hopkins University, Center for Systems Science and Engineering Coronavirus Resource Center.32 This source provides the most comprehensive county-level COVID-19 data to date reported by the CDC and state health departments, including the number of new and cumulative deaths and confirmed cases reported in each county across the United States, updated daily. We collected the cumulative number of deaths for each county up to and including April 22, 2020. County-level COVID-19 mortality rates were defined for our analyses as the ratio of COVID-19 deaths to county level population size. While individual-level data would have allowed a more rigorous statistical analyses, individual-level data on COVID-19 death is currently not available.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "COVID-19 deaths"
+        },
+        {
+            "text": "All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Exposure to air pollution"
+        },
+        {
+            "text": "was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Exposure to air pollution"
+        },
+        {
+            "text": "The copyright holder for this preprint (which this version posted April 7, 2020. We calculated county-level long-term exposure to PM2.5 (averaged from 2000 to 2016) from an established exposure prediction model.33 The PM2.5 exposure levels were estimated monthly at 0.01\u00b0 \u00d7 0.01\u00b0 grid resolution across the entire continental United States by combining satellite, modeled, and monitored PM2.5 data in a geographically weighted regression. These estimates have been extensively cross-validated. 33 We aggregated these levels spatially by averaging the values for all grid points within a zip code and then averaging across zip codes within a county.",
+            "cite_spans": [
+                {
+                    "start": 494,
+                    "end": 496,
+                    "text": "33",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Exposure to air pollution"
+        },
+        {
+            "text": "We obtained temporally averaged PM2.5 values (2000) (2001) (2002) (2003) (2004) (2005) (2006) (2007) (2008) (2009) (2010) (2011) (2012) (2013) (2014) (2015) (2016) at the county level by averaging estimated PM2.5 values within a given county. We computed the average 2016 PM2.5 exposure analogously for each county to use in sensitivity analyses.",
+            "cite_spans": [
+                {
+                    "start": 45,
+                    "end": 51,
+                    "text": "(2000)",
+                    "ref_id": null
+                },
+                {
+                    "start": 52,
+                    "end": 58,
+                    "text": "(2001)",
+                    "ref_id": null
+                },
+                {
+                    "start": 59,
+                    "end": 65,
+                    "text": "(2002)",
+                    "ref_id": null
+                },
+                {
+                    "start": 66,
+                    "end": 72,
+                    "text": "(2003)",
+                    "ref_id": null
+                },
+                {
+                    "start": 73,
+                    "end": 79,
+                    "text": "(2004)",
+                    "ref_id": null
+                },
+                {
+                    "start": 80,
+                    "end": 86,
+                    "text": "(2005)",
+                    "ref_id": null
+                },
+                {
+                    "start": 87,
+                    "end": 93,
+                    "text": "(2006)",
+                    "ref_id": null
+                },
+                {
+                    "start": 94,
+                    "end": 100,
+                    "text": "(2007)",
+                    "ref_id": null
+                },
+                {
+                    "start": 101,
+                    "end": 107,
+                    "text": "(2008)",
+                    "ref_id": null
+                },
+                {
+                    "start": 108,
+                    "end": 114,
+                    "text": "(2009)",
+                    "ref_id": null
+                },
+                {
+                    "start": 115,
+                    "end": 121,
+                    "text": "(2010)",
+                    "ref_id": null
+                },
+                {
+                    "start": 122,
+                    "end": 128,
+                    "text": "(2011)",
+                    "ref_id": null
+                },
+                {
+                    "start": 129,
+                    "end": 135,
+                    "text": "(2012)",
+                    "ref_id": null
+                },
+                {
+                    "start": 136,
+                    "end": 142,
+                    "text": "(2013)",
+                    "ref_id": null
+                },
+                {
+                    "start": 143,
+                    "end": 149,
+                    "text": "(2014)",
+                    "ref_id": null
+                },
+                {
+                    "start": 150,
+                    "end": 156,
+                    "text": "(2015)",
+                    "ref_id": null
+                },
+                {
+                    "start": 157,
+                    "end": 163,
+                    "text": "(2016)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Exposure to air pollution"
+        },
+        {
+            "text": "In the main analysis, we considered the following 19 county-level variables and one state-level variable as potential confounders (see also Table 2 ): days since first COVID-19 case reported (a proxy for epidemic stage), population density, percent of population \u226565 years of age, percent of the population 45-64 years of age, percent of the population 15-44 years of age, percent living in poverty, median household income, percent black, percent Hispanic, percent of the adult population with less than a high school education, median house value, percent of owner-occupied housing, percent obese, percent current smokers, number of hospital beds per unit population, and average daily temperature and relative humidity for summer (June-September) and winter (December-February) for each county, and days since issuance of stay-at-home order for each state. Note that publicly available daily COVID-19 case counts at the county level were only available starting March 22, 2020, so that the measure of days since first COVID-19 case reported All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 140,
+                    "end": 147,
+                    "text": "Table 2",
+                    "ref_id": "TABREF8"
+                }
+            ],
+            "section": "Potential confounders"
+        },
+        {
+            "text": "was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Potential confounders"
+        },
+        {
+            "text": "The copyright holder for this preprint (which this version posted April 7, 2020. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Potential confounders"
+        },
+        {
+            "text": "We fit a negative binomial mixed model34-36 using COVID-19 deaths as the outcome and PM2.5 as the exposure of interest to estimate the association between COVID-19 mortality rate and longterm PM2.5 exposure, adjusted by covariates. The model included a population size offset and was adjusted for all the potential confounders listed above. We also included a random intercept by state to account for potential correlation in counties within the same state, due to similar sociocultural, behavioral, and healthcare system features and similar COVID-19 response and testing policies. Additional modeling details are provided in the Supplementary Materials. We report mortality rate ratios (MRR), i.e., exponentiated parameter estimates from the negative binomial model, and 95% CI. The MRR for PM2.5 can be interpreted as the relative increase in the COVID-19 mortality rate associated with a 1 g/m3 increase in long-term average PM2.5 exposure. We carried out all analyses in R statistical software and performed model fitting using the lme4 package.37 38",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Statistical methods"
+        },
+        {
+            "text": "Because this study is observational and the contributing factors to COVID-19 spread and severity remain largely unknown at this early stage of the pandemic, unmeasured confounding is a concern in our analyses. The E-value is a commonly used metric to evaluate the potential impact of unmeasured confounding on results from an observational study.39 For a pre-specified exposure variable of interest (long-term exposure to PM2.5), the E-value quantifies the minimum strength of All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Quantifying unmeasured confounding bias"
+        },
+        {
+            "text": "was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Quantifying unmeasured confounding bias"
+        },
+        {
+            "text": "The copyright holder for this preprint (which this version posted April 7, 2020. . https://doi.org/10.1101/2020.04.05.20054502 doi: medRxiv preprint association that an unmeasured confounder must have, with both the outcome (COVID-19 mortality rate) and exposure (long-term exposure to PM2.5) conditional to all of the potential confounders included in the regression model, to explain away the estimated exposure-outcome relationship. We report the E-value for the MRR estimate for PM2.5 under the main model with 20 potential confounders.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Quantifying unmeasured confounding bias"
+        },
+        {
+            "text": "In addition to the main analysis, we conducted six secondary analyses to assess the robustness of our results to the confounder set used, outliers, and the model form specification.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Secondary analyses"
+        },
+        {
+            "text": "First, because the New York metropolitan area has experienced the most severe COVID-19 outbreak in the United States to date, we anticipated that it would strongly influence our analysis.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Secondary analyses"
+        },
+        {
+            "text": "As a result, we repeated the analysis excluding the counties comprising the New York metropolitan area, as defined by the Census Bureau.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Secondary analyses"
+        },
+        {
+            "text": "Second, although in our main analysis we adjusted for days since first COVID-19 case reported to capture the size of an outbreak in a given county, this measure is imprecise. To further investigate the potential for residual confounding bias (i.e., if counties with high PM2.5 exposure also tend to have large outbreaks relative to the population size, then their death rates per unit population could appear differentially elevated, inducing a spurious correlation with PM2.5), we also conducted analyses excluding counties with fewer than 10 confirmed COVID-19 cases.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Secondary analyses"
+        },
+        {
+            "text": "All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Secondary analyses"
+        },
+        {
+            "text": "was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Secondary analyses"
+        },
+        {
+            "text": "The copyright holder for this preprint (which this version posted April 7, 2020. . https://doi.org/10.1101/2020.04.05.20054502 doi: medRxiv preprint Third, we omitted an anticipated strong confounder, days since first COVID-19 case reported, from the model. Fourth, we additionally adjusted our models for the number of tests performed at the state level (see Table 1 for data source) to evaluate how state-level differences in testing policies might impact our results. Fifth, we additionally adjusted our models for county-level estimated percentage of people with COVID-19 symptoms (see Table 1 for data source) to evaluate how the size of the outbreak in each county might impacts our results. Sixth, we introduced PM2.5 into our models as a categorical variable, categorized at the empirical quintiles, to assess the sensitivity of our results to the assumption of a linear effect of PM2.5 on COVID-19 mortality rates.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 360,
+                    "end": 367,
+                    "text": "Table 1",
+                    "ref_id": "TABREF5"
+                },
+                {
+                    "start": 590,
+                    "end": 597,
+                    "text": "Table 1",
+                    "ref_id": "TABREF5"
+                }
+            ],
+            "section": "Secondary analyses"
+        },
+        {
+            "text": "We conducted 68 sensitivity analyses to assess the robustness of our results to data and modeling choices. First, we repeated all the analyses using alternative methods to estimate exposure to PM2.5.31 Second, we fit the models, modifying the adjustment for confounders, such as using a log transformation or categorized versions of some of the covariates. Third, because our study relies on observational data, our results could be sensitive to modeling choices (e.g., distributional assumptions or assumptions of linearity). We evaluated sensitivity to such choices by considering alternative model specifications and by fitting models stratified by county urban-rural status.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Sensitivity analyses"
+        },
+        {
+            "text": "Additional detail about the sensitivity analyses and the results are provided in the Supplementary Materials.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Sensitivity analyses"
+        },
+        {
+            "text": "Our study utilized data from 3,087 counties, of which 1,799 (58.3%) had reported zero COVID-19 deaths at the time of this analysis. Table 2 describes the data used in our analyses. All COVID-All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 132,
+                    "end": 139,
+                    "text": "Table 2",
+                    "ref_id": "TABREF8"
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Results"
+        },
+        {
+            "text": "The copyright holder for this preprint (which this version posted April 7, 2020. . https://doi.org/10.1101/2020.04.05.20054502 doi: medRxiv preprint 19 death counts (a total of 45,817 deaths) are cumulative up to April 22, 2020. Figure 1 illustrates the spatial variation of long-term average exposure to PM2.5 and COVID-19 death rates (per 1 million population) by county. Visual inspection suggests higher COVID-19 death rates in the Mid-Atlantic, upper Midwest, and Gulf Coast regions. These spatial patterns in COVID-19 death rates generally mimic patterns in both high population density and high PM2.5 exposure areas. In the Supplementary Materials, we provide additional data diagnostics that justify the use of the negative binomial model for our analyses.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 229,
+                    "end": 237,
+                    "text": "Figure 1",
+                    "ref_id": "FIGREF3"
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "In Table 3 , we report the estimated regression coefficients for each of the covariates included in our main analysis, including PM2.5. We found that the estimated MRR for PM2.5 is 1.08 (1.02, 1.15). That is, we found that an increase of only 1 g/m3 in long-term average PM2.5 is associated with a statistically significant 8% increase in the COVID-19 death rate. Importantly, we also found that population density, days since first COVID-19 case reported, rate of hospital beds, median household income, percent with less than a high school education, and percent Black are important predictors of COVID-19 death rate. Our results are consistent with previously reported findings that Black Americans are at higher risk of COVID-19 mortality than other groups,40 we found a 45% (32%, 60%) increase in COVID-19 mortality rate associated with a 1-standard deviation (per 14.2%) increase in percent Black residents.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 3,
+                    "end": 10,
+                    "text": "Table 3",
+                    "ref_id": "TABREF10"
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "For our main analysis, the E-value for the estimated MRR for PM2.5 was 1.37. That is, in order for an unmeasured confounder to fully account for the estimated effect of PM2.5 on the COVID-19 mortality rate, it would have to be associated with both long-term PM2.5 exposure and COVID-19 mortality by a risk ratio of at least 1.37-fold each, through pathways independent of all covariates All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Results"
+        },
+        {
+            "text": "was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Results"
+        },
+        {
+            "text": "The copyright holder for this preprint (which this version posted April 7, 2020. . https://doi.org/10.1101/2020.04.05.20054502 doi: medRxiv preprint already included in the model. If we were to include such a confounder in our models, along with all other confounders considered, the estimated MRR for PM2.5 mortality would become 1 (the null value). To get a sense of the magnitude of the required confounding effect, we also computed the E-value for some of our key measured confounders for comparison. The E-values for days since first COVID-19 case reported (1.16), the weather variables (1.02), number of hospital beds (1.04) and the behavioral risk factors (1.02) were significantly smaller than the reported E-values for the required unmeasured confounder. This suggests that any unmeasured confounder would need to have a confounding effect substantially larger than any of our observed confounders in order to explain away the relationship between PM2.5 and COVID-19 mortality rate.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Results"
+        },
+        {
+            "text": "In Figure 2 , we report the MRR and 95% CI for PM2.5 from all secondary analyses. In these analyses, we separately (a) omitted New York metropolitan area; (b) excluded counties with fewer was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 3,
+                    "end": 11,
+                    "text": "Figure 2",
+                    "ref_id": "FIGREF5"
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "The copyright holder for this preprint (which this version posted April 7, 2020. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Results"
+        },
+        {
+            "text": "This is the first nationwide study in the United States to estimate the relationship between longterm exposure to PM2.5 and COVID-19 death rates. The results indicate that long-term exposure to air pollution increases vulnerability to the most severe COVID-19 outcomes. We found statistically significant evidence that an increase of 1 g/m3 in long-term PM2.5 exposure is associated with an 8% increase in the COVID-19 mortality rate. Our results were adjusted for a large set of socioeconomic, demographic, weather, behavioral, epidemic stage, social isolation measures, and healthcare-related confounders and demonstrated robustness across a wide range of sensitivity analyses.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "In our previous study20 of 60 million Americans older than 65 years of age, we found that a 1 g/m3 in long-term PM2.5 exposure is associated with a 0.73% increase in the rate of all-cause mortality. Therefore, the same small increase in long-term exposure to PM2.5 led to an increase in the COVID-19 death rate of a magnitude 11 times that estimated for all-cause mortality.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Our results are consistent with previous findings that air pollution exposure increases severe outcomes during infectious disease outbreaks. Ciencewicki and Jaspers19 provide a review of the epidemiologic and experimental literature linking air pollution to infectious disease. During the 2003 outbreak of Severe Acute Respiratory Syndrome (SARS), a type of coronavirus closely related to COVID-19, Cui et al41 reported that locations in China with a moderate or high longterm air pollution index (API) had SARS case fatality rates 126% and 71% higher, respectively, than locations with low API. Long-term particulate matter exposure has been associated with hospitalizations for pneumonia in the well-controlled quasi-experimental conditions provided by All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "The copyright holder for this preprint (which this version posted April 7, 2020. . https://doi.org/10.1101/2020.04.05.20054502 doi: medRxiv preprint the closing of the Utah Valley Steel Mill,42 and a link between long-term PM2.5 exposure and pneumonia and influenza deaths was reported in a well-validated cohort study.28 Several studies have reported associations between short-term PM2.5 exposure and poor infectious disease outcomes,43 44 including higher hospitalization rates or increased medical encounters for influenza, pneumonia, and acute lower respiratory infections. In these studies and in the literature on the association between air pollution and chronic disease outcomes, relationships with long-term pollution exposure tend to be stronger than relationships with short-term exposure,20 45 46 and the large effect estimate in our study is consistent with this trend.",
+            "cite_spans": [
+                {
+                    "start": 439,
+                    "end": 441,
+                    "text": "44",
+                    "ref_id": "BIBREF37"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Relationships have also been detected between pollution exposures and severe outcomes in the context of past pandemics. Studies found particulate matter exposure to be associated with the mortality during the H1N1 influenza pandemic in 2009.47 48 Recent studies have even used historic data to show a relationship between air pollution from coal burning and mortality in the 1918 Spanish influenza pandemic. 49 50 Although our study design cannot provide insight into the mechanisms underlying the relationship between PM2.5 and COVID-19 mortality, prior studies have shed light on the potential biological mechanisms that may explain the relationship between air pollution and viral outcomes.19 PM2.5 exposure is known to be associated with many of the cardiovascular and respiratory comorbidities that dramatically increase the risk of death in COVID-19 patients. We hypothesize that the effects captured here are largely mediated by these comorbidities and pre-existing PM-related inflammation and cellular damage,46 51 as suggested by a recent commentary.52 Experimental studies19 53-56 also suggest that exposure to pollution can suppress early immune responses to the All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [
+                {
+                    "start": 244,
+                    "end": 246,
+                    "text": "48",
+                    "ref_id": "BIBREF41"
+                },
+                {
+                    "start": 408,
+                    "end": 413,
+                    "text": "49 50",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "The copyright holder for this preprint (which this version posted April 7, 2020. It is important to acknowledge that this study has limitations, mainly due to the fact that this is an ecological study with data available at the county level and that this is a cross-sectional study.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "High quality, nationwide individual-level COVID-19 outcome data are unavailable at this time and for the foreseeable future, thus necessitating the use of an ecologic study design for these analyses. Due to the potential for ecologic bias, our results should be interpreted in the context of All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "The copyright holder for this preprint (which this version posted April 7, 2020. . https://doi.org/10.1101/2020.04.05.20054502 doi: medRxiv preprint this design and should not be used to make individual-level inferential statements. Also, unmeasured confounding bias is a threat to the validity of our conclusions. Unfortunately, in the midst of a pandemic it is not feasible to design a study and collect the data at the ideal level of spatial and temporal resolution to minimize all sources of bias. Yet, conditional on the data available, we have endeavored to adjust for confounding bias by all of the most important factors, including population density, time since the beginning of the outbreak, social isolation measures, behavior, weather, age structure, ethnicity, access to health care, and socio-economic factors. We also conducted 68 additional analyses to assess the robustness of the results to many modelling choices. Furthermore, we computed the E-value to demonstrate that the confounding effect of any unmeasured confounder would need to be much stronger than that of any of our observed confounders in order to explain away the relationship between PM2.5 exposure and COVID-19 mortality rate. The calculation of the E-value provided reassurance that the presence of a strong unmeasured confounder is unlikely; however, this possibility cannot be ruled out completely.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "The inability to accurately quantify the number of COVID-19 cases due to limited testing capacity presents another potential limitation. We instead used total population size as the denominator for our mortality rates, and we additionally adjusted our models for numerous anticipated proxies of outbreak size, including time since first reported COVID-19 case, time since stay-at-home order was issued, and population density.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "To conduct the most rigorous possible studies of air pollution and health using ecologic data, it is critical to utilize areal units that minimize within-area exposure variability and maximize betweenarea exposure variability.60 61 We anticipated that our use of counties satisfies this criterion, All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [
+                {
+                    "start": 229,
+                    "end": 231,
+                    "text": "61",
+                    "ref_id": "BIBREF56"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "The copyright holder for this preprint (which this version posted April 7, 2020. . https://doi.org/10.1101/2020.04.05.20054502 doi: medRxiv preprint because counties generally represent meaningful boundaries between urban, suburban, and rural areas. These population density-related delineations also often correspond to steep gradients in air pollution levels, thus maximizing across-unit exposure variability while minimizing within-unit variability. We also note that the use of long-term county-level exposure data in our study likely led to some degree of exposure misclassification. However, previous literature has found that using sub-county scale PM2.5 exposure in studies of mortality tends to either have no impact or to increase the strength of the associations between PM2.5 and mortality from various causes.62",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Because of the many limitations, this study also provides justification for expanded follow-up investigations as more and higher-quality COVID-19 data become available. Such studies would include validation of our findings with other data sources and study types, as well as studies of biological mechanisms, impacts of PM2.5 exposure timing, and relationships between PM2.5 and other COVID-19 outcomes such as hospitalization. The results of this study also underscore the importance of continuing to enforce existing air pollution regulations. Based on our results, we anticipate a failure to do so could potentially increase the long-term COVID-19 death toll and hospitalizations, as well as further burden our healthcare system with other PM2.5-related death and disease that would draw resources away from COVID-19 patients. was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "The copyright holder for this preprint (which this version posted April 7, 2020. This work was made possible by the support from the NIH grant R01 ES024332-01A1,   P50MD010428, ES024012, ES026217, ES028033; MD012769, HEI grant 4953-RFA14-3/16-4, and USEPA grants 83587201-0, RD-83479801, 1R01ES030616, 1R01AG066793-01R01. The funding sources did not participate in the design or conduct of the study; collection, management, analysis, or interpretation of the data; or preparation, review, or approval of the manuscript.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 81,
+                    "end": 245,
+                    "text": "This work was made possible by the support from the NIH grant R01 ES024332-01A1,   P50MD010428, ES024012, ES026217, ES028033; MD012769, HEI grant 4953-RFA14-3/16-4,",
+                    "ref_id": "TABREF5"
+                }
+            ],
+            "section": "Discussion"
+        },
+        {
+            "text": "All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "The copyright holder for this preprint (which this version posted April 7, 2020. was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "The copyright holder for this preprint (which this version posted April 7, 2020. was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "The copyright holder for this preprint (which this version posted April 7, 2020. was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "The copyright holder for this preprint (which this version posted April 7, 2020. was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "The copyright holder for this preprint (which this version posted April 7, 2020. was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "The copyright holder for this preprint (which this version posted April 7, 2020. was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "The copyright holder for this preprint (which this version posted April 7, 2020. was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "The copyright holder for this preprint (which this version posted April 7, 2020. All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "The copyright holder for this preprint (which this version posted April 7, 2020. . https://doi.org/10.1101/2020.04.05.20054502 doi: medRxiv preprint",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Case-fatality rate and characteristics of patients dying in relation to COVID-19 in Italy",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Onder",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Rezza",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Brusaferro",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "MMWR Morb Mortal Wkly Rep",
+            "volume": "69",
+            "issn": "12",
+            "pages": "343--389",
+            "other_ids": {
+                "DOI": [
+                    "10.1001/jama.2020.4683"
+                ]
+            }
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Clinical characteristics of coronavirus disease 2019 in China",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Guan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Ni",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "N Engl J Med",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1056/NEJMoa2002032"
+                ]
+            }
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Estimating clinical severity of COVID-19 from the transmission dynamics in Wuhan, China",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Leung",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Bushman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Centers for Disease Control and Prevention. National Vital Statistics System. Provisional Death Counts for Coronavirus Disease (COVID-19) Available from",
+            "volume": "26",
+            "issn": "",
+            "pages": "506--516",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41591-020-0822-7"
+                ]
+            }
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Hospitalization rates and characteristics of patients hospitalized with laboratory-confirmed Coronavirus Disease",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Garg",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Kim",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Whitaker",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet",
+            "volume": "395",
+            "issn": "20",
+            "pages": "30183--30188",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S0140-6736"
+                ]
+            }
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "COVID-19: consider cytokine storm syndromes and immunosuppression",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Mehta",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Mcauley",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Brown",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet",
+            "volume": "395",
+            "issn": "",
+            "pages": "30628--30628",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S0140-6736(20"
+                ]
+            }
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Clinical predictors of mortality due to COVID-19 based on an analysis of data of 150 patients from Wuhan, China",
+            "authors": [
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Ruan",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Intensive Care Med",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s00134-020-05991-x"
+                ]
+            }
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Clinical characteristics of 138 hospitalized patients with 2019 novel coronavirus-infected pneumonia in Wuhan, China",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "JAMA",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1001/jama.2020.1585"
+                ]
+            }
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Pathological findings of COVID-19 associated with acute respiratory distress syndrome",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Shi",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet Respir Med",
+            "volume": "8",
+            "issn": "4",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S2213-2600"
+                ]
+            }
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Acute Respiratory Distress Syndrome (ARDS)",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Diamond",
+                    "suffix": ""
+                },
+                {
+                    "first": "Peniston",
+                    "middle": [],
+                    "last": "Feliciano",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Sanghavi",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "All rights reserved. No reuse allowed without permission. was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. The copyright holder for this preprint",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Statpearls",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.04.05.20054502"
+                ]
+            }
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "doi: medRxiv preprint StatPearls Publishing 2020",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.04.05.20054502"
+                ]
+            }
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Association of cardiac injury with mortality in hospitalized patients with COVID-19 in Wuhan, China",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Shi",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Qin",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Shen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "JAMA Cardiol",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1001/jamacardio.2020.0950"
+                ]
+            }
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Incidence of thrombotic complications in critically ill ICU patients with COVID-19",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Klok",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kruip",
+                    "suffix": ""
+                },
+                {
+                    "first": "Njm",
+                    "middle": [],
+                    "last": "Van Der Meer",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Thromb Res",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.thromres.2020.04.013"
+                ]
+            }
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Air pollution and cardiovascular disease: a statement for healthcare professionals from the Expert Panel on Population and Prevention Science of the American Heart Association",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Brook",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Franklin",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Cascio",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Circulation",
+            "volume": "109",
+            "issn": "21",
+            "pages": "2655--71",
+            "other_ids": {
+                "DOI": [
+                    "10.1161/01.CIR.0000128587.30041.C8"
+                ]
+            }
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Air pollution and respiratory viral infection",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Ciencewicki",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Jaspers",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "Inhal Toxicol",
+            "volume": "19",
+            "issn": "14",
+            "pages": "1135--1181",
+            "other_ids": {
+                "DOI": [
+                    "10.1080/08958370701665434"
+                ]
+            }
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Air pollution and mortality in the Medicare population",
+            "authors": [
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Di",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Zanobetti",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Chronic fine and coarse particulate exposure, mortality, and coronary heart disease in the Nurses' Health Study",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Puett",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Hart",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Yanosky",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Environ Health Perspect",
+            "volume": "117",
+            "issn": "11",
+            "pages": "1697--701",
+            "other_ids": {
+                "DOI": [
+                    "10.1289/ehp.0900572"
+                ]
+            }
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Ambient air pollution and pregnancy outcomes: a review of the literature",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Sram",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Binkova",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Dejmek",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Environ Health Perspect",
+            "volume": "113",
+            "issn": "4",
+            "pages": "375--82",
+            "other_ids": {
+                "DOI": [
+                    "10.1289/ehp.6362"
+                ]
+            }
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Ambient air pollution and the risk of acute ischemic stroke",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Wellenius",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Burger",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Coull",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Arch Intern Med",
+            "volume": "172",
+            "issn": "3",
+            "pages": "229--263",
+            "other_ids": {
+                "DOI": [
+                    "10.1001/archinternmed.2011.732"
+                ]
+            }
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Impact of long-term exposures to ambient PM2.5 and ozone on ARDS risk for older adults in the United States",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Rhee",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Dominici",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Zanobetti",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Protection Agency. Integrated Science Assessment (ISA) for Particulate Matter",
+            "volume": "156",
+            "issn": "",
+            "pages": "71--79",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.chest.2019.03.017"
+                ]
+            }
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Particulate matter air pollution and cardiovascular disease",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Brook",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Rajagopalan",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Pope",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Circulation",
+            "volume": "121",
+            "issn": "21",
+            "pages": "2331--78",
+            "other_ids": {
+                "DOI": [
+                    "10.1161/CIR.0b013e3181dbece1"
+                ]
+            }
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Cardiovascular mortality and long-term exposure to particulate air pollution",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Pope",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Burnett",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Thurston",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Circulation",
+            "volume": "109",
+            "issn": "1",
+            "pages": "71--77",
+            "other_ids": {
+                "DOI": [
+                    "10.1161/01.CIR.0000108927.80044.7F"
+                ]
+            }
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "No reuse allowed without permission. was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Pope",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Coleman",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Pond",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Environ Res",
+            "volume": "29",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.envres.2019.108924"
+                ]
+            }
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "Long-term PM2.5 exposure and neurological hospital admissions in the Northeastern United States",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Kioumourtzoglou",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Schwartz",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Weisskopf",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Environ Health Perspect",
+            "volume": "124",
+            "issn": "1",
+            "pages": "23--32",
+            "other_ids": {
+                "DOI": [
+                    "10.1289/ehp.1408973"
+                ]
+            }
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "A national case-crossover analysis of the shortterm effect of PM2.5 on hospitalizations and mortality in subjects with diabetes and neurological disorders",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Zanobetti",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Dominici",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Environ Health",
+            "volume": "13",
+            "issn": "1",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1186/1476-069X-13-38"
+                ]
+            }
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "Regional estimates of chemical composition of fine particulate matter using a combined geoscience-statistical method with information from satellites, models, and monitors",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Dong",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Du",
+                    "suffix": ""
+                },
+                {
+                    "first": "L ;",
+                    "middle": [],
+                    "last": "Gardner",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Van Donkelaar",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Martin",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Environ Sci Technol",
+            "volume": "53",
+            "issn": "5",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S1473-3099(20)30120-1[publishedOnlineFirst:2020/02/23]33"
+                ]
+            }
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "Fitting linear mixed-effects models using lme4",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Bates",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Machler",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Bolker",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "J Stat Software",
+            "volume": "67",
+            "issn": "1",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.18637/jss.v067.i01"
+                ]
+            }
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "nb Fitting Negative Binomial GLMMs Available from",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Bolker",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Glmer",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "Sensitivity analysis in observational research: introducing the E-value",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Vanderweele",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Ding",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Ann Intern Med",
+            "volume": "167",
+            "issn": "4",
+            "pages": "268--74",
+            "other_ids": {
+                "DOI": [
+                    "10.7326/M16-2607"
+                ]
+            }
+        },
+        "BIBREF33": {
+            "ref_id": "b33",
+            "title": "COVID-19 and African Americans",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Yancy",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "JAMA",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1001/jama.2020.6548"
+                ]
+            }
+        },
+        "BIBREF34": {
+            "ref_id": "b34",
+            "title": "Air pollution and case fatality of SARS in the People's Republic of China: an ecologic study",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Cui",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Froines",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Environ Health",
+            "volume": "2",
+            "issn": "1",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1186/1476-069X-2-15"
+                ]
+            }
+        },
+        "BIBREF35": {
+            "ref_id": "b35",
+            "title": "Respiratory disease associated with community air pollution and a steel mill",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Pope",
+                    "suffix": ""
+                }
+            ],
+            "year": 1989,
+            "venue": "Am J Public Health",
+            "volume": "79",
+            "issn": "5",
+            "pages": "623--631",
+            "other_ids": {
+                "DOI": [
+                    "10.2105/ajph.79.5.623"
+                ]
+            }
+        },
+        "BIBREF36": {
+            "ref_id": "b36",
+            "title": "Associations between source-specific particulate matter and respiratory infections in New York state adults",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Croft",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Lin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Environ Sci Technol",
+            "volume": "54",
+            "issn": "2",
+            "pages": "975--84",
+            "other_ids": {
+                "DOI": [
+                    "10.1021/acs.est.9b04295"
+                ]
+            }
+        },
+        "BIBREF37": {
+            "ref_id": "b37",
+            "title": "No reuse allowed without permission. was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Horne",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Joy",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Hofmann",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Am J Respir Crit Care Med All rights reserved",
+            "volume": "198",
+            "issn": "6",
+            "pages": "759--66",
+            "other_ids": {
+                "DOI": [
+                    "10.1164/rccm.201709-1883OC"
+                ]
+            }
+        },
+        "BIBREF38": {
+            "ref_id": "b38",
+            "title": "Association of short-term exposure to air pollution with mortality in older adults",
+            "authors": [
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Di",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Dai",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "JAMA",
+            "volume": "318",
+            "issn": "24",
+            "pages": "2446--56",
+            "other_ids": {
+                "DOI": [
+                    "10.1001/jama.2017.17923"
+                ]
+            }
+        },
+        "BIBREF39": {
+            "ref_id": "b39",
+            "title": "Effects of short-and long-term exposures to particulate matter on inflammatory marker levels in the general population",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Tsai",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Riediker",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Berchet",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Environ Sci Pollut Res Int",
+            "volume": "26",
+            "issn": "19",
+            "pages": "19697--704",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s11356-019-05194-y"
+                ]
+            }
+        },
+        "BIBREF40": {
+            "ref_id": "b40",
+            "title": "Possible explanations for why some countries were harder hit by the pandemic influenza virus in 2009 -a global mortality impact modeling study",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Morales",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Paget",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Spreeuwenberg",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "BMC Infect Dis",
+            "volume": "17",
+            "issn": "1",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1186/s12879-017-2730-0"
+                ]
+            }
+        },
+        "BIBREF41": {
+            "ref_id": "b41",
+            "title": "Air pollution, temperature and pediatric influenza in",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Williams",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF43": {
+            "ref_id": "b43",
+            "title": "Pollution, infectious disease, and mortality: evidence from the 1918 Spanish influenza pandemic",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Clay",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Lewis",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Severnini",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "J Econ Hist",
+            "volume": "78",
+            "issn": "4",
+            "pages": "1179--209",
+            "other_ids": {
+                "DOI": [
+                    "10.1017/S002205071800058X"
+                ]
+            }
+        },
+        "BIBREF44": {
+            "ref_id": "b44",
+            "title": "What explains cross-city variation in mortality during the 1918 influenza pandemic? Evidence from 438 U.S. cities",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Clay",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Lewis",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Severnini",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Econ Hum Biol",
+            "volume": "35",
+            "issn": "",
+            "pages": "42--50",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.ehb.2019.03.010"
+                ]
+            }
+        },
+        "BIBREF45": {
+            "ref_id": "b45",
+            "title": "Exposure to fine particulate air pollution is associated with endothelial injury and systemic inflammation",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Pope",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Bhatnagar",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Mccracken",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Circ Res",
+            "volume": "119",
+            "issn": "11",
+            "pages": "1204--1218",
+            "other_ids": {
+                "DOI": [
+                    "10.1161/CIRCRESAHA.116.309279"
+                ]
+            }
+        },
+        "BIBREF46": {
+            "ref_id": "b46",
+            "title": "Can atmospheric pollution be considered a co-factor in extremely high level of SARS-CoV-2 lethality in Northern Italy?",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Conticini",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Frediani",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Caro",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Environ Pollut",
+            "volume": "2020",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.envpol.2020.114465"
+                ]
+            }
+        },
+        "BIBREF47": {
+            "ref_id": "b47",
+            "title": "Exposure to urban air particulates alters the macrophage-mediated inflammatory response to respiratory viral infection",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Becker",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Soukup",
+                    "suffix": ""
+                }
+            ],
+            "year": 1999,
+            "venue": "J Toxicol Environ Health A",
+            "volume": "57",
+            "issn": "7",
+            "pages": "445--57",
+            "other_ids": {
+                "DOI": [
+                    "10.1080/009841099157539"
+                ]
+            }
+        },
+        "BIBREF48": {
+            "ref_id": "b48",
+            "title": "Interaction between respiratory syncytial virus and particulate matter in guinea pig alveolar macrophages",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Kaan",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Hegele",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Am J Respir Cell Mol Biol",
+            "volume": "28",
+            "issn": "6",
+            "pages": "697--704",
+            "other_ids": {
+                "DOI": [
+                    "10.1165/rcmb.2002-0115OC"
+                ]
+            }
+        },
+        "BIBREF49": {
+            "ref_id": "b49",
+            "title": "Ultrafine carbon black particles enhance respiratory syncytial virus-induced airway reactivity, pulmonary inflammation, and chemokine expression",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Lambert",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Mangum",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Delorme",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Toxicol Sci",
+            "volume": "72",
+            "issn": "2",
+            "pages": "339--385",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/toxsci/kfg032"
+                ]
+            }
+        },
+        "BIBREF50": {
+            "ref_id": "b50",
+            "title": "Effect of preexposure to ultrafine carbon black on respiratory syncytial virus infection in mice",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Lambert",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Trasti",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Mangum",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Toxicol Sci",
+            "volume": "72",
+            "issn": "2",
+            "pages": "331--339",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/toxsci/kfg031"
+                ]
+            }
+        },
+        "BIBREF51": {
+            "ref_id": "b51",
+            "title": "Ambient influenza and avian influenza virus during dust storm days and background days",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Tsai",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Lin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Environ Health Perspect",
+            "volume": "118",
+            "issn": "9",
+            "pages": "1211--1217",
+            "other_ids": {
+                "DOI": [
+                    "10.1289/ehp.0901782"
+                ]
+            }
+        },
+        "BIBREF52": {
+            "ref_id": "b52",
+            "title": "The effects of air pollution and meteorological factors on measles cases in Lanzhou",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Peng",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Tao",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "China. Environ Sci Pollut Res Int",
+            "volume": "27",
+            "issn": "12",
+            "pages": "13524--13557",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s11356-020-07903-4"
+                ]
+            }
+        },
+        "BIBREF53": {
+            "ref_id": "b53",
+            "title": "Haze is a risk factor contributing to the rapid spread of respiratory syncytial virus in children",
+            "authors": [
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Ye",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Fu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Mao",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Environ Sci Pollut Res Int",
+            "volume": "23",
+            "issn": "20",
+            "pages": "20178--85",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s11356-016-7228-6"
+                ]
+            }
+        },
+        "BIBREF54": {
+            "ref_id": "b54",
+            "title": "Design issues in small-area studies of environment and health",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Elliott",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Savitz",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF56": {
+            "ref_id": "b56",
+            "title": "The semi-individual study in air pollution epidemiology: a valid design as compared to ecologic studies",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Kunzli",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Tager",
+                    "suffix": ""
+                }
+            ],
+            "year": 1997,
+            "venue": "Environ Health Perspect",
+            "volume": "105",
+            "issn": "10",
+            "pages": "1078--83",
+            "other_ids": {
+                "DOI": [
+                    "10.1289/ehp.105-1470382"
+                ]
+            }
+        },
+        "BIBREF57": {
+            "ref_id": "b57",
+            "title": "Evaluating the sensitivity of PM2.5-mortality associations to the spatial and temporal scale of exposure assessment",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Crouse",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Erickson",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Christidis",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Epidemiology",
+            "volume": "31",
+            "issn": "2",
+            "pages": "168--76",
+            "other_ids": {
+                "DOI": [
+                    "10.1097/EDE.0000000000001136"
+                ]
+            }
+        },
+        "BIBREF58": {
+            "ref_id": "b58",
+            "title": "No reuse allowed without permission. was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. The copyright holder for this preprint",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.04.05.20054502"
+                ]
+            }
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "than 10 confirmed COVID-19 cases; (c) omitted time since first reported COVID-19 case from the model; (d) additionally adjusted the model for number of tests performed; (e) additionally adjusted the model for estimated percentage of people with COVID-19 symptoms; and (f) treated PM2.5 as a categorical variable. The results of these analyses were consistent with the main analysis. For the analysis of the PM2.5 categorized into quintiles, the MRR for the kth can be interpreted as the increase in COVID-19 mortality rate associated with a change from the first quintile to the kth quintile in long-term PM2.5 exposure. The MRR estimates from this model monotonically increased as PM2.5 increased, supporting the assumption of a linear relationship between PM2.5 and COVID-19 mortality rates. The results of all sensitivity analyses are provided in the Supplementary Materials. All rights reserved. No reuse allowed without permission.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "to later increases in inflammation and worse prognosis, which may also explain our findings. Some studies57-59 have suggested that air pollution can also proliferate the transmission of infectious disease. If COVID-19 spread is indeed impacted by air pollution levels, which is not yet known, some of the effects detected in our study could be mediated by this factor as well.This analysis provides a timely characterization of the relationship between historical exposure to air pollution and COVID-19 deaths in the United States. Research on how modifiable factors may exacerbate COVID-19 symptoms and increase mortality risk is essential to guide policies and behaviors to minimize fatality related to the outbreak. Our analysis relies on up-to-date populationlevel COVID-19 data and well-validated air pollution exposure measures.Strengths of this analysis include adjusting for a wide range of potential confounders and a demonstrated robustness of results to different model choices. Moreover, the analyses rely exclusively on data and code that are publicly available. This provides a platform for the scientific community to continue updating and expanding these analyses as the pandemic evolves and data accumulate.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "Acknowledgments: The computations in this paper were run on (1) the Odyssey cluster supported by the FAS Division of Science, Research Computing Group at Harvard University; and (2) the Research Computing Environment supported by the Institute for Quantitative Social Science in the Faculty of Arts and Sciences at Harvard University. The authors would like to thank Lena Goodwin and Stacey Tobin for editorial assistance in the preparation of this manuscript. All rights reserved. No reuse allowed without permission.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "Maps show (a) county-level 17-year long-term average of PM2.5 concentrations (2000-All rights reserved. No reuse allowed without permission.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF5": {
+            "text": "Mortality Risk Ratios (MRR) and 95% confidence intervals. Upper panel, MRR can be interpreted as percentage increase in the COVID-19 death rate associated with a 1 g/m3 increase in long-term average PM2.5 exposure. The MRR from the main analysis was adjusted for 20 potential confounders. In addition to the main analysis, results are shown for secondary analyses (a) excluding the counties in New York metropolitan area, (b) excluding counties with fewer than",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF6": {
+            "text": "state-level number of tests performed to the model, (e) adding county-level estimated percentage of people with COVID-19 symptoms to the model, and (f) using PM2.5 exposure categorized at quintiles. All COVID-19 death counts are cumulative counts up to and including April 22, 2020. Lower panel, MRR can be interpreted as the percentage increase in the COVID-19 death rate associated with each empirical quintile of long-term average PM2.5 exposure compared to the baseline quintile (Q1).",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF1": {
+            "text": "was truncated by this date. Additional detail on the creation of all variables used in the analysis is available in the Supplementary Materials.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF5": {
+            "text": "Publicly available data sources used in the analysis",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF6": {
+            "text": "All rights reserved. No reuse allowed without permission.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF7": {
+            "text": ". https://doi.org/10.1101/2020.04.05.20054502 doi: medRxiv preprint",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF8": {
+            "text": "Characteristics of the study cohort up to and including April 22, 2020, mean (standard deviation)All rights reserved. No reuse allowed without permission.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF9": {
+            "text": ". https://doi.org/10.1101/2020.04.05.20054502 doi: medRxiv preprint",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF10": {
+            "text": "Mortality rate ratios (MRR), 95% confidence intervals (CI), and P-values for all variables in the main analysis.All rights reserved. No reuse allowed without permission.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF11": {
+            "text": ". https://doi.org/10.1101/2020.04.05.20054502 doi: medRxiv preprint",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}

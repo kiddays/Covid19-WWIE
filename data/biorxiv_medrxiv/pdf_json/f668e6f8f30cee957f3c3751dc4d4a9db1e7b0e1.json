@@ -1,0 +1,3740 @@
+{
+    "paper_id": "f668e6f8f30cee957f3c3751dc4d4a9db1e7b0e1",
+    "metadata": {
+        "title": "A Modular Framework for Multiscale Spatial Modeling of Viral Infection and Immune Response in Epithelial Tissue",
+        "authors": [
+            {
+                "first": "T",
+                "middle": [
+                    "J"
+                ],
+                "last": "Sego",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Indiana University",
+                    "location": {
+                        "settlement": "Bloomington",
+                        "region": "IN",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Josua",
+                "middle": [
+                    "O"
+                ],
+                "last": "Aponte-Serrano",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Indiana University",
+                    "location": {
+                        "settlement": "Bloomington",
+                        "region": "IN",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Juliano",
+                "middle": [],
+                "last": "Ferrari-Gianlupi",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Indiana University",
+                    "location": {
+                        "settlement": "Bloomington",
+                        "region": "IN",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Samuel",
+                "middle": [],
+                "last": "Heaps",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Indiana University",
+                    "location": {
+                        "settlement": "Bloomington",
+                        "region": "IN",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Ellen",
+                "middle": [
+                    "M"
+                ],
+                "last": "Quardokus",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Indiana University",
+                    "location": {
+                        "settlement": "Bloomington",
+                        "region": "IN",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "James",
+                "middle": [
+                    "A"
+                ],
+                "last": "Glazier",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Indiana University",
+                    "location": {
+                        "settlement": "Bloomington",
+                        "region": "IN",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "The COVID-19 crisis has shown that classic sequential models for scientific research are too slow and do not easily encourage multidisciplinary scientific collaboration. The need to rapidly understand the causes of differing infection outcomes and vulnerabilities, to provide mechanistic frameworks for the interpretation of experimental and clinical data and to suggest drug and therapeutic targets and to design optimized personalized interventions all require the development of detailed predictive quantitative models of all aspects of COVID-19. Many of these models will require the use of common submodels describing specific aspects of infection ( e.g. , viral replication) but combine them in novel configurations. As a contribution to this development and as a proof-of-concept for some components of these models, we present a multi-layered 2D multiscale, multi-cell model and associated computer simulations of the infection of epithelial tissue by a virus, the proliferation and spread of the virus, the cellular immune response and tissue damage. Our initial, proof-of-concept model is built of modular components to allow it to be easily extended and adapted to describe specific viral infections, tissue types and immune responses. Immediately after a cell becomes infected, the virus replicates inside the cell. After an eclipse period, the infected cells start shedding diffusing infectious virus, infecting nearby cells, and secretes a short-diffusing cytokine signal. Neighboring cells can take up the diffusing extracellular virus and become infected. The cytokine signal calls for immune cells from a simple model of the systemic immune response. These immune cells chemotax and activate within the tissue in response to the cytokine profile. Activated immune cells can kill underlying epithelial cells directly or by secreting a short-diffusible toxic chemical. Infected cells can also die by apoptosis due to the stress of viral replication. We do not include direct cytokine mediated protective factors in the tissue or distinguish the complexity of the immune response in this simple model. Despite unrealistically fast viral production and immune response, the current base model allows us to define three parameter regimes, where the immune system rapidly controls the virus, where it controls the virus after extensive tissue damage, and where the virus escapes control and infects and kills all . : bioRxiv preprint / cells. We can simulate a number of drug therapy concepts, like delayed rate of production of viral RNAs, reduced viral entry, and higher and lower levels of immune response, which we demonstrate with simulation results of parameter sweeps of select model parameters. From results of these sweeps, we found that successful containment of infection in simulation directly relates to inhibited viral internalization and rapid immune cell recruitment, while spread of infection occurs in simulations with fast viral internalization and slower immune response. In contrast to other simulations of viral infection, our simulated tissue demonstrates spatial and cellular events of viral infection as resulting from subcellular, cellular, and systemic mechanisms. To support rapid development of current and new submodels, we are developing a shared, publicly available environment to support collaborative development of this framework and its components. We warmly invite interested members of the biological, medical, mathematical and computational communities to contribute to improving and extending the framework.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "Viruses are obligate intracellular parasites that exist almost everywhere on the planet. Viruses require a host to replicate and have the ability to infect humans, animals, plants, fungi and bacteria. They are considered to be the most abundant biological entity on the planet. Viruses cause a number of cancers ( e.g. , human papillomavirus (HPV) causes cervical cancer) and infectious diseases such as rabies, herpes, flu, common cold, severe acute respiratory syndrome ( 19) . COVID-19 has now altered the environment, and socioeconomic status of human life. The current global outbreak of COVID-19 has reinforced the need for rapid and sufficient characterization and prediction of the pathways for highly contagious viral related disease.",
+            "cite_spans": [
+                {
+                    "start": 474,
+                    "end": 477,
+                    "text": "19)",
+                    "ref_id": "BIBREF17"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 472,
+                    "end": 473,
+                    "text": "(",
+                    "ref_id": null
+                }
+            ],
+            "section": "Introduction Motivation"
+        },
+        {
+            "text": "Betacoronavirus Life Cycle Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) is an enveloped virus with a positive sense, single stranded RNA genome (ssRNA+). ssRNA + viruses have mutation rates that are millions of times higher than that of their hosts [1] .This characteristic allows ssRNA + viruses to have enhanced virulence and evolution rates, which makes this particular category of virus complex [2, 3] . The genomic evolutionary history of SARS-CoV-2 shows lower / Viral Replication Viral replication of SARS-CoV-2 and other enveloped single stranded positive sense RNA viruses occurs within the cytoplasm of host epithelial cells after unpacking of viral proteins from the internalized particle [30] . An RNA-dependent RNA polymerase (RdRp) encoded within the virus genome produces a negative strand from positive host RNA strand by hijacking host epithelial cell translation machinery. The negative viral RNA strand is then used to produce more positive RNA strands and smaller positive strand subgenomic sequences [31] . Subgenomic sequences are translated to produce viral proteins [31] . After replication inside the host, viral positive RNA strands and viral proteins are transported to the Endoplasmic Reticulum (ER) where they are assembled to form new virions. New virions are then packaged into vesicles and transported to the cell membrane for release into the extracellular environment through the continuous process of viral budding [32] [33] [34] . The yield for newly produced virions is not clearly defined in SARS-CoV-2 as it is with lytic viruses [35] . The main regulation of the viral replication process occurs at the replication stage, because the balance between replication and translation must be carefully maintained in order to achieve maximum rates of replication and translation without exhaustion of host cell resources [33, 34] .",
+            "cite_spans": [
+                {
+                    "start": 265,
+                    "end": 268,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 415,
+                    "end": 418,
+                    "text": "[2,",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 419,
+                    "end": 421,
+                    "text": "3]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 716,
+                    "end": 720,
+                    "text": "[30]",
+                    "ref_id": null
+                },
+                {
+                    "start": 1037,
+                    "end": 1041,
+                    "text": "[31]",
+                    "ref_id": "BIBREF29"
+                },
+                {
+                    "start": 1106,
+                    "end": 1110,
+                    "text": "[31]",
+                    "ref_id": "BIBREF29"
+                },
+                {
+                    "start": 1466,
+                    "end": 1470,
+                    "text": "[32]",
+                    "ref_id": null
+                },
+                {
+                    "start": 1471,
+                    "end": 1475,
+                    "text": "[33]",
+                    "ref_id": "BIBREF31"
+                },
+                {
+                    "start": 1476,
+                    "end": 1480,
+                    "text": "[34]",
+                    "ref_id": "BIBREF32"
+                },
+                {
+                    "start": 1585,
+                    "end": 1589,
+                    "text": "[35]",
+                    "ref_id": null
+                },
+                {
+                    "start": 1870,
+                    "end": 1874,
+                    "text": "[33,",
+                    "ref_id": "BIBREF31"
+                },
+                {
+                    "start": 1875,
+                    "end": 1878,
+                    "text": "34]",
+                    "ref_id": "BIBREF32"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Biological Background"
+        },
+        {
+            "text": "Triggering Innate Immune Response The innate immune system is the first response to encounter SARS-CoV-2 infection. Production of SARS-CoV-2 viral proteins interfere with various host cell metabolic, regulatory and delivery pathways [36, 37] . The detection of foreign viral proteins and the hijacking of host cell translation machinery triggers immune system gene expression [38] . This triggered genetic expression signals the production of type I interferons (IFNs), cytokines, chemokines, interleukins, myeloids, and small molecule RNA signals through a series of toll-like receptors (TLRS) [39] . This process occurs in order to alert local cell populations of infection through small molecule signaling and to stimulate the growth and recruitment of immune cells [40] . The immune cells that are targeted for early activation in the innate immune response are dendritic cells, macrophages, neutrophils, mast cells, basophils, eosinophils, leukocytes, and natural killer (NK) cells [28] . The stimulated activation of immune cells such as macrophages and monocytes interplays the recruitment, initiation, and maturation of NK cells and naive T cells from stem cells in bone marrow to the site of local infection [40] . Simultaneously, programmed cell death (apoptosis) is initiated in cells with hijacked translation machinery through caspase activation and through contact with NK cells [41] [42] [43] . After immune cell recruitment, mature monocytes, macrophages, and T cell populations begin to deal with cells infected by virus by direct killing [44] [45] [46] . This initial innate immune response that takes place within hours and days of infection involves multiple signaling molecules acting upon multiple complex signaling pathways [47, 48] . Cytokines produced in this time period are associated with early clinical symptoms of viral infection such as fever, fatigue, and cough [49] .",
+            "cite_spans": [
+                {
+                    "start": 233,
+                    "end": 237,
+                    "text": "[36,",
+                    "ref_id": "BIBREF35"
+                },
+                {
+                    "start": 238,
+                    "end": 241,
+                    "text": "37]",
+                    "ref_id": "BIBREF36"
+                },
+                {
+                    "start": 376,
+                    "end": 380,
+                    "text": "[38]",
+                    "ref_id": "BIBREF37"
+                },
+                {
+                    "start": 595,
+                    "end": 599,
+                    "text": "[39]",
+                    "ref_id": null
+                },
+                {
+                    "start": 769,
+                    "end": 773,
+                    "text": "[40]",
+                    "ref_id": "BIBREF39"
+                },
+                {
+                    "start": 987,
+                    "end": 991,
+                    "text": "[28]",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 1217,
+                    "end": 1221,
+                    "text": "[40]",
+                    "ref_id": "BIBREF39"
+                },
+                {
+                    "start": 1393,
+                    "end": 1397,
+                    "text": "[41]",
+                    "ref_id": "BIBREF40"
+                },
+                {
+                    "start": 1398,
+                    "end": 1402,
+                    "text": "[42]",
+                    "ref_id": "BIBREF41"
+                },
+                {
+                    "start": 1403,
+                    "end": 1407,
+                    "text": "[43]",
+                    "ref_id": "BIBREF42"
+                },
+                {
+                    "start": 1556,
+                    "end": 1560,
+                    "text": "[44]",
+                    "ref_id": null
+                },
+                {
+                    "start": 1561,
+                    "end": 1565,
+                    "text": "[45]",
+                    "ref_id": "BIBREF44"
+                },
+                {
+                    "start": 1566,
+                    "end": 1570,
+                    "text": "[46]",
+                    "ref_id": null
+                },
+                {
+                    "start": 1747,
+                    "end": 1751,
+                    "text": "[47,",
+                    "ref_id": null
+                },
+                {
+                    "start": 1752,
+                    "end": 1755,
+                    "text": "48]",
+                    "ref_id": "BIBREF47"
+                },
+                {
+                    "start": 1894,
+                    "end": 1898,
+                    "text": "[49]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Biological Background"
+        },
+        {
+            "text": "Existing kinetic viral replication models address how viruses play a significant role in human health and have the ability to change population trends and dynamics [50, 51] ; however, / it remains a challenge to predict how novel viruses interact with their host cellular environments. Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) is the causative agent of the current global pandemic and existing kinetic viral replication models do not address the need for a specific multicellular model representing the infection pathway.",
+            "cite_spans": [
+                {
+                    "start": 164,
+                    "end": 168,
+                    "text": "[50,",
+                    "ref_id": "BIBREF49"
+                },
+                {
+                    "start": 169,
+                    "end": 172,
+                    "text": "51]",
+                    "ref_id": "BIBREF50"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Biological Background"
+        },
+        {
+            "text": "Context Mathematical models and computer simulations have been extensively used to study in-host progression of viral infection. Kinetics approaches are commonly used to model different stages of viral replication cycle such as binding and internalization [52, 53] , replication and translation [54, 55] , assembly, packing and release [56, 57] . These models have been developed in the context of different viral families: positive single-stranded RNA viruses such as Hepatitis Virus C, Poliovirus and Semliki Forest Virus [52, 58, 59] [70, 71] have been modeled using agent-based spatial approaches. With respect to the family of beta coronaviruses spatial models have been developed motivated by the offset of the ongoing pandemic [72] .",
+            "cite_spans": [
+                {
+                    "start": 256,
+                    "end": 260,
+                    "text": "[52,",
+                    "ref_id": "BIBREF51"
+                },
+                {
+                    "start": 261,
+                    "end": 264,
+                    "text": "53]",
+                    "ref_id": null
+                },
+                {
+                    "start": 295,
+                    "end": 299,
+                    "text": "[54,",
+                    "ref_id": "BIBREF52"
+                },
+                {
+                    "start": 300,
+                    "end": 303,
+                    "text": "55]",
+                    "ref_id": "BIBREF53"
+                },
+                {
+                    "start": 336,
+                    "end": 340,
+                    "text": "[56,",
+                    "ref_id": "BIBREF54"
+                },
+                {
+                    "start": 341,
+                    "end": 344,
+                    "text": "57]",
+                    "ref_id": "BIBREF55"
+                },
+                {
+                    "start": 524,
+                    "end": 528,
+                    "text": "[52,",
+                    "ref_id": "BIBREF51"
+                },
+                {
+                    "start": 529,
+                    "end": 532,
+                    "text": "58,",
+                    "ref_id": "BIBREF56"
+                },
+                {
+                    "start": 533,
+                    "end": 536,
+                    "text": "59]",
+                    "ref_id": "BIBREF57"
+                },
+                {
+                    "start": 537,
+                    "end": 541,
+                    "text": "[70,",
+                    "ref_id": "BIBREF66"
+                },
+                {
+                    "start": 542,
+                    "end": 545,
+                    "text": "71]",
+                    "ref_id": null
+                },
+                {
+                    "start": 734,
+                    "end": 738,
+                    "text": "[72]",
+                    "ref_id": "BIBREF69"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Modeling Background"
+        },
+        {
+            "text": "Our Approach to an Initial Proof-of-Concept Model In this paper we propose a modular framework to model interactions between generalized epithelial, immune cells and their extracellular environment during viral infection. The model can be used to develop and interrogate hypotheses related to the spatiotemporal dynamics of viral SARS-CoV-2 infection of critical nasopharyngeal and lung tissue and model Covid-19 progression. The framework is intended to serve as a base model for constructing and implementing more advanced models of targeted cellular-and intracellular-level phenomena in tissue after initial exposure. In its current state, it has not been formally peer-reviewed, and should not be used for patient diagnostics or predicting clinical outcomes.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Modeling Background"
+        },
+        {
+            "text": "The model and its implementation can be employed and developed to interrogate questions and mechanistic hypotheses about the spread of a virus and how the interplay between viral spreading and immune response determine the outcome of the disease, such as:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Modeling Background"
+        },
+        {
+            "text": "\u2022 Why does the progression of the disease seem to be dependent on the initial viral exposure level? \u2022 Why is the start time of symptoms and immune response so variable? \u2022 What is the role of cytokine signaling in explaining immune response variability?",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Modeling Background"
+        },
+        {
+            "text": ". CC-BY 4.0 International license was not certified by peer review) is the author/funder. It is made available under a The copyright holder for this preprint (which this version posted April 28, 2020. . https://doi.org/10.1101/2020.04.27.064139 doi: bioRxiv preprint / \u2022 What are the specific factors and key players determining the offset of early immune response? The model includes a representation of extracellular virus in the mucus, epithelial cells and immune cells. It also includes the processes of epithelial cell infection by extracellular virus, viral replication and cell damage inside epithelial cells, release of viruses by infected epithelial cells, immune cell response to infected epithelial cells and immune cell killing of infected and non-infected epithelial cells.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Modeling Background"
+        },
+        {
+            "text": "In this section we present results from simulations intended to interrogate the parameter space of the model framework (see Models and Methods ) with respect to select, critical parameters of interest to understanding SARS-CoV-2 and viral infection, in general. All simulations were performed according to specifications described in Simulation Specification , and results described in that same section were recorded concerning spatial, population, and system-level metrics for each simulation trial of each parameter set presented here. All simulations were performed using CompuCell3D [73] .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Results"
+        },
+        {
+            "text": "We first determined a baseline set of parameters (Table 1) for which widespread infection occurs over the course of simulation time. We initiate our simulation with a sheet of uninfected epithelial cells, no immune cells, diffusive virus, or diffusive cytokine, and a sheet of one initially infected cell at the center of the simulation domain ( Figure 1A ). As viral replication progresses, the initial infected cell starts secreting virus into the extracellular environment. Neighboring cells are infected by viruses in their extracellular environment and initiate their own viral replication cycles. Infected cells also secrete cytokines, initiating the recruitment of immune cells by exfiltration of cytokine from the simulation domain ( Figure 1B ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 49,
+                    "end": 58,
+                    "text": "(Table 1)",
+                    "ref_id": null
+                },
+                {
+                    "start": 346,
+                    "end": 355,
+                    "text": "Figure 1A",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 742,
+                    "end": 751,
+                    "text": "Figure 1B",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "Model Captures Spatial Dynamics of Viral Infection and Spread in Epithelial Tissue"
+        },
+        {
+            "text": "The reference simulation shows significant immune cell recruitment between 400 and 800 Monte Carlo steps (MCS), but the virus spreads uncontrolled, leading to the eventual infection and death of all epithelial cells, At time 200 MCSs infection has already spread to neighboring cells. Immune cells have already been recruited to the tissue, and dead cells not at the initial site of infection indicate likely cytotoxic killing. At time 400 MCSs massive cell death has occured centered about the initial site of infection. Immune cell recruitment from increased levels of diffusive cytokine has more than doubled the number of immune cells in the simulation.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Model Captures Spatial Dynamics of Viral Infection and Spread in Epithelial Tissue"
+        },
+        {
+            "text": "By 600 MCSs infection has reached the simulation domain, indicating total spread of the infection. Immune cells continue to be recruited even to 800 MCSs, even though most cells were dead, due to the delay in immune response. By time 1,000 MCSs, all cells were dead and many immune cells had exited the simulation. The number of infected cells was maximal at 700 . CC-BY 4.0 International license was not certified by peer review) is the author/funder. It is made available under a The copyright holder for this preprint (which this version posted April 28, 2020. . https://doi.org/10.1101/2020.04.27.064139 doi: bioRxiv preprint / MCSs, the amount of extracellular virus was maximal at 860 MCSs. The extracellular cytokine level was maximal at 740 MCSs. As the number of live cells decreases, the amount of extracellular virus and the amount of extracellular proinflammatory cytokine decreases. The immune recruitment signal peaks at 740 MCSs (1480 minutes), leading to infiltration of immune cells too late to contain the spread of infection (maximal number of immune cells at 870 MCSs, 1740 minutes). For all simulation parameters see Table 1 . Code to execute this specific simulation for these parameters in CompuCell3D is available at https://github.com/covid-tissue-models/covid-tissue-response-models/tree/cc3d_first_model_v0 _cand/CC3D/Models/BiocIU/SARSCoV2MultiscaleVTM/interesting-results/Preliminary%20Set% 201/simimg . Critical parameters control outcomes of the simulation. Increase in the virus-receptor association affinity , a parameter that controls the internalization of extracellular viral k on particles into epithelial cells, drives the system toward quantitative distincts simulation outcomes ( Figure 2 ). We generated results using an established baseline value and a 100-fold k on increase from the baseline. Baseline shows a low number of infected and dead cells at the k on end of the simulation (Figure 2A Variations in critical and parameters drive the system toward two distinct \u03b2 delay k on simulation outcomes: containment and widespread infection (red and shaded regions). , a \u03b2 delay parameter that controls the responsiveness of immune cell recruitment to local diffusive cytokine in the simulation domain. We generated simulations using established baseline values for k on and and compared results with simulations generated using 10-fold and 100-fold \u03b2 delay increase and decrease from the baseline values ( Figure 3 ). Parameter variation produces distinctive qualitative outcomes in the number of dead cells ( Figure 3A) . Baseline values of parameters result in propagation of the infection through the tissue and widespread death of epithelial cells ( Figure 3A , center panel). Increasing and decreasing produces drives k on \u03b2 delay the system towards widespread infection and cell death with small variability between simulation replicated ( Figure 3A , red shaded panels). In this region, decreasing decreases the rate \u03b2 delay of cell death as shown by the inflection points on the number of dead cells occurring earlier for smaller values of . \u03b2 delay Decreasing and increasing drives the system towards containment of the k on \u03b2 delay initial infection, as shown by early saturation in the number of dead cells ( Figure 3A , green shaded panels). In this region, increasing controls the rate at which containment is \u03b2 delay achieved, as shown by saturation being arrived at earlier for bigger values of . Also in this \u03b2 delay region, controls the total number and variability of infected and dead cells before k on containment whenever is not too large, as shown by the saturation value being higher for \u03b2 delay increasing values of ( Figure 3A , first green shaded column). For the remaining regions, the k on final outcome of the simulation is undetermined, since the number of dead cells is still changing at the end of the simulation.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 1138,
+                    "end": 1145,
+                    "text": "Table 1",
+                    "ref_id": null
+                },
+                {
+                    "start": 1720,
+                    "end": 1728,
+                    "text": "Figure 2",
+                    "ref_id": "FIGREF3"
+                },
+                {
+                    "start": 1926,
+                    "end": 1936,
+                    "text": "(Figure 2A",
+                    "ref_id": "FIGREF3"
+                },
+                {
+                    "start": 2449,
+                    "end": 2457,
+                    "text": "Figure 3",
+                    "ref_id": "FIGREF5"
+                },
+                {
+                    "start": 2553,
+                    "end": 2563,
+                    "text": "Figure 3A)",
+                    "ref_id": "FIGREF5"
+                },
+                {
+                    "start": 2697,
+                    "end": 2706,
+                    "text": "Figure 3A",
+                    "ref_id": "FIGREF5"
+                },
+                {
+                    "start": 2889,
+                    "end": 2898,
+                    "text": "Figure 3A",
+                    "ref_id": "FIGREF5"
+                },
+                {
+                    "start": 3263,
+                    "end": 3272,
+                    "text": "Figure 3A",
+                    "ref_id": "FIGREF5"
+                },
+                {
+                    "start": 3685,
+                    "end": 3694,
+                    "text": "Figure 3A",
+                    "ref_id": "FIGREF5"
+                }
+            ],
+            "section": "Model Captures Spatial Dynamics of Viral Infection and Spread in Epithelial Tissue"
+        },
+        {
+            "text": "The distinctive qualitative outcomes of the simulation can also be observed in the dynamics of viral diffusion in the extracellular environment ( Figure 3B ). In the widespread infection region, there is a regime of fast viral growth followed by a regime of viral clearance (FIgure 3B red shaded region). In this region, controls how fast the maximum concentration k on of virus in the extracellular environment is achieved during the growth regime, as shown by the maximum value being reached at earlier for increasing values of . The parameter k on \u03b2 delay controls the amplitude of the rebound after a short clearance phase, as shown by the distance between two maximums in the viral concentration curve increasing for increasing values of . \u03b2 delay",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 146,
+                    "end": 155,
+                    "text": "Figure 3B",
+                    "ref_id": "FIGREF5"
+                }
+            ],
+            "section": "Model Captures Spatial Dynamics of Viral Infection and Spread in Epithelial Tissue"
+        },
+        {
+            "text": "In the containment region, the same two qualitative regimes of viral growth can be observed but with quantitative different properties ( Figure 3B red shaded region). An initial growth of virus is followed by clearance of virus. The maximum concentration of the viral field is . CC-BY 4.0 International license was not certified by peer review) is the author/funder. It is made available under a The copyright holder for this preprint (which this version posted April 28, 2020. . https://doi.org/10.1101/2020.04.27.064139 doi: bioRxiv preprint / smaller in the containment region than the widespread infection region. In these region, \u03b2 delay controls the clearance rate of the extracellular virus as shown by the rapid decay with increasing values of . The time scales of viral growth in the extracellular environment is faster than \u03b2 delay the rate of cell death, as shown by maxima in the extracellular environment occurring before maxima in the number of dead cells.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 137,
+                    "end": 146,
+                    "text": "Figure 3B",
+                    "ref_id": "FIGREF5"
+                }
+            ],
+            "section": "Model Captures Spatial Dynamics of Viral Infection and Spread in Epithelial Tissue"
+        },
+        {
+            "text": "Increase in the Rate of the Immune Response and Decrease in Internalization Drive the System Towards Containment of Infection The phase space for key output metrics reveal that decreasing viral internalization and increasing immune response consistently drives the system towards containment of the infection (Figure 4 ). High viral internalization is generally correlated with high number of final dead cells ( Figure 4A ), high number of maximum viruses ( Figure 4B ) and high number of . CC-BY 4.0 International license was not certified by peer review) is the author/funder. It is made available under a The copyright holder for this preprint (which this version posted April 28, 2020. . https://doi.org/10.1101/2020.04.27.064139 doi: bioRxiv preprint / maximum cytokine levels ( Figure 4C ). In general, values for each of these metrics increases proportionally with increased internalization, with the lowest value providing the lower bound and the highest value providing the upper bound. A noticeable exception is the max cytokine level, where at least one of the lower viral internalization values (0.1) produces a high number of cytokines ( Figure 4C ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 309,
+                    "end": 318,
+                    "text": "(Figure 4",
+                    "ref_id": "FIGREF6"
+                },
+                {
+                    "start": 412,
+                    "end": 421,
+                    "text": "Figure 4A",
+                    "ref_id": "FIGREF6"
+                },
+                {
+                    "start": 458,
+                    "end": 467,
+                    "text": "Figure 4B",
+                    "ref_id": "FIGREF6"
+                },
+                {
+                    "start": 784,
+                    "end": 793,
+                    "text": "Figure 4C",
+                    "ref_id": "FIGREF6"
+                },
+                {
+                    "start": 1151,
+                    "end": 1160,
+                    "text": "Figure 4C",
+                    "ref_id": "FIGREF6"
+                }
+            ],
+            "section": "Model Captures Spatial Dynamics of Viral Infection and Spread in Epithelial Tissue"
+        },
+        {
+            "text": "Rapid immune response is generally associated with lower number of final dead cells, maximum virus and maximum cytokine in the extracellular environment. For fixed viral internalization values, each of these output metrics decreases with increase in the rate of immune response. In general, the output metrics behave as decreasing saturation functions on the immune response, with the exception of the cytokine levels for one of the lower viral internalization values (0.1), where there is a rapid growth in cytokine levels followed by a long decay ( Figure 4C ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 551,
+                    "end": 560,
+                    "text": "Figure 4C",
+                    "ref_id": "FIGREF6"
+                }
+            ],
+            "section": "Model Captures Spatial Dynamics of Viral Infection and Spread in Epithelial Tissue"
+        },
+        {
+            "text": "Clearance time measures the earliest time from the end of the simulation at which no infected cells are found inside the simulation domain ( Figure 4D ). Higher viral internalization is generally associated with smaller clearance times for immune response rates below the baseline and with higher clearance times for immune response rate above the baseline. With respect to the immune response, clearance times show varying regimes, but in general there is a slow increase in clearance times for smaller immune response rates, and a sharp decrease in clearance times for higher immune response rates. Viral internalization controls at which level of immune response rate the sharp decline in clearance times starts. The decline in clearance times occurs at slower immune response rate for viral internalization below the baseline and higher immune response rates for values above the baseline.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 141,
+                    "end": 150,
+                    "text": "Figure 4D",
+                    "ref_id": "FIGREF6"
+                }
+            ],
+            "section": "Model Captures Spatial Dynamics of Viral Infection and Spread in Epithelial Tissue"
+        },
+        {
+            "text": ". CC-BY 4.0 International license was not certified by peer review) is the author/funder. It is made available under a The copyright holder for this preprint (which this version posted April 28, 2020. . https://doi.org/10.1101/2020.04.27.064139 doi: bioRxiv preprint showed a bounded range of rmax parameter values that produces spread of infection. For low viral replication rates, immune cells were recruited that successfully eliminated the infected cell before viral secretion could spread infection to neighboring cells. For high viral replication rates, excessive internalized viral particles due to fast replication induced apoptosis before spread of the virus to neighboring cells. A: Number of dead cells over simulation time in ten trials of each variation (top row) and the mean value of results (bottom row) with blue shading demarcating one standard deviation in each direction. Large variance in the number of dead cells for trials with the variation was due to that all trials either produced 0r 1 max complete cell death or nearly none at all, reflecting that the parameter set with this variation is near a bifurcation of the regimes of certain massive cell death, and viral containment due to excessive viral replication rate. B: Total diffusive virus over simulation time for ten trials of each variation. Marginal diffusive virus was measured for downward variations. C: Number of infected cells over simulation time for ten trials of each variation. D: Mean number of activated immune cells over simulation time for ten trials of each variation, with blue shading demarcating one . CC-BY 4.0 International license was not certified by peer review) is the author/funder. It is made available under a The copyright holder for this preprint (which this version posted April 28, 2020. . https://doi.org/10.1101/2020.04.27.064139 doi: bioRxiv preprint / standard deviation in each direction. No activated immune cells were measured for the most upward variation, indicating death of the initially infected cell was due to viral apoptosis, rather than by cytotoxicity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Variation in the Rate of Viral Replication Show Difference Outcomes of the Diseases"
+        },
+        {
+            "text": "In our second parameter sweep, the replication rate ( , from the viral replication r max model) was varied two orders of magnitude upward and downward by factors of ten while holding all other values of the baseline parameter set constant. In both variations of slower replication rate ( i.e. , and ), marginal amounts of diffusive viral particles were r 10 1 \u2212 max r 10 2 \u2212 max measured, followed by the activation of a few immune cells (Fig. 5) . Once no immune cells in these simulations were in the activated state, no additional activity in the simulations were measured concerning viral infection.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 438,
+                    "end": 446,
+                    "text": "(Fig. 5)",
+                    "ref_id": "FIGREF7"
+                }
+            ],
+            "section": "Variation in the Rate of Viral Replication Show Difference Outcomes of the Diseases"
+        },
+        {
+            "text": "For the first upward variation in replication rate ( ), all cells in simulation died within 0r 1 max 300 MCSs in most simulations. However, in two simulations of the first upward variation, the initially infected cell died before immune cells were even recruited to the simulation domain.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Variation in the Rate of Viral Replication Show Difference Outcomes of the Diseases"
+        },
+        {
+            "text": "This same phenomenon was observed for all trials of the second upward variation ( ). r 10 2 max Without immune cells, the only mechanism of the model framework available to kill a cell is that of viral apoptosis.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Variation in the Rate of Viral Replication Show Difference Outcomes of the Diseases"
+        },
+        {
+            "text": "We have produced a spatial model and computer simulation of epithelial tissue that includes key aspects of viral infection, replication and immune response. This model, while highly simplified, does provide a number of very suggestive results, including showing that the viral production peaks before tissue damage as seen in diseases like influenza and that the control of immune response and viral spread can lead to conditions in which the virus is rapidly controlled, controlled after substantial damage or uncontrolled. We have studied the possible effect of a drug that reduces the rate of RNA polymerization and shown that it can lead to improved viral control if given early. A key next step would be to determine how its effectiveness decreases when it is administered progressively later after infection.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion and Future Perspectives"
+        },
+        {
+            "text": "We also proposed a framework for collaborative rapid development of models of viral infection and immune response. We recognize that our overall model architecture is incomplete in many respects, from the number and types of immune cells and cytokines to the processes we are including ( e.g. , the cytokine signals from an infected cell can alert uninfected cells to viral challenge and increase their probability of apoptosis or reduce their rate of virus production after infection, macrophage can scavenge extracellular virus, immune cells can be infected by virus and change their cytokine relaying). We are working with a wide variety of biological researchers to determine the additional components we should prioritize to add to our high-level model structure",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion and Future Perspectives"
+        },
+        {
+            "text": "Our model is open-source and organized in modules that are free to extend, reuse and adapt. We would like to develop model sharing workflows and tools to facilitate parallel, . CC-BY 4.0 International license was not certified by peer review) is the author/funder. It is made available under a The copyright holder for this preprint (which this version posted April 28, 2020. . https://doi.org/10.1101/2020.04.27.064139 doi: bioRxiv preprint / independent submodel development. The key to such collaborative development is to adopt guidelines for model specification and sharing: specify models and submodels at the conceptual and quantitative levels with well-defined inputs, outputs and validation metrics and data and to implement them as independently executable callable components, which can be independently validated. Some of the directions for future collaborative developments are:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion and Future Perspectives"
+        },
+        {
+            "text": "\u2022 Improvement of the biological realism of core submodels. In our preliminary model, many subcomponents are proof-of-concept versions, which we can be replaced with more supportable models. Accessible areas of improvements will be more realistic models of viral internalization and replication (including timing) and models immune cell response ( e.g. , scavenging of virus by macrophages, local IFN-gamma signaling from infected epithelial cells to non-infected cells to reduce their rate of viral production). \u2022 Identification of model parameters corresponding to specific critical tissue (nasopharyngeal, alveolar) and physiological compartments (throat, upper respiratory and lower respiratory tracts). Building compartment models that can be connected using models of transport of virus, cytokines and immune cells between through the body. \u2022 Use the models to do basic disease mechanism studies to explore the ability of the model to simulate immune clearance under a variety of different situations (effect of initial viral load and locus on disease progression in a patch, immune excitability, rate of delay in signaling to lymph nodes). Identify key periods when infection progression is susceptible to particular types of perturbation ( e.g. , slowing viral replication after 3 days generally has little effect on outcome in influenza models). \u2022 Studying the systemic effects of possible therapies with known molecular modes of action, e.g. , remdesivir is an analog of the nucleoside adenosine and targets the RNA-dependent RNA polymerase and blocks viral RNA synthesis [75] . This would reduce the rate of viral replication but also might affect the intracellular infection response mechanisms in apparently paradoxical ways. An antibody therapy would introduce humoral response mechanisms earlier in the infection. Model the effect of immune stimulation or repression at different stages of infection to optimize dosage and timing. \u2022 Studying the origins of population variability in disease progression, by modeling the effects of hypertension, immunosuppression, diabetes and by considering how they change the timing of critical outcomes. \u2022 Benchmark against established nonspatial models of infection, immune response and clearance. We are working to implement established and validated nonspatial models of viral infection and immune response and replace specific boxes in these models ( e.g. , viral production, cytokine secretion or tissue damage) with the appropriate spatial components of our model. By starting with a validated ODE and adding spatial components gradually, we can calibrate our spatial models and validate our results. \u2022 Conduct simultaneous validation by building multiple implementations of the conceptual and quantitative models independently and simultaneously. We are currently working with teams in Australia and Germany to develop independent multicellular implementations of our underlying conceptual models to validate them in parallel with our own implementations.",
+            "cite_spans": [
+                {
+                    "start": 1581,
+                    "end": 1585,
+                    "text": "[75]",
+                    "ref_id": "BIBREF72"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion and Future Perspectives"
+        },
+        {
+            "text": ". CC-BY 4.0 International license was not certified by peer review) is the author/funder. It is made available under a The copyright holder for this preprint (which this version posted April 28, 2020. . https://doi.org/10.1101/2020.04.27.064139 doi: bioRxiv preprint / The COVID-19 crisis has shown that classic sequential models for scientific research are too slow and do not easily encourage transdisciplinary scientific collaboration. Our open-source project is designed to allow simultaneous component development and deployment by many groups and to minimize the overhead required for collaborative development. Model specification is compact and uses simple Python scripts to make model development accessible to those with critical disciplinary knowledge but without extensive computational experience. Transparency and validation in model development are particularly critical in a disease response model especially when that model is being developed rapidly and in parallel. We are already working closely with the CHASTE and Morpheus multicell modeling teams to develop validating replications of our base conceptual model. This near-simultaneous model replication and its lessons for model design and implementation will be the subject of a future paper.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion and Future Perspectives"
+        },
+        {
+            "text": "We are reaching out to any community members to encourage them to extend, replace, improve and develop the entire model or any model components. Multiple teams using multiple methods to study a single topic has proven powerful in other areas of science and we want to replicate that effective approach to rapid scientific progress with modular virtual tissue modeling.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion and Future Perspectives"
+        },
+        {
+            "text": "We are specifically eager to collaborate and support groups modeling viral replication, cell death due to viral replication, local cytokine signalling effects and systemic immune response. We are also eager to help experimental and drug discovery and therapy development teams adapt and refine this base model for their specific applications and to work with groups with relevant experimental validation data for the integrated model and model components. We would also be happy to discuss approaches to integrating this model framework as a component of teams developing whole body and population level models. Many submodels and model parametrization may be appropriate for replacement with AI surrogates. Finally, we are eager to work with groups who want to replicate these results using different quantitative and computational methodologies or develop improved approaches to conceptual and quantitative model specification.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion and Future Perspectives"
+        },
+        {
+            "text": "Here we model multiscale cell-cell transport interactions in a local infected population of cells. We generalize these mechanisms by representing transport of viral particles as a diffusive chemical field in the extracellular environment. Viral transport and internalization of viral particles is the necessary first step of our viral infection model. In our model, we approximate these discrete processes using a continuous kinetics approach, determined by association and dissociation constants, the number of available cell surface receptors and the amount of viral particles in the extracellular environment.Therefore, in our model we use the relevant aspects of transport on the thin layer above the apical surface of epithelial cells as the initial site of viral transport and attachment to represent an early local respiratory tissue infection. Where the infection of susceptible epithelial cells occurs when the diffusive viral field comes in contact with . CC-BY 4.0 International license was not certified by peer review) is the author/funder. It is made available under a The copyright holder for this preprint (which this version posted April 28, 2020. . https://doi.org/10.1101/2020.04.27.064139 doi: bioRxiv preprint / the cell surface. In our model, we represent the complexity of viral replication by defining 4 broad stages: unpacking, replication, translation and assembly. Therefore, in our model the kinetics of viral replication determine the release of new viral particles to the extracellular environment that contribute to the further spreading of the virus in host tissue.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Models and Methods"
+        },
+        {
+            "text": "For virally-induced apoptotic processes in our model, each cell is given a probability of dying associated with the number of assembled viral particles inside the cell. Cytokines were chosen to represent the larger group of small molecule signals that include chemokines, interferons, and RNAi. For the purpose of this early infection model, we functionally represented the complexity of immune signaling by using a single chemical field diffusing in the extracellular environment. The extracellular field can produce local immune effects such as activation of immune cells after immune cells are exposed to a cytokine signal for a period of time. The extracellular field can also produce long range immune effects, by correlating the concentration of cytokines in tissue to the strength of signal at the immune cell recruiting sites. We represented the transport of cytokines through the lymphatic system and bloodstream by introducing delay terms in the appearance of immune cells at the infection site. These delay terms may also correlate with the variation in response time between host immune cells and programmed cell death. Cell death also occurs in our model due to various mechanisms associated with host immune response.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Models and Methods"
+        },
+        {
+            "text": "Epithelial Cell Level At the epithelial cell level, the model accounts for binding and endocytosis of viral particles, intracellular replication and exocytosis to the extracellular environment, as well as for induced apoptosis from viral replication associated damage.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conceptual Model: Biological Hypotheses and Assumptions"
+        },
+        {
+            "text": "E1 -Viral internalization : model of extracellular virus binding to epithelial cell receptors, endocytosis and release of viral genetic material into the cytoplasm. Internalization of viral particles involves binding of the viral spike protein to target cell surface receptors, truncation by surface proteins and receptor-mediated endocytosis or fusion with the host plasma membrane. We assume the dynamics of internalization can be captured by focusing on the dynamics of virus-surface receptor binding, determined by the densities of extracellular virus and target surface receptors, and the binding affinity between them ( T1-E1 ). Internalized, viral particles initiate the viral replication process ( E1-E2 ).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conceptual Model: Biological Hypotheses and Assumptions"
+        },
+        {
+            "text": "E2 -Viral replication : model of viral replication cycle inside the host cell. Single stranded positive RNA viruses can initiate replication after unpacking of viral genetic material and proteins into the cytosol. The viral RNA-dependent RNA polymerase transcribes a negative RNA strand from the positive RNA strand. This negative strand is used as a template to produce more positive RNA strands and smaller positive strand subgenomic sequences. Subgenomic sequences are then translated to produce viral proteins. Positive RNA strands and viral proteins . CC-BY 4.0 International license was not certified by peer review) is the author/funder. It is made available under a The copyright holder for this preprint (which this version posted April 28, 2020. . https://doi.org/10.1101/2020.04.27.064139 doi: bioRxiv preprint / are transported to the ER where they are packed for release. We assume the viral replication cycle can be modeled by defining four replication stages: unpacking, replicating, translating and assembling.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conceptual Model: Biological Hypotheses and Assumptions"
+        },
+        {
+            "text": "Internalized viral particles are disassembled at the unpacking stage ( E1-E2). Viral replication hijacks some of the host metabolic pathways and is limited by the availability of resources in the host cell. We assume we can model the rate limiting effect of resource availability as regulation at the replicating step. After replication, newly synthesized viral genetic material is translated into new capsid protein and assembled into new viral particles. These newly assembled viral particles initiate the viral release process ( E2-E3 ).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conceptual Model: Biological Hypotheses and Assumptions"
+        },
+        {
+            "text": "E3 -Viral release : model of intracellular transport of newly assembled virions and exocytosis into the extracellular environment. After assembly inside the host, newly packed virions are transported to the ER where they are packed into vesicles and transported to the cell membrane for release into the extracellular environment ( E2-E3 ). We assume that no regulation occurs after assembling of new virions particles and that exocytosis into the extracellular environment can be modeled as a single-step process ( E3-T1 ). ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conceptual Model: Biological Hypotheses and Assumptions"
+        },
+        {
+            "text": "At the immune cell level, the model accounts for activation and chemotaxis of immune cells due to cytokine signaling and the cytotoxic effects of immune cells on infected epithelial cells due to antigen recognition or oxidative agents.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Immune Cell Level"
+        },
+        {
+            "text": "Immune cells mature at the recruitment site before being transported to the infection site. We assume however that upon infiltration, immune cells need to be exposed to local cytokine signals before exhibiting active immune cell behavior ( T2-I1 ). Once activated, immune cells . CC-BY 4.0 International license was not certified by peer review) is the author/funder. It is made available under a The copyright holder for this preprint (which this version posted April 28, 2020. . https://doi.org/10.1101/2020.04.27.064139 doi: bioRxiv preprint / amplify immune signaling by releasing cytokine molecules into the extracellular environment ( I1-T2 ).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "I1 -Immune cell activation : model of immune cells maturation due to cytokine signaling."
+        },
+        {
+            "text": "I2 -Immune cell chemotaxis : model of immune cell local recognition and motility towards infection sites. We assume that upon activation ( I1-I2 ), immune cells move preferentially towards higher concentrations of the local tissue cytokine signal ( T2-I2 ). ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "I1 -Immune cell activation : model of immune cells maturation due to cytokine signaling."
+        },
+        {
+            "text": "At the tissue level, the model accounts for the extracellular transport of viral particles, cytokine signaling molecules, and an oxidative burst agent.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Extracellular Environment Level"
+        },
+        {
+            "text": "T1 -Viral transport : model of diffusion and spreading of viral particles in the extracellular environment. Viral particles are transported by different mechanisms (ciliated active transport diffusion) and mediums (air, mucus) at different physiological locations and through different types of tissue (airway, nasopharyngeal track, lung). We assume that we can generalize these mechanisms by representing transport of viral particles as a diffusive chemical field in the extracellular environment. We model transport on a thin layer above the apical surfaces of epithelial cells where viral particles are deposited and transported. Infection of susceptible cells occurs when the diffusive viral field comes into contact with the cell surface ( T1-E1 ). Infected cells release viral particles to the extracellular environment as a result of the viral replication cycle ( E3-T1 ).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Extracellular Environment Level"
+        },
+        {
+            "text": "T2 -Cytokine transport : model of diffusion of small immune signaling molecules in the extracellular environment. Immune response involves multiple signaling molecules acting upon different signaling pathways, but we assume that the complexity of immune signaling can be functionally represented using a single chemical field diffusing in the extracellular environment. Once infected, epithelial cells secrete signaling molecules to alert the immune system ( E3-T2 ). Cytokine signaling has both local and distant effects. Locally, exposure to cytokine signaling results in activation of newly recruited immune cells occurs ( T2-I1 ). Upon activation, immune cells further infiltrate the tissue towards infection sites guided by the cytokine molecules ( T2-I2 ).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Extracellular Environment Level"
+        },
+        {
+            "text": ". CC-BY 4.0 International license was not certified by peer review) is the author/funder. It is made available under a The copyright holder for this preprint (which this version posted April 28, 2020. . https://doi.org/10.1101/2020.04.27.064139 doi: bioRxiv preprint / Lastly, active immune cells amplify the immune signaling by further secreting cytokines into the extracellular environment ( I1-T2 ). We model long range effects by assuming cytokine exfiltrate tissue and is transported to immune recruitment sites ( T2-L1 ). We assume that the local strength of the cytokine signal tissue correlates to the strength of the signal at the immune recruiting sites. We model transport of cytokines through the lymphatic system and bloodstream with delays to account for exfiltration and recruitment.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Extracellular Environment Level"
+        },
+        {
+            "text": "T3 -Oxidative Burst Agent: model of diffusion of a general oxidative agent. One of the cytotoxic mechanisms of immune cells is the release of different oxidative agents, reactive oxygen species (ROS) like H 2 O 2 and nitric oxide (NO). The mechanism of action of such agents vary depending on the agent but we assume we can generalize such effects by modeling a single oxidative diffusing field in the extracellular environment. The oxidative agent is secreted by active immune cells after persistent exposure to cytokine signals ( I4-T3 ). We assume that the range of action of the oxidative agent is short. Cell death is induced in epithelial cells when they come into contact with the oxidative agent ( T3-E4 ). The copyright holder for this preprint (which this version posted April 28, 2020. . https://doi.org/10.1101/2020.04.27.064139 doi: bioRxiv preprint / (E4) and viral release (E4) submodels. Immune cells have activation (I1), chemotaxis (I2), contact cytotoxicity (I3) and oxidative cytotoxicity (I4) submodules. Fields describe transport of material in the extracellular environment and to the lymph nodes. Three fields characterize the model: viral field (T1), cytokine field (T2) and oxidative agen field (T3). At the lymph node compartment, transport of cytokines feeds into an immune recruitment submodel (L1).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Extracellular Environment Level"
+        },
+        {
+            "text": "For our model construction and integration we use the open-source multicell modeling environment CompuCell3D ( www.compucell3d.org ) which allows rapid and compact specification of cells, diffusing fields and biochemical networks using Python and the Antimony language [73, 74] . Compucell3D is specifically designed to separate model specification (conceptual and quantitative models) from the details of model implementation as a simulation and to make simulation specification accessible to biologists and others not specialized in software development. In this work we have specifically designed the Python modules and their cross-scale integration to have clear APIs, allowing the model elements to be rapidly swapped out by collaborating developers. CompuCell3D runs on Windows, Mac and Linux platforms without change of model specification. Recent versions allow cluster execution for parameter exploration.",
+            "cite_spans": [
+                {
+                    "start": 269,
+                    "end": 273,
+                    "text": "[73,",
+                    "ref_id": null
+                },
+                {
+                    "start": 274,
+                    "end": 277,
+                    "text": "74]",
+                    "ref_id": "BIBREF71"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Quantitative Model and Implementation"
+        },
+        {
+            "text": "Cells are divided into two classes-epithelial and immune-and assigned a phenotype by which various submodels behave. These phenotypes can change according to outcomes of various submodels, and a submodel specifying such an event describes both the initial and final phenotypes of the transition, as well as the conditions of its occurrence. As such, a cell phenotype in the model framework is not a phenotype in the biological sense ( e.g. , epithelial cell), but rather serves as an identifier for the various states that a particular cell class can take ( e.g ., dead epithelial cell) due to events defined by the submodels. Epithelial cells can adopt one of three different phenotypes: uninfected, infected and dead. The specific behaviors of each cell phenotype is defined per submodel as relevant to their purpose. When a cell changes to a dead type, all epithelial submodels are disabled the cell is generally inactive.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Cellular Potts Model (CPM) Cell Types"
+        },
+        {
+            "text": "Cellular spatial dynamics is modeled using the Cellular Potts model (a.k.a., the CPM, Glazier-Graner-Hogeweg model), which represents generalized cells and medium as occupying a set of sites in a lattice [75] . Cell random motility is modeled as the stochastic exchanging of sites at the interface of cells and medium so to minimize the system's effective energy that \u210b governs various behaviors,",
+            "cite_spans": [
+                {
+                    "start": 204,
+                    "end": 208,
+                    "text": "[75]",
+                    "ref_id": "BIBREF72"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Cellular Dynamics"
+        },
+        {
+            "text": "\u2032 + \u210b chemotaxis . CC-BY 4.0 International license was not certified by peer review) is the author/funder. It is made available under a The copyright holder for this preprint (which this version posted April 28, 2020. . https://doi.org/10.1101/2020.04.27.064139 doi: bioRxiv preprint / Here is the identification of a cell and is the type of cell . and are the \u03c3 \u03c4 (\u03c3) \u03c3 v (\u03c3) V (\u03c3) current and target volumes of cell , respectively, and is a volume constraint coefficient. \u03c3 \u03bb volume is the neighborhood of site , is the Kronecker-delta, and is the contact N (x)",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Cellular Dynamics"
+        },
+        {
+            "text": "x \u03b4 i, j J (\u03c4 , \u03c4 ) \u2032 effective energy between types and . The final term models directed motility by \u03c4 \u03c4 \u2032 \u210b chemotaxis chemotaxis, and is prescribed by submodels. For every spin flip attempt, a site in the lattice is x randomly selected, as is a site in its neighborhood. The change in the effective system x\u2032 \u210b \u0394 energy is calculated due to the identification at being changed ( i.e. , \"flipped\") to the \u210b x identification at the neighborhood site , and the spin flip occurs with a probability according to x\u2032 a Boltzmann acceptance function,",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Cellular Dynamics"
+        },
+        {
+            "text": "Here the intrinsic random motility controls the stochasticity of spin flips, and spin flips that \u210b * reduce the effective system energy are always accepted. The unit of simulation time is the Monte Carlo step (MCS), which demarcates the accomplishment of having considered a number of spin flips equal to the number of lattice sites.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Cellular Dynamics"
+        },
+        {
+            "text": "Internalization is a discrete process by which a viral particle binds to one or more cell receptors. To capture the stochasticity associated with discrete binding events, we assign each uninfected and infected cells a probability of absorbing diffusive viral particles from the extracellular viral field. The uptake probability for each cell occurs according (U ptake(cell) ) Pr > 0 to a Hill equation of the total amount of diffusive viral particles in the domain of the cell , (cell) c vir the number of unbound cell surface receptors and the binding affinity between them. R(cell) S",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Epithelial Submodels Viral Internalization"
+        },
+        {
+            "text": "Here is a Hill coefficient, is the initial number of unbound cell receptors, is the h upt R o k on association constant between virus and cell surface receptors, is the dissociation constant k of f and is the cell volume. At each simulation time step the uptake probability is evaluated ol(cell) V against a uniformly distributed random variable. When uptake occurs, the uptake rate is proportional to the local amount of the viral field, and the probability of uptake is used to describe the efficiency by which uptake occurs, The copyright holder for this preprint (which this version posted April 28, 2020. . https://doi.org/10.1101/2020.04.27.064139 doi: bioRxiv preprint / The amount absorbed by each cell is uniformly subtracted from the viral field over the cell's domain and the number of unbound receptors and passed to the cell's instance of the viral replication model according to conservation of species. We assumed that epithelial cells continue uptaking viral particles from the environment after infection until cell receptors are depleted.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Epithelial Submodels Viral Internalization"
+        },
+        {
+            "text": "Our very simple proof-of-concept viral replication model was inspired by discussions with Paul Macklin and has a form similar to that published by Macklin but differs in equations and parameters [72] . It represents the replication of a generic virus and does not include several aspects of viral replication specific to coronaviruses and their timescales. The system of ordinary differential equations modeling the viral replication process is assigned as an independent copy to each uninfected and infected cell. The model contains four variables representing different states of the viral replication process: unpacking , replicating , U R packing , and assembly of new virion capsids . P A",
+            "cite_spans": [
+                {
+                    "start": 195,
+                    "end": 199,
+                    "text": "[72]",
+                    "ref_id": "BIBREF69"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Viral Replication"
+        },
+        {
+            "text": "Here is the unpacking rate, is the maximum replication rate, is the translation rate and r u r max r t is the packing rate. The regulation of replication is represented by a Michaelis-Menten r p function of the amount of replicating viral material , where is the amount of at which r half R +r half r half R the replicating rate is . The viral replication model is specified as a readily sharable Antimony 2 rmax string that can be implemented as a standalone using the Tellurium package. The number of newly assembled virion capsids is passed to the cell's instance of the viral release model. where is the number of assembled virions, is a Hill coefficient and is the (cell) A h apo V apo amount of assembled virions at which the apoptosis probability is 0.5. Immune Submodels",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Viral Replication"
+        },
+        {
+            "text": "The total immune cell population is governed by an ordinary differential equation of a state variable that represents immune response due to local conditions and long-distance S . CC-BY 4.0 International license was not certified by peer review) is the author/funder. It is made available under a The copyright holder for this preprint (which this version posted April 28, 2020. . https://doi.org/10.1101/2020.04.27.064139 doi: bioRxiv preprint / signaling. Our convention is that when , immune cells are recruited to the simulation S > 0 domain; likewise, immune cells are removed from the simulation domain when . We S < 0 accomplish this by imposing probability functions describing the likelihood of immune cell seeding and removal,",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Immune Cell Recruitment"
+        },
+        {
+            "text": "Here the coefficient controls the sensitivity of immune cell addition and removal to the \u03b1 immune state variable . The dynamics of are cast such that, in a homeostatic condition, a typical S S number of immune cells can be found in the simulation domain, and production of cytokine in the simulation domain results in additional recruitment via long-distance signaling ( i.e. , with some delay). We accomplish this by using the feedback mechanisms of the total number of immune cells in the simulation domain and a fraction of the total amount of decayed N immune cytokine .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Immune Cell Recruitment"
+        },
+        {
+            "text": "Here is the total amount of decayed cytokine in the simulation domain and \u03b4 \u03b1 sig \u03b4 models signaling by transmission of cytokine to some far-away source of immune 0 < \u03b1 sig < 1 cells. With these mechanisms, we write the rate of as such, S",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Immune Cell Recruitment"
+        },
+        {
+            "text": "Here and control the number of immune cells in the simulation domain under \u03b2 add \u03b2 sub homeostatic conditions, controls the delay between transmission of the cytokine and \u03b2 delay immune response, and controls the return of to an unperturbed state ( i.e. , ). \u03b2 decay S S = 0",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Immune Cell Recruitment"
+        },
+        {
+            "text": "At each simulation step the seeding probability is evaluated against a uniformly distributed random variable. To determine the seeding location, the simulation space is randomly sampled, and immune cells are seeded at the unoccupied location with the highest amount of the viral field. If no location is unoccupied, then the immune cell is not seeded. The removal probability is evaluated against a uniformly distributed random variable for each immune cell at each simulation step. Immune cells are removed by setting their volume constraint to zero.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Immune Cell Recruitment"
+        },
+        {
+            "text": "Activated immune cells experience a motile force as a response to a signaling field. The immune cells chemotax on the chemical field representing cytokine signaling molecules. The chemotactic function measures the local gradient of the cytokine field and computes the effective energy associated with the gradient according to a prescribed chemotactic \u210b chemotaxis sensitivity parameter and calculated chemotactic force . The contribution of \u03bb chemotaxis F chemotaxis to the change in the system total effective energy is calculated using when \u210b chemotaxis F chemotaxis considering spin flips. The chemotactic force is saturated by normalizing the chemotactic sensitivity parameter by the local concentration , (cell) c vir . CC-BY 4.0 International license was not certified by peer review) is the author/funder. It is made available under a The copyright holder for this preprint (which this version posted April 28, 2020. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Immune Cell Chemotaxis"
+        },
+        {
+            "text": "Immune cells have an associated boolean active state. All cells are initialized as inactive (Active= False). The activated state becomes true with a probability according to a Hill equation of the total cytokine bound to the cell , B cyt (immune cell, t)",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Immune Cell Activation"
+        },
+        {
+            "text": "After one hour, an activated immune cell is deactivated, in which case evaluations of activation recommence. The immune cells \"forget\" a percentage the cytokine they have bound each time step,",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Immune Cell Activation"
+        },
+        {
+            "text": "Immune cells kill infected cells by direct contact. At each simulation step, neighbors of infected cells are evaluated. Apoptosis is triggered in an infected cell if it has an immune cell as one of its neighbors, in which case the cell changes type of dead. When an infected cell is killed by direct cytotoxicity, each of its first order neighbors is evaluated for bystander effect cytotoxicity. The neighbors have a probability of dying from bystander effect:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Immune Cell Direct Cytotoxicity and Bystander Effect"
+        },
+        {
+            "text": "Where the is the probability of a neighbor cell dying from bystander effect as a result of k bystander contact direct killing of an infected cell.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Immune Cell Direct Cytotoxicity and Bystander Effect"
+        },
+        {
+            "text": "Immune cells when detecting a high cytokine concentration will release a short-range, diffusive oxidative agent. The oxidative agent kills any epithelial cell when its concentration inside the cell reaches a minimum concentration for death, . \u03c4 oxi death . CC-BY 4.0 International license was not certified by peer review) is the author/funder. It is made available under a The copyright holder for this preprint (which this version posted April 28, 2020. . https://doi.org/10.1101/2020.04.27.064139 doi: bioRxiv preprint / Figure 9 : State diagram and interactions of epithelial cells . Immune cells can adopt two different generalized states: inactive and active. Inactive immune cells are recruited by the cytokine levels according to the immune recruitment submodel. Transition from inactive to active immune cells is determined by the immune activation submodel when cells are exposed to cytokine. Active immune cells amplify the cytokine signal by secreting cytokines to the extracellular environment. Active immune cells induce death of epithelial cells by direct cytotoxicity when coming into contact with infected cells, bystander effect by killing neighbors of infected cells and by releasing cytotoxic oxidative agents into the extracellular environment.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 524,
+                    "end": 532,
+                    "text": "Figure 9",
+                    "ref_id": null
+                }
+            ],
+            "section": "Immune Cell Oxidative Cytotoxicity"
+        },
+        {
+            "text": "The change in concentration of the viral field is calculated at each location in the c vir simulation domain by solving a reaction-diffusion equation using the following partial differential equation,",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Mass Transport Submodels Viral Transport"
+        },
+        {
+            "text": "Transport parameters such as the diffusion constant and decay rate are estimated D vir \u03b3 vir from the literature. Conversion factors are used to translate experimental parameter values to internal simulation parameters. Uptake and secretion by a cell at each location are determined . CC-BY 4.0 International license was not certified by peer review) is the author/funder. It is made available under a The copyright holder for this preprint (which this version posted April 28, 2020. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Mass Transport Submodels Viral Transport"
+        },
+        {
+            "text": "Here is the dissociation coefficient. \u03b6",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Mass Transport Submodels Viral Transport"
+        },
+        {
+            "text": "The oxidative agent field secreted by immune cells with an activated state diffuses according to the transport equation, ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Oxidative Agent Transport"
+        },
+        {
+            "text": "All simulations consisted of a domain of dimension 90 x 90 x 2 lattice sites. The initial cell configuration consisted of a 90 x 90 sheet of uninfected epithelial cells. Epithelial cells were \"frozen\", in that they were not permitted to translocate, leaving the remaining 90 x 90 subdomain for occupancy by recruited immune cells. For cellular dynamics and mass transport, periodic boundary conditions were applied in the plane of the epithelial sheet, and Neumann conditions . CC-BY 4.0 International license was not certified by peer review) is the author/funder. It is made available under a The copyright holder for this preprint (which this version posted April 28, 2020. . https://doi.org/10.1101/2020.04.27.064139 doi: bioRxiv preprint / were applied along the direction orthogonal to the epithelial sheet. All field solutions for the diffusive viral, cytokine and oxidative agent fields were initialized as zero everywhere.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Initial and Boundary Conditions"
+        },
+        {
+            "text": "At each first simulation step, the epithelial cell in the center of the sheet was set to infected, and its unpacking state variable of the viral replication model was set to a value of U one. All epithelial cells were initialized with a number of unbounded surface receptors equal R S to the number of initially unbound receptors . All immune cells, when introduced to the R o simulation by recruitment, were initialized not in an activated state, and with a boundy cytokine value ( ) equal to zero. During transition of an epithelial cell to the infected type, all state B cyt variables of the viral replication model were initialized with a value of zero. Secretion of viral particles by epithelial cells was only permitted for Infected-secreting types.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Initial and Boundary Conditions"
+        },
+        {
+            "text": "Model implementation and all simulations were performed in CompuCell3D, which uses a non-dimensional lattice for CPM-based cellular dynamics and non-dimensional explicit time integration of reaction-diffusion field solutions. As such, a baseline parameter set was constructed for all CPM parameters and submodels developed in this work (Table 1) . Non-dimensionalization was performed on all available model parameters in the literature for a lattice dimension of 4 \u03bcm per pixel along each dimension, at 120 s per MCS. For remaining model parameters, parameter estimation was performed such that, for the baseline set of parameters, spread of infection occurred throughout the domain by approximately the end of the simulation time. All parameter sets were simulated for ten trials, each consisting of 1,000 MCSs. Simulation data was collected at a frequency of 10 MCSs for all simulations, including the total number of all cell types, the total number of activated immune cells, the total diffusive virus and cytokine, and the value of the immune response signal ( ), S Two parameter sweeps were performed for submodel parameters of interest. In the first set, the virus-receptors affinity association and immune response delay coefficient k on \u03b2 delay were varied. In the second parameter sweep, the replication rate was varied. For all r max variations, the baseline coefficient was multiplied by a factor in the set 10 -2 , 10 -1 , 10 0 , 10 1 , 10 2 . As such, the first parameter sweep consisted of 25 parameter sets, and the second parameter sweep consisted of 5 parameter sets, for a total of 300 total simulations. Infection threshold 1 Initial target volume 9",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 336,
+                    "end": 345,
+                    "text": "(Table 1)",
+                    "ref_id": null
+                }
+            ],
+            "section": "Simulation Specifications"
+        },
+        {
+            "text": "Lambda volume \u03bb volume 9",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Simulation Specifications"
+        },
+        {
+            "text": "Initial number of immune cells 0",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Simulation Specifications"
+        },
+        {
+            "text": "Lambda chemotaxis \u03bb chemotaxis 1",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Simulation Specifications"
+        },
+        {
+            "text": "Intrinsic Random Motility \u210b * 10",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Simulation Specifications"
+        },
+        {
+            "text": "Contact coefficients (all interfaces) J 10 Table 1 . Parameter values of baseline parameter set.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 43,
+                    "end": 50,
+                    "text": "Table 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "Simulation Specifications"
+        },
+        {
+            "text": ". CC-BY 4.0 International license was not certified by peer review) is the author/funder. It is made available under a The copyright holder for this preprint (which this version posted April 28, 2020. . https://doi.org/10.1101/2020.04.27.064139 doi: bioRxiv preprint",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Simulation Specifications"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Why are RNA virus mutation rates so damn high?",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Duffy",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "PLOS Biology",
+            "volume": "16",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1371/journal.pbio.3000003"
+                ]
+            }
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Genomic characterisation and epidemiology of 2019 novel coronavirus: implications for virus origins and receptor binding",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Lu",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Niu",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "The Lancet",
+            "volume": "395",
+            "issn": "",
+            "pages": "30251--30259",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S0140-6736(20"
+                ]
+            }
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "On the origin and continuing evolution of SARS-CoV-2. National Science Review",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Tang",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Song",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Yao",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/nsr/nwaa036"
+                ]
+            }
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Direct RNA sequencing and early evolution of SARS-CoV-2",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Taiaroa",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Rawlinson",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Featherstone",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Pitt",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Caly",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Druce",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.03.05.976167"
+                ]
+            }
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Moderate mutation rate in the SARS coronavirus genome and its implications",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhong",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y-P",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "BMC Evolutionary Biology",
+            "volume": "4",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1186/1471-2148-4-21"
+                ]
+            }
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Nextstrain / ncov / global",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Analysis of the mutation dynamics of SARS-CoV-2 reveals the spread history and emergence of RBD mutant with lower ACE2 binding affinity",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Jia",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Shen",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "K-S",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "H-Y",
+                    "middle": [],
+                    "last": "Ho",
+                    "suffix": ""
+                },
+                {
+                    "first": "W-S",
+                    "middle": [],
+                    "last": "Hor",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.04.09.034942"
+                ]
+            }
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Genotype and phenotype of COVID-19: Their roles in pathogenesis",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Mousavizadeh",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Ghasemi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Immunology and Infection",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.jmii.2020.03.022"
+                ]
+            }
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Novel coronavirus: From discovery to clinical diagnostics",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Phan",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Fung",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "X"
+                    ],
+                    "last": "Liu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Infection, Genetics and Evolution",
+            "volume": "79",
+            "issn": "",
+            "pages": "529--557",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.meegid.2020.10421110"
+                ]
+            }
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Host cell proteases: Critical determinants of coronavirus tropism and pathogenesis",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Millet",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Whittaker",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Virus Research",
+            "volume": "202",
+            "issn": "",
+            "pages": "120--134",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.virusres.2014.11.021"
+                ]
+            }
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "SARS-CoV-2 Cell Entry Depends on ACE2 and TMPRSS2 and Is Blocked by a Clinically Proven Protease Inhibitor",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Hoffmann",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Kleine-Weber",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Schroeder",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Kr\u00fcger",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Herrler",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Erichsen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Trends Microbiol",
+            "volume": "12",
+            "issn": "",
+            "pages": "466--472",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.cell.2020.02.05213"
+                ]
+            }
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "International license was not certified by peer review) is the author/funder",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Baron",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Fons",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Albrecht",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Bermbach",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Weinhold",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Roeder",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Petersen",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Kugler",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Goldmann",
+                    "suffix": ""
+                }
+            ],
+            "year": 1996,
+            "venue": "Viral Pathogenesis. 4th ed. Medical Microbiology",
+            "volume": "51",
+            "issn": "",
+            "pages": "56--67",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.04.27.064139"
+                ]
+            }
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Zoonotic origins of human coronaviruses",
+            "authors": [
+                {
+                    "first": "Z-W",
+                    "middle": [],
+                    "last": "Ye",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Yuan",
+                    "suffix": ""
+                },
+                {
+                    "first": "K-S",
+                    "middle": [],
+                    "last": "Yuen",
+                    "suffix": ""
+                },
+                {
+                    "first": "S-Y",
+                    "middle": [],
+                    "last": "Fung",
+                    "suffix": ""
+                },
+                {
+                    "first": "C-P",
+                    "middle": [],
+                    "last": "Chan",
+                    "suffix": ""
+                },
+                {
+                    "first": "D-Y",
+                    "middle": [],
+                    "last": "Jin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Int J Biol Sci",
+            "volume": "16",
+            "issn": "",
+            "pages": "1686--1697",
+            "other_ids": {
+                "DOI": [
+                    "10.7150/ijbs.4547217"
+                ]
+            }
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Substantial undocumented infection facilitates the rapid dissemination of novel coronavirus",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "Pei",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Song",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "The scRNA-seq expression profiling of the receptor ACE2 and the cellular protease TMPRSS2 reveals human organs susceptible to COVID-19 infection",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Qi",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Hua",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Bian",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.04.16.045690"
+                ]
+            }
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Structural and Functional Basis of SARS-CoV-2 Entry by Using Human ACE2",
+            "authors": [
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Niu",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Song",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Cell",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "SARS coronavirus entry into host cells through a novel clathrin-and caveolae-independent endocytic pathway",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Guo",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Cell Research",
+            "volume": "18",
+            "issn": "",
+            "pages": "290--301",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/cr.2008.15"
+                ]
+            }
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Early events during human coronavirus OC43 entry to the cell",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Owczarek",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Szczepanski",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Milewska",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Baster",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Rajfur",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Sarna",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Scientific Reports",
+            "volume": "8",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41598-018-25640-0"
+                ]
+            }
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Human Coronavirus: Host-Pathogen Interaction",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Fung",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "X"
+                    ],
+                    "last": "Liu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Annu Rev Microbiol",
+            "volume": "73",
+            "issn": "",
+            "pages": "529--557",
+            "other_ids": {
+                "DOI": [
+                    "10.1146/annurev-micro-020518-115759"
+                ]
+            }
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Human Coronaviruses: A Review of Virus-Host Interactions",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [
+                        "X"
+                    ],
+                    "last": "Lim",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Ng",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Tam",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "X"
+                    ],
+                    "last": "Liu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Diseases",
+            "volume": "4",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3390/diseases4030026"
+                ]
+            }
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Tissue distribution of ACE2 protein, the functional receptor for SARS coronavirus. A first step in understanding SARS pathogenesis",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Hamming",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Timens",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Bulthuis",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Lely",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Navis",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Van Goor",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "The Journal of Pathology",
+            "volume": "203",
+            "issn": "",
+            "pages": "631--637",
+            "other_ids": {
+                "DOI": [
+                    "10.1002/path.1570"
+                ]
+            }
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Multiple organ infection and the pathogenesis of SARS",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Gu",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Gong",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Zheng",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Gao",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhong",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Journal of Experimental Medicine",
+            "volume": "202",
+            "issn": "",
+            "pages": "415--424",
+            "other_ids": {
+                "DOI": [
+                    "10.1084/jem.20050828"
+                ]
+            }
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Fenner and White's Medical Virology",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Burrell",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Howard",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Murphy",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "Stevens & Lowe's Human Histology",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Lowe",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Anderson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "Epithelial Cells: Structure, Transport, and Barrier Function",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Edelblum",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Turner",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Mestecky",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Strober",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Russell",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Kelsall",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Cheroutre",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Lambrecht",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "187--210",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/B978-0-12-415847-4.00012-4"
+                ]
+            }
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Chapter 11 -Comparative Mammalian Lung Primary Surface Epithelial Cell Culture",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Bove",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Randell",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Cell Host & Microbe",
+            "volume": "8",
+            "issn": "",
+            "pages": "77--85",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/B978-0-12-404577-4.00011-430.denBoonJA"
+                ]
+            }
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "RNA-Dependent RNA Polymerases, Viruses, and RNA Silencing",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Ahlquist",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "Tao YJ, Ye Q. RNA virus replication complexes",
+            "authors": [],
+            "year": 2002,
+            "venue": "PLoS Pathog",
+            "volume": "296",
+            "issn": "",
+            "pages": "1000943--1000943",
+            "other_ids": {
+                "DOI": [
+                    "10.1126/science.1069132"
+                ]
+            }
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "Virus Isolation from the First Patient with SARS-CoV-2 in Korea",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Park",
+                    "suffix": ""
+                },
+                {
+                    "first": "N-J",
+                    "middle": [],
+                    "last": "Kwon",
+                    "suffix": ""
+                },
+                {
+                    "first": "S-J",
+                    "middle": [],
+                    "last": "Choi",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Kang",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Choe",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Kim",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Korean Med Sci",
+            "volume": "35",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3346/jkms.2020.35.e84"
+                ]
+            }
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "Strategies for viral RNA stability: live long and prosper",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Dickson",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Wilusz",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Trends Genet",
+            "volume": "27",
+            "issn": "",
+            "pages": "286--293",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.tig.2011.04.003"
+                ]
+            }
+        },
+        "BIBREF34": {
+            "ref_id": "b34",
+            "title": "Adenovirus Death Protein (ADP) Is Required for Lytic Infection of Human Lymphocytes",
+            "authors": [],
+            "year": 2013,
+            "venue": "Journal of Virology",
+            "volume": "88",
+            "issn": "",
+            "pages": "903--912",
+            "other_ids": {
+                "DOI": [
+                    "10.1128/JVI.01675-13"
+                ]
+            }
+        },
+        "BIBREF35": {
+            "ref_id": "b35",
+            "title": "Tinkering with Translation: Protein Synthesis in Virus-Infected Cells. Cold Spring Harbor Perspectives in Biology",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Walsh",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Mathews",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Mohr",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "",
+            "volume": "5",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/cshperspect.a012351"
+                ]
+            }
+        },
+        "BIBREF36": {
+            "ref_id": "b36",
+            "title": "Master Regulator Analysis of the SARS-CoV-2/Human Interactome",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Guzzi",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Mercatlli",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Ceraolo",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Giorgi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Clin Med",
+            "volume": "9",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3390/jcm9040982"
+                ]
+            }
+        },
+        "BIBREF37": {
+            "ref_id": "b37",
+            "title": "Toll-like receptor signalling",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Akira",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Takeda",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Nature Reviews Immunology",
+            "volume": "4",
+            "issn": "",
+            "pages": "499--511",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/nri1391"
+                ]
+            }
+        },
+        "BIBREF39": {
+            "ref_id": "b39",
+            "title": "Macrophage activation: role of toll-like receptors, nitric oxide, and nuclear factor kappa B",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Billack",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Am J Pharm Educ",
+            "volume": "70",
+            "issn": "",
+            "pages": "102--102",
+            "other_ids": {
+                "DOI": [
+                    "10.5688/aj7005102"
+                ]
+            }
+        },
+        "BIBREF40": {
+            "ref_id": "b40",
+            "title": "Apoptosis: A Basic Biological Phenomenon with Wideranging Implications in Tissue Kinetics",
+            "authors": [
+                {
+                    "first": "Jfr",
+                    "middle": [],
+                    "last": "Kerr",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Wyllie",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Currie",
+                    "suffix": ""
+                }
+            ],
+            "year": 1972,
+            "venue": "British Journal of Cancer",
+            "volume": "26",
+            "issn": "",
+            "pages": "239--257",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/bjc.1972.33"
+                ]
+            }
+        },
+        "BIBREF41": {
+            "ref_id": "b41",
+            "title": "Innate apoptotic immunity: the calming touch of death",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Birge",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Ucker",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Cell Death & Differentiation",
+            "volume": "15",
+            "issn": "",
+            "pages": "1096--1102",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/cdd.2008.58"
+                ]
+            }
+        },
+        "BIBREF42": {
+            "ref_id": "b42",
+            "title": "Regulation of cell death during infection by the severe acute respiratory syndrome coronavirus and other coronaviruses",
+            "authors": [
+                {
+                    "first": "Y-J",
+                    "middle": [],
+                    "last": "Tan",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Lim",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Hong",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "Cell Microbiol",
+            "volume": "9",
+            "issn": "",
+            "pages": "2552--2561",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/j.1462-5822.2007.01034.x44"
+                ]
+            }
+        },
+        "BIBREF43": {
+            "ref_id": "b43",
+            "title": "Role of macrophages in natural resistance to virus infections",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Mogensen",
+                    "suffix": ""
+                }
+            ],
+            "year": 1979,
+            "venue": "Microbiol Rev",
+            "volume": "43",
+            "issn": "",
+            "pages": "1--26",
+            "other_ids": {}
+        },
+        "BIBREF44": {
+            "ref_id": "b44",
+            "title": "Mechanism of killing by virus-induced cytotoxic T lymphocytes elicited in vivo",
+            "authors": [
+                {
+                    "first": "Rosendahl",
+                    "middle": [],
+                    "last": "Huber",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Van Beek",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "De Jonge",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Luytjes",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Van Baarle",
+                    "suffix": ""
+                },
+                {
+                    "first": "D ;",
+                    "middle": [],
+                    "last": "Welsh",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Nishioka",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Antia",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Dundon",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 1990,
+            "venue": "Front Immunol",
+            "volume": "5",
+            "issn": "",
+            "pages": "3726--3733",
+            "other_ids": {
+                "DOI": [
+                    "10.3389/fimmu.2014.00171"
+                ]
+            }
+        },
+        "BIBREF46": {
+            "ref_id": "b46",
+            "title": "situ hybridization, and ultrastructural localization of SARS-associated coronavirus in lung of a fatal case of severe acute respiratory syndrome in Taiwan",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Immunohistochemical",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Human Pathology",
+            "volume": "36",
+            "issn": "",
+            "pages": "303--309",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.humpath.2004.11.006"
+                ]
+            }
+        },
+        "BIBREF47": {
+            "ref_id": "b47",
+            "title": "Cellular / Immune Responses to Severe Acute Respiratory Syndrome Coronavirus (SARS-CoV) Infection in Senescent BALB/c Mice: CD4 + T Cells Are Important in Control of SARS-CoV Infection",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Lau",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Lamirande",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Paddock",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Bartlett",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Zaki",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "J Virol",
+            "volume": "84",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1128/JVI.01281-09"
+                ]
+            }
+        },
+        "BIBREF49": {
+            "ref_id": "b49",
+            "title": "Kinetic Modeling of Virus Growth in Cells",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Yin",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Redovich",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Microbiol Mol Biol Rev",
+            "volume": "82",
+            "issn": "",
+            "pages": "66--83",
+            "other_ids": {
+                "DOI": [
+                    "10.1128/MMBR.00066-17"
+                ]
+            }
+        },
+        "BIBREF50": {
+            "ref_id": "b50",
+            "title": "Simulation and prediction of the adaptive immune response to influenza A virus infection",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Topham",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Park",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Hollenbaugh",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Treanor",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Mosmann",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "",
+            "volume": "83",
+            "issn": "",
+            "pages": "7151--7165",
+            "other_ids": {
+                "DOI": [
+                    "10.1128/JVI.00098-09"
+                ]
+            }
+        },
+        "BIBREF51": {
+            "ref_id": "b51",
+            "title": "A model of the binding, entry, uncoating, and RNA synthesis of Semliki Forest virus in baby hamster kidney (BHK-21) cells",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "U"
+                    ],
+                    "last": "Dee",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Hammer",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Shuler",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "English",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Hammer",
+                    "suffix": ""
+                }
+            ],
+            "year": 1995,
+            "venue": "Biotechnology and Bioengineering",
+            "volume": "46",
+            "issn": "",
+            "pages": "3359--3372",
+            "other_ids": {
+                "DOI": [
+                    "10.1002/bit.26046051353"
+                ]
+            }
+        },
+        "BIBREF52": {
+            "ref_id": "b52",
+            "title": "The transcriptional cycle of HIV-1 in real-time and live cells",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Boireau",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Maiuri",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Basyuk",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "De La Mata",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Knezevich",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Pradet-Balade",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "J Cell Biol",
+            "volume": "179",
+            "issn": "",
+            "pages": "291--304",
+            "other_ids": {
+                "DOI": [
+                    "10.1083/jcb.200706018"
+                ]
+            }
+        },
+        "BIBREF53": {
+            "ref_id": "b53",
+            "title": "Modeling rotavirus-like particles production in a baculovirus expression vector system: Infection kinetics, baculovirus DNA replication, mRNA synthesis and protein production",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Rold\u00e3o",
+                    "suffix": ""
+                },
+                {
+                    "first": "Hla",
+                    "middle": [],
+                    "last": "Vieira",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Charpilienne",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Poncet",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Roy",
+                    "suffix": ""
+                },
+                {
+                    "first": "Mjt",
+                    "middle": [],
+                    "last": "Carrondo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "Journal of Biotechnology",
+            "volume": "128",
+            "issn": "",
+            "pages": "875--894",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.jbiotec.2007.01.003"
+                ]
+            }
+        },
+        "BIBREF54": {
+            "ref_id": "b54",
+            "title": "Forces during bacteriophage DNA packaging and ejection",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Purohit",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Inamdar",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Grayson",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Squires",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Kondev",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Phillips",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Biophys J",
+            "volume": "88",
+            "issn": "",
+            "pages": "851--866",
+            "other_ids": {
+                "DOI": [
+                    "10.1529/biophysj.104.047134"
+                ]
+            }
+        },
+        "BIBREF55": {
+            "ref_id": "b55",
+            "title": "A Minimal Kinetic Model for a Viral DNA Packaging Machine",
+            "authors": [
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Catalano",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Biochemistry",
+            "volume": "43",
+            "issn": "",
+            "pages": "289--299",
+            "other_ids": {
+                "DOI": [
+                    "10.1021/bi035532h"
+                ]
+            }
+        },
+        "BIBREF56": {
+            "ref_id": "b56",
+            "title": "Mathematical Modeling of Subgenomic Hepatitis C Virus Replication in Huh-7 Cells",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Dahari",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Ribeiro",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Rice",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Perelson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "J Virol",
+            "volume": "81",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1128/JVI.01304-06"
+                ]
+            }
+        },
+        "BIBREF57": {
+            "ref_id": "b57",
+            "title": "Kinetics of Influenza A Virus Infection in Humans",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Regoes",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Crotty",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Antia",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Tanaka",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "The American Naturalist",
+            "volume": "165",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1086/42829560"
+                ]
+            }
+        },
+        "BIBREF58": {
+            "ref_id": "b58",
+            "title": "Structured model of influenza virus replication in MDCK cells",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Sidorenko",
+                    "suffix": ""
+                },
+                {
+                    "first": "U",
+                    "middle": [],
+                    "last": "Reichl",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Journal of Experimental and Theoretical Physics",
+            "volume": "88",
+            "issn": "",
+            "pages": "856--860",
+            "other_ids": {
+                "DOI": [
+                    "10.1002/bit.2009662"
+                ]
+            }
+        },
+        "BIBREF59": {
+            "ref_id": "b59",
+            "title": "Quantitative Intracellular Kinetics of HIV Type 1. AIDS Research and Human Retroviruses",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Reddy",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Yin",
+                    "suffix": ""
+                }
+            ],
+            "year": 1999,
+            "venue": "",
+            "volume": "15",
+            "issn": "",
+            "pages": "273--283",
+            "other_ids": {
+                "DOI": [
+                    "10.1089/088922299311457"
+                ]
+            }
+        },
+        "BIBREF60": {
+            "ref_id": "b60",
+            "title": "The function of temporally ordered viral gene expression in the intracellular replication of herpes simplex virus type 1 (HSV-1)",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Nakabayashi",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Sasaki",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF62": {
+            "ref_id": "b62",
+            "title": "A mathematical model of the intracellular replication and within host evolution of hepatitis type B virus: Understanding the long time course of chronic hepatitis",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Nakabayashi",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Sasaki",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Journal of Theoretical Biology",
+            "volume": "269",
+            "issn": "",
+            "pages": "318--329",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.jtbi.2010.10.024"
+                ]
+            }
+        },
+        "BIBREF63": {
+            "ref_id": "b63",
+            "title": "Spatiotemporal Dynamics of Virus Infection Spreading in Tissues",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Bocharov",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Meyerhans",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Bessonov",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Trofimchuk",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Volpert",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "PLOS ONE",
+            "volume": "11",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1371/journal.pone.0168576"
+                ]
+            }
+        },
+        "BIBREF64": {
+            "ref_id": "b64",
+            "title": "Spatial Aspects of HIV Infection",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Graw",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Perelson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "3--31",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/978-1-4614-4178-6_1"
+                ]
+            }
+        },
+        "BIBREF65": {
+            "ref_id": "b65",
+            "title": "A hybrid stochastic-deterministic computational model accurately describes spatial dynamics and virus diffusion in HIV-1 growth competition assay",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Immonen",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Gibson",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Leitner",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Miller",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Arts",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Somersalo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2001,
+            "venue": "Journal of theoretical biology",
+            "volume": "312",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.jtbi.2012.07.00569"
+                ]
+            }
+        },
+        "BIBREF66": {
+            "ref_id": "b66",
+            "title": "Probing the effects of the well-mixed assumption on viral infection dynamics",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Beauchemin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Journal of Theoretical Biology",
+            "volume": "242",
+            "issn": "",
+            "pages": "464--477",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.jtbi.2006.03.014"
+                ]
+            }
+        },
+        "BIBREF68": {
+            "ref_id": "b68",
+            "title": "Dynamically Linking Influenza Virus Infection with Lung Injury to Predict Disease Severity. bioRxiv",
+            "authors": [],
+            "year": 2019,
+            "venue": "",
+            "volume": "555276",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/555276"
+                ]
+            }
+        },
+        "BIBREF69": {
+            "ref_id": "b69",
+            "title": "Rapid community-driven development of a SARS-CoV-2 tissue simulator",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Heiland",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Craig",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Davis",
+                    "suffix": ""
+                },
+                {
+                    "first": "Ford",
+                    "middle": [],
+                    "last": "Versypt",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Jenner",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.04.02.01907573"
+                ]
+            }
+        },
+        "BIBREF70": {
+            "ref_id": "b70",
+            "title": "Multi-scale modeling of tissues using CompuCell3D",
+            "authors": [],
+            "year": 2012,
+            "venue": "Methods Cell Biol",
+            "volume": "110",
+            "issn": "",
+            "pages": "325--366",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/B978-0-12-388403-9.00013-8"
+                ]
+            }
+        },
+        "BIBREF71": {
+            "ref_id": "b71",
+            "title": "Antimony: a modular model definition language",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Smith",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Bergmann",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Chandran",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Sauro",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Bioinformatics",
+            "volume": "25",
+            "issn": "",
+            "pages": "2452--2454",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/bioinformatics/btp401"
+                ]
+            }
+        },
+        "BIBREF72": {
+            "ref_id": "b72",
+            "title": "Simulation of biological cell sorting using a two-dimensional extended Potts model",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Graner",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Glazier",
+                    "suffix": ""
+                }
+            ],
+            "year": 1992,
+            "venue": "Phys Rev Lett",
+            "volume": "69",
+            "issn": "",
+            "pages": "2013--2016",
+            "other_ids": {
+                "DOI": [
+                    "10.1103/PhysRevLett.69.2013"
+                ]
+            }
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "SARS), Middle East respiratory syndrome (MERS), and acquired immunodeficiency syndrome (AIDS). Viruses vary in complexity, genome size and mode of transmission and infection. They are composed of either DNA or RNA as their genetic material surrounded by a coat of proteins, lipids or glycoproteins. Throughout human history, viruses have been responsible for a number of deadly global pandemics such as the Spanish Flu 1918, Hong Kong Flu 1968, Severe acute respiratory syndrome (SARS) 2003, Swine Flu 2009, Ebola 2014, Zika 2015 and the current Coronavirus disease of 2019 (COVID-",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "Two-and-a-half dimensional CompuCell3D Simulation of the progression of infection in a patch of epithelial tissue of size 360 \u03bcm x 360 \u03bcm starting from a single infected cell for a representative simulation using the baseline parameters given inTable 1. A: Snapshots of simulation configuration vs time. Columns, left to right: 0 Monte Carlo steps ( MCS ) (time of infection), 200 MCS (400 minutes after infection), 400 MCS (800 minutes), 600 MCS (1200 minutes), 800 MCS (1600 minutes), and 1,000 MCS (2000 minutes). Top row: two-dimensional epithelial cell layer, colored to show cell state: Blue: uninfected; Green: early infected, not shedding virus; Red: infected, shedding virus; Black: dead. Second row: Position of immune cells resident in a two-dimensional layer above the epithelial layer. Third row: Extracellular concentration of virus, color coding autoscaled so red is current maximum concentration and blue is current minimum concentration. See (C) for minimum and maximum values.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": ": Extracellular concentration of proinflammatory cytokine, color coding autoscaled so red is current maximum concentration and blue is current minimum concentration. See (C) for minimum and maximum values. show the progression of simulated infection from an initially infected (green) cell in the epithelial layer. B: The immune recruitment signal vs time in MCS (one MCS = 2 minutes). corresponds to the rate of immune cell introduction S S into (for positive values) or removal from (for negative values) the simulated region per unit time. C: Minimal and maximal concentrations for the fields in Rows 3 and 4 of (A) extracellular viral concentration and proinflammatory cytokine. Simulations use periodic boundary conditions in the plane of the epithelial sheet, and Neumann conditions normal to the epithelial sheet. Variation of Model Parameters Produces Distinctive Outcomes of the Progression of Infection",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "Increasing virus-receptors association affinity drives the system towards widespread cell death . Reducing the virus-receptors association affinity coefficient by a factor of 100 while holding all other parameters kon constant (left column of A and B) produced diminished infection (top row) and varying outcomes of cell death (bottom row) compared to the baseline parameter set (right column of A and B) over 10 simulations. A: Trial results of each parameter set. B: Mean results of simulated trials, where shaded blue areas show one standard deviation in each direction. Top and bottom rows show the number of infected and dead cells, respectively.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": ", left columns). Increasing results in an increased number of k on infected cells during the simulation and increased a corresponding number of final dead cells (Figure 2A, right columns). Increasing results in increased average number of infected and k on dead cells, as well as increased variability between simulation replicates (Figure 2B). / Variation in Virus-receptors Association Affinity and Immune Response Delay Drive the System Towards Containment or Widespread Infection",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF5": {
+            "text": "Variations in viral internalization and immune response demonstrate a parameter space containing deterministic uncontrolled infection and containment, as well as stochastic outcomes . A logarithmic parameter sweep of virus-receptors association affinity and immune response delay produced consistent viral kon \u03b2 delay containment (top right, green shared subplots), consistent viral spread (bottom left, orange shared subplots), and parameter sets with stochastic outcomes. A, B: Mean number of dead cells (A) and total diffusive virus (B) in the over simulation time for ten trials of all parameter sets of the sweep. Blue shaded areas demarcate one standard deviation in each direction.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF6": {
+            "text": "Variations in viral internalization and immune response are reflected in key metrics of viral infection . Metrics relevant to the characterization of infection and immune response over simulation time were calculated for all trials of the parameter sweep portrayed in Figure 3. Mean values of the metrics were calculated for all ten trials of each parameter set. A: Mean final number of dead cells. B: Maximum total diffusive virus over all simulation time. C: Maximum total diffusive cytokine over all simulation time. D: Clearance time, measured as the earliest simulation step during which no infected cells were found, counting from the final simulation step.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF7": {
+            "text": "Insufficient and excessive viral replication rates prohibit spread of infection in silico . Holding all other parameters constant, a logarithmic parameter sweep of the viral replication rate",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF8": {
+            "text": ": model of induced apoptosis due to viral infection. Production of viral proteins interfere with various of the host cell's metabolic, regulatory and delivery pathways, ultimately inducing apoptosis via the caspase cascade. Instead of modeling each cytotoxic pathway individually, we model induction of apoptosis by linking cell death directly to the viral proteins produced in the viral replication cycle ( E2-E4 ). Lymph Node Level L1 -Immune cell recruitment: model of immune cell recruitment and infiltration into the tissue by signaling molecules produced in response to viral replication on infected cells. Infected cells secrete signaling molecules to the extracellular environment to alert resident immune cells and to recruit new immune cells at distant lymph nodes and bone marrow. We model long distance signaling by assuming that cytokine molecules in the extracellular environment exfiltrate the infection site and are transported to lymphatic nodes to initiate immune cell maturation ( T2-L1 ). Recruited immune cells are then transported and infiltrate the infection site ( L1-Immune Cell ).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF9": {
+            "text": ": model of immune cell cytotoxicity by recognition of antigen-presenting surface complexes. Immune cells identify target cells by recognizing antigens presented at the cell surface as indicators of viral infection. Upon recognition, immune cells induce the caspase cascade resulting in apoptosis of the target cell. We model direct immune cytotoxicity by assuming that immune cells move towards infected cells ( I2-I3 ) and trigger cell death of infected cells upon contact ( I3-E4 ). I4 -Immune cell oxidative cytotoxicity : model of immune cell cytotoxicity by recognition of high levels of diffusive cytokines in their local environment. Immune cells release an oxidative agent into the environment upon sensing high local levels of diffusive cytokine, which in turn indiscriminately kills epithelial cells of all types.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF10": {
+            "text": "Conceptual model. Schematic representation of the model objects, compartments, processes and interactions. Epithelial and immune cells refer to the two agents in the model. Extracellular environment and lymph node refer to compartments where interactions between agents and fields take place. Each agent has associated submodels that dictate their behaviors. Epithelial cells have viral internalization (E1), viral replication (E2), cell death",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF12": {
+            "text": "Interactions in the Viral Replication Model . Schematic representation of inputs, outputs and interactions between stages of the viral replication model. Extracellular viral particles are internalized by the viral internalization model and initiate the viral replication model. The main stages of the viral replication model are: unpacking, replicating, packing and assembled. Regulation occurs at the replicating stage. The output of the viral replication model is passed to the viral secretion model, where newly assembled viral particles are released to the extracellular environment.Viral ReleaseInfected-secreting cells secrete diffusive viral particles into the extracellular viral field. The total amount released is proportional to the state variable for assembled virions from the viral replication model,(10) ecretion A. S = r sHere is the secretion rate of viral particles. The amount released by each cell is subtracted r s from the cell's state variable for assembled virions and passed to the source term of the extracellular viral field according to conservation of species.Virally Induced ApoptosisEach infected-secreting cell can initiate apoptosis once per simulation step (along with other death methods) as a stochastic function of the state variable for assembled virions from the viral replication model. Infected-secreting cells change cell type to dying cell and their instances of the viral internalization, replication and release models are disabled. The probability of virus-induced apoptosis per unit time is a Hill equation of the current load of assembled virus (in future versions could also depend on a health state of cell, on the total number of virus produced and on the current rate of production of virus),",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF13": {
+            "text": "State diagram and interactions of epithelial cells . Epithelial cells can adopt one of four cell types: uninfected, infected, infected secreting and dead. Uninfected cells transition to infected cells when the viral uptake model internalizes viruses from the extracellular environment. Early infected cells continue uptaking virus from the extracellular environment and transition to infected secreting cells when the viral replication model produces sufficient newly assembled virions. Infected secreting cells secrete viruses according to the viral secretion submodel and secrete cytokines directly into the extracellular environment. Infected secreting cells can transition to dead cells if the conditions of the viral cell death model are met.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF14": {
+            "text": "cyt = D cyt cyt \u2212 \u03b3 cyt cyt + s cyt The decay term represents cytokine leaving the simulated domain ( e.g. , in immune c \u03b3 cyt cyt recruitment). Infected cells secrete cytokine with a maximum rate , immune cells \u03c3 cyt (inf ected) with an activated state secrete cytokine with a rate maximum , and immune \u03c3 cyt (immune activate) cells (irrespective of their activated state) consume cytokine with a rate to model \u03c9 cyt (immune) the binding of cytokine. The amount of cytokine released is mediated by a Hill equation. The input for the hill equation for the infected cells is the internal viral load while for the activated immune cells it is the cytokine field being sensed, , ,",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": ", negative single-stranded RNA viruses such as Influenza A [60,61] , single-stranded RNA retroviruses such as Human Immunodeficiency Virus 1 [62,63] , double-stranded DNA viruses such as Herpes Simplex Virus 1 [64] and double-stranded DNA retroviruses such as Hepatitis Virus B [65] . The progression of HIV [66-69] and infection and the spreading of Influenza infection in lung tissue",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": ". https://doi.org/10.1101/2020.04.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "\u0394c c . \u2202t \u2202c oxi = D oxi oxi \u2212 \u03b3 oxi oxi + s oxi Bursts of oxidative agent are implemented as a source term for one time step at a rate of , which is uniformly mapped onto the source term . burst occurs in immune cells with an activated state when the cytokine in the immune cell's domain exceeds a threshold . \u03c4 oxi sec",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF3": {
+            "text": "Immune cell bound cytokine memory \u03c1 cyt = 0.98 s -1 \u03c9 (immune activated) EQ 1 \u2212 cyt / ck Oxidation Agent diffusion length \u03bb oxi 3 cell diameters = 36 \u03bcm Oxidation Agent decay rate \u03b3 oxi = 1.32\u00d710 -4 s -1 \u03bb D oxi / 2 International license was not certified by peer review) is the author/funder. It is made available under a The copyright holder for this preprint (which this version posted April 28, 2020. . https://doi.org/10.1101/2020.04.27.064139 doi: bioRxiv preprint Initial density of unbound cell surface receptors R o 200 cell -1 Virus-receptors association affinity k on 1.4\u00d710 5 M -1 s -1 Virus-Receptors disassociation affinity k of f 1.4\u00d710 -4 s -1",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "We would like to thank Geoffrey Fox, James Osborne, Lutz Brusch, Bard Ermentrout, Ericka Mochan, Yi Jiang, Kira Breithaupt, Ryan Danehy, Jairaj Mathur, Amber Smith and Paul Macklin for useful discussions and ideas. We acknowledge funding from National Institutes of Health grants U24 EB028887 and R01 GM122424 and National Science Foundation, NSF 1720625.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Acknowledgments"
+        }
+    ]
+}
